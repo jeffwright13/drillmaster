@@ -1,0 +1,215 @@
+/**
+ * DrillMaster Custom Styles
+ * Extends Pico CSS with app-specific styling
+ */
+
+/* ===== Variables ===== */
+:root {
+  --drillmaster-primary: #2563eb;
+  --drillmaster-success: #16a34a;
+  --drillmaster-warning: #ea580c;
+  --drillmaster-error: #dc2626;
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 1400px;
+}
+
+/* Three-column grid for main content */
+main > .grid {
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 1024px) {
+  main > .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Messages ===== */
+#error-message {
+  background-color: var(--drillmaster-error);
+  color: white;
+  padding: 1rem;
+  border-radius: var(--pico-border-radius);
+}
+
+#status-message {
+  background-color: var(--drillmaster-success);
+  color: white;
+  padding: 1rem;
+  border-radius: var(--pico-border-radius);
+}
+
+/* ===== Verb List ===== */
+#verb-list {
+  font-size: 0.9rem;
+}
+
+.verb-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.verb-item:hover {
+  background-color: var(--pico-secondary-hover-background);
+}
+
+.verb-item input[type="checkbox"] {
+  margin-right: 0.75rem;
+}
+
+.verb-name {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.verb-english {
+  opacity: 0.7;
+  margin-right: auto;
+}
+
+.verb-tier {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+  background-color: var(--pico-secondary-background);
+  margin-right: 0.5rem;
+}
+
+.verb-tags {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+/* ===== Filter Counts ===== */
+.tier-count {
+  opacity: 0.6;
+  font-size: 0.875rem;
+}
+
+/* ===== Fieldset Spacing ===== */
+fieldset {
+  margin-bottom: 1.5rem;
+}
+
+fieldset label {
+  display: block;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+fieldset label small {
+  display: block;
+  margin-top: 0.125rem;
+  opacity: 0.7;
+  font-size: 0.75rem;
+}
+
+/* ===== Card Preview ===== */
+#preview-content {
+  min-height: 200px;
+}
+
+.card-preview {
+  padding: 1.5rem;
+  border: 2px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+  margin-bottom: 1rem;
+}
+
+.card-preview-front {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+}
+
+.card-preview-back {
+  opacity: 0.8;
+}
+
+.card-preview-meta {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--pico-muted-border-color);
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+/* ===== Statistics ===== */
+#statistics ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#statistics li {
+  padding: 0.25rem 0;
+}
+
+/* ===== Loading States ===== */
+[aria-busy="true"] {
+  pointer-events: none;
+}
+
+/* ===== Theme Switcher ===== */
+#theme-switcher select {
+  cursor: pointer;
+}
+
+/* ===== Accessibility ===== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ===== Print Styles ===== */
+@media print {
+  header,
+  footer,
+  #filters,
+  #card-settings,
+  button {
+    display: none;
+  }
+  
+  #preview-content {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+/* ===== Utility Classes ===== */
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  opacity: 0.7;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
+}

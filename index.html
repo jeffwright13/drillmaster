@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrillMaster - Spanish Verb Learning</title>
+    <meta
+      name="description"
+      content="Generate customizable Anki decks for Spanish verb conjugation practice"
+    />
+    
+    <!-- Pico CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  
+  <body>
+    <main class="container">
+      <!-- Header -->
+      <header>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+          <div style="flex: 1;">
+            <h1 style="margin-bottom: 0.5rem;">DrillMaster</h1>
+            <p style="margin-bottom: 0;">
+              Spanish Verb Anki Deck Generator
+            </p>
+          </div>
+          
+          <!-- Theme Switcher -->
+          <div id="theme-switcher" style="display: flex; gap: 0.5rem; align-items: center; padding-top: 0.25rem;">
+            <small style="opacity: 0.7; white-space: nowrap;">Theme:</small>
+            <select id="theme-select" style="width: auto; padding: 0.25rem 0.5rem; font-size: 0.875rem; margin: 0;" aria-label="Theme selector">
+              <option value="auto">Auto</option>
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <!-- Error/Status Messages -->
+      <div id="error-message" style="display: none; margin-bottom: 1rem;" role="alert"></div>
+      <div id="status-message" style="display: none; margin-bottom: 1rem;" role="status"></div>
+
+      <!-- Main Content Grid -->
+      <div class="grid">
+        <!-- Left Column: Filters -->
+        <aside>
+          <article>
+            <header><strong>Filters</strong></header>
+            
+            <fieldset>
+              <legend>Learning Tier</legend>
+              <label>
+                <input type="checkbox" id="tier-1" name="tier" value="1" checked />
+                Tier 1 <span class="tier-count">(10)</span>
+              </label>
+              <label>
+                <input type="checkbox" id="tier-2" name="tier" value="2" />
+                Tier 2 <span class="tier-count">(10)</span>
+              </label>
+              <label>
+                <input type="checkbox" id="tier-3" name="tier" value="3" />
+                Tier 3 <span class="tier-count">(12)</span>
+              </label>
+              <label>
+                <input type="checkbox" id="tier-4" name="tier" value="4" />
+                Tier 4 <span class="tier-count">(10)</span>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Regularity</legend>
+              <label>
+                <input type="checkbox" id="reg-regular" name="regularity" value="regular" checked />
+                Regular
+              </label>
+              <label>
+                <input type="checkbox" id="reg-irregular" name="regularity" value="irregular" checked />
+                Irregular
+              </label>
+              <label>
+                <input type="checkbox" id="reg-highly-irregular" name="regularity" value="highly-irregular" checked />
+                Highly Irregular
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Verb Type</legend>
+              <label>
+                <input type="checkbox" id="type-ar" name="verb-type" value="ar" checked />
+                -ar verbs
+              </label>
+              <label>
+                <input type="checkbox" id="type-er" name="verb-type" value="er" checked />
+                -er verbs
+              </label>
+              <label>
+                <input type="checkbox" id="type-ir" name="verb-type" value="ir" checked />
+                -ir verbs
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Special</legend>
+              <label>
+                <input type="checkbox" id="reflexive-only" name="reflexive" value="only" />
+                Reflexive only
+              </label>
+              <label>
+                <input type="checkbox" id="non-reflexive-only" name="reflexive" value="none" />
+                Non-reflexive only
+              </label>
+            </fieldset>
+          </article>
+        </aside>
+
+        <!-- Center Column: Verb List -->
+        <div>
+          <article>
+            <header>
+              <strong>Verb List</strong>
+              <span id="verb-count" style="opacity: 0.7; font-size: 0.875rem; margin-left: 0.5rem;">
+                (0 selected)
+              </span>
+            </header>
+            
+            <div style="margin-bottom: 1rem;">
+              <label for="sort-select" style="display: inline-block; margin-right: 0.5rem; font-size: 0.875rem;">
+                Sort by:
+              </label>
+              <select id="sort-select" style="display: inline-block; width: auto; padding: 0.25rem 0.5rem; font-size: 0.875rem; margin-right: 1rem;">
+                <option value="alpha">Alphabetical</option>
+                <option value="tier">Tier</option>
+                <option value="regularity">Regularity</option>
+                <option value="type">Verb Type</option>
+              </select>
+              
+              <button type="button" id="select-all-btn" class="secondary" style="margin-right: 0.5rem;">
+                Select All
+              </button>
+              <button type="button" id="clear-all-btn" class="secondary">
+                Clear All
+              </button>
+            </div>
+
+            <div id="verb-list" style="max-height: 500px; overflow-y: auto;">
+              <!-- Verb list will be populated here -->
+              <p style="text-align: center; opacity: 0.7;">Loading verbs...</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Right Column: Card Settings -->
+        <aside>
+          <article>
+            <header><strong>Card Settings</strong></header>
+            
+            <fieldset>
+              <legend>Card Types</legend>
+              <label>
+                <input type="checkbox" id="card-cloze" name="card-type" value="cloze" checked />
+                Cloze Deletion
+              </label>
+              <label>
+                <input type="checkbox" id="card-trans-es-en" name="card-type" value="trans-es-en" />
+                Translation (ES→EN)
+              </label>
+              <label>
+                <input type="checkbox" id="card-trans-en-es" name="card-type" value="trans-en-es" />
+                Translation (EN→ES)
+              </label>
+              <label>
+                <input type="checkbox" id="card-conjugation" name="card-type" value="conjugation" />
+                Conjugation Practice
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Tenses</legend>
+              <label>
+                <input type="checkbox" id="tense-present" name="tense" value="present" checked />
+                Present
+              </label>
+              <label>
+                <input type="checkbox" id="tense-preterite" name="tense" value="preterite" />
+                Preterite
+              </label>
+              <label>
+                <input type="checkbox" id="tense-future" name="tense" value="future" />
+                Future
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Subjects</legend>
+              <label>
+                <input type="checkbox" id="subj-yo" name="subject" value="yo" checked />
+                yo
+              </label>
+              <label>
+                <input type="checkbox" id="subj-tu" name="subject" value="tú" checked />
+                tú
+              </label>
+              <label>
+                <input type="checkbox" id="subj-vos" name="subject" value="vos" />
+                vos <small>(Argentina/Uruguay)</small>
+              </label>
+              <label>
+                <input type="checkbox" id="subj-el" name="subject" value="él/ella/usted" checked />
+                él/ella/usted
+              </label>
+              <label>
+                <input type="checkbox" id="subj-nosotros" name="subject" value="nosotros" checked />
+                nosotros
+              </label>
+              <label>
+                <input type="checkbox" id="subj-vosotros" name="subject" value="vosotros" />
+                vosotros <small>(Spain)</small>
+              </label>
+              <label>
+                <input type="checkbox" id="subj-ellos" name="subject" value="ellos/ellas/ustedes" checked />
+                ellos/ellas/ustedes
+              </label>
+            </fieldset>
+
+            <button type="button" id="generate-preview-btn" style="width: 100%;">
+              Preview Cards
+            </button>
+          </article>
+        </aside>
+      </div>
+
+      <!-- Preview & Export Section -->
+      <section id="preview-section" style="margin-top: 2rem;">
+        <article>
+          <details id="preview-details">
+            <summary style="cursor: pointer;">
+              <h2 style="margin: 0; display: inline;">
+                Preview & Export
+                <span id="card-count" style="opacity: 0.7; font-size: 0.875rem; margin-left: 0.5rem;">
+                  (0 cards)
+                </span>
+              </h2>
+            </summary>
+            
+            <div style="margin-top: 1rem;">
+              <!-- Preview Content -->
+              <div id="preview-content" style="margin-bottom: 1rem; padding: 1rem; background: var(--pico-card-background-color); border-radius: var(--pico-border-radius);">
+                <p style="text-align: center; opacity: 0.7;">
+                  Click "Preview Cards" to see generated cards
+                </p>
+              </div>
+
+              <!-- Preview Navigation -->
+              <div id="preview-nav" style="display: none; margin-bottom: 1rem; text-align: center;">
+                <button type="button" id="prev-card-btn" class="secondary">◀ Previous</button>
+                <span id="card-position" style="margin: 0 1rem;">Card 1 of 100</span>
+                <button type="button" id="next-card-btn" class="secondary">Next ▶</button>
+              </div>
+
+              <!-- Export Buttons -->
+              <div style="display: grid; gap: 1rem;">
+                <div>
+                  <strong>Export Anki Cards:</strong>
+                  <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+                    <button type="button" id="export-tsv-btn" disabled>
+                      Download TSV
+                    </button>
+                    <button type="button" id="copy-tsv-btn" class="secondary" disabled>
+                      Copy to Clipboard
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <strong>Export Conjugation Table:</strong>
+                  <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+                    <button type="button" id="export-table-txt-btn" class="secondary" disabled>
+                      Text Table
+                    </button>
+                    <button type="button" id="export-table-html-btn" class="secondary" disabled>
+                      HTML Table
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Statistics -->
+              <div id="statistics" style="margin-top: 1rem; padding: 1rem; background: var(--pico-card-background-color); border-radius: var(--pico-border-radius); display: none;">
+                <strong>Statistics:</strong>
+                <ul style="margin-top: 0.5rem; margin-bottom: 0;">
+                  <li id="stat-verbs">Verbs: 0</li>
+                  <li id="stat-cards">Total Cards: 0</li>
+                  <li id="stat-cloze">Cloze: 0</li>
+                  <li id="stat-translation">Translation: 0</li>
+                  <li id="stat-conjugation">Conjugation: 0</li>
+                </ul>
+              </div>
+            </div>
+          </details>
+        </article>
+      </section>
+
+      <!-- Footer -->
+      <footer style="margin-top: 2rem; text-align: center; opacity: 0.7;">
+        <small>
+          DrillMaster v0.1.0 (Phase 1) | 
+          <a href="https://github.com/jeffwright13/drillmaster" target="_blank">GitHub</a> |
+          <a href="docs/user-guide/README.md">User Guide</a>
+        </small>
+      </footer>
+    </main>
+
+    <!-- JavaScript Modules -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
