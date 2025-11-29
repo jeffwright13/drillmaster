@@ -22,7 +22,9 @@ export class AppController {
       cardSettings: {
         cardTypes: ['cloze'],
         tenses: ['present'],
-        subjects: ['yo', 'tú', 'él/ella/usted', 'nosotros', 'ellos/ellas/ustedes']
+        subjects: ['yo', 'tú', 'vos', 'él/ella/usted', 'nosotros', 'vosotros', 'ellos/ellas/ustedes'],
+        corpusTiers: [1, 2], // Which corpus tiers to include
+        regions: ['universal', 'argentina', 'spain'] // Which regions to include
       },
       generatedCards: [],
       currentPreviewIndex: 0
@@ -73,7 +75,7 @@ export class AppController {
   }
 
   /**
-   * Load data files (verbs, conjugations, templates)
+   * Load data files (verbs, conjugations, corpus)
    */
   async loadData() {
     console.log('Loading data files...');
@@ -83,18 +85,23 @@ export class AppController {
       const verbsResponse = await fetch('data/verbs.tsv');
       const verbsText = await verbsResponse.text();
       
-      // TODO: Load conjugations.json when available
-      // const conjugationsResponse = await fetch('data/conjugations.json');
-      // const conjugations = await conjugationsResponse.json();
-      
-      // TODO: Load templates.json when available
-      // const templatesResponse = await fetch('data/templates.json');
-      // const templates = await templatesResponse.json();
+      // Load corpus data for all tiers
+      const corpusData = {};
+      for (let tier = 1; tier <= 4; tier++) {
+        try {
+          const corpusResponse = await fetch(`data/corpus/tier${tier}-complete.json`);
+          const tierData = await corpusResponse.json();
+          corpusData[tier] = tierData;
+          console.log(`Loaded Tier ${tier}: ${tierData.metadata.verb_count} verbs, ${tierData.metadata.sentence_count} sentences`);
+        } catch (error) {
+          console.warn(`Failed to load Tier ${tier} corpus:`, error);
+          corpusData[tier] = { metadata: { verb_count: 0, sentence_count: 0 }, verbs: {} };
+        }
+      }
       
       this.data = {
         verbsText,
-        // conjugations,
-        // templates
+        corpus: corpusData
       };
       
       console.log('Data files loaded successfully');
@@ -116,13 +123,6 @@ export class AppController {
     // Parse verbs from loaded data
     this.state.verbs = this.services.parser.parseTSV(this.data.verbsText);
     this.state.filteredVerbs = [...this.state.verbs];
-    
-    // TODO: Initialize remaining services as they are created
-    // this.services.conjugator = new ConjugationService();
-    // this.services.templates = new TemplateService();
-    // this.services.generator = new CardGeneratorService();
-    // this.services.exporter = new ExportService();
-    // this.services.settings = new SettingsService();
   }
 
   /**
@@ -243,7 +243,6 @@ export class AppController {
     if (saved) {
       try {
         const settings = JSON.parse(saved);
-        // TODO: Apply saved settings to state and UI
         console.log('Loaded saved settings:', settings);
       } catch (error) {
         console.error('Failed to parse saved settings:', error);
@@ -442,7 +441,6 @@ export class AppController {
    * Handle card settings changes
    */
   handleCardSettingsChange() {
-    // TODO: Implement card settings logic
     console.log('Card settings changed');
   }
 
@@ -469,14 +467,12 @@ export class AppController {
   /**
    * Generate card preview
    */
-  generatePreview() {
-    // Validate selections
+  async generatePreview() {
     if (this.state.selectedVerbs.size === 0) {
       this.showError('Please select at least one verb');
       return;
     }
     
-    // Get selected card settings
     const cardTypes = Array.from(this.elements.cardTypeCheckboxes)
       .filter(cb => cb.checked)
       .map(cb => cb.value);
@@ -504,160 +500,37 @@ export class AppController {
       return;
     }
     
-    // Calculate expected card count
+    const conjugationsResponse = await fetch('data/conjugations.json');
+    const conjugations = await conjugationsResponse.json();
+    
     const selectedVerbObjects = this.state.verbs.filter(v => this.state.selectedVerbs.has(v.id));
-    const templatesPerVerb = 2; // Default from our design
-    
-    let totalCards = 0;
-    cardTypes.forEach(cardType => {
-      if (cardType === 'conjugation') {
-        // Conjugation cards: 1 per verb/tense/subject
-        totalCards += selectedVerbObjects.length * tenses.length * subjects.length;
-      } else {
-        // Other card types: templatesPerVerb per verb/tense/subject
-        totalCards += selectedVerbObjects.length * tenses.length * subjects.length * templatesPerVerb;
-      }
-    });
-    
-    // Generate mock preview cards
-    this.state.generatedCards = this.generateMockCards(
-      selectedVerbObjects,
-      cardTypes,
-      tenses,
-      subjects
-    );
+    this.state.generatedCards = this.generateCorpusCards(selectedVerbObjects, cardTypes, tenses, subjects, conjugations);
     
     this.state.currentPreviewIndex = 0;
     
-    // Update UI
     this.updateCardCount();
-    this.updateStatistics(selectedVerbObjects, cardTypes, totalCards);
     this.renderCurrentCard();
     this.elements.previewDetails.open = true;
     this.elements.previewNav.style.display = 'block';
     
-    // Enable export buttons
     this.elements.exportTsvBtn.disabled = false;
     this.elements.copyTsvBtn.disabled = false;
     this.elements.exportTableTxtBtn.disabled = false;
     this.elements.exportTableHtmlBtn.disabled = false;
     
-    this.showStatus(`Generated ${totalCards} cards from ${selectedVerbObjects.length} verbs`);
-  }
-  
-  /**
-   * Generate mock cards for preview (until we have real templates/conjugations)
-   */
-  generateMockCards(verbs, cardTypes, tenses, subjects) {
-    const cards = [];
-    
-    verbs.forEach(verb => {
-      tenses.forEach(tense => {
-        subjects.forEach(subject => {
-          cardTypes.forEach(cardType => {
-            if (cardType === 'cloze') {
-              cards.push({
-                type: 'cloze',
-                verb: verb.verb,
-                english: verb.english,
-                tense: tense,
-                subject: subject,
-                front: `${subject} {{c1::[${verb.verb}]}} ... (${tense})`,
-                back: `${subject} [conjugated form] ... (${tense})`,
-                extra: `${verb.english} - ${tense} tense`,
-                tags: `tier:${verb.tags.tier};${verb.tags.regularity}`
-              });
-            } else if (cardType === 'trans-es-en') {
-              cards.push({
-                type: 'translation-es-en',
-                verb: verb.verb,
-                english: verb.english,
-                tense: tense,
-                subject: subject,
-                front: `${subject} [conjugated ${verb.verb}] ... (${tense})`,
-                back: `${subject} [English translation] ... (${tense})`,
-                tags: `tier:${verb.tags.tier};${verb.tags.regularity}`
-              });
-            } else if (cardType === 'trans-en-es') {
-              cards.push({
-                type: 'translation-en-es',
-                verb: verb.verb,
-                english: verb.english,
-                tense: tense,
-                subject: subject,
-                front: `${subject} [English sentence] ... (${tense})`,
-                back: `${subject} [conjugated ${verb.verb}] ... (${tense})`,
-                tags: `tier:${verb.tags.tier};${verb.tags.regularity}`
-              });
-            } else if (cardType === 'conjugation') {
-              cards.push({
-                type: 'conjugation',
-                verb: verb.verb,
-                english: verb.english,
-                tense: tense,
-                subject: subject,
-                front: `${verb.verb} - ${tense} - ${subject}`,
-                back: `[conjugated form]`,
-                tags: `tier:${verb.tags.tier};${verb.tags.regularity}`
-              });
-            }
-          });
-        });
-      });
-    });
-    
-    return cards;
-  }
-  
-  /**
-   * Update statistics display
-   */
-  updateStatistics(verbs, cardTypes, totalCards) {
-    this.elements.statVerbs.textContent = `Verbs: ${verbs.length}`;
-    this.elements.statCards.textContent = `Total Cards: ${totalCards}`;
-    
-    const clozeCount = this.state.generatedCards.filter(c => c.type === 'cloze').length;
-    const transCount = this.state.generatedCards.filter(c => c.type.startsWith('translation')).length;
-    const conjCount = this.state.generatedCards.filter(c => c.type === 'conjugation').length;
-    
-    this.elements.statCloze.textContent = `Cloze: ${clozeCount}`;
-    this.elements.statTranslation.textContent = `Translation: ${transCount}`;
-    this.elements.statConjugation.textContent = `Conjugation: ${conjCount}`;
-    
-    this.elements.statistics.style.display = 'block';
+    this.showStatus(`Generated ${this.state.generatedCards.length} cards from ${selectedVerbObjects.length} verbs`);
   }
 
   /**
-   * Show previous card in preview
-   */
-  showPreviousCard() {
-    if (this.state.currentPreviewIndex > 0) {
-      this.state.currentPreviewIndex--;
-      this.renderCurrentCard();
-    }
-  }
-
-  /**
-   * Show next card in preview
-   */
-  showNextCard() {
-    if (this.state.currentPreviewIndex < this.state.generatedCards.length - 1) {
-      this.state.currentPreviewIndex++;
-      this.renderCurrentCard();
-    }
-  }
-
-  /**
-   * Render current preview card
+   * Render current card in preview
    */
   renderCurrentCard() {
     if (this.state.generatedCards.length === 0) {
-      this.elements.previewContent.innerHTML = '<p style="text-align: center; opacity: 0.7;">No cards generated yet</p>';
+      this.elements.previewContent.innerHTML = '<p>No cards generated</p>';
       return;
     }
-    
+
     const card = this.state.generatedCards[this.state.currentPreviewIndex];
-    
     const html = `
       <div class="card-preview">
         <div class="card-preview-front">
@@ -667,7 +540,6 @@ export class AppController {
         <div class="card-preview-back">
           <strong>Back:</strong><br>
           ${card.back}
-          ${card.extra ? `<br><br><em>${card.extra}</em>` : ''}
         </div>
         <div class="card-preview-meta">
           <strong>Type:</strong> ${card.type}<br>
@@ -682,130 +554,28 @@ export class AppController {
     this.elements.previewContent.innerHTML = html;
     this.elements.cardPosition.textContent = `Card ${this.state.currentPreviewIndex + 1} of ${this.state.generatedCards.length}`;
     
-    // Update button states
     this.elements.prevCardBtn.disabled = this.state.currentPreviewIndex === 0;
     this.elements.nextCardBtn.disabled = this.state.currentPreviewIndex === this.state.generatedCards.length - 1;
   }
 
   /**
-   * Export cards as TSV
+   * Show previous card
    */
-  exportTSV() {
-    if (this.state.generatedCards.length === 0) {
-      this.showError('No cards to export. Please generate cards first.');
-      return;
-    }
-
-    // Format cards as TSV
-    const tsvLines = this.state.generatedCards.map(card => {
-      // Format depends on card type
-      if (card.type === 'cloze') {
-        // Cloze format: Text\tExtra\tVerb\tTags
-        return [
-          card.front,
-          card.back,
-          `${card.verb} (${card.english})`,
-          card.tags
-        ].join('\t');
-      } else if (card.type.startsWith('translation')) {
-        // Translation format: Front\tBack\tVerb\tTags
-        return [
-          card.front,
-          card.back,
-          `${card.verb} (${card.english})`,
-          card.tags
-        ].join('\t');
-      } else if (card.type === 'conjugation') {
-        // Conjugation format: Prompt\tAnswer\tExample\tTags
-        return [
-          card.front,
-          card.back,
-          card.extra || '',
-          card.tags
-        ].join('\t');
-      }
-    });
-
-    const tsvContent = tsvLines.join('\n');
-    
-    // Generate filename with timestamp
-    const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
-    const filename = `drillmaster-cards-${timestamp}.tsv`;
-    
-    // Create blob and download
-    const blob = new Blob([tsvContent], { type: 'text/tab-separated-values;charset=utf-8;' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = filename;
-    link.click();
-    URL.revokeObjectURL(url);
-    
-    this.showStatus(`Exported ${this.state.generatedCards.length} cards to ${filename}`);
-  }
-
-  /**
-   * Copy TSV to clipboard
-   */
-  async copyTSV() {
-    if (this.state.generatedCards.length === 0) {
-      this.showError('No cards to copy. Please generate cards first.');
-      return;
-    }
-
-    // Format cards as TSV (same as export)
-    const tsvLines = this.state.generatedCards.map(card => {
-      if (card.type === 'cloze') {
-        return [
-          card.front,
-          card.back,
-          `${card.verb} (${card.english})`,
-          card.tags
-        ].join('\t');
-      } else if (card.type.startsWith('translation')) {
-        return [
-          card.front,
-          card.back,
-          `${card.verb} (${card.english})`,
-          card.tags
-        ].join('\t');
-      } else if (card.type === 'conjugation') {
-        return [
-          card.front,
-          card.back,
-          card.extra || '',
-          card.tags
-        ].join('\t');
-      }
-    });
-
-    const tsvContent = tsvLines.join('\n');
-    
-    try {
-      await navigator.clipboard.writeText(tsvContent);
-      this.showStatus(`Copied ${this.state.generatedCards.length} cards to clipboard`);
-    } catch (error) {
-      console.error('Failed to copy to clipboard:', error);
-      this.showError('Failed to copy to clipboard. Please try downloading instead.');
+  showPreviousCard() {
+    if (this.state.currentPreviewIndex > 0) {
+      this.state.currentPreviewIndex--;
+      this.renderCurrentCard();
     }
   }
 
   /**
-   * Export conjugation table as text
+   * Show next card
    */
-  exportTableText() {
-    // TODO: Implement text table export
-    console.log('Export text table');
-    this.showStatus('Text table export not yet implemented');
-  }
-
-  /**
-   * Export conjugation table as HTML
-   */
-  exportTableHTML() {
-    // TODO: Implement HTML table export
-    console.log('Export HTML table');
-    this.showStatus('HTML table export not yet implemented');
+  showNextCard() {
+    if (this.state.currentPreviewIndex < this.state.generatedCards.length - 1) {
+      this.state.currentPreviewIndex++;
+      this.renderCurrentCard();
+    }
   }
 
   /**
@@ -818,8 +588,235 @@ export class AppController {
   }
 
   /**
-   * Show error message
+   * Generate cards using corpus-based approach with new consolidated format
    */
+  generateCorpusCards(verbs, cardTypes, tenses, subjects, conjugations) {
+    const cards = [];
+    const { corpusTiers = [1, 2], regions = ['universal'] } = this.state.cardSettings;
+    
+    console.log(`Generating corpus cards for ${verbs.length} verbs, tenses: ${tenses.join(', ')}, subjects: ${subjects.join(', ')}`);
+    
+    // Build consolidated corpus from selected tiers
+    const consolidatedCorpus = {};
+    
+    corpusTiers.forEach(tier => {
+      if (this.data.corpus[tier] && this.data.corpus[tier].verbs) {
+        Object.keys(this.data.corpus[tier].verbs).forEach(verbName => {
+          if (!consolidatedCorpus[verbName]) {
+            consolidatedCorpus[verbName] = this.data.corpus[tier].verbs[verbName];
+          }
+        });
+      }
+    });
+    
+    console.log(`Consolidated corpus contains ${Object.keys(consolidatedCorpus).length} verbs from tiers ${corpusTiers.join(', ')}`);
+    
+    verbs.forEach(verb => {
+      const verbName = verb.verb;
+      const corpusVerb = consolidatedCorpus[verbName];
+      
+      if (!corpusVerb) {
+        console.warn(`No corpus data found for verb: ${verbName}`);
+        return;
+      }
+      
+      tenses.forEach(tense => {
+        if (!corpusVerb[tense]) {
+          console.warn(`No ${tense} tense data for verb: ${verbName}`);
+          return;
+        }
+        
+        const sentences = corpusVerb[tense];
+        
+        sentences.forEach(sentence => {
+          // Filter by selected subjects and regions
+          if (!subjects.includes(sentence.subject)) return;
+          if (!regions.includes(sentence.region) && !regions.includes('all')) return;
+          
+          // Create cloze deletion
+          const { spanish, english } = sentence;
+          let sentenceWithCloze = spanish;
+          
+          // Find the conjugated verb in the sentence and wrap it in cloze
+          const conjugation = conjugations[verbName];
+          if (conjugation && conjugation[tense] && conjugation[tense][sentence.subject]) {
+            const conjugatedForm = conjugation[tense][sentence.subject];
+            
+            // Handle reflexive verbs - look for pronoun + verb pattern
+            if (corpusVerb.metadata && corpusVerb.metadata.tags.includes('reflexive')) {
+              const pronouns = {
+                'yo': 'me',
+                'tú': 'te', 
+                'vos': 'te',
+                'él/ella/usted': 'se',
+                'nosotros': 'nos',
+                'vosotros': 'os',
+                'ellos/ellas/ustedes': 'se'
+              };
+              
+              const pronoun = pronouns[sentence.subject];
+              const reflexivePattern = `${pronoun} ${conjugatedForm}`;
+              
+              // Try case-insensitive reflexive pattern matching
+              const reflexiveRegex = new RegExp(`\\b${pronoun}\\s+${conjugatedForm}\\b`, 'i');
+              const reflexiveMatch = spanish.match(reflexiveRegex);
+              
+              if (reflexiveMatch) {
+                sentenceWithCloze = spanish.replace(reflexiveRegex, `{{c1::${reflexiveMatch[0]}}}`);
+              } else {
+                // Fallback: try to find just the verb
+                const verbRegex = new RegExp(`\\b${conjugatedForm}\\b`, 'i');
+                const verbMatch = spanish.match(verbRegex);
+                if (verbMatch) {
+                  sentenceWithCloze = spanish.replace(verbRegex, `{{c1::${verbMatch[0]}}}`);
+                } else {
+                  console.warn(`Could not find reflexive pattern "${reflexivePattern}" or verb "${conjugatedForm}" in: "${spanish}"`);
+                  sentenceWithCloze = spanish; // No cloze if we can't find it
+                }
+              }
+            } else {
+              // Non-reflexive verbs - handle case-insensitive replacement
+              const regex = new RegExp(`\\b${conjugatedForm}\\b`, 'i');
+              const match = spanish.match(regex);
+              if (match) {
+                sentenceWithCloze = spanish.replace(regex, `{{c1::${match[0]}}}`);
+              } else {
+                console.warn(`Could not find conjugated form "${conjugatedForm}" in sentence: "${spanish}"`);
+                sentenceWithCloze = spanish.replace(conjugatedForm, `{{c1::${conjugatedForm}}}`);
+              }
+            }
+          } else {
+            console.warn(`No conjugation found for ${verbName} ${tense} ${sentence.subject}`);
+            return;
+          }
+          
+          // Generate tags from sentence metadata
+          const tags = [
+            `tier:${verb.tags.tier}`,
+            verb.tags.regularity || 'unknown',
+            tense,
+            `subject:${sentence.subject}`,
+            'corpus'
+          ];
+          
+          // Add region tags (both prefixed and standalone for better filtering)
+          if (sentence.region !== 'universal') {
+            tags.push(`region:${sentence.region}`);
+            tags.push(sentence.region); // Add standalone region tag
+          }
+          
+          // Add verb-specific tags
+          if (corpusVerb.metadata) {
+            corpusVerb.metadata.tags.forEach(tag => {
+              if (!tags.includes(tag)) {
+                tags.push(tag);
+              }
+            });
+          }
+          
+          cards.push({
+            type: 'cloze',
+            verb: verbName,
+            english: verb.english,
+            tense: tense,
+            subject: sentence.subject,
+            region: sentence.region,
+            front: sentenceWithCloze,
+            back: `<div style="margin-top: 1em; font-size: 0.85em; color: #999;"><em>${english}</em></div>`,
+            extra: '',
+            tags: tags.join(';'),
+            source: 'corpus',
+            sourceContext: sentence.source || 'unknown'
+          });
+        });
+      });
+    });
+    
+    console.log(`Generated ${cards.length} corpus-based cards`);
+    return cards;
+  }
+
+  // Essential methods only - removing all template/curated sentence code
+  exportTSV() {
+    if (this.state.generatedCards.length === 0) {
+      this.showError('No cards to export. Please generate cards first.');
+      return;
+    }
+
+    const tsvLines = this.state.generatedCards.map(card => {
+      if (card.type === 'cloze') {
+        return [
+          card.front,
+          card.back,
+          `${card.verb} (${card.english})`,
+          card.tags
+        ].join('\t');
+      }
+      return '';
+    }).filter(line => line);
+
+    const tsvContent = tsvLines.join('\n');
+    const blob = new Blob([tsvContent], { type: 'text/tab-separated-values' });
+    const url = URL.createObjectURL(blob);
+    
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+    const filename = `drillmaster-cards-${timestamp}.tsv`;
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    
+    this.showStatus(`Exported ${tsvLines.length} cards to ${filename}`);
+  }
+
+  /**
+   * Copy TSV to clipboard
+   */
+  copyTSV() {
+    if (this.state.generatedCards.length === 0) {
+      this.showError('No cards to copy. Please generate cards first.');
+      return;
+    }
+
+    const tsvLines = this.state.generatedCards.map(card => {
+      if (card.type === 'cloze') {
+        return [
+          card.front,
+          card.back,
+          `${card.verb} (${card.english})`,
+          card.tags
+        ].join('\t');
+      }
+      return '';
+    }).filter(line => line);
+
+    const tsvContent = tsvLines.join('\n');
+    
+    navigator.clipboard.writeText(tsvContent).then(() => {
+      this.showStatus(`Copied ${tsvLines.length} cards to clipboard`);
+    }).catch(err => {
+      this.showError('Failed to copy to clipboard');
+    });
+  }
+
+  /**
+   * Export conjugation table as text
+   */
+  exportTableText() {
+    this.showStatus('Text table export not implemented yet');
+  }
+
+  /**
+   * Export conjugation table as HTML
+   */
+  exportTableHTML() {
+    this.showStatus('HTML table export not implemented yet');
+  }
+
   showError(message) {
     this.elements.errorMessage.textContent = message;
     this.elements.errorMessage.style.display = 'block';
@@ -829,9 +826,6 @@ export class AppController {
     }, 5000);
   }
 
-  /**
-   * Show status message
-   */
   showStatus(message) {
     this.elements.statusMessage.textContent = message;
     this.elements.statusMessage.style.display = 'block';

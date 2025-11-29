@@ -40,4 +40,6 @@ NECESITAR	to need	tier:4;word-type:verb;verb-type:ar;regularity:regular	Essentia
 GUSTAR	to like/please	tier:4;word-type:verb;verb-type:ar;regularity:regular;special-construction:indirect-object	Reverse subject construction
 PREOCUPARSE	to worry	tier:4;word-type:verb;verb-type:ar;regularity:regular;reflexive:true	Common emotion verb
 DIVERTIRSE	to have fun/enjoy oneself	tier:4;word-type:verb;verb-type:ir;regularity:irregular;stem-change:e-ie;verb-tense:preterite:stem-change:e-i;reflexive:true	Common leisure verb
-ENCONTRARSE	to meet/find oneself	tier:4;word-type:verb;verb-type:ar;regularity:irregular;stem-change:o-ue;reflexive:true	Common interaction verb
+ENCONTRARSE	to meet	tier:4;word-type:verb;verb-type:ar;regularity:irregular;stem-change:o-ue;reflexive:true	Common interaction verb
+ENCONTRAR	to find	tier:2;word-type:verb;verb-type:ar;regularity:irregular;stem-change:o-ue	Essential discovery verb
+LAVAR	to wash	tier:2;word-type:verb;verb-type:ar;regularity:regular	Essential cleaning verb

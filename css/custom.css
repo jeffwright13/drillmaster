@@ -81,6 +81,8 @@ main > .grid {
   padding: 0.125rem 0.5rem;
   border-radius: 1rem;
   background-color: var(--pico-secondary-background);
+  color: var(--pico-secondary-inverse);
+  border: var(--pico-border-width) solid var(--pico-secondary-border);
   margin-right: 0.5rem;
 }
 
