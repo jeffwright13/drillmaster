@@ -266,14 +266,17 @@
               <div style="display: grid; gap: 1rem;">
                 <div>
                   <strong>Export Anki Cards:</strong>
-                  <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+                  <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem; flex-wrap: wrap;">
                     <button type="button" id="export-tsv-btn" disabled>
-                      Download TSV
+                      📄 Download TSV Files
                     </button>
-                    <button type="button" id="copy-tsv-btn" class="secondary" disabled>
-                      Copy to Clipboard
+                    <button type="button" id="export-apkg-btn" disabled>
+                      📦 Download .apkg (Ready-to-Use)
                     </button>
                   </div>
+                  <small style="opacity: 0.7; margin-top: 0.25rem; display: block;">
+                    TSV: Import into existing Anki setup | .apkg: Complete deck with custom note types
+                  </small>
                 </div>
 
                 <div>

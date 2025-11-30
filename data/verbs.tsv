@@ -37,7 +37,13 @@ TRAER	to bring	tier:4;word-type:verb;verb-type:er;regularity:irregular;yo-form:i
 CONOCER	to know/be familiar with	tier:4;word-type:verb;verb-type:er;regularity:irregular;yo-form:zco	Knowledge of people/places
 LLEVAR	to take/carry/wear	tier:4;word-type:verb;verb-type:ar;regularity:regular	Essential transfer/possession verb
 NECESITAR	to need	tier:4;word-type:verb;verb-type:ar;regularity:regular	Essential necessity verb
-GUSTAR	to like/please	tier:4;word-type:verb;verb-type:ar;regularity:regular;special-construction:indirect-object	Reverse subject construction
+GUSTAR	to like/please	tier:2;word-type:verb;verb-type:ar;regularity:regular;special-construction:indirect-object	Reverse subject construction
+DOLER	to hurt/ache	tier:2;word-type:verb;verb-type:er;regularity:irregular;stem-change:o-ue;special-construction:indirect-object	Essential pain/discomfort verb
+ENCANTAR	to love/enchant	tier:3;word-type:verb;verb-type:ar;regularity:regular;special-construction:indirect-object	Stronger than gustar
+MOLESTAR	to bother/annoy	tier:3;word-type:verb;verb-type:ar;regularity:regular;special-construction:indirect-object	Common irritation verb
+IMPORTAR	to matter/care	tier:3;word-type:verb;verb-type:ar;regularity:regular;special-construction:indirect-object	Essential concern verb
+FALTAR	to lack/be missing	tier:4;word-type:verb;verb-type:ar;regularity:regular;special-construction:indirect-object	Essential need/absence verb
+PARECER	to seem/appear	tier:4;word-type:verb;verb-type:er;regularity:irregular;yo-form:zco;special-construction:indirect-object	Essential opinion verb
 PREOCUPARSE	to worry	tier:4;word-type:verb;verb-type:ar;regularity:regular;reflexive:true	Common emotion verb
 DIVERTIRSE	to have fun/enjoy oneself	tier:4;word-type:verb;verb-type:ir;regularity:irregular;stem-change:e-ie;verb-tense:preterite:stem-change:e-i;reflexive:true	Common leisure verb
 ENCONTRARSE	to meet	tier:4;word-type:verb;verb-type:ar;regularity:irregular;stem-change:o-ue;reflexive:true	Common interaction verb

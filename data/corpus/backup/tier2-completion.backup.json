@@ -1,0 +1,1036 @@
+{
+  "SENTARSE": {
+    "present": [
+      {
+        "spanish": "Me siento en la primera fila para ver mejor.",
+        "english": "I sit in the front row to see better.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "classroom_preference"
+      },
+      {
+        "spanish": "Te sientas siempre en el mismo lugar del café.",
+        "english": "You always sit in the same spot at the café.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "routine_behavior"
+      },
+      {
+        "spanish": "Te sentás en el sillón más cómodo de la casa.",
+        "english": "You sit in the most comfortable chair in the house.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "home_comfort"
+      },
+      {
+        "spanish": "Se sienta a trabajar muy temprano cada mañana.",
+        "english": "He/She sits down to work very early every morning.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "work_routine"
+      },
+      {
+        "spanish": "Nos sentamos en círculo para la reunión.",
+        "english": "We sit in a circle for the meeting.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "meeting_arrangement"
+      },
+      {
+        "spanish": "Os sentáis en la terraza a tomar el sol.",
+        "english": "You all sit on the terrace to sunbathe.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "leisure_activity"
+      },
+      {
+        "spanish": "Se sientan juntos en el banco del parque.",
+        "english": "They sit together on the park bench.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "romantic_scene"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Me senté en la sala de espera durante dos horas.",
+        "english": "I sat in the waiting room for two hours.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "medical_appointment"
+      },
+      {
+        "spanish": "Te sentaste al lado del director en la cena.",
+        "english": "You sat next to the director at dinner.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "formal_dinner"
+      },
+      {
+        "spanish": "Te sentaste en primera fila en el teatro.",
+        "english": "You sat in the front row at the theater.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "cultural_event"
+      },
+      {
+        "spanish": "Se sentó a reflexionar sobre su futuro.",
+        "english": "He/She sat down to reflect on his/her future.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "life_contemplation"
+      },
+      {
+        "spanish": "Nos sentamos a negociar el contrato.",
+        "english": "We sat down to negotiate the contract.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "business_negotiation"
+      },
+      {
+        "spanish": "Os sentasteis en la playa a ver el atardecer.",
+        "english": "You all sat on the beach to watch the sunset.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "romantic_moment"
+      },
+      {
+        "spanish": "Se sentaron a planificar las vacaciones familiares.",
+        "english": "They sat down to plan the family vacation.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "family_planning"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me sentaré a estudiar después de cenar.",
+        "english": "I will sit down to study after dinner.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "study_schedule"
+      },
+      {
+        "spanish": "Te sentarás en la mesa principal en la boda.",
+        "english": "You will sit at the main table at the wedding.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "wedding_arrangement"
+      },
+      {
+        "spanish": "Te sentarás con nosotros en el estadio.",
+        "english": "You will sit with us at the stadium.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "sports_event"
+      },
+      {
+        "spanish": "Se sentará a escribir sus memorias.",
+        "english": "He/She will sit down to write his/her memoirs.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "literary_project"
+      },
+      {
+        "spanish": "Nos sentaremos a discutir el proyecto mañana.",
+        "english": "We will sit down to discuss the project tomorrow.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "work_meeting"
+      },
+      {
+        "spanish": "Os sentaréis en primera fila en la graduación.",
+        "english": "You all will sit in the front row at graduation.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "academic_ceremony"
+      },
+      {
+        "spanish": "Se sentarán a conversar sobre el futuro de la empresa.",
+        "english": "They will sit down to talk about the company's future.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "corporate_planning"
+      }
+    ]
+  },
+  "ACOSTARSE": {
+    "present": [
+      {
+        "spanish": "Me acuesto temprano para madrugar.",
+        "english": "I go to bed early to get up early.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "healthy_routine"
+      },
+      {
+        "spanish": "Te acuestas muy tarde los fines de semana.",
+        "english": "You go to bed very late on weekends.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "weekend_habits"
+      },
+      {
+        "spanish": "Te acostás después de ver las noticias.",
+        "english": "You go to bed after watching the news.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "evening_routine"
+      },
+      {
+        "spanish": "Se acuesta siempre a la misma hora.",
+        "english": "He/She always goes to bed at the same time.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "consistent_schedule"
+      },
+      {
+        "spanish": "Nos acostamos después de leer un rato.",
+        "english": "We go to bed after reading for a while.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "bedtime_ritual"
+      },
+      {
+        "spanish": "Os acostáis cuando terminan los programas de televisión.",
+        "english": "You all go to bed when the TV programs end.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "entertainment_schedule"
+      },
+      {
+        "spanish": "Se acuestan los niños a las ocho de la noche.",
+        "english": "The children go to bed at eight at night.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "parenting_routine"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Me acosté muy tarde porque tenía mucho trabajo.",
+        "english": "I went to bed very late because I had a lot of work.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_pressure"
+      },
+      {
+        "spanish": "Te acostaste sin cenar porque estabas enfermo.",
+        "english": "You went to bed without dinner because you were sick.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "illness_situation"
+      },
+      {
+        "spanish": "Te acostaste temprano para estar fresco mañana.",
+        "english": "You went to bed early to be fresh tomorrow.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "preparation_strategy"
+      },
+      {
+        "spanish": "Se acostó después de terminar la novela.",
+        "english": "He/She went to bed after finishing the novel.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "reading_completion"
+      },
+      {
+        "spanish": "Nos acostamos tarde por la celebración.",
+        "english": "We went to bed late because of the celebration.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "party_aftermath"
+      },
+      {
+        "spanish": "Os acostasteis después de ver toda la película.",
+        "english": "You all went to bed after watching the entire movie.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "movie_night"
+      },
+      {
+        "spanish": "Se acostaron exhaustos después del viaje.",
+        "english": "They went to bed exhausted after the trip.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "travel_fatigue"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me acostaré más temprano a partir de mañana.",
+        "english": "I will go to bed earlier starting tomorrow.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "health_resolution"
+      },
+      {
+        "spanish": "Te acostarás cuando termines la tarea.",
+        "english": "You will go to bed when you finish your homework.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "parental_instruction"
+      },
+      {
+        "spanish": "Te acostarás tarde durante las vacaciones.",
+        "english": "You will go to bed late during vacation.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "vacation_freedom"
+      },
+      {
+        "spanish": "Se acostará después de revisar los emails.",
+        "english": "He/She will go to bed after checking emails.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "work_habit"
+      },
+      {
+        "spanish": "Nos acostaremos cuando lleguen los invitados.",
+        "english": "We will go to bed when the guests arrive.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "hosting_situation"
+      },
+      {
+        "spanish": "Os acostaréis después de la cena de Nochevieja.",
+        "english": "You all will go to bed after New Year's Eve dinner.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "holiday_celebration"
+      },
+      {
+        "spanish": "Se acostarán cuando terminen de estudiar.",
+        "english": "They will go to bed when they finish studying.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "student_routine"
+      }
+    ]
+  },
+  "DESPERTARSE": {
+    "present": [
+      {
+        "spanish": "Me despierto a las seis de la mañana todos los días.",
+        "english": "I wake up at six in the morning every day.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "daily_routine"
+      },
+      {
+        "spanish": "Te despiertas con el sonido de los pájaros.",
+        "english": "You wake up to the sound of birds.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "natural_alarm"
+      },
+      {
+        "spanish": "Te despertás siempre de buen humor.",
+        "english": "You always wake up in a good mood.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "positive_attitude"
+      },
+      {
+        "spanish": "Se despierta antes que suene el despertador.",
+        "english": "He/She wakes up before the alarm goes off.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "internal_clock"
+      },
+      {
+        "spanish": "Nos despertamos con el olor del café.",
+        "english": "We wake up to the smell of coffee.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "morning_ritual"
+      },
+      {
+        "spanish": "Os despertáis muy tarde los domingos.",
+        "english": "You all wake up very late on Sundays.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "weekend_leisure"
+      },
+      {
+        "spanish": "Se despiertan cuando sale el sol.",
+        "english": "They wake up when the sun rises.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "natural_rhythm"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Me desperté sobresaltado por el ruido.",
+        "english": "I woke up startled by the noise.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "sudden_awakening"
+      },
+      {
+        "spanish": "Te despertaste muy temprano para el vuelo.",
+        "english": "You woke up very early for the flight.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "travel_preparation"
+      },
+      {
+        "spanish": "Te despertaste con dolor de cabeza.",
+        "english": "You woke up with a headache.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "health_issue"
+      },
+      {
+        "spanish": "Se despertó en el hospital sin recordar nada.",
+        "english": "He/She woke up in the hospital remembering nothing.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "medical_situation"
+      },
+      {
+        "spanish": "Nos despertamos con la noticia del terremoto.",
+        "english": "We woke up to the news of the earthquake.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "emergency_news"
+      },
+      {
+        "spanish": "Os despertasteis con los gritos de los niños.",
+        "english": "You all woke up to the children's screams.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "family_disturbance"
+      },
+      {
+        "spanish": "Se despertaron en medio de la tormenta.",
+        "english": "They woke up in the middle of the storm.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "weather_disturbance"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me despertaré más temprano para hacer ejercicio.",
+        "english": "I will wake up earlier to exercise.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "fitness_goal"
+      },
+      {
+        "spanish": "Te despertarás con el sonido del mar.",
+        "english": "You will wake up to the sound of the sea.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "vacation_anticipation"
+      },
+      {
+        "spanish": "Te despertarás en tu nueva casa mañana.",
+        "english": "You will wake up in your new house tomorrow.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "moving_day"
+      },
+      {
+        "spanish": "Se despertará siendo una persona famosa.",
+        "english": "He/She will wake up being a famous person.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "fame_prediction"
+      },
+      {
+        "spanish": "Nos despertaremos en París el próximo lunes.",
+        "english": "We will wake up in Paris next Monday.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "travel_excitement"
+      },
+      {
+        "spanish": "Os despertaréis con una sorpresa especial.",
+        "english": "You all will wake up to a special surprise.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "surprise_planning"
+      },
+      {
+        "spanish": "Se despertarán en un mundo completamente diferente.",
+        "english": "They will wake up in a completely different world.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "transformation_metaphor"
+      }
+    ]
+  },
+  "VESTIRSE": {
+    "present": [
+      {
+        "spanish": "Me visto elegante para ir al trabajo.",
+        "english": "I dress elegantly to go to work.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "professional_attire"
+      },
+      {
+        "spanish": "Te vistes muy bien para tu edad.",
+        "english": "You dress very well for your age.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "fashion_compliment"
+      },
+      {
+        "spanish": "Te vestís siempre con colores alegres.",
+        "english": "You always dress in cheerful colors.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "style_preference"
+      },
+      {
+        "spanish": "Se viste de acuerdo a la ocasión.",
+        "english": "He/She dresses according to the occasion.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "appropriate_dressing"
+      },
+      {
+        "spanish": "Nos vestimos cómodos para viajar.",
+        "english": "We dress comfortably to travel.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "travel_comfort"
+      },
+      {
+        "spanish": "Os vestís con ropa tradicional para la fiesta.",
+        "english": "You all dress in traditional clothes for the party.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "cultural_celebration"
+      },
+      {
+        "spanish": "Se visten igual porque son gemelos.",
+        "english": "They dress the same because they are twins.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "twin_behavior"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Me vestí rápidamente para no llegar tarde.",
+        "english": "I got dressed quickly so as not to be late.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "time_pressure"
+      },
+      {
+        "spanish": "Te vestiste de gala para la ceremonia.",
+        "english": "You dressed formally for the ceremony.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "formal_event"
+      },
+      {
+        "spanish": "Te vestiste con tu mejor traje para la entrevista.",
+        "english": "You dressed in your best suit for the interview.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "job_interview"
+      },
+      {
+        "spanish": "Se vistió de negro para el funeral.",
+        "english": "He/She dressed in black for the funeral.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "mourning_attire"
+      },
+      {
+        "spanish": "Nos vestimos de época para la obra de teatro.",
+        "english": "We dressed in period costume for the play.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "theatrical_performance"
+      },
+      {
+        "spanish": "Os vestisteis de superhéroes para el carnaval.",
+        "english": "You all dressed as superheroes for carnival.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "costume_party"
+      },
+      {
+        "spanish": "Se vistieron con ropa abrigada para la montaña.",
+        "english": "They dressed in warm clothes for the mountain.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "outdoor_activity"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me vestiré de azul para la boda.",
+        "english": "I will dress in blue for the wedding.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "wedding_attire"
+      },
+      {
+        "spanish": "Te vestirás como un profesional en tu nuevo trabajo.",
+        "english": "You will dress like a professional in your new job.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "career_advancement"
+      },
+      {
+        "spanish": "Te vestirás con lo mejor que tengas para la graduación.",
+        "english": "You will dress in the best you have for graduation.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "academic_milestone"
+      },
+      {
+        "spanish": "Se vestirá de blanco para su primera comunión.",
+        "english": "He/She will dress in white for his/her first communion.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "religious_ceremony"
+      },
+      {
+        "spanish": "Nos vestiremos elegantes para la cena de gala.",
+        "english": "We will dress elegantly for the gala dinner.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "formal_dinner"
+      },
+      {
+        "spanish": "Os vestiréis con los colores del equipo para el partido.",
+        "english": "You all will dress in the team colors for the game.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "sports_support"
+      },
+      {
+        "spanish": "Se vestirán con ropa cómoda para el viaje largo.",
+        "english": "They will dress in comfortable clothes for the long trip.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "travel_preparation"
+      }
+    ]
+  },
+  "LEVANTARSE": {
+    "preterite": [
+      {
+        "spanish": "Me levanté muy temprano para ver el amanecer.",
+        "english": "I got up very early to see the sunrise.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "nature_appreciation"
+      },
+      {
+        "spanish": "Te levantaste con mucha energía después de las vacaciones.",
+        "english": "You got up with lots of energy after vacation.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "post_vacation_energy"
+      },
+      {
+        "spanish": "Te levantaste de la cama sin hacer ruido.",
+        "english": "You got out of bed without making noise.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "quiet_morning"
+      },
+      {
+        "spanish": "Se levantó inmediatamente cuando sonó el teléfono.",
+        "english": "He/She got up immediately when the phone rang.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "urgent_call"
+      },
+      {
+        "spanish": "Nos levantamos tarde porque era domingo.",
+        "english": "We got up late because it was Sunday.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "weekend_leisure"
+      },
+      {
+        "spanish": "Os levantasteis para aplaudir al final del concierto.",
+        "english": "You all stood up to applaud at the end of the concert.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "concert_appreciation"
+      },
+      {
+        "spanish": "Se levantaron de la mesa sin terminar de comer.",
+        "english": "They got up from the table without finishing eating.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "interrupted_meal"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me levantaré más temprano a partir de mañana.",
+        "english": "I will get up earlier starting tomorrow.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "schedule_change"
+      },
+      {
+        "spanish": "Te levantarás con el canto de los gallos en el campo.",
+        "english": "You will get up with the rooster's crow in the countryside.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "rural_experience"
+      },
+      {
+        "spanish": "Te levantarás cuando tengas ganas, estás de vacaciones.",
+        "english": "You will get up when you feel like it, you're on vacation.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "vacation_freedom"
+      },
+      {
+        "spanish": "Se levantará muy temprano para tomar el primer vuelo.",
+        "english": "He/She will get up very early to catch the first flight.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "travel_schedule"
+      },
+      {
+        "spanish": "Nos levantaremos juntos para hacer ejercicio.",
+        "english": "We will get up together to exercise.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "fitness_partnership"
+      },
+      {
+        "spanish": "Os levantaréis para recibir a los invitados.",
+        "english": "You all will get up to receive the guests.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "hospitality_preparation"
+      },
+      {
+        "spanish": "Se levantarán cuando escuchen la alarma de emergencia.",
+        "english": "They will get up when they hear the emergency alarm.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "emergency_response"
+      }
+    ]
+  },
+  "ENCONTRAR": {
+    "present": [
+      {
+        "spanish": "Encuentro mis llaves siempre en el mismo lugar.",
+        "english": "I always find my keys in the same place.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "daily_routine"
+      },
+      {
+        "spanish": "Encuentras soluciones creativas a los problemas.",
+        "english": "You find creative solutions to problems.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "problem_solving"
+      },
+      {
+        "spanish": "Encontrás trabajo fácilmente con tu experiencia.",
+        "english": "You find work easily with your experience.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "job_search"
+      },
+      {
+        "spanish": "Encuentra tiempo para leer todos los días.",
+        "english": "He/She finds time to read every day.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "time_management"
+      },
+      {
+        "spanish": "Encontramos inspiración en la naturaleza.",
+        "english": "We find inspiration in nature.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "creative_inspiration"
+      },
+      {
+        "spanish": "Encontráis tesoros en los mercados de antigüedades.",
+        "english": "You all find treasures in antique markets.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "antique_hunting"
+      },
+      {
+        "spanish": "Encuentran dificultades en el nuevo proyecto.",
+        "english": "They find difficulties in the new project.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "project_challenges"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Encontré mi cartera en el sofá de la sala.",
+        "english": "I found my wallet on the living room sofa.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "lost_item_recovery"
+      },
+      {
+        "spanish": "Encontraste la respuesta después de mucho pensar.",
+        "english": "You found the answer after thinking a lot.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "problem_resolution"
+      },
+      {
+        "spanish": "Encontraste un restaurante increíble en el barrio.",
+        "english": "You found an incredible restaurant in the neighborhood.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "culinary_discovery"
+      },
+      {
+        "spanish": "Encontró trabajo en una empresa multinacional.",
+        "english": "He/She found work at a multinational company.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "job_success"
+      },
+      {
+        "spanish": "Encontramos el hotel perfecto para las vacaciones.",
+        "english": "We found the perfect hotel for vacation.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "vacation_planning"
+      },
+      {
+        "spanish": "Encontrasteis una solución brillante al problema.",
+        "english": "You all found a brilliant solution to the problem.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "team_problem_solving"
+      },
+      {
+        "spanish": "Encontraron evidencia importante en la investigación.",
+        "english": "They found important evidence in the investigation.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "research_discovery"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Encontraré una manera de resolver este problema.",
+        "english": "I will find a way to solve this problem.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "determination"
+      },
+      {
+        "spanish": "Encontrarás el amor verdadero cuando menos lo esperes.",
+        "english": "You will find true love when you least expect it.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "romantic_prediction"
+      },
+      {
+        "spanish": "Encontrarás tu vocación después de explorar diferentes opciones.",
+        "english": "You will find your calling after exploring different options.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "career_discovery"
+      },
+      {
+        "spanish": "Encontrará la paz interior a través de la meditación.",
+        "english": "He/She will find inner peace through meditation.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "spiritual_journey"
+      },
+      {
+        "spanish": "Encontraremos una casa perfecta para la familia.",
+        "english": "We will find a perfect house for the family.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "house_hunting"
+      },
+      {
+        "spanish": "Encontraréis nuevos amigos en la universidad.",
+        "english": "You all will find new friends at university.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "university_social_life"
+      },
+      {
+        "spanish": "Encontrarán oportunidades de crecimiento en la empresa.",
+        "english": "They will find growth opportunities in the company.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "career_development"
+      }
+    ]
+  },
+  "LAVAR": {
+    "present": [
+      {
+        "spanish": "Lavo los platos después de cada comida.",
+        "english": "I wash the dishes after every meal.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "household_routine"
+      },
+      {
+        "spanish": "Lavas la ropa los fines de semana.",
+        "english": "You wash clothes on weekends.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "laundry_schedule"
+      },
+      {
+        "spanish": "Lavás el coche todos los sábados por la mañana.",
+        "english": "You wash the car every Saturday morning.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "car_maintenance"
+      },
+      {
+        "spanish": "Lava las ventanas de la casa cada mes.",
+        "english": "He/She washes the house windows every month.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "home_maintenance"
+      },
+      {
+        "spanish": "Lavamos la vajilla juntos después de la cena.",
+        "english": "We wash the dishes together after dinner.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "teamwork_chores"
+      },
+      {
+        "spanish": "Laváis los uniformes del equipo de fútbol.",
+        "english": "You all wash the soccer team uniforms.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "sports_maintenance"
+      },
+      {
+        "spanish": "Lavan las frutas y verduras antes de cocinar.",
+        "english": "They wash fruits and vegetables before cooking.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "food_preparation"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Lavé toda la ropa sucia el domingo pasado.",
+        "english": "I washed all the dirty clothes last Sunday.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "laundry_completion"
+      },
+      {
+        "spanish": "Lavaste el coche antes de la cita importante.",
+        "english": "You washed the car before the important date.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "preparation_effort"
+      },
+      {
+        "spanish": "Lavaste los platos sin que nadie te lo pidiera.",
+        "english": "You washed the dishes without anyone asking you to.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "voluntary_help"
+      },
+      {
+        "spanish": "Lavó la ropa de bebé con detergente especial.",
+        "english": "He/She washed the baby clothes with special detergent.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "baby_care"
+      },
+      {
+        "spanish": "Lavamos las cortinas antes de la visita de los abuelos.",
+        "english": "We washed the curtains before the grandparents' visit.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "house_preparation"
+      },
+      {
+        "spanish": "Lavasteis todos los vasos después de la fiesta.",
+        "english": "You all washed all the glasses after the party.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "party_cleanup"
+      },
+      {
+        "spanish": "Lavaron el equipo de camping después del viaje.",
+        "english": "They washed the camping equipment after the trip.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "equipment_maintenance"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Lavaré el coche antes de venderlo.",
+        "english": "I will wash the car before selling it.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "sale_preparation"
+      },
+      {
+        "spanish": "Lavarás la ropa cuando regreses del viaje.",
+        "english": "You will wash clothes when you return from the trip.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "post_travel_chores"
+      },
+      {
+        "spanish": "Lavarás los platos después de cocinar la cena.",
+        "english": "You will wash the dishes after cooking dinner.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "cooking_cleanup"
+      },
+      {
+        "spanish": "Lavará las sábanas antes de que lleguen los invitados.",
+        "english": "He/She will wash the sheets before the guests arrive.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "guest_preparation"
+      },
+      {
+        "spanish": "Lavaremos toda la casa antes de la mudanza.",
+        "english": "We will wash the entire house before moving.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "moving_preparation"
+      },
+      {
+        "spanish": "Lavaréis los uniformes para el próximo partido.",
+        "english": "You all will wash the uniforms for the next game.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "sports_preparation"
+      },
+      {
+        "spanish": "Lavarán las herramientas después de terminar el trabajo.",
+        "english": "They will wash the tools after finishing the work.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "work_cleanup"
+      }
+    ]
+  }
+}

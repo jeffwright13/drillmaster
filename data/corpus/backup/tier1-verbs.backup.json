@@ -1,0 +1,520 @@
+{
+  "SER": {
+    "present": [
+      {
+        "spanish": "Soy profesora de matemáticas en la universidad.",
+        "english": "I am a mathematics professor at the university.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "educational_context"
+      },
+      {
+        "spanish": "Eres muy inteligente para tu edad.",
+        "english": "You are very intelligent for your age.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "conversational"
+      },
+      {
+        "spanish": "Sos el mejor amigo que tengo.",
+        "english": "You are the best friend I have.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "conversational"
+      },
+      {
+        "spanish": "Es médico en el hospital central.",
+        "english": "He/She is a doctor at the central hospital.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "professional_context"
+      },
+      {
+        "spanish": "Somos estudiantes de intercambio.",
+        "english": "We are exchange students.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "academic_context"
+      },
+      {
+        "spanish": "Sois los mejores de la clase.",
+        "english": "You all are the best in the class.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "educational_context"
+      },
+      {
+        "spanish": "Son mis vecinos desde hace años.",
+        "english": "They have been my neighbors for years.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "neighborhood_context"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Fui presidente del club estudiantil.",
+        "english": "I was president of the student club.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "academic_context"
+      },
+      {
+        "spanish": "Fuiste muy valiente durante la emergencia.",
+        "english": "You were very brave during the emergency.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "crisis_context"
+      },
+      {
+        "spanish": "Fuiste el primero en llegar a la fiesta.",
+        "english": "You were the first to arrive at the party.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "social_context"
+      },
+      {
+        "spanish": "Fue mi profesor favorito en el colegio.",
+        "english": "He was my favorite teacher in school.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "educational_context"
+      },
+      {
+        "spanish": "Fuimos compañeros de cuarto en la universidad.",
+        "english": "We were roommates in college.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "academic_context"
+      },
+      {
+        "spanish": "Fuisteis los ganadores del torneo.",
+        "english": "You all were the winners of the tournament.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "sports_context"
+      },
+      {
+        "spanish": "Fueron los primeros en llegar al evento.",
+        "english": "They were the first to arrive at the event.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "event_context"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Seré doctora cuando termine la carrera.",
+        "english": "I will be a doctor when I finish my degree.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "career_planning"
+      },
+      {
+        "spanish": "Serás un gran artista algún día.",
+        "english": "You will be a great artist someday.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "encouragement"
+      },
+      {
+        "spanish": "Serás famoso con esa voz tan linda.",
+        "english": "You will be famous with that beautiful voice.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "compliment"
+      },
+      {
+        "spanish": "Será la nueva directora del departamento.",
+        "english": "She will be the new department director.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "professional_context"
+      },
+      {
+        "spanish": "Seremos socios en el nuevo negocio.",
+        "english": "We will be partners in the new business.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "business_context"
+      },
+      {
+        "spanish": "Seréis los próximos en presentar.",
+        "english": "You all will be next to present.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "academic_context"
+      },
+      {
+        "spanish": "Serán los nuevos propietarios del edificio.",
+        "english": "They will be the new owners of the building.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "real_estate_context"
+      }
+    ]
+  },
+  "ESTAR": {
+    "present": [
+      {
+        "spanish": "Estoy trabajando desde casa hoy.",
+        "english": "I am working from home today.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Estás muy guapa con ese vestido.",
+        "english": "You look very pretty in that dress.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "compliment"
+      },
+      {
+        "spanish": "Estás muy cansado después del viaje.",
+        "english": "You are very tired after the trip.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "travel_context"
+      },
+      {
+        "spanish": "Está lloviendo mucho esta tarde.",
+        "english": "It is raining a lot this afternoon.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "weather_context"
+      },
+      {
+        "spanish": "Estamos preparando la cena juntos.",
+        "english": "We are preparing dinner together.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "family_context"
+      },
+      {
+        "spanish": "Estáis estudiando para el examen final.",
+        "english": "You all are studying for the final exam.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "academic_context"
+      },
+      {
+        "spanish": "Están construyendo un nuevo centro comercial.",
+        "english": "They are building a new shopping center.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "construction_context"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Estuve en París durante las vacaciones.",
+        "english": "I was in Paris during vacation.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "travel_context"
+      },
+      {
+        "spanish": "Estuviste enfermo toda la semana pasada.",
+        "english": "You were sick all last week.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "health_context"
+      },
+      {
+        "spanish": "Estuviste increíble en la presentación.",
+        "english": "You were incredible in the presentation.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Estuvo muy ocupada con el proyecto.",
+        "english": "She was very busy with the project.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Estuvimos en la playa todo el día.",
+        "english": "We were at the beach all day.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "leisure_context"
+      },
+      {
+        "spanish": "Estuvisteis fantásticos en el concierto.",
+        "english": "You all were fantastic at the concert.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "music_context"
+      },
+      {
+        "spanish": "Estuvieron esperando más de una hora.",
+        "english": "They were waiting for more than an hour.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "waiting_context"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Estaré en la oficina hasta las seis.",
+        "english": "I will be at the office until six.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Estarás mejor después del tratamiento.",
+        "english": "You will be better after the treatment.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "health_context"
+      },
+      {
+        "spanish": "Estarás contento con los resultados.",
+        "english": "You will be happy with the results.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "encouragement"
+      },
+      {
+        "spanish": "Estará lista para la reunión mañana.",
+        "english": "She will be ready for the meeting tomorrow.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Estaremos de vacaciones en julio.",
+        "english": "We will be on vacation in July.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "vacation_planning"
+      },
+      {
+        "spanish": "Estaréis ocupados con el nuevo proyecto.",
+        "english": "You all will be busy with the new project.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Estarán aquí para la ceremonia.",
+        "english": "They will be here for the ceremony.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "event_context"
+      }
+    ]
+  },
+  "TENER": {
+    "present": [
+      {
+        "spanish": "Tengo una reunión importante esta tarde.",
+        "english": "I have an important meeting this afternoon.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Tienes mucho talento para la música.",
+        "english": "You have a lot of talent for music.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "compliment"
+      },
+      {
+        "spanish": "Tenés una sonrisa muy linda.",
+        "english": "You have a very beautiful smile.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "compliment"
+      },
+      {
+        "spanish": "Tiene tres hijos pequeños en casa.",
+        "english": "He/She has three small children at home.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "family_context"
+      },
+      {
+        "spanish": "Tenemos muchos planes para el fin de semana.",
+        "english": "We have many plans for the weekend.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "leisure_planning"
+      },
+      {
+        "spanish": "Tenéis una casa preciosa en el campo.",
+        "english": "You all have a beautiful house in the countryside.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "property_context"
+      },
+      {
+        "spanish": "Tienen experiencia en marketing digital.",
+        "english": "They have experience in digital marketing.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "professional_context"
+      }
+    ]
+  },
+  "HACER": {
+    "present": [
+      {
+        "spanish": "Hago ejercicio todas las mañanas en el parque.",
+        "english": "I exercise every morning in the park.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "fitness_context"
+      },
+      {
+        "spanish": "Haces un trabajo excelente en la oficina.",
+        "english": "You do excellent work at the office.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Hacés las mejores empanadas de la ciudad.",
+        "english": "You make the best empanadas in the city.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "cooking_context"
+      },
+      {
+        "spanish": "Hace la cena para toda la familia.",
+        "english": "He/She makes dinner for the whole family.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "family_context"
+      },
+      {
+        "spanish": "Hacemos planes para las vacaciones de verano.",
+        "english": "We make plans for summer vacation.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "vacation_planning"
+      },
+      {
+        "spanish": "Hacéis un ruido terrible con esa música.",
+        "english": "You all make a terrible noise with that music.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "noise_complaint"
+      },
+      {
+        "spanish": "Hacen sus tareas juntos en la biblioteca.",
+        "english": "They do their homework together in the library.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "academic_context"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Hice la presentación para el cliente ayer.",
+        "english": "I gave the presentation to the client yesterday.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Hiciste un gran esfuerzo para terminar a tiempo.",
+        "english": "You made a great effort to finish on time.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "effort_context"
+      },
+      {
+        "spanish": "Hiciste una pregunta muy inteligente en clase.",
+        "english": "You asked a very intelligent question in class.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "academic_context"
+      },
+      {
+        "spanish": "Hizo una donación generosa a la caridad.",
+        "english": "He/She made a generous donation to charity.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "charity_context"
+      },
+      {
+        "spanish": "Hicimos una fiesta sorpresa para mamá.",
+        "english": "We threw a surprise party for mom.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "family_celebration"
+      },
+      {
+        "spanish": "Hicisteis un viaje increíble por Europa.",
+        "english": "You all took an incredible trip through Europe.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "travel_context"
+      },
+      {
+        "spanish": "Hicieron todo lo posible para ayudarnos.",
+        "english": "They did everything possible to help us.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "help_context"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Haré mi mejor esfuerzo en el nuevo trabajo.",
+        "english": "I will do my best effort in the new job.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "job_commitment"
+      },
+      {
+        "spanish": "Harás una diferencia importante en la comunidad.",
+        "english": "You will make an important difference in the community.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "community_impact"
+      },
+      {
+        "spanish": "Harás historia con ese descubrimiento.",
+        "english": "You will make history with that discovery.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "scientific_context"
+      },
+      {
+        "spanish": "Hará la presentación final mañana por la tarde.",
+        "english": "He/She will give the final presentation tomorrow afternoon.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Haremos una barbacoa en el jardín este fin de semana.",
+        "english": "We will have a barbecue in the garden this weekend.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "social_gathering"
+      },
+      {
+        "spanish": "Haréis un trabajo fantástico en el proyecto.",
+        "english": "You all will do fantastic work on the project.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "work_encouragement"
+      },
+      {
+        "spanish": "Harán los cambios necesarios en el sistema.",
+        "english": "They will make the necessary changes to the system.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "technical_context"
+      }
+    ]
+  }
+}

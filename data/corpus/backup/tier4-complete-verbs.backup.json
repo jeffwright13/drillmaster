@@ -1,0 +1,314 @@
+{
+  "PREOCUPARSE": {
+    "preterite": [
+      {
+        "spanish": "Me preocupé mucho cuando no llegaste a casa.",
+        "english": "I worried a lot when you didn't come home.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "family_concern"
+      },
+      {
+        "spanish": "Te preocupaste demasiado por el examen final.",
+        "english": "You worried too much about the final exam.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "academic_anxiety"
+      },
+      {
+        "spanish": "Te preocupaste por tu hermano durante su enfermedad.",
+        "english": "You worried about your brother during his illness.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "sibling_concern"
+      },
+      {
+        "spanish": "Se preocupó por la salud de sus padres ancianos.",
+        "english": "He/She worried about his/her elderly parents' health.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "elderly_care_concern"
+      },
+      {
+        "spanish": "Nos preocupamos por el futuro de la empresa.",
+        "english": "We worried about the company's future.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "business_uncertainty"
+      },
+      {
+        "spanish": "Os preocupasteis por los resultados del proyecto.",
+        "english": "You all worried about the project results.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "project_anxiety"
+      },
+      {
+        "spanish": "Se preocuparon por la seguridad del barrio.",
+        "english": "They worried about neighborhood safety.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "community_safety"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me preocuparé menos cuando tengas trabajo estable.",
+        "english": "I will worry less when you have stable work.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "parental_relief"
+      },
+      {
+        "spanish": "Te preocuparás por tus hijos cuando sean adolescentes.",
+        "english": "You will worry about your children when they're teenagers.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "parenting_anticipation"
+      },
+      {
+        "spanish": "Te preocuparás por el clima durante las vacaciones.",
+        "english": "You will worry about the weather during vacation.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "vacation_planning"
+      },
+      {
+        "spanish": "Se preocupará por la jubilación en unos años.",
+        "english": "He/She will worry about retirement in a few years.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "retirement_planning"
+      },
+      {
+        "spanish": "Nos preocuparemos por el medio ambiente del futuro.",
+        "english": "We will worry about the future environment.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "environmental_concern"
+      },
+      {
+        "spanish": "Os preocuparéis por vuestros nietos cuando nazcan.",
+        "english": "You all will worry about your grandchildren when they're born.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "grandparent_anticipation"
+      },
+      {
+        "spanish": "Se preocuparán por la tecnología y la privacidad.",
+        "english": "They will worry about technology and privacy.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "digital_privacy"
+      }
+    ]
+  },
+  "DIVERTIRSE": {
+    "preterite": [
+      {
+        "spanish": "Me divertí muchísimo en la fiesta de cumpleaños.",
+        "english": "I had a great time at the birthday party.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "party_enjoyment"
+      },
+      {
+        "spanish": "Te divertiste mucho en el parque de diversiones.",
+        "english": "You had a lot of fun at the amusement park.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "amusement_park_fun"
+      },
+      {
+        "spanish": "Te divertiste bailando tango en la milonga.",
+        "english": "You had fun dancing tango at the milonga.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "tango_dancing"
+      },
+      {
+        "spanish": "Se divirtió jugando con sus nietos en el jardín.",
+        "english": "He/She had fun playing with his/her grandchildren in the garden.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "grandparent_play"
+      },
+      {
+        "spanish": "Nos divertimos explorando la ciudad antigua.",
+        "english": "We had fun exploring the old city.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "city_exploration"
+      },
+      {
+        "spanish": "Os divertisteis cantando karaoke hasta muy tarde.",
+        "english": "You all had fun singing karaoke until very late.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "karaoke_night"
+      },
+      {
+        "spanish": "Se divirtieron nadando en la piscina del hotel.",
+        "english": "They had fun swimming in the hotel pool.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "hotel_recreation"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me divertiré mucho en las vacaciones de verano.",
+        "english": "I will have a lot of fun on summer vacation.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "vacation_anticipation"
+      },
+      {
+        "spanish": "Te divertirás aprendiendo a tocar la guitarra.",
+        "english": "You will have fun learning to play guitar.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "musical_learning"
+      },
+      {
+        "spanish": "Te divertirás conociendo Buenos Aires de noche.",
+        "english": "You will have fun getting to know Buenos Aires at night.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "nightlife_exploration"
+      },
+      {
+        "spanish": "Se divertirá mucho en su primer viaje a Europa.",
+        "english": "He/She will have a lot of fun on his/her first trip to Europe.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "european_adventure"
+      },
+      {
+        "spanish": "Nos divertiremos cocinando juntos el fin de semana.",
+        "english": "We will have fun cooking together on the weekend.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "cooking_activity"
+      },
+      {
+        "spanish": "Os divertiréis muchísimo en el festival de música.",
+        "english": "You all will have a great time at the music festival.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "music_festival"
+      },
+      {
+        "spanish": "Se divertirán practicando deportes acuáticos.",
+        "english": "They will have fun practicing water sports.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "water_sports"
+      }
+    ]
+  },
+  "ENCONTRARSE": {
+    "preterite": [
+      {
+        "spanish": "Me encontré con mi profesor de la escuela primaria.",
+        "english": "I ran into my elementary school teacher.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "unexpected_encounter"
+      },
+      {
+        "spanish": "Te encontraste muy bien después de las vacaciones.",
+        "english": "You felt very well after vacation.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "post_vacation_wellness"
+      },
+      {
+        "spanish": "Te encontraste con tu ex novio en el supermercado.",
+        "english": "You ran into your ex-boyfriend at the supermarket.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "awkward_encounter"
+      },
+      {
+        "spanish": "Se encontró perdido en la ciudad nueva.",
+        "english": "He/She found himself/herself lost in the new city.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "navigation_confusion"
+      },
+      {
+        "spanish": "Nos encontramos por casualidad en el aeropuerto.",
+        "english": "We ran into each other by chance at the airport.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "chance_meeting"
+      },
+      {
+        "spanish": "Os encontrasteis muy cansados después del viaje.",
+        "english": "You all found yourselves very tired after the trip.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "travel_fatigue"
+      },
+      {
+        "spanish": "Se encontraron con dificultades inesperadas en el proyecto.",
+        "english": "They encountered unexpected difficulties in the project.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "project_obstacles"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Me encontraré mejor después del tratamiento médico.",
+        "english": "I will feel better after medical treatment.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "medical_recovery"
+      },
+      {
+        "spanish": "Te encontrarás con muchas oportunidades en la nueva ciudad.",
+        "english": "You will encounter many opportunities in the new city.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "new_city_opportunities"
+      },
+      {
+        "spanish": "Te encontrarás con viejos amigos en la reunión.",
+        "english": "You will meet old friends at the reunion.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "reunion_anticipation"
+      },
+      {
+        "spanish": "Se encontrará muy feliz en su nuevo trabajo.",
+        "english": "He/She will find himself/herself very happy in his/her new job.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "job_satisfaction"
+      },
+      {
+        "spanish": "Nos encontraremos en una situación muy diferente.",
+        "english": "We will find ourselves in a very different situation.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "circumstance_change"
+      },
+      {
+        "spanish": "Os encontraréis con sorpresas agradables en el viaje.",
+        "english": "You all will encounter pleasant surprises on the trip.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "travel_surprises"
+      },
+      {
+        "spanish": "Se encontrarán con nuevos desafíos en el mercado internacional.",
+        "english": "They will encounter new challenges in the international market.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "international_business"
+      }
+    ]
+  }
+}

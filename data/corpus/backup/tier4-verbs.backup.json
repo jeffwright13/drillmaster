@@ -1,0 +1,532 @@
+{
+  "CREER": {
+    "present": [
+      {
+        "spanish": "Creo en la amistad verdadera.",
+        "english": "I believe in true friendship.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "personal_values"
+      },
+      {
+        "spanish": "Crees que es posible cambiar el mundo.",
+        "english": "You believe it's possible to change the world.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "optimistic_worldview"
+      },
+      {
+        "spanish": "Creés que todo va a salir bien.",
+        "english": "You believe everything will turn out well.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "positive_outlook"
+      },
+      {
+        "spanish": "Cree en sus sueños y los persigue.",
+        "english": "He/She believes in his/her dreams and pursues them.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "dream_pursuit"
+      },
+      {
+        "spanish": "Creemos en el poder de la educación.",
+        "english": "We believe in the power of education.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "educational_values"
+      },
+      {
+        "spanish": "Creéis que el equipo va a ganar.",
+        "english": "You all believe the team is going to win.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "sports_confidence"
+      },
+      {
+        "spanish": "Creen que la tecnología mejora la vida.",
+        "english": "They believe technology improves life.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "technology_optimism"
+      }
+    ]
+  },
+  "OÍR": {
+    "present": [
+      {
+        "spanish": "Oigo música clásica para concentrarme.",
+        "english": "I listen to classical music to concentrate.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "concentration_aid"
+      },
+      {
+        "spanish": "Oyes ruidos extraños por la noche.",
+        "english": "You hear strange noises at night.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "nighttime_sounds"
+      },
+      {
+        "spanish": "Oís las noticias en la radio.",
+        "english": "You listen to the news on the radio.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "news_consumption"
+      },
+      {
+        "spanish": "Oye conversaciones desde su oficina.",
+        "english": "He/She hears conversations from his/her office.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "office_environment"
+      },
+      {
+        "spanish": "Oímos a los pájaros cantar cada mañana.",
+        "english": "We hear the birds singing every morning.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "nature_sounds"
+      },
+      {
+        "spanish": "Oís música en vivo en el parque.",
+        "english": "You all hear live music in the park.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "outdoor_entertainment"
+      },
+      {
+        "spanish": "Oyen voces familiares en la distancia.",
+        "english": "They hear familiar voices in the distance.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "distant_recognition"
+      }
+    ]
+  },
+  "TRAER": {
+    "present": [
+      {
+        "spanish": "Traigo el almuerzo de casa cada día.",
+        "english": "I bring lunch from home every day.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "meal_preparation"
+      },
+      {
+        "spanish": "Traes buenas noticias siempre.",
+        "english": "You always bring good news.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "positive_messenger"
+      },
+      {
+        "spanish": "Traés regalos únicos de tus viajes.",
+        "english": "You bring unique gifts from your travels.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "travel_souvenirs"
+      },
+      {
+        "spanish": "Trae flores del jardín para decorar.",
+        "english": "He/She brings flowers from the garden to decorate.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "home_decoration"
+      },
+      {
+        "spanish": "Traemos comida para compartir en la oficina.",
+        "english": "We bring food to share at the office.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "office_sharing"
+      },
+      {
+        "spanish": "Traéis energía positiva a cada reunión.",
+        "english": "You all bring positive energy to every meeting.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "meeting_atmosphere"
+      },
+      {
+        "spanish": "Traen experiencias interesantes de otros países.",
+        "english": "They bring interesting experiences from other countries.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "cultural_exchange"
+      }
+    ]
+  },
+  "CONOCER": {
+    "present": [
+      {
+        "spanish": "Conozco a tu hermana desde la infancia.",
+        "english": "I've known your sister since childhood.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "long_friendship"
+      },
+      {
+        "spanish": "Conoces la ciudad mejor que nadie.",
+        "english": "You know the city better than anyone.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "local_expertise"
+      },
+      {
+        "spanish": "Conocés todos los secretos del barrio.",
+        "english": "You know all the neighborhood secrets.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "neighborhood_knowledge"
+      },
+      {
+        "spanish": "Conoce muchos países de Europa.",
+        "english": "He/She knows many European countries.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "travel_experience"
+      },
+      {
+        "spanish": "Conocemos este restaurante desde hace años.",
+        "english": "We've known this restaurant for years.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "dining_familiarity"
+      },
+      {
+        "spanish": "Conocéis la historia de la ciudad perfectamente.",
+        "english": "You all know the city's history perfectly.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "historical_knowledge"
+      },
+      {
+        "spanish": "Conocen a personas importantes en el gobierno.",
+        "english": "They know important people in government.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "political_connections"
+      }
+    ]
+  },
+  "LLEVAR": {
+    "present": [
+      {
+        "spanish": "Llevo mi mochila al trabajo cada día.",
+        "english": "I carry my backpack to work every day.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_routine"
+      },
+      {
+        "spanish": "Llevas una vida muy activa y saludable.",
+        "english": "You lead a very active and healthy life.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "lifestyle_description"
+      },
+      {
+        "spanish": "Llevás un vestido muy elegante hoy.",
+        "english": "You're wearing a very elegant dress today.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "fashion_compliment"
+      },
+      {
+        "spanish": "Lleva gafas de sol porque le molesta la luz.",
+        "english": "He/She wears sunglasses because light bothers him/her.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "eye_protection"
+      },
+      {
+        "spanish": "Llevamos comida deliciosa a la fiesta.",
+        "english": "We bring delicious food to the party.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "party_contribution"
+      },
+      {
+        "spanish": "Lleváis años viviendo en el mismo barrio.",
+        "english": "You all have been living in the same neighborhood for years.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "residential_stability"
+      },
+      {
+        "spanish": "Llevan una relación muy feliz juntos.",
+        "english": "They have a very happy relationship together.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "relationship_description"
+      }
+    ]
+  },
+  "NECESITAR": {
+    "present": [
+      {
+        "spanish": "Necesito más tiempo para terminar el proyecto.",
+        "english": "I need more time to finish the project.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_deadline"
+      },
+      {
+        "spanish": "Necesitas descansar después de tanto trabajo.",
+        "english": "You need to rest after so much work.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "health_advice"
+      },
+      {
+        "spanish": "Necesitás ayuda con la mudanza.",
+        "english": "You need help with the move.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "moving_assistance"
+      },
+      {
+        "spanish": "Necesita hablar con el doctor urgentemente.",
+        "english": "He/She needs to talk to the doctor urgently.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "medical_urgency"
+      },
+      {
+        "spanish": "Necesitamos un coche más grande para la familia.",
+        "english": "We need a bigger car for the family.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "family_transportation"
+      },
+      {
+        "spanish": "Necesitáis estudiar más para el examen.",
+        "english": "You all need to study more for the exam.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "academic_preparation"
+      },
+      {
+        "spanish": "Necesitan permiso especial para entrar.",
+        "english": "They need special permission to enter.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "access_requirement"
+      }
+    ]
+  },
+  "GUSTAR": {
+    "present": [
+      {
+        "spanish": "Me gusta mucho leer libros de historia.",
+        "english": "I really like reading history books.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "reading_preference"
+      },
+      {
+        "spanish": "Te gusta la música clásica más que el rock.",
+        "english": "You like classical music more than rock.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "music_preference"
+      },
+      {
+        "spanish": "Te gustan los deportes acuáticos en verano.",
+        "english": "You like water sports in summer.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "summer_activities"
+      },
+      {
+        "spanish": "Le gusta cocinar platos internacionales.",
+        "english": "He/She likes cooking international dishes.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "cooking_interest"
+      },
+      {
+        "spanish": "Nos gusta viajar a lugares exóticos.",
+        "english": "We like traveling to exotic places.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "travel_preference"
+      },
+      {
+        "spanish": "Os gusta bailar salsa los fines de semana.",
+        "english": "You all like dancing salsa on weekends.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "weekend_entertainment"
+      },
+      {
+        "spanish": "Les gustan las películas de ciencia ficción.",
+        "english": "They like science fiction movies.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "movie_preference"
+      }
+    ]
+  },
+  "PREOCUPARSE": {
+    "present": [
+      {
+        "spanish": "Me preocupo mucho por mi familia.",
+        "english": "I worry a lot about my family.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "family_concern"
+      },
+      {
+        "spanish": "Te preocupas demasiado por el trabajo.",
+        "english": "You worry too much about work.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "work_stress"
+      },
+      {
+        "spanish": "Te preocupás por cosas que no podés controlar.",
+        "english": "You worry about things you can't control.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "anxiety_advice"
+      },
+      {
+        "spanish": "Se preocupa por el futuro de sus hijos.",
+        "english": "He/She worries about his/her children's future.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "parental_concern"
+      },
+      {
+        "spanish": "Nos preocupamos por el medio ambiente.",
+        "english": "We worry about the environment.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "environmental_concern"
+      },
+      {
+        "spanish": "Os preocupáis por vuestros padres mayores.",
+        "english": "You all worry about your elderly parents.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "elderly_care_concern"
+      },
+      {
+        "spanish": "Se preocupan por la situación económica.",
+        "english": "They worry about the economic situation.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "economic_anxiety"
+      }
+    ]
+  },
+  "DIVERTIRSE": {
+    "present": [
+      {
+        "spanish": "Me divierto mucho en las fiestas familiares.",
+        "english": "I have a lot of fun at family parties.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "family_celebration"
+      },
+      {
+        "spanish": "Te diviertes jugando videojuegos con amigos.",
+        "english": "You have fun playing video games with friends.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "gaming_entertainment"
+      },
+      {
+        "spanish": "Te divertís bailando tango en la milonga.",
+        "english": "You have fun dancing tango at the milonga.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "cultural_dance"
+      },
+      {
+        "spanish": "Se divierte leyendo novelas de misterio.",
+        "english": "He/She has fun reading mystery novels.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "reading_entertainment"
+      },
+      {
+        "spanish": "Nos divertimos haciendo deportes juntos.",
+        "english": "We have fun playing sports together.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "sports_recreation"
+      },
+      {
+        "spanish": "Os divertís cantando karaoke los viernes.",
+        "english": "You all have fun singing karaoke on Fridays.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "karaoke_entertainment"
+      },
+      {
+        "spanish": "Se divierten explorando nuevos restaurantes.",
+        "english": "They have fun exploring new restaurants.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "culinary_exploration"
+      }
+    ]
+  },
+  "ENCONTRARSE": {
+    "present": [
+      {
+        "spanish": "Me encuentro muy bien después de las vacaciones.",
+        "english": "I feel very well after vacation.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "post_vacation_wellness"
+      },
+      {
+        "spanish": "Te encuentras con tus amigos cada sábado.",
+        "english": "You meet with your friends every Saturday.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "weekly_social_meeting"
+      },
+      {
+        "spanish": "Te encontrás en una situación muy favorable.",
+        "english": "You find yourself in a very favorable situation.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "advantageous_position"
+      },
+      {
+        "spanish": "Se encuentra trabajando en un proyecto importante.",
+        "english": "He/She finds himself/herself working on an important project.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "work_engagement"
+      },
+      {
+        "spanish": "Nos encontramos en el parque cada mañana.",
+        "english": "We meet in the park every morning.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "morning_meeting_routine"
+      },
+      {
+        "spanish": "Os encontráis muy contentos con los resultados.",
+        "english": "You all find yourselves very happy with the results.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "satisfaction_with_results"
+      },
+      {
+        "spanish": "Se encuentran estudiando para los exámenes finales.",
+        "english": "They find themselves studying for final exams.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "exam_preparation"
+      }
+    ]
+  }
+}

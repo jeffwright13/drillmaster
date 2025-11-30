@@ -1,0 +1,1036 @@
+{
+  "HABLAR": {
+    "present": [
+      {
+        "spanish": "Hablo español con mis compañeros de trabajo.",
+        "english": "I speak Spanish with my coworkers.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "workplace_communication"
+      },
+      {
+        "spanish": "Hablas muy bien inglés para ser principiante.",
+        "english": "You speak English very well for a beginner.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "language_compliment"
+      },
+      {
+        "spanish": "Hablás como un verdadero porteño.",
+        "english": "You speak like a true Buenos Aires native.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "regional_identity"
+      },
+      {
+        "spanish": "Habla por teléfono con su madre todos los días.",
+        "english": "He/She talks on the phone with his/her mother every day.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "family_communication"
+      },
+      {
+        "spanish": "Hablamos de nuestros planes para el futuro.",
+        "english": "We talk about our plans for the future.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "future_planning"
+      },
+      {
+        "spanish": "Habláis demasiado rápido para los estudiantes.",
+        "english": "You all speak too fast for the students.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "teaching_feedback"
+      },
+      {
+        "spanish": "Hablan en voz baja durante la película.",
+        "english": "They speak in low voices during the movie.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "cinema_etiquette"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Hablé con el director sobre mi proyecto.",
+        "english": "I spoke with the director about my project.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "professional_meeting"
+      },
+      {
+        "spanish": "Hablaste muy bien en la presentación.",
+        "english": "You spoke very well in the presentation.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "presentation_feedback"
+      },
+      {
+        "spanish": "Hablaste con mucha pasión sobre el tema.",
+        "english": "You spoke with great passion about the topic.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "passionate_discussion"
+      },
+      {
+        "spanish": "Habló durante dos horas en la conferencia.",
+        "english": "He/She spoke for two hours at the conference.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "academic_presentation"
+      },
+      {
+        "spanish": "Hablamos toda la noche sobre nuestros sueños.",
+        "english": "We talked all night about our dreams.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "intimate_conversation"
+      },
+      {
+        "spanish": "Hablasteis con el embajador en la recepción.",
+        "english": "You all spoke with the ambassador at the reception.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "diplomatic_event"
+      },
+      {
+        "spanish": "Hablaron en tres idiomas durante la reunión.",
+        "english": "They spoke in three languages during the meeting.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "multilingual_meeting"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Hablaré en la conferencia internacional mañana.",
+        "english": "I will speak at the international conference tomorrow.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "speaking_engagement"
+      },
+      {
+        "spanish": "Hablarás con fluidez después de practicar más.",
+        "english": "You will speak fluently after practicing more.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "language_progress"
+      },
+      {
+        "spanish": "Hablarás como un nativo después del intercambio.",
+        "english": "You will speak like a native after the exchange.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "exchange_program"
+      },
+      {
+        "spanish": "Hablará en nombre de toda la organización.",
+        "english": "He/She will speak on behalf of the entire organization.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "organizational_representation"
+      },
+      {
+        "spanish": "Hablaremos con el cliente la próxima semana.",
+        "english": "We will speak with the client next week.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "business_meeting"
+      },
+      {
+        "spanish": "Hablaréis en la radio sobre vuestro proyecto.",
+        "english": "You all will speak on the radio about your project.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "media_interview"
+      },
+      {
+        "spanish": "Hablarán en la televisión nacional mañana.",
+        "english": "They will speak on national television tomorrow.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "media_appearance"
+      }
+    ]
+  },
+  "COMER": {
+    "present": [
+      {
+        "spanish": "Como frutas y verduras todos los días.",
+        "english": "I eat fruits and vegetables every day.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "healthy_eating"
+      },
+      {
+        "spanish": "Comes muy saludable desde que empezaste la dieta.",
+        "english": "You eat very healthy since you started the diet.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "diet_lifestyle"
+      },
+      {
+        "spanish": "Comés las mejores milanesas de la ciudad.",
+        "english": "You eat the best milanesas in the city.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "local_cuisine"
+      },
+      {
+        "spanish": "Come en el restaurante italiano cada viernes.",
+        "english": "He/She eats at the Italian restaurant every Friday.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "dining_routine"
+      },
+      {
+        "spanish": "Comemos juntos en familia los domingos.",
+        "english": "We eat together as a family on Sundays.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "family_tradition"
+      },
+      {
+        "spanish": "Coméis tapas en el bar de la esquina.",
+        "english": "You all eat tapas at the corner bar.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "spanish_culture"
+      },
+      {
+        "spanish": "Comen pizza los viernes por la noche.",
+        "english": "They eat pizza on Friday nights.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "weekend_routine"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Comí paella por primera vez en Valencia.",
+        "english": "I ate paella for the first time in Valencia.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "culinary_experience"
+      },
+      {
+        "spanish": "Comiste demasiado en la cena de ayer.",
+        "english": "You ate too much at yesterday's dinner.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "overeating_concern"
+      },
+      {
+        "spanish": "Comiste un asado increíble en lo de tu tío.",
+        "english": "You ate an incredible barbecue at your uncle's place.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "family_gathering"
+      },
+      {
+        "spanish": "Comió sushi por primera vez anoche.",
+        "english": "He/She ate sushi for the first time last night.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "new_cuisine_experience"
+      },
+      {
+        "spanish": "Comimos en el mejor restaurante de la ciudad.",
+        "english": "We ate at the best restaurant in the city.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "fine_dining_experience"
+      },
+      {
+        "spanish": "Comisteis jamón ibérico auténtico en Sevilla.",
+        "english": "You all ate authentic Iberian ham in Seville.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "regional_delicacy"
+      },
+      {
+        "spanish": "Comieron mariscos frescos en la costa.",
+        "english": "They ate fresh seafood on the coast.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "coastal_dining"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Comeré más verduras para mejorar mi salud.",
+        "english": "I will eat more vegetables to improve my health.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "health_resolution"
+      },
+      {
+        "spanish": "Comerás platos exóticos en tu viaje a Asia.",
+        "english": "You will eat exotic dishes on your trip to Asia.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "travel_anticipation"
+      },
+      {
+        "spanish": "Comerás empanadas caseras en casa de la abuela.",
+        "english": "You will eat homemade empanadas at grandma's house.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "family_visit"
+      },
+      {
+        "spanish": "Comerá en los mejores restaurantes de París.",
+        "english": "He/She will eat at the best restaurants in Paris.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "luxury_travel"
+      },
+      {
+        "spanish": "Comeremos paella auténtica en España.",
+        "english": "We will eat authentic paella in Spain.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "cultural_food_experience"
+      },
+      {
+        "spanish": "Comeréis cocido madrileño en el restaurante tradicional.",
+        "english": "You all will eat Madrid-style chickpea stew at the traditional restaurant.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "traditional_cuisine"
+      },
+      {
+        "spanish": "Comerán comida orgánica en el nuevo restaurante.",
+        "english": "They will eat organic food at the new restaurant.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "healthy_dining"
+      }
+    ]
+  },
+  "VIVIR": {
+    "present": [
+      {
+        "spanish": "Vivo en el centro de la ciudad desde hace años.",
+        "english": "I live in the city center for years now.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "residential_context"
+      },
+      {
+        "spanish": "Vives cerca del parque y es muy conveniente.",
+        "english": "You live near the park and it's very convenient.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "location_advantage"
+      },
+      {
+        "spanish": "Vivís en el barrio más lindo de Buenos Aires.",
+        "english": "You live in the most beautiful neighborhood in Buenos Aires.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "neighborhood_pride"
+      },
+      {
+        "spanish": "Vive con sus padres para ahorrar dinero.",
+        "english": "He/She lives with his/her parents to save money.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "financial_strategy"
+      },
+      {
+        "spanish": "Vivimos en una casa grande con jardín.",
+        "english": "We live in a big house with a garden.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "housing_description"
+      },
+      {
+        "spanish": "Vivís en el mismo barrio desde la infancia.",
+        "english": "You all live in the same neighborhood since childhood.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "long_term_residence"
+      },
+      {
+        "spanish": "Viven en el mismo edificio que nosotros.",
+        "english": "They live in the same building as us.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "neighbor_context"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Viví en París durante mis estudios universitarios.",
+        "english": "I lived in Paris during my university studies.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "study_abroad"
+      },
+      {
+        "spanish": "Viviste una experiencia increíble en Japón.",
+        "english": "You lived an incredible experience in Japan.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "cultural_immersion"
+      },
+      {
+        "spanish": "Viviste momentos muy difíciles el año pasado.",
+        "english": "You lived through very difficult moments last year.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "challenging_period"
+      },
+      {
+        "spanish": "Vivió en tres países diferentes antes de los treinta.",
+        "english": "He/She lived in three different countries before thirty.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "international_experience"
+      },
+      {
+        "spanish": "Vivimos la mejor época de nuestras vidas.",
+        "english": "We lived the best time of our lives.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "golden_period"
+      },
+      {
+        "spanish": "Vivisteis aventuras extraordinarias en Sudamérica.",
+        "english": "You all lived extraordinary adventures in South America.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "adventure_travel"
+      },
+      {
+        "spanish": "Vivieron la guerra civil en primera persona.",
+        "english": "They lived through the civil war firsthand.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "historical_experience"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Viviré en España cuando termine la carrera.",
+        "english": "I will live in Spain when I finish my degree.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "post_graduation_plans"
+      },
+      {
+        "spanish": "Vivirás experiencias únicas en tu nuevo trabajo.",
+        "english": "You will live unique experiences in your new job.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "career_opportunity"
+      },
+      {
+        "spanish": "Vivirás como un rey con ese nuevo salario.",
+        "english": "You will live like a king with that new salary.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "financial_improvement"
+      },
+      {
+        "spanish": "Vivirá en una casa frente al mar.",
+        "english": "He/She will live in a house facing the sea.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "dream_home"
+      },
+      {
+        "spanish": "Viviremos juntos después de la boda.",
+        "english": "We will live together after the wedding.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "marriage_plans"
+      },
+      {
+        "spanish": "Viviréis momentos inolvidables en vuestro viaje.",
+        "english": "You all will live unforgettable moments on your trip.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "travel_anticipation"
+      },
+      {
+        "spanish": "Vivirán en el extranjero por motivos de trabajo.",
+        "english": "They will live abroad for work reasons.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "international_assignment"
+      }
+    ]
+  },
+  "IR": {
+    "present": [
+      {
+        "spanish": "Voy al trabajo en metro todas las mañanas.",
+        "english": "I go to work by subway every morning.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "commute_routine"
+      },
+      {
+        "spanish": "Vas a la universidad en bicicleta.",
+        "english": "You go to university by bicycle.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "transportation_method"
+      },
+      {
+        "spanish": "Vas al gimnasio después del trabajo.",
+        "english": "You go to the gym after work.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "fitness_routine"
+      },
+      {
+        "spanish": "Va a la oficina muy temprano cada día.",
+        "english": "He/She goes to the office very early every day.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "work_schedule"
+      },
+      {
+        "spanish": "Vamos de compras los fines de semana.",
+        "english": "We go shopping on weekends.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "leisure_activity"
+      },
+      {
+        "spanish": "Vais al cine todos los viernes por la noche.",
+        "english": "You all go to the movies every Friday night.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "entertainment_routine"
+      },
+      {
+        "spanish": "Van al parque con los niños cada tarde.",
+        "english": "They go to the park with the children every afternoon.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "family_activity"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Fui a París el año pasado por trabajo.",
+        "english": "I went to Paris last year for work.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "business_travel"
+      },
+      {
+        "spanish": "Fuiste al concierto de rock anoche.",
+        "english": "You went to the rock concert last night.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "entertainment_event"
+      },
+      {
+        "spanish": "Fuiste a la fiesta de cumpleaños de María.",
+        "english": "You went to María's birthday party.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "social_event"
+      },
+      {
+        "spanish": "Fue al médico por el dolor de espalda.",
+        "english": "He/She went to the doctor for back pain.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "medical_visit"
+      },
+      {
+        "spanish": "Fuimos a la playa durante las vacaciones.",
+        "english": "We went to the beach during vacation.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "vacation_activity"
+      },
+      {
+        "spanish": "Fuisteis al museo de arte moderno ayer.",
+        "english": "You all went to the modern art museum yesterday.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "cultural_visit"
+      },
+      {
+        "spanish": "Fueron al restaurante nuevo del centro.",
+        "english": "They went to the new restaurant downtown.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "dining_experience"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Iré a estudiar a Alemania el próximo año.",
+        "english": "I will go to study in Germany next year.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "education_planning"
+      },
+      {
+        "spanish": "Irás a la entrevista de trabajo mañana.",
+        "english": "You will go to the job interview tomorrow.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "career_opportunity"
+      },
+      {
+        "spanish": "Irás a conocer lugares increíbles en tu viaje.",
+        "english": "You will go see incredible places on your trip.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "travel_anticipation"
+      },
+      {
+        "spanish": "Irá a la conferencia internacional en mayo.",
+        "english": "He/She will go to the international conference in May.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "professional_event"
+      },
+      {
+        "spanish": "Iremos a visitar a los abuelos este domingo.",
+        "english": "We will go visit the grandparents this Sunday.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "family_visit"
+      },
+      {
+        "spanish": "Iréis a la boda de vuestro primo en junio.",
+        "english": "You all will go to your cousin's wedding in June.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "family_celebration"
+      },
+      {
+        "spanish": "Irán a inaugurar la nueva sucursal mañana.",
+        "english": "They will go inaugurate the new branch tomorrow.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "business_event"
+      }
+    ]
+  },
+  "PODER": {
+    "present": [
+      {
+        "spanish": "Puedo ayudarte con el proyecto si quieres.",
+        "english": "I can help you with the project if you want.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "offer_assistance"
+      },
+      {
+        "spanish": "Puedes hacerlo mejor si te concentras más.",
+        "english": "You can do it better if you concentrate more.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "encouragement"
+      },
+      {
+        "spanish": "Podés venir a casa cuando quieras.",
+        "english": "You can come home whenever you want.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "open_invitation"
+      },
+      {
+        "spanish": "Puede hablar tres idiomas con fluidez.",
+        "english": "He/She can speak three languages fluently.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "language_ability"
+      },
+      {
+        "spanish": "Podemos terminar el trabajo antes del viernes.",
+        "english": "We can finish the work before Friday.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "work_planning"
+      },
+      {
+        "spanish": "Podéis venir a la fiesta si queréis.",
+        "english": "You all can come to the party if you want.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "party_invitation"
+      },
+      {
+        "spanish": "Pueden resolver el problema sin ayuda externa.",
+        "english": "They can solve the problem without external help.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "problem_solving"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Pude terminar el informe antes de la fecha límite.",
+        "english": "I was able to finish the report before the deadline.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_achievement"
+      },
+      {
+        "spanish": "Pudiste convencer a todos con tu presentación.",
+        "english": "You were able to convince everyone with your presentation.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "persuasion_success"
+      },
+      {
+        "spanish": "Pudiste resolver el conflicto con tu hermano.",
+        "english": "You were able to resolve the conflict with your brother.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "family_reconciliation"
+      },
+      {
+        "spanish": "Pudo escapar del edificio antes del incendio.",
+        "english": "He/She was able to escape from the building before the fire.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "emergency_escape"
+      },
+      {
+        "spanish": "Pudimos comprar la casa de nuestros sueños.",
+        "english": "We were able to buy our dream house.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "major_purchase"
+      },
+      {
+        "spanish": "Pudisteis ganar el campeonato después de tanto esfuerzo.",
+        "english": "You all were able to win the championship after so much effort.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "sports_victory"
+      },
+      {
+        "spanish": "Pudieron salvar el negocio familiar.",
+        "english": "They were able to save the family business.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "business_rescue"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Podré viajar por el mundo cuando me jubile.",
+        "english": "I will be able to travel the world when I retire.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "retirement_dreams"
+      },
+      {
+        "spanish": "Podrás estudiar en la universidad que elijas.",
+        "english": "You will be able to study at the university you choose.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "educational_opportunity"
+      },
+      {
+        "spanish": "Podrás comprarte el auto que tanto querés.",
+        "english": "You will be able to buy the car you want so much.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "future_purchase"
+      },
+      {
+        "spanish": "Podrá trabajar desde casa tres días a la semana.",
+        "english": "He/She will be able to work from home three days a week.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "flexible_work"
+      },
+      {
+        "spanish": "Podremos mudarnos a una casa más grande.",
+        "english": "We will be able to move to a bigger house.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "housing_upgrade"
+      },
+      {
+        "spanish": "Podréis visitar a vuestros abuelos en el pueblo.",
+        "english": "You all will be able to visit your grandparents in the village.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "family_visit"
+      },
+      {
+        "spanish": "Podrán expandir el negocio a otros países.",
+        "english": "They will be able to expand the business to other countries.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "business_expansion"
+      }
+    ]
+  },
+  "QUERER": {
+    "present": [
+      {
+        "spanish": "Quiero aprender francés el próximo año.",
+        "english": "I want to learn French next year.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "language_goals"
+      },
+      {
+        "spanish": "Quieres viajar a Europa este verano.",
+        "english": "You want to travel to Europe this summer.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "travel_desires"
+      },
+      {
+        "spanish": "Querés comprar una casa en las afueras.",
+        "english": "You want to buy a house in the suburbs.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "housing_goals"
+      },
+      {
+        "spanish": "Quiere estudiar medicina en la universidad.",
+        "english": "He/She wants to study medicine at university.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "career_aspirations"
+      },
+      {
+        "spanish": "Queremos comprar un coche nuevo este año.",
+        "english": "We want to buy a new car this year.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "purchase_plans"
+      },
+      {
+        "spanish": "Queréis ir al concierto de rock mañana.",
+        "english": "You all want to go to the rock concert tomorrow.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "entertainment_plans"
+      },
+      {
+        "spanish": "Quieren mudarse a una ciudad más pequeña.",
+        "english": "They want to move to a smaller city.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "relocation_plans"
+      }
+    ],
+    "preterite": [
+      {
+        "spanish": "Quise llamarte pero se me olvidó.",
+        "english": "I wanted to call you but I forgot.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "missed_intention"
+      },
+      {
+        "spanish": "Quisiste ayudar pero ya era demasiado tarde.",
+        "english": "You wanted to help but it was already too late.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "delayed_assistance"
+      },
+      {
+        "spanish": "Quisiste decirle la verdad pero no te animaste.",
+        "english": "You wanted to tell him/her the truth but you didn't dare.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "hesitation_moment"
+      },
+      {
+        "spanish": "Quiso renunciar pero cambió de opinión.",
+        "english": "He/She wanted to resign but changed his/her mind.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "career_decision"
+      },
+      {
+        "spanish": "Quisimos ir al concierto pero se agotaron las entradas.",
+        "english": "We wanted to go to the concert but the tickets sold out.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "missed_opportunity"
+      },
+      {
+        "spanish": "Quisisteis venir a la boda pero teníais otros planes.",
+        "english": "You all wanted to come to the wedding but you had other plans.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "scheduling_conflict"
+      },
+      {
+        "spanish": "Quisieron comprar la casa pero el precio era muy alto.",
+        "english": "They wanted to buy the house but the price was too high.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "financial_limitation"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Querré tomarme unas vacaciones largas.",
+        "english": "I will want to take a long vacation.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "future_rest"
+      },
+      {
+        "spanish": "Querrás cambiar de trabajo después de graduarte.",
+        "english": "You will want to change jobs after you graduate.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "career_transition"
+      },
+      {
+        "spanish": "Querrás volver a tu país después de tanto tiempo.",
+        "english": "You will want to return to your country after so long.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "homesickness"
+      },
+      {
+        "spanish": "Querrá jubilarse antes de los sesenta años.",
+        "english": "He/She will want to retire before sixty years old.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "early_retirement"
+      },
+      {
+        "spanish": "Querremos tener más tiempo para la familia.",
+        "english": "We will want to have more time for family.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "work_life_balance"
+      },
+      {
+        "spanish": "Querréis mudaros cerca del mar cuando os jubiléis.",
+        "english": "You all will want to move near the sea when you retire.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "retirement_location"
+      },
+      {
+        "spanish": "Querrán expandir su negocio a nivel internacional.",
+        "english": "They will want to expand their business internationally.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "business_ambition"
+      }
+    ]
+  },
+  "TENER": {
+    "preterite": [
+      {
+        "spanish": "Tuve una reunión importante esta mañana.",
+        "english": "I had an important meeting this morning.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Tuviste mucha paciencia con los niños.",
+        "english": "You had a lot of patience with the children.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "family_context"
+      },
+      {
+        "spanish": "Tuviste suerte de encontrar trabajo tan rápido.",
+        "english": "You were lucky to find work so quickly.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "job_context"
+      },
+      {
+        "spanish": "Tuvo que cancelar el viaje por la lluvia.",
+        "english": "He/She had to cancel the trip because of the rain.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "travel_context"
+      },
+      {
+        "spanish": "Tuvimos una conversación muy interesante.",
+        "english": "We had a very interesting conversation.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "social_context"
+      },
+      {
+        "spanish": "Tuvisteis problemas con el coche ayer.",
+        "english": "You all had problems with the car yesterday.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "transportation_context"
+      },
+      {
+        "spanish": "Tuvieron que esperar dos horas en el aeropuerto.",
+        "english": "They had to wait two hours at the airport.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "travel_context"
+      }
+    ],
+    "future": [
+      {
+        "spanish": "Tendré más tiempo libre el próximo mes.",
+        "english": "I will have more free time next month.",
+        "subject": "yo",
+        "region": "universal",
+        "source": "time_management"
+      },
+      {
+        "spanish": "Tendrás la oportunidad de viajar a Europa.",
+        "english": "You will have the opportunity to travel to Europe.",
+        "subject": "tú",
+        "region": "universal",
+        "source": "travel_planning"
+      },
+      {
+        "spanish": "Tendrás que estudiar mucho para el examen.",
+        "english": "You will have to study a lot for the exam.",
+        "subject": "vos",
+        "region": "argentina",
+        "source": "academic_context"
+      },
+      {
+        "spanish": "Tendrá una entrevista de trabajo mañana.",
+        "english": "He/She will have a job interview tomorrow.",
+        "subject": "él/ella/usted",
+        "region": "universal",
+        "source": "job_context"
+      },
+      {
+        "spanish": "Tendremos una fiesta de cumpleaños el sábado.",
+        "english": "We will have a birthday party on Saturday.",
+        "subject": "nosotros",
+        "region": "universal",
+        "source": "celebration_context"
+      },
+      {
+        "spanish": "Tendréis que decidir pronto sobre el proyecto.",
+        "english": "You all will have to decide soon about the project.",
+        "subject": "vosotros",
+        "region": "spain",
+        "source": "work_context"
+      },
+      {
+        "spanish": "Tendrán acceso a todos los documentos necesarios.",
+        "english": "They will have access to all the necessary documents.",
+        "subject": "ellos/ellas/ustedes",
+        "region": "universal",
+        "source": "administrative_context"
+      }
+    ]
+  }
+}

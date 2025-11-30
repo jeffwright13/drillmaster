@@ -1208,6 +1208,192 @@
       "ellos/ellas/ustedes": "gustarán"
     }
   },
+  "DOLER": {
+    "infinitive": "DOLER",
+    "english": "to hurt/ache",
+    "present": {
+      "yo": "duelo",
+      "tú": "dueles",
+      "vos": "dolés",
+      "él/ella/usted": "duele",
+      "nosotros": "dolemos",
+      "vosotros": "doléis",
+      "ellos/ellas/ustedes": "duelen"
+    },
+    "preterite": {
+      "yo": "dolí",
+      "tú": "doliste",
+      "vos": "doliste",
+      "él/ella/usted": "dolió",
+      "nosotros": "dolimos",
+      "vosotros": "dolisteis",
+      "ellos/ellas/ustedes": "dolieron"
+    },
+    "future": {
+      "yo": "doleré",
+      "tú": "dolerás",
+      "vos": "dolerás",
+      "él/ella/usted": "dolerá",
+      "nosotros": "doleremos",
+      "vosotros": "doleréis",
+      "ellos/ellas/ustedes": "dolerán"
+    }
+  },
+  "ENCANTAR": {
+    "infinitive": "ENCANTAR",
+    "english": "to love/enchant",
+    "present": {
+      "yo": "encanto",
+      "tú": "encantas",
+      "vos": "encantás",
+      "él/ella/usted": "encanta",
+      "nosotros": "encantamos",
+      "vosotros": "encantáis",
+      "ellos/ellas/ustedes": "encantan"
+    },
+    "preterite": {
+      "yo": "encanté",
+      "tú": "encantaste",
+      "vos": "encantaste",
+      "él/ella/usted": "encantó",
+      "nosotros": "encantamos",
+      "vosotros": "encantasteis",
+      "ellos/ellas/ustedes": "encantaron"
+    },
+    "future": {
+      "yo": "encantaré",
+      "tú": "encantarás",
+      "vos": "encantarás",
+      "él/ella/usted": "encantará",
+      "nosotros": "encantaremos",
+      "vosotros": "encantaréis",
+      "ellos/ellas/ustedes": "encantarán"
+    }
+  },
+  "MOLESTAR": {
+    "infinitive": "MOLESTAR",
+    "english": "to bother/annoy",
+    "present": {
+      "yo": "molesto",
+      "tú": "molestas",
+      "vos": "molestás",
+      "él/ella/usted": "molesta",
+      "nosotros": "molestamos",
+      "vosotros": "molestáis",
+      "ellos/ellas/ustedes": "molestan"
+    },
+    "preterite": {
+      "yo": "molesté",
+      "tú": "molestaste",
+      "vos": "molestaste",
+      "él/ella/usted": "molestó",
+      "nosotros": "molestamos",
+      "vosotros": "molestasteis",
+      "ellos/ellas/ustedes": "molestaron"
+    },
+    "future": {
+      "yo": "molestaré",
+      "tú": "molestarás",
+      "vos": "molestarás",
+      "él/ella/usted": "molestará",
+      "nosotros": "molestaremos",
+      "vosotros": "molestaréis",
+      "ellos/ellas/ustedes": "molestarán"
+    }
+  },
+  "IMPORTAR": {
+    "infinitive": "IMPORTAR",
+    "english": "to matter/care",
+    "present": {
+      "yo": "importo",
+      "tú": "importas",
+      "vos": "importás",
+      "él/ella/usted": "importa",
+      "nosotros": "importamos",
+      "vosotros": "importáis",
+      "ellos/ellas/ustedes": "importan"
+    },
+    "preterite": {
+      "yo": "importé",
+      "tú": "importaste",
+      "vos": "importaste",
+      "él/ella/usted": "importó",
+      "nosotros": "importamos",
+      "vosotros": "importasteis",
+      "ellos/ellas/ustedes": "importaron"
+    },
+    "future": {
+      "yo": "importaré",
+      "tú": "importarás",
+      "vos": "importarás",
+      "él/ella/usted": "importará",
+      "nosotros": "importaremos",
+      "vosotros": "importaréis",
+      "ellos/ellas/ustedes": "importarán"
+    }
+  },
+  "FALTAR": {
+    "infinitive": "FALTAR",
+    "english": "to lack/be missing",
+    "present": {
+      "yo": "falto",
+      "tú": "faltas",
+      "vos": "faltás",
+      "él/ella/usted": "falta",
+      "nosotros": "faltamos",
+      "vosotros": "faltáis",
+      "ellos/ellas/ustedes": "faltan"
+    },
+    "preterite": {
+      "yo": "falté",
+      "tú": "faltaste",
+      "vos": "faltaste",
+      "él/ella/usted": "faltó",
+      "nosotros": "faltamos",
+      "vosotros": "faltasteis",
+      "ellos/ellas/ustedes": "faltaron"
+    },
+    "future": {
+      "yo": "faltaré",
+      "tú": "faltarás",
+      "vos": "faltarás",
+      "él/ella/usted": "faltará",
+      "nosotros": "faltaremos",
+      "vosotros": "faltaréis",
+      "ellos/ellas/ustedes": "faltarán"
+    }
+  },
+  "PARECER": {
+    "infinitive": "PARECER",
+    "english": "to seem/appear",
+    "present": {
+      "yo": "parezco",
+      "tú": "pareces",
+      "vos": "parecés",
+      "él/ella/usted": "parece",
+      "nosotros": "parecemos",
+      "vosotros": "parecéis",
+      "ellos/ellas/ustedes": "parecen"
+    },
+    "preterite": {
+      "yo": "parecí",
+      "tú": "pareciste",
+      "vos": "pareciste",
+      "él/ella/usted": "pareció",
+      "nosotros": "parecimos",
+      "vosotros": "parecisteis",
+      "ellos/ellas/ustedes": "parecieron"
+    },
+    "future": {
+      "yo": "pareceré",
+      "tú": "parecerás",
+      "vos": "parecerás",
+      "él/ella/usted": "parecerá",
+      "nosotros": "pareceremos",
+      "vosotros": "pareceréis",
+      "ellos/ellas/ustedes": "parecerán"
+    }
+  },
   "PREOCUPARSE": {
     "infinitive": "PREOCUPARSE",
     "english": "to worry",
@@ -1272,7 +1458,7 @@
   },
   "ENCONTRARSE": {
     "infinitive": "ENCONTRARSE",
-    "english": "to meet/find oneself",
+    "english": "to meet",
     "present": {
       "yo": "encuentro",
       "tú": "encuentras",
