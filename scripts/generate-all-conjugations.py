@@ -351,7 +351,7 @@ CONJUGATIONS = {
     
     "ENCONTRARSE": {
         "infinitive": "ENCONTRARSE",
-        "english": "to meet/find oneself",
+        "english": "to meet",
         "present": {"yo": "encuentro", "tú": "encuentras", "vos": "encontrás", "él/ella/usted": "encuentra", "nosotros": "encontramos", "vosotros": "encontráis", "ellos/ellas/ustedes": "encuentran"},
         "preterite": {"yo": "encontré", "tú": "encontraste", "vos": "encontraste", "él/ella/usted": "encontró", "nosotros": "encontramos", "vosotros": "encontrasteis", "ellos/ellas/ustedes": "encontraron"},
         "future": {"yo": "encontraré", "tú": "encontrarás", "vos": "encontrarás", "él/ella/usted": "encontrará", "nosotros": "encontraremos", "vosotros": "encontraréis", "ellos/ellas/ustedes": "encontrarán"}

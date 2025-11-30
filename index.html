@@ -56,19 +56,28 @@
               <legend>Learning Tier</legend>
               <label>
                 <input type="checkbox" id="tier-1" name="tier" value="1" checked />
-                Tier 1 <span class="tier-count">(10)</span>
+                <strong>Foundation</strong> <span class="tier-count">(10)</span>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Core conversation builders</small>
               </label>
               <label>
                 <input type="checkbox" id="tier-2" name="tier" value="2" />
-                Tier 2 <span class="tier-count">(10)</span>
+                <strong>Daily Routine</strong> <span class="tier-count">(12)</span>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Reflexives & everyday life</small>
               </label>
               <label>
                 <input type="checkbox" id="tier-3" name="tier" value="3" />
-                Tier 3 <span class="tier-count">(12)</span>
+                <strong>Irregular Core</strong> <span class="tier-count">(12)</span>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Essential but complex patterns</small>
               </label>
               <label>
                 <input type="checkbox" id="tier-4" name="tier" value="4" />
-                Tier 4 <span class="tier-count">(10)</span>
+                <strong>Emotional & Cognitive</strong> <span class="tier-count">(9)</span>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Feelings, opinions, cognition</small>
+              </label>
+              <label>
+                <input type="checkbox" id="tier-5" name="tier" value="5" />
+                <strong>Gustar-type Verbs</strong> <span class="tier-count">(7)</span>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Special grammar structure</small>
               </label>
             </fieldset>
 
@@ -162,20 +171,24 @@
             <fieldset>
               <legend>Card Types</legend>
               <label>
-                <input type="checkbox" id="card-cloze" name="card-type" value="cloze" checked />
-                Cloze Deletion
+                <input type="checkbox" id="card-trans-en-es" name="card-type" value="trans-en-es" checked />
+                <strong>Translation (EN→ES)</strong>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Best for active production & Mexico survival</small>
+              </label>
+              <label>
+                <input type="checkbox" id="card-cloze" name="card-type" value="cloze" />
+                <strong>Cloze Deletion</strong>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Efficient grammar reinforcement</small>
               </label>
               <label>
                 <input type="checkbox" id="card-trans-es-en" name="card-type" value="trans-es-en" />
-                Translation (ES→EN)
-              </label>
-              <label>
-                <input type="checkbox" id="card-trans-en-es" name="card-type" value="trans-en-es" />
-                Translation (EN→ES)
+                <strong>Translation (ES→EN)</strong>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Comprehension support</small>
               </label>
               <label>
                 <input type="checkbox" id="card-conjugation" name="card-type" value="conjugation" />
-                Conjugation Practice
+                <strong>Conjugation Practice</strong>
+                <small style="display: block; opacity: 0.7; margin-top: 0.25rem;">Precision drilling for problem verbs</small>
               </label>
             </fieldset>
 
@@ -183,15 +196,33 @@
               <legend>Tenses</legend>
               <label>
                 <input type="checkbox" id="tense-present" name="tense" value="present" checked />
-                Present
+                <strong>1. Present</strong>
+                <small style="display: block; opacity: 0.7;">Hablo, como, vivo - Foundation first</small>
+              </label>
+              <label>
+                <input type="checkbox" id="tense-present-progressive" name="tense" value="present-progressive" />
+                <strong>2. Present Progressive</strong>
+                <small style="display: block; opacity: 0.7;">Estoy hablando - Add "right now" actions</small>
+              </label>
+              <label>
+                <input type="checkbox" id="tense-going-to" name="tense" value="going-to" />
+                <strong>3. Going To Future</strong>
+                <small style="display: block; opacity: 0.7;">Voy a hablar - Essential for plans</small>
               </label>
               <label>
                 <input type="checkbox" id="tense-preterite" name="tense" value="preterite" />
-                Preterite
+                <strong>4. Preterite Past</strong>
+                <small style="display: block; opacity: 0.7;">Hablé, comí, fui - "I did" actions</small>
+              </label>
+              <label>
+                <input type="checkbox" id="tense-present-perfect" name="tense" value="present-perfect" />
+                <strong>5. Present Perfect</strong>
+                <small style="display: block; opacity: 0.7;">He hablado - "I have done" experiences</small>
               </label>
               <label>
                 <input type="checkbox" id="tense-future" name="tense" value="future" />
-                Future
+                <strong>6. Simple Future</strong>
+                <small style="display: block; opacity: 0.7;">Hablaré, comeré - Formal future (advanced)</small>
               </label>
             </fieldset>
 

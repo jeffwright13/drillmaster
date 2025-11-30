@@ -28,6 +28,33 @@
       "nosotros": "hablaremos",
       "vosotros": "hablaréis",
       "ellos/ellas/ustedes": "hablarán"
+    },
+    "present-progressive": {
+      "yo": "estoy hablando",
+      "tú": "estás hablando",
+      "vos": "estás hablando",
+      "él/ella/usted": "está hablando",
+      "nosotros": "estamos hablando",
+      "vosotros": "estáis hablando",
+      "ellos/ellas/ustedes": "están hablando"
+    },
+    "going-to": {
+      "yo": "voy a hablar",
+      "tú": "vas a hablar",
+      "vos": "vas a hablar",
+      "él/ella/usted": "va a hablar",
+      "nosotros": "vamos a hablar",
+      "vosotros": "vais a hablar",
+      "ellos/ellas/ustedes": "van a hablar"
+    },
+    "present-perfect": {
+      "yo": "he hablado",
+      "tú": "has hablado",
+      "vos": "has hablado",
+      "él/ella/usted": "ha hablado",
+      "nosotros": "hemos hablado",
+      "vosotros": "habéis hablado",
+      "ellos/ellas/ustedes": "han hablado"
     }
   },
   "COMER": {
@@ -59,6 +86,33 @@
       "nosotros": "comeremos",
       "vosotros": "comeréis",
       "ellos/ellas/ustedes": "comerán"
+    },
+    "present-progressive": {
+      "yo": "estoy comiendo",
+      "tú": "estás comiendo",
+      "vos": "estás comiendo",
+      "él/ella/usted": "está comiendo",
+      "nosotros": "estamos comiendo",
+      "vosotros": "estáis comiendo",
+      "ellos/ellas/ustedes": "están comiendo"
+    },
+    "going-to": {
+      "yo": "voy a comer",
+      "tú": "vas a comer",
+      "vos": "vas a comer",
+      "él/ella/usted": "va a comer",
+      "nosotros": "vamos a comer",
+      "vosotros": "vais a comer",
+      "ellos/ellas/ustedes": "van a comer"
+    },
+    "present-perfect": {
+      "yo": "he comido",
+      "tú": "has comido",
+      "vos": "has comido",
+      "él/ella/usted": "ha comido",
+      "nosotros": "hemos comido",
+      "vosotros": "habéis comido",
+      "ellos/ellas/ustedes": "han comido"
     }
   },
   "VIVIR": {
@@ -90,6 +144,33 @@
       "nosotros": "viviremos",
       "vosotros": "viviréis",
       "ellos/ellas/ustedes": "vivirán"
+    },
+    "present-progressive": {
+      "yo": "estoy viviendo",
+      "tú": "estás viviendo",
+      "vos": "estás viviendo",
+      "él/ella/usted": "está viviendo",
+      "nosotros": "estamos viviendo",
+      "vosotros": "estáis viviendo",
+      "ellos/ellas/ustedes": "están viviendo"
+    },
+    "going-to": {
+      "yo": "voy a vivir",
+      "tú": "vas a vivir",
+      "vos": "vas a vivir",
+      "él/ella/usted": "va a vivir",
+      "nosotros": "vamos a vivir",
+      "vosotros": "vais a vivir",
+      "ellos/ellas/ustedes": "van a vivir"
+    },
+    "present-perfect": {
+      "yo": "he vivido",
+      "tú": "has vivido",
+      "vos": "has vivido",
+      "él/ella/usted": "ha vivido",
+      "nosotros": "hemos vivido",
+      "vosotros": "habéis vivido",
+      "ellos/ellas/ustedes": "han vivido"
     }
   },
   "SER": {
@@ -121,6 +202,33 @@
       "nosotros": "seremos",
       "vosotros": "seréis",
       "ellos/ellas/ustedes": "serán"
+    },
+    "present-progressive": {
+      "yo": "estoy siendo",
+      "tú": "estás siendo",
+      "vos": "estás siendo",
+      "él/ella/usted": "está siendo",
+      "nosotros": "estamos siendo",
+      "vosotros": "estáis siendo",
+      "ellos/ellas/ustedes": "están siendo"
+    },
+    "going-to": {
+      "yo": "voy a ser",
+      "tú": "vas a ser",
+      "vos": "vas a ser",
+      "él/ella/usted": "va a ser",
+      "nosotros": "vamos a ser",
+      "vosotros": "vais a ser",
+      "ellos/ellas/ustedes": "van a ser"
+    },
+    "present-perfect": {
+      "yo": "he sido",
+      "tú": "has sido",
+      "vos": "has sido",
+      "él/ella/usted": "ha sido",
+      "nosotros": "hemos sido",
+      "vosotros": "habéis sido",
+      "ellos/ellas/ustedes": "han sido"
     }
   },
   "ESTAR": {
@@ -152,6 +260,33 @@
       "nosotros": "estaremos",
       "vosotros": "estaréis",
       "ellos/ellas/ustedes": "estarán"
+    },
+    "present-progressive": {
+      "yo": "estoy estando",
+      "tú": "estás estando",
+      "vos": "estás estando",
+      "él/ella/usted": "está estando",
+      "nosotros": "estamos estando",
+      "vosotros": "estáis estando",
+      "ellos/ellas/ustedes": "están estando"
+    },
+    "going-to": {
+      "yo": "voy a estar",
+      "tú": "vas a estar",
+      "vos": "vas a estar",
+      "él/ella/usted": "va a estar",
+      "nosotros": "vamos a estar",
+      "vosotros": "vais a estar",
+      "ellos/ellas/ustedes": "van a estar"
+    },
+    "present-perfect": {
+      "yo": "he estado",
+      "tú": "has estado",
+      "vos": "has estado",
+      "él/ella/usted": "ha estado",
+      "nosotros": "hemos estado",
+      "vosotros": "habéis estado",
+      "ellos/ellas/ustedes": "han estado"
     }
   },
   "TENER": {
@@ -183,6 +318,33 @@
       "nosotros": "tendremos",
       "vosotros": "tendréis",
       "ellos/ellas/ustedes": "tendrán"
+    },
+    "present-progressive": {
+      "yo": "estoy teniendo",
+      "tú": "estás teniendo",
+      "vos": "estás teniendo",
+      "él/ella/usted": "está teniendo",
+      "nosotros": "estamos teniendo",
+      "vosotros": "estáis teniendo",
+      "ellos/ellas/ustedes": "están teniendo"
+    },
+    "going-to": {
+      "yo": "voy a tener",
+      "tú": "vas a tener",
+      "vos": "vas a tener",
+      "él/ella/usted": "va a tener",
+      "nosotros": "vamos a tener",
+      "vosotros": "vais a tener",
+      "ellos/ellas/ustedes": "van a tener"
+    },
+    "present-perfect": {
+      "yo": "he tenido",
+      "tú": "has tenido",
+      "vos": "has tenido",
+      "él/ella/usted": "ha tenido",
+      "nosotros": "hemos tenido",
+      "vosotros": "habéis tenido",
+      "ellos/ellas/ustedes": "han tenido"
     }
   },
   "HACER": {
@@ -214,6 +376,33 @@
       "nosotros": "haremos",
       "vosotros": "haréis",
       "ellos/ellas/ustedes": "harán"
+    },
+    "present-progressive": {
+      "yo": "estoy haciendo",
+      "tú": "estás haciendo",
+      "vos": "estás haciendo",
+      "él/ella/usted": "está haciendo",
+      "nosotros": "estamos haciendo",
+      "vosotros": "estáis haciendo",
+      "ellos/ellas/ustedes": "están haciendo"
+    },
+    "going-to": {
+      "yo": "voy a hacer",
+      "tú": "vas a hacer",
+      "vos": "vas a hacer",
+      "él/ella/usted": "va a hacer",
+      "nosotros": "vamos a hacer",
+      "vosotros": "vais a hacer",
+      "ellos/ellas/ustedes": "van a hacer"
+    },
+    "present-perfect": {
+      "yo": "he hecho",
+      "tú": "has hecho",
+      "vos": "has hecho",
+      "él/ella/usted": "ha hecho",
+      "nosotros": "hemos hecho",
+      "vosotros": "habéis hecho",
+      "ellos/ellas/ustedes": "han hecho"
     }
   },
   "IR": {
@@ -245,6 +434,33 @@
       "nosotros": "iremos",
       "vosotros": "iréis",
       "ellos/ellas/ustedes": "irán"
+    },
+    "present-progressive": {
+      "yo": "estoy yendo",
+      "tú": "estás yendo",
+      "vos": "estás yendo",
+      "él/ella/usted": "está yendo",
+      "nosotros": "estamos yendo",
+      "vosotros": "estáis yendo",
+      "ellos/ellas/ustedes": "están yendo"
+    },
+    "going-to": {
+      "yo": "voy a ir",
+      "tú": "vas a ir",
+      "vos": "vas a ir",
+      "él/ella/usted": "va a ir",
+      "nosotros": "vamos a ir",
+      "vosotros": "vais a ir",
+      "ellos/ellas/ustedes": "van a ir"
+    },
+    "present-perfect": {
+      "yo": "he ido",
+      "tú": "has ido",
+      "vos": "has ido",
+      "él/ella/usted": "ha ido",
+      "nosotros": "hemos ido",
+      "vosotros": "habéis ido",
+      "ellos/ellas/ustedes": "han ido"
     }
   },
   "PODER": {
@@ -276,6 +492,33 @@
       "nosotros": "podremos",
       "vosotros": "podréis",
       "ellos/ellas/ustedes": "podrán"
+    },
+    "present-progressive": {
+      "yo": "estoy pudiendo",
+      "tú": "estás pudiendo",
+      "vos": "estás pudiendo",
+      "él/ella/usted": "está pudiendo",
+      "nosotros": "estamos pudiendo",
+      "vosotros": "estáis pudiendo",
+      "ellos/ellas/ustedes": "están pudiendo"
+    },
+    "going-to": {
+      "yo": "voy a poder",
+      "tú": "vas a poder",
+      "vos": "vas a poder",
+      "él/ella/usted": "va a poder",
+      "nosotros": "vamos a poder",
+      "vosotros": "vais a poder",
+      "ellos/ellas/ustedes": "van a poder"
+    },
+    "present-perfect": {
+      "yo": "he podido",
+      "tú": "has podido",
+      "vos": "has podido",
+      "él/ella/usted": "ha podido",
+      "nosotros": "hemos podido",
+      "vosotros": "habéis podido",
+      "ellos/ellas/ustedes": "han podido"
     }
   },
   "QUERER": {
@@ -307,6 +550,33 @@
       "nosotros": "querremos",
       "vosotros": "querréis",
       "ellos/ellas/ustedes": "querrán"
+    },
+    "present-progressive": {
+      "yo": "estoy queriendo",
+      "tú": "estás queriendo",
+      "vos": "estás queriendo",
+      "él/ella/usted": "está queriendo",
+      "nosotros": "estamos queriendo",
+      "vosotros": "estáis queriendo",
+      "ellos/ellas/ustedes": "están queriendo"
+    },
+    "going-to": {
+      "yo": "voy a querer",
+      "tú": "vas a querer",
+      "vos": "vas a querer",
+      "él/ella/usted": "va a querer",
+      "nosotros": "vamos a querer",
+      "vosotros": "vais a querer",
+      "ellos/ellas/ustedes": "van a querer"
+    },
+    "present-perfect": {
+      "yo": "he querido",
+      "tú": "has querido",
+      "vos": "has querido",
+      "él/ella/usted": "ha querido",
+      "nosotros": "hemos querido",
+      "vosotros": "habéis querido",
+      "ellos/ellas/ustedes": "han querido"
     }
   },
   "LLAMARSE": {
@@ -338,6 +608,33 @@
       "nosotros": "llamaremos",
       "vosotros": "llamaréis",
       "ellos/ellas/ustedes": "llamarán"
+    },
+    "present-progressive": {
+      "yo": "estoy llamándose",
+      "tú": "estás llamándose",
+      "vos": "estás llamándose",
+      "él/ella/usted": "está llamándose",
+      "nosotros": "estamos llamándose",
+      "vosotros": "estáis llamándose",
+      "ellos/ellas/ustedes": "están llamándose"
+    },
+    "going-to": {
+      "yo": "voy a llamarse",
+      "tú": "vas a llamarse",
+      "vos": "vas a llamarse",
+      "él/ella/usted": "va a llamarse",
+      "nosotros": "vamos a llamarse",
+      "vosotros": "vais a llamarse",
+      "ellos/ellas/ustedes": "van a llamarse"
+    },
+    "present-perfect": {
+      "yo": "he llamado",
+      "tú": "has llamado",
+      "vos": "has llamado",
+      "él/ella/usted": "ha llamado",
+      "nosotros": "hemos llamado",
+      "vosotros": "habéis llamado",
+      "ellos/ellas/ustedes": "han llamado"
     }
   },
   "LEVANTARSE": {
@@ -369,6 +666,33 @@
       "nosotros": "levantaremos",
       "vosotros": "levantaréis",
       "ellos/ellas/ustedes": "levantarán"
+    },
+    "present-progressive": {
+      "yo": "estoy levantándose",
+      "tú": "estás levantándose",
+      "vos": "estás levantándose",
+      "él/ella/usted": "está levantándose",
+      "nosotros": "estamos levantándose",
+      "vosotros": "estáis levantándose",
+      "ellos/ellas/ustedes": "están levantándose"
+    },
+    "going-to": {
+      "yo": "voy a levantarse",
+      "tú": "vas a levantarse",
+      "vos": "vas a levantarse",
+      "él/ella/usted": "va a levantarse",
+      "nosotros": "vamos a levantarse",
+      "vosotros": "vais a levantarse",
+      "ellos/ellas/ustedes": "van a levantarse"
+    },
+    "present-perfect": {
+      "yo": "he levantado",
+      "tú": "has levantado",
+      "vos": "has levantado",
+      "él/ella/usted": "ha levantado",
+      "nosotros": "hemos levantado",
+      "vosotros": "habéis levantado",
+      "ellos/ellas/ustedes": "han levantado"
     }
   },
   "SENTARSE": {
@@ -400,6 +724,33 @@
       "nosotros": "sentaremos",
       "vosotros": "sentaréis",
       "ellos/ellas/ustedes": "sentarán"
+    },
+    "present-progressive": {
+      "yo": "estoy sentándose",
+      "tú": "estás sentándose",
+      "vos": "estás sentándose",
+      "él/ella/usted": "está sentándose",
+      "nosotros": "estamos sentándose",
+      "vosotros": "estáis sentándose",
+      "ellos/ellas/ustedes": "están sentándose"
+    },
+    "going-to": {
+      "yo": "voy a sentarse",
+      "tú": "vas a sentarse",
+      "vos": "vas a sentarse",
+      "él/ella/usted": "va a sentarse",
+      "nosotros": "vamos a sentarse",
+      "vosotros": "vais a sentarse",
+      "ellos/ellas/ustedes": "van a sentarse"
+    },
+    "present-perfect": {
+      "yo": "he sentado",
+      "tú": "has sentado",
+      "vos": "has sentado",
+      "él/ella/usted": "ha sentado",
+      "nosotros": "hemos sentado",
+      "vosotros": "habéis sentado",
+      "ellos/ellas/ustedes": "han sentado"
     }
   },
   "ACOSTARSE": {
@@ -431,6 +782,33 @@
       "nosotros": "acostaremos",
       "vosotros": "acostaréis",
       "ellos/ellas/ustedes": "acostarán"
+    },
+    "present-progressive": {
+      "yo": "estoy acostándose",
+      "tú": "estás acostándose",
+      "vos": "estás acostándose",
+      "él/ella/usted": "está acostándose",
+      "nosotros": "estamos acostándose",
+      "vosotros": "estáis acostándose",
+      "ellos/ellas/ustedes": "están acostándose"
+    },
+    "going-to": {
+      "yo": "voy a acostarse",
+      "tú": "vas a acostarse",
+      "vos": "vas a acostarse",
+      "él/ella/usted": "va a acostarse",
+      "nosotros": "vamos a acostarse",
+      "vosotros": "vais a acostarse",
+      "ellos/ellas/ustedes": "van a acostarse"
+    },
+    "present-perfect": {
+      "yo": "he acostado",
+      "tú": "has acostado",
+      "vos": "has acostado",
+      "él/ella/usted": "ha acostado",
+      "nosotros": "hemos acostado",
+      "vosotros": "habéis acostado",
+      "ellos/ellas/ustedes": "han acostado"
     }
   },
   "DESPERTARSE": {
@@ -462,6 +840,33 @@
       "nosotros": "despertaremos",
       "vosotros": "despertaréis",
       "ellos/ellas/ustedes": "despertarán"
+    },
+    "present-progressive": {
+      "yo": "estoy despertándose",
+      "tú": "estás despertándose",
+      "vos": "estás despertándose",
+      "él/ella/usted": "está despertándose",
+      "nosotros": "estamos despertándose",
+      "vosotros": "estáis despertándose",
+      "ellos/ellas/ustedes": "están despertándose"
+    },
+    "going-to": {
+      "yo": "voy a despertarse",
+      "tú": "vas a despertarse",
+      "vos": "vas a despertarse",
+      "él/ella/usted": "va a despertarse",
+      "nosotros": "vamos a despertarse",
+      "vosotros": "vais a despertarse",
+      "ellos/ellas/ustedes": "van a despertarse"
+    },
+    "present-perfect": {
+      "yo": "he despertado",
+      "tú": "has despertado",
+      "vos": "has despertado",
+      "él/ella/usted": "ha despertado",
+      "nosotros": "hemos despertado",
+      "vosotros": "habéis despertado",
+      "ellos/ellas/ustedes": "han despertado"
     }
   },
   "VER": {
@@ -493,6 +898,33 @@
       "nosotros": "veremos",
       "vosotros": "veréis",
       "ellos/ellas/ustedes": "verán"
+    },
+    "present-progressive": {
+      "yo": "estoy viendo",
+      "tú": "estás viendo",
+      "vos": "estás viendo",
+      "él/ella/usted": "está viendo",
+      "nosotros": "estamos viendo",
+      "vosotros": "estáis viendo",
+      "ellos/ellas/ustedes": "están viendo"
+    },
+    "going-to": {
+      "yo": "voy a ver",
+      "tú": "vas a ver",
+      "vos": "vas a ver",
+      "él/ella/usted": "va a ver",
+      "nosotros": "vamos a ver",
+      "vosotros": "vais a ver",
+      "ellos/ellas/ustedes": "van a ver"
+    },
+    "present-perfect": {
+      "yo": "he visto",
+      "tú": "has visto",
+      "vos": "has visto",
+      "él/ella/usted": "ha visto",
+      "nosotros": "hemos visto",
+      "vosotros": "habéis visto",
+      "ellos/ellas/ustedes": "han visto"
     }
   },
   "DAR": {
@@ -524,6 +956,33 @@
       "nosotros": "daremos",
       "vosotros": "daréis",
       "ellos/ellas/ustedes": "darán"
+    },
+    "present-progressive": {
+      "yo": "estoy dando",
+      "tú": "estás dando",
+      "vos": "estás dando",
+      "él/ella/usted": "está dando",
+      "nosotros": "estamos dando",
+      "vosotros": "estáis dando",
+      "ellos/ellas/ustedes": "están dando"
+    },
+    "going-to": {
+      "yo": "voy a dar",
+      "tú": "vas a dar",
+      "vos": "vas a dar",
+      "él/ella/usted": "va a dar",
+      "nosotros": "vamos a dar",
+      "vosotros": "vais a dar",
+      "ellos/ellas/ustedes": "van a dar"
+    },
+    "present-perfect": {
+      "yo": "he dado",
+      "tú": "has dado",
+      "vos": "has dado",
+      "él/ella/usted": "ha dado",
+      "nosotros": "hemos dado",
+      "vosotros": "habéis dado",
+      "ellos/ellas/ustedes": "han dado"
     }
   },
   "DECIR": {
@@ -555,6 +1014,33 @@
       "nosotros": "diremos",
       "vosotros": "diréis",
       "ellos/ellas/ustedes": "dirán"
+    },
+    "present-progressive": {
+      "yo": "estoy diciendo",
+      "tú": "estás diciendo",
+      "vos": "estás diciendo",
+      "él/ella/usted": "está diciendo",
+      "nosotros": "estamos diciendo",
+      "vosotros": "estáis diciendo",
+      "ellos/ellas/ustedes": "están diciendo"
+    },
+    "going-to": {
+      "yo": "voy a decir",
+      "tú": "vas a decir",
+      "vos": "vas a decir",
+      "él/ella/usted": "va a decir",
+      "nosotros": "vamos a decir",
+      "vosotros": "vais a decir",
+      "ellos/ellas/ustedes": "van a decir"
+    },
+    "present-perfect": {
+      "yo": "he dicho",
+      "tú": "has dicho",
+      "vos": "has dicho",
+      "él/ella/usted": "ha dicho",
+      "nosotros": "hemos dicho",
+      "vosotros": "habéis dicho",
+      "ellos/ellas/ustedes": "han dicho"
     }
   },
   "SABER": {
@@ -586,6 +1072,33 @@
       "nosotros": "sabremos",
       "vosotros": "sabréis",
       "ellos/ellas/ustedes": "sabrán"
+    },
+    "present-progressive": {
+      "yo": "estoy sabiendo",
+      "tú": "estás sabiendo",
+      "vos": "estás sabiendo",
+      "él/ella/usted": "está sabiendo",
+      "nosotros": "estamos sabiendo",
+      "vosotros": "estáis sabiendo",
+      "ellos/ellas/ustedes": "están sabiendo"
+    },
+    "going-to": {
+      "yo": "voy a saber",
+      "tú": "vas a saber",
+      "vos": "vas a saber",
+      "él/ella/usted": "va a saber",
+      "nosotros": "vamos a saber",
+      "vosotros": "vais a saber",
+      "ellos/ellas/ustedes": "van a saber"
+    },
+    "present-perfect": {
+      "yo": "he sabido",
+      "tú": "has sabido",
+      "vos": "has sabido",
+      "él/ella/usted": "ha sabido",
+      "nosotros": "hemos sabido",
+      "vosotros": "habéis sabido",
+      "ellos/ellas/ustedes": "han sabido"
     }
   },
   "VESTIRSE": {
@@ -617,6 +1130,33 @@
       "nosotros": "vestiremos",
       "vosotros": "vestiréis",
       "ellos/ellas/ustedes": "vestirán"
+    },
+    "present-progressive": {
+      "yo": "estoy vistiéndose",
+      "tú": "estás vistiéndose",
+      "vos": "estás vistiéndose",
+      "él/ella/usted": "está vistiéndose",
+      "nosotros": "estamos vistiéndose",
+      "vosotros": "estáis vistiéndose",
+      "ellos/ellas/ustedes": "están vistiéndose"
+    },
+    "going-to": {
+      "yo": "voy a vestirse",
+      "tú": "vas a vestirse",
+      "vos": "vas a vestirse",
+      "él/ella/usted": "va a vestirse",
+      "nosotros": "vamos a vestirse",
+      "vosotros": "vais a vestirse",
+      "ellos/ellas/ustedes": "van a vestirse"
+    },
+    "present-perfect": {
+      "yo": "he vestido",
+      "tú": "has vestido",
+      "vos": "has vestido",
+      "él/ella/usted": "ha vestido",
+      "nosotros": "hemos vestido",
+      "vosotros": "habéis vestido",
+      "ellos/ellas/ustedes": "han vestido"
     }
   },
   "PENSAR": {
@@ -648,6 +1188,33 @@
       "nosotros": "pensaremos",
       "vosotros": "pensaréis",
       "ellos/ellas/ustedes": "pensarán"
+    },
+    "present-progressive": {
+      "yo": "estoy pensando",
+      "tú": "estás pensando",
+      "vos": "estás pensando",
+      "él/ella/usted": "está pensando",
+      "nosotros": "estamos pensando",
+      "vosotros": "estáis pensando",
+      "ellos/ellas/ustedes": "están pensando"
+    },
+    "going-to": {
+      "yo": "voy a pensar",
+      "tú": "vas a pensar",
+      "vos": "vas a pensar",
+      "él/ella/usted": "va a pensar",
+      "nosotros": "vamos a pensar",
+      "vosotros": "vais a pensar",
+      "ellos/ellas/ustedes": "van a pensar"
+    },
+    "present-perfect": {
+      "yo": "he pensado",
+      "tú": "has pensado",
+      "vos": "has pensado",
+      "él/ella/usted": "ha pensado",
+      "nosotros": "hemos pensado",
+      "vosotros": "habéis pensado",
+      "ellos/ellas/ustedes": "han pensado"
     }
   },
   "ENTENDER": {
@@ -679,6 +1246,33 @@
       "nosotros": "entenderemos",
       "vosotros": "entenderéis",
       "ellos/ellas/ustedes": "entenderán"
+    },
+    "present-progressive": {
+      "yo": "estoy entendiendo",
+      "tú": "estás entendiendo",
+      "vos": "estás entendiendo",
+      "él/ella/usted": "está entendiendo",
+      "nosotros": "estamos entendiendo",
+      "vosotros": "estáis entendiendo",
+      "ellos/ellas/ustedes": "están entendiendo"
+    },
+    "going-to": {
+      "yo": "voy a entender",
+      "tú": "vas a entender",
+      "vos": "vas a entender",
+      "él/ella/usted": "va a entender",
+      "nosotros": "vamos a entender",
+      "vosotros": "vais a entender",
+      "ellos/ellas/ustedes": "van a entender"
+    },
+    "present-perfect": {
+      "yo": "he entendido",
+      "tú": "has entendido",
+      "vos": "has entendido",
+      "él/ella/usted": "ha entendido",
+      "nosotros": "hemos entendido",
+      "vosotros": "habéis entendido",
+      "ellos/ellas/ustedes": "han entendido"
     }
   },
   "SENTIR": {
@@ -710,6 +1304,33 @@
       "nosotros": "sentiremos",
       "vosotros": "sentiréis",
       "ellos/ellas/ustedes": "sentirán"
+    },
+    "present-progressive": {
+      "yo": "estoy sintiendo",
+      "tú": "estás sintiendo",
+      "vos": "estás sintiendo",
+      "él/ella/usted": "está sintiendo",
+      "nosotros": "estamos sintiendo",
+      "vosotros": "estáis sintiendo",
+      "ellos/ellas/ustedes": "están sintiendo"
+    },
+    "going-to": {
+      "yo": "voy a sentir",
+      "tú": "vas a sentir",
+      "vos": "vas a sentir",
+      "él/ella/usted": "va a sentir",
+      "nosotros": "vamos a sentir",
+      "vosotros": "vais a sentir",
+      "ellos/ellas/ustedes": "van a sentir"
+    },
+    "present-perfect": {
+      "yo": "he sentido",
+      "tú": "has sentido",
+      "vos": "has sentido",
+      "él/ella/usted": "ha sentido",
+      "nosotros": "hemos sentido",
+      "vosotros": "habéis sentido",
+      "ellos/ellas/ustedes": "han sentido"
     }
   },
   "VENIR": {
@@ -741,6 +1362,33 @@
       "nosotros": "vendremos",
       "vosotros": "vendréis",
       "ellos/ellas/ustedes": "vendrán"
+    },
+    "present-progressive": {
+      "yo": "estoy viniendo",
+      "tú": "estás viniendo",
+      "vos": "estás viniendo",
+      "él/ella/usted": "está viniendo",
+      "nosotros": "estamos viniendo",
+      "vosotros": "estáis viniendo",
+      "ellos/ellas/ustedes": "están viniendo"
+    },
+    "going-to": {
+      "yo": "voy a venir",
+      "tú": "vas a venir",
+      "vos": "vas a venir",
+      "él/ella/usted": "va a venir",
+      "nosotros": "vamos a venir",
+      "vosotros": "vais a venir",
+      "ellos/ellas/ustedes": "van a venir"
+    },
+    "present-perfect": {
+      "yo": "he venido",
+      "tú": "has venido",
+      "vos": "has venido",
+      "él/ella/usted": "ha venido",
+      "nosotros": "hemos venido",
+      "vosotros": "habéis venido",
+      "ellos/ellas/ustedes": "han venido"
     }
   },
   "PONER": {
@@ -772,6 +1420,33 @@
       "nosotros": "pondremos",
       "vosotros": "pondréis",
       "ellos/ellas/ustedes": "pondrán"
+    },
+    "present-progressive": {
+      "yo": "estoy poniendo",
+      "tú": "estás poniendo",
+      "vos": "estás poniendo",
+      "él/ella/usted": "está poniendo",
+      "nosotros": "estamos poniendo",
+      "vosotros": "estáis poniendo",
+      "ellos/ellas/ustedes": "están poniendo"
+    },
+    "going-to": {
+      "yo": "voy a poner",
+      "tú": "vas a poner",
+      "vos": "vas a poner",
+      "él/ella/usted": "va a poner",
+      "nosotros": "vamos a poner",
+      "vosotros": "vais a poner",
+      "ellos/ellas/ustedes": "van a poner"
+    },
+    "present-perfect": {
+      "yo": "he puesto",
+      "tú": "has puesto",
+      "vos": "has puesto",
+      "él/ella/usted": "ha puesto",
+      "nosotros": "hemos puesto",
+      "vosotros": "habéis puesto",
+      "ellos/ellas/ustedes": "han puesto"
     }
   },
   "SALIR": {
@@ -803,6 +1478,33 @@
       "nosotros": "saldremos",
       "vosotros": "saldréis",
       "ellos/ellas/ustedes": "saldrán"
+    },
+    "present-progressive": {
+      "yo": "estoy saliendo",
+      "tú": "estás saliendo",
+      "vos": "estás saliendo",
+      "él/ella/usted": "está saliendo",
+      "nosotros": "estamos saliendo",
+      "vosotros": "estáis saliendo",
+      "ellos/ellas/ustedes": "están saliendo"
+    },
+    "going-to": {
+      "yo": "voy a salir",
+      "tú": "vas a salir",
+      "vos": "vas a salir",
+      "él/ella/usted": "va a salir",
+      "nosotros": "vamos a salir",
+      "vosotros": "vais a salir",
+      "ellos/ellas/ustedes": "van a salir"
+    },
+    "present-perfect": {
+      "yo": "he salido",
+      "tú": "has salido",
+      "vos": "has salido",
+      "él/ella/usted": "ha salido",
+      "nosotros": "hemos salido",
+      "vosotros": "habéis salido",
+      "ellos/ellas/ustedes": "han salido"
     }
   },
   "DUCHARSE": {
@@ -834,6 +1536,33 @@
       "nosotros": "ducharemos",
       "vosotros": "ducharéis",
       "ellos/ellas/ustedes": "ducharán"
+    },
+    "present-progressive": {
+      "yo": "estoy duchándose",
+      "tú": "estás duchándose",
+      "vos": "estás duchándose",
+      "él/ella/usted": "está duchándose",
+      "nosotros": "estamos duchándose",
+      "vosotros": "estáis duchándose",
+      "ellos/ellas/ustedes": "están duchándose"
+    },
+    "going-to": {
+      "yo": "voy a ducharse",
+      "tú": "vas a ducharse",
+      "vos": "vas a ducharse",
+      "él/ella/usted": "va a ducharse",
+      "nosotros": "vamos a ducharse",
+      "vosotros": "vais a ducharse",
+      "ellos/ellas/ustedes": "van a ducharse"
+    },
+    "present-perfect": {
+      "yo": "he duchado",
+      "tú": "has duchado",
+      "vos": "has duchado",
+      "él/ella/usted": "ha duchado",
+      "nosotros": "hemos duchado",
+      "vosotros": "habéis duchado",
+      "ellos/ellas/ustedes": "han duchado"
     }
   },
   "LAVARSE": {
@@ -865,6 +1594,33 @@
       "nosotros": "lavaremos",
       "vosotros": "lavaréis",
       "ellos/ellas/ustedes": "lavarán"
+    },
+    "present-progressive": {
+      "yo": "estoy lavándose",
+      "tú": "estás lavándose",
+      "vos": "estás lavándose",
+      "él/ella/usted": "está lavándose",
+      "nosotros": "estamos lavándose",
+      "vosotros": "estáis lavándose",
+      "ellos/ellas/ustedes": "están lavándose"
+    },
+    "going-to": {
+      "yo": "voy a lavarse",
+      "tú": "vas a lavarse",
+      "vos": "vas a lavarse",
+      "él/ella/usted": "va a lavarse",
+      "nosotros": "vamos a lavarse",
+      "vosotros": "vais a lavarse",
+      "ellos/ellas/ustedes": "van a lavarse"
+    },
+    "present-perfect": {
+      "yo": "he lavado",
+      "tú": "has lavado",
+      "vos": "has lavado",
+      "él/ella/usted": "ha lavado",
+      "nosotros": "hemos lavado",
+      "vosotros": "habéis lavado",
+      "ellos/ellas/ustedes": "han lavado"
     }
   },
   "QUEDARSE": {
@@ -896,6 +1652,33 @@
       "nosotros": "quedaremos",
       "vosotros": "quedaréis",
       "ellos/ellas/ustedes": "quedarán"
+    },
+    "present-progressive": {
+      "yo": "estoy quedándose",
+      "tú": "estás quedándose",
+      "vos": "estás quedándose",
+      "él/ella/usted": "está quedándose",
+      "nosotros": "estamos quedándose",
+      "vosotros": "estáis quedándose",
+      "ellos/ellas/ustedes": "están quedándose"
+    },
+    "going-to": {
+      "yo": "voy a quedarse",
+      "tú": "vas a quedarse",
+      "vos": "vas a quedarse",
+      "él/ella/usted": "va a quedarse",
+      "nosotros": "vamos a quedarse",
+      "vosotros": "vais a quedarse",
+      "ellos/ellas/ustedes": "van a quedarse"
+    },
+    "present-perfect": {
+      "yo": "he quedado",
+      "tú": "has quedado",
+      "vos": "has quedado",
+      "él/ella/usted": "ha quedado",
+      "nosotros": "hemos quedado",
+      "vosotros": "habéis quedado",
+      "ellos/ellas/ustedes": "han quedado"
     }
   },
   "IRSE": {
@@ -927,6 +1710,33 @@
       "nosotros": "iremos",
       "vosotros": "iréis",
       "ellos/ellas/ustedes": "irán"
+    },
+    "present-progressive": {
+      "yo": "estoy yéndose",
+      "tú": "estás yéndose",
+      "vos": "estás yéndose",
+      "él/ella/usted": "está yéndose",
+      "nosotros": "estamos yéndose",
+      "vosotros": "estáis yéndose",
+      "ellos/ellas/ustedes": "están yéndose"
+    },
+    "going-to": {
+      "yo": "voy a irse",
+      "tú": "vas a irse",
+      "vos": "vas a irse",
+      "él/ella/usted": "va a irse",
+      "nosotros": "vamos a irse",
+      "vosotros": "vais a irse",
+      "ellos/ellas/ustedes": "van a irse"
+    },
+    "present-perfect": {
+      "yo": "he ido",
+      "tú": "has ido",
+      "vos": "has ido",
+      "él/ella/usted": "ha ido",
+      "nosotros": "hemos ido",
+      "vosotros": "habéis ido",
+      "ellos/ellas/ustedes": "han ido"
     }
   },
   "PONERSE": {
@@ -958,6 +1768,33 @@
       "nosotros": "pondremos",
       "vosotros": "pondréis",
       "ellos/ellas/ustedes": "pondrán"
+    },
+    "present-progressive": {
+      "yo": "estoy poniéndose",
+      "tú": "estás poniéndose",
+      "vos": "estás poniéndose",
+      "él/ella/usted": "está poniéndose",
+      "nosotros": "estamos poniéndose",
+      "vosotros": "estáis poniéndose",
+      "ellos/ellas/ustedes": "están poniéndose"
+    },
+    "going-to": {
+      "yo": "voy a ponerse",
+      "tú": "vas a ponerse",
+      "vos": "vas a ponerse",
+      "él/ella/usted": "va a ponerse",
+      "nosotros": "vamos a ponerse",
+      "vosotros": "vais a ponerse",
+      "ellos/ellas/ustedes": "van a ponerse"
+    },
+    "present-perfect": {
+      "yo": "he puesto",
+      "tú": "has puesto",
+      "vos": "has puesto",
+      "él/ella/usted": "ha puesto",
+      "nosotros": "hemos puesto",
+      "vosotros": "habéis puesto",
+      "ellos/ellas/ustedes": "han puesto"
     }
   },
   "SENTIRSE": {
@@ -989,6 +1826,33 @@
       "nosotros": "sentiremos",
       "vosotros": "sentiréis",
       "ellos/ellas/ustedes": "sentirán"
+    },
+    "present-progressive": {
+      "yo": "estoy sintiéndose",
+      "tú": "estás sintiéndose",
+      "vos": "estás sintiéndose",
+      "él/ella/usted": "está sintiéndose",
+      "nosotros": "estamos sintiéndose",
+      "vosotros": "estáis sintiéndose",
+      "ellos/ellas/ustedes": "están sintiéndose"
+    },
+    "going-to": {
+      "yo": "voy a sentirse",
+      "tú": "vas a sentirse",
+      "vos": "vas a sentirse",
+      "él/ella/usted": "va a sentirse",
+      "nosotros": "vamos a sentirse",
+      "vosotros": "vais a sentirse",
+      "ellos/ellas/ustedes": "van a sentirse"
+    },
+    "present-perfect": {
+      "yo": "he sentido",
+      "tú": "has sentido",
+      "vos": "has sentido",
+      "él/ella/usted": "ha sentido",
+      "nosotros": "hemos sentido",
+      "vosotros": "habéis sentido",
+      "ellos/ellas/ustedes": "han sentido"
     }
   },
   "CREER": {
@@ -1020,6 +1884,33 @@
       "nosotros": "creeremos",
       "vosotros": "creeréis",
       "ellos/ellas/ustedes": "creerán"
+    },
+    "present-progressive": {
+      "yo": "estoy creyendo",
+      "tú": "estás creyendo",
+      "vos": "estás creyendo",
+      "él/ella/usted": "está creyendo",
+      "nosotros": "estamos creyendo",
+      "vosotros": "estáis creyendo",
+      "ellos/ellas/ustedes": "están creyendo"
+    },
+    "going-to": {
+      "yo": "voy a creer",
+      "tú": "vas a creer",
+      "vos": "vas a creer",
+      "él/ella/usted": "va a creer",
+      "nosotros": "vamos a creer",
+      "vosotros": "vais a creer",
+      "ellos/ellas/ustedes": "van a creer"
+    },
+    "present-perfect": {
+      "yo": "he creído",
+      "tú": "has creído",
+      "vos": "has creído",
+      "él/ella/usted": "ha creído",
+      "nosotros": "hemos creído",
+      "vosotros": "habéis creído",
+      "ellos/ellas/ustedes": "han creído"
     }
   },
   "OÍR": {
@@ -1051,6 +1942,33 @@
       "nosotros": "oiremos",
       "vosotros": "oiréis",
       "ellos/ellas/ustedes": "oirán"
+    },
+    "present-progressive": {
+      "yo": "estoy oyendo",
+      "tú": "estás oyendo",
+      "vos": "estás oyendo",
+      "él/ella/usted": "está oyendo",
+      "nosotros": "estamos oyendo",
+      "vosotros": "estáis oyendo",
+      "ellos/ellas/ustedes": "están oyendo"
+    },
+    "going-to": {
+      "yo": "voy a oír",
+      "tú": "vas a oír",
+      "vos": "vas a oír",
+      "él/ella/usted": "va a oír",
+      "nosotros": "vamos a oír",
+      "vosotros": "vais a oír",
+      "ellos/ellas/ustedes": "van a oír"
+    },
+    "present-perfect": {
+      "yo": "he oído",
+      "tú": "has oído",
+      "vos": "has oído",
+      "él/ella/usted": "ha oído",
+      "nosotros": "hemos oído",
+      "vosotros": "habéis oído",
+      "ellos/ellas/ustedes": "han oído"
     }
   },
   "TRAER": {
@@ -1082,6 +2000,33 @@
       "nosotros": "traeremos",
       "vosotros": "traeréis",
       "ellos/ellas/ustedes": "traerán"
+    },
+    "present-progressive": {
+      "yo": "estoy trayendo",
+      "tú": "estás trayendo",
+      "vos": "estás trayendo",
+      "él/ella/usted": "está trayendo",
+      "nosotros": "estamos trayendo",
+      "vosotros": "estáis trayendo",
+      "ellos/ellas/ustedes": "están trayendo"
+    },
+    "going-to": {
+      "yo": "voy a traer",
+      "tú": "vas a traer",
+      "vos": "vas a traer",
+      "él/ella/usted": "va a traer",
+      "nosotros": "vamos a traer",
+      "vosotros": "vais a traer",
+      "ellos/ellas/ustedes": "van a traer"
+    },
+    "present-perfect": {
+      "yo": "he traído",
+      "tú": "has traído",
+      "vos": "has traído",
+      "él/ella/usted": "ha traído",
+      "nosotros": "hemos traído",
+      "vosotros": "habéis traído",
+      "ellos/ellas/ustedes": "han traído"
     }
   },
   "CONOCER": {
@@ -1113,6 +2058,33 @@
       "nosotros": "conoceremos",
       "vosotros": "conoceréis",
       "ellos/ellas/ustedes": "conocerán"
+    },
+    "present-progressive": {
+      "yo": "estoy conociendo",
+      "tú": "estás conociendo",
+      "vos": "estás conociendo",
+      "él/ella/usted": "está conociendo",
+      "nosotros": "estamos conociendo",
+      "vosotros": "estáis conociendo",
+      "ellos/ellas/ustedes": "están conociendo"
+    },
+    "going-to": {
+      "yo": "voy a conocer",
+      "tú": "vas a conocer",
+      "vos": "vas a conocer",
+      "él/ella/usted": "va a conocer",
+      "nosotros": "vamos a conocer",
+      "vosotros": "vais a conocer",
+      "ellos/ellas/ustedes": "van a conocer"
+    },
+    "present-perfect": {
+      "yo": "he conocido",
+      "tú": "has conocido",
+      "vos": "has conocido",
+      "él/ella/usted": "ha conocido",
+      "nosotros": "hemos conocido",
+      "vosotros": "habéis conocido",
+      "ellos/ellas/ustedes": "han conocido"
     }
   },
   "LLEVAR": {
@@ -1144,6 +2116,33 @@
       "nosotros": "llevaremos",
       "vosotros": "llevaréis",
       "ellos/ellas/ustedes": "llevarán"
+    },
+    "present-progressive": {
+      "yo": "estoy llevando",
+      "tú": "estás llevando",
+      "vos": "estás llevando",
+      "él/ella/usted": "está llevando",
+      "nosotros": "estamos llevando",
+      "vosotros": "estáis llevando",
+      "ellos/ellas/ustedes": "están llevando"
+    },
+    "going-to": {
+      "yo": "voy a llevar",
+      "tú": "vas a llevar",
+      "vos": "vas a llevar",
+      "él/ella/usted": "va a llevar",
+      "nosotros": "vamos a llevar",
+      "vosotros": "vais a llevar",
+      "ellos/ellas/ustedes": "van a llevar"
+    },
+    "present-perfect": {
+      "yo": "he llevado",
+      "tú": "has llevado",
+      "vos": "has llevado",
+      "él/ella/usted": "ha llevado",
+      "nosotros": "hemos llevado",
+      "vosotros": "habéis llevado",
+      "ellos/ellas/ustedes": "han llevado"
     }
   },
   "NECESITAR": {
@@ -1175,6 +2174,33 @@
       "nosotros": "necesitaremos",
       "vosotros": "necesitaréis",
       "ellos/ellas/ustedes": "necesitarán"
+    },
+    "present-progressive": {
+      "yo": "estoy necesitando",
+      "tú": "estás necesitando",
+      "vos": "estás necesitando",
+      "él/ella/usted": "está necesitando",
+      "nosotros": "estamos necesitando",
+      "vosotros": "estáis necesitando",
+      "ellos/ellas/ustedes": "están necesitando"
+    },
+    "going-to": {
+      "yo": "voy a necesitar",
+      "tú": "vas a necesitar",
+      "vos": "vas a necesitar",
+      "él/ella/usted": "va a necesitar",
+      "nosotros": "vamos a necesitar",
+      "vosotros": "vais a necesitar",
+      "ellos/ellas/ustedes": "van a necesitar"
+    },
+    "present-perfect": {
+      "yo": "he necesitado",
+      "tú": "has necesitado",
+      "vos": "has necesitado",
+      "él/ella/usted": "ha necesitado",
+      "nosotros": "hemos necesitado",
+      "vosotros": "habéis necesitado",
+      "ellos/ellas/ustedes": "han necesitado"
     }
   },
   "GUSTAR": {
@@ -1206,6 +2232,33 @@
       "nosotros": "gustaremos",
       "vosotros": "gustaréis",
       "ellos/ellas/ustedes": "gustarán"
+    },
+    "present-progressive": {
+      "yo": "estoy gustando",
+      "tú": "estás gustando",
+      "vos": "estás gustando",
+      "él/ella/usted": "está gustando",
+      "nosotros": "estamos gustando",
+      "vosotros": "estáis gustando",
+      "ellos/ellas/ustedes": "están gustando"
+    },
+    "going-to": {
+      "yo": "voy a gustar",
+      "tú": "vas a gustar",
+      "vos": "vas a gustar",
+      "él/ella/usted": "va a gustar",
+      "nosotros": "vamos a gustar",
+      "vosotros": "vais a gustar",
+      "ellos/ellas/ustedes": "van a gustar"
+    },
+    "present-perfect": {
+      "yo": "he gustado",
+      "tú": "has gustado",
+      "vos": "has gustado",
+      "él/ella/usted": "ha gustado",
+      "nosotros": "hemos gustado",
+      "vosotros": "habéis gustado",
+      "ellos/ellas/ustedes": "han gustado"
     }
   },
   "DOLER": {
@@ -1237,6 +2290,33 @@
       "nosotros": "doleremos",
       "vosotros": "doleréis",
       "ellos/ellas/ustedes": "dolerán"
+    },
+    "present-progressive": {
+      "yo": "estoy doliendo",
+      "tú": "estás doliendo",
+      "vos": "estás doliendo",
+      "él/ella/usted": "está doliendo",
+      "nosotros": "estamos doliendo",
+      "vosotros": "estáis doliendo",
+      "ellos/ellas/ustedes": "están doliendo"
+    },
+    "going-to": {
+      "yo": "voy a doler",
+      "tú": "vas a doler",
+      "vos": "vas a doler",
+      "él/ella/usted": "va a doler",
+      "nosotros": "vamos a doler",
+      "vosotros": "vais a doler",
+      "ellos/ellas/ustedes": "van a doler"
+    },
+    "present-perfect": {
+      "yo": "he dolido",
+      "tú": "has dolido",
+      "vos": "has dolido",
+      "él/ella/usted": "ha dolido",
+      "nosotros": "hemos dolido",
+      "vosotros": "habéis dolido",
+      "ellos/ellas/ustedes": "han dolido"
     }
   },
   "ENCANTAR": {
@@ -1268,6 +2348,33 @@
       "nosotros": "encantaremos",
       "vosotros": "encantaréis",
       "ellos/ellas/ustedes": "encantarán"
+    },
+    "present-progressive": {
+      "yo": "estoy encantando",
+      "tú": "estás encantando",
+      "vos": "estás encantando",
+      "él/ella/usted": "está encantando",
+      "nosotros": "estamos encantando",
+      "vosotros": "estáis encantando",
+      "ellos/ellas/ustedes": "están encantando"
+    },
+    "going-to": {
+      "yo": "voy a encantar",
+      "tú": "vas a encantar",
+      "vos": "vas a encantar",
+      "él/ella/usted": "va a encantar",
+      "nosotros": "vamos a encantar",
+      "vosotros": "vais a encantar",
+      "ellos/ellas/ustedes": "van a encantar"
+    },
+    "present-perfect": {
+      "yo": "he encantado",
+      "tú": "has encantado",
+      "vos": "has encantado",
+      "él/ella/usted": "ha encantado",
+      "nosotros": "hemos encantado",
+      "vosotros": "habéis encantado",
+      "ellos/ellas/ustedes": "han encantado"
     }
   },
   "MOLESTAR": {
@@ -1299,6 +2406,33 @@
       "nosotros": "molestaremos",
       "vosotros": "molestaréis",
       "ellos/ellas/ustedes": "molestarán"
+    },
+    "present-progressive": {
+      "yo": "estoy molestando",
+      "tú": "estás molestando",
+      "vos": "estás molestando",
+      "él/ella/usted": "está molestando",
+      "nosotros": "estamos molestando",
+      "vosotros": "estáis molestando",
+      "ellos/ellas/ustedes": "están molestando"
+    },
+    "going-to": {
+      "yo": "voy a molestar",
+      "tú": "vas a molestar",
+      "vos": "vas a molestar",
+      "él/ella/usted": "va a molestar",
+      "nosotros": "vamos a molestar",
+      "vosotros": "vais a molestar",
+      "ellos/ellas/ustedes": "van a molestar"
+    },
+    "present-perfect": {
+      "yo": "he molestado",
+      "tú": "has molestado",
+      "vos": "has molestado",
+      "él/ella/usted": "ha molestado",
+      "nosotros": "hemos molestado",
+      "vosotros": "habéis molestado",
+      "ellos/ellas/ustedes": "han molestado"
     }
   },
   "IMPORTAR": {
@@ -1330,6 +2464,33 @@
       "nosotros": "importaremos",
       "vosotros": "importaréis",
       "ellos/ellas/ustedes": "importarán"
+    },
+    "present-progressive": {
+      "yo": "estoy importando",
+      "tú": "estás importando",
+      "vos": "estás importando",
+      "él/ella/usted": "está importando",
+      "nosotros": "estamos importando",
+      "vosotros": "estáis importando",
+      "ellos/ellas/ustedes": "están importando"
+    },
+    "going-to": {
+      "yo": "voy a importar",
+      "tú": "vas a importar",
+      "vos": "vas a importar",
+      "él/ella/usted": "va a importar",
+      "nosotros": "vamos a importar",
+      "vosotros": "vais a importar",
+      "ellos/ellas/ustedes": "van a importar"
+    },
+    "present-perfect": {
+      "yo": "he importado",
+      "tú": "has importado",
+      "vos": "has importado",
+      "él/ella/usted": "ha importado",
+      "nosotros": "hemos importado",
+      "vosotros": "habéis importado",
+      "ellos/ellas/ustedes": "han importado"
     }
   },
   "FALTAR": {
@@ -1361,6 +2522,33 @@
       "nosotros": "faltaremos",
       "vosotros": "faltaréis",
       "ellos/ellas/ustedes": "faltarán"
+    },
+    "present-progressive": {
+      "yo": "estoy faltando",
+      "tú": "estás faltando",
+      "vos": "estás faltando",
+      "él/ella/usted": "está faltando",
+      "nosotros": "estamos faltando",
+      "vosotros": "estáis faltando",
+      "ellos/ellas/ustedes": "están faltando"
+    },
+    "going-to": {
+      "yo": "voy a faltar",
+      "tú": "vas a faltar",
+      "vos": "vas a faltar",
+      "él/ella/usted": "va a faltar",
+      "nosotros": "vamos a faltar",
+      "vosotros": "vais a faltar",
+      "ellos/ellas/ustedes": "van a faltar"
+    },
+    "present-perfect": {
+      "yo": "he faltado",
+      "tú": "has faltado",
+      "vos": "has faltado",
+      "él/ella/usted": "ha faltado",
+      "nosotros": "hemos faltado",
+      "vosotros": "habéis faltado",
+      "ellos/ellas/ustedes": "han faltado"
     }
   },
   "PARECER": {
@@ -1392,6 +2580,33 @@
       "nosotros": "pareceremos",
       "vosotros": "pareceréis",
       "ellos/ellas/ustedes": "parecerán"
+    },
+    "present-progressive": {
+      "yo": "estoy pareciendo",
+      "tú": "estás pareciendo",
+      "vos": "estás pareciendo",
+      "él/ella/usted": "está pareciendo",
+      "nosotros": "estamos pareciendo",
+      "vosotros": "estáis pareciendo",
+      "ellos/ellas/ustedes": "están pareciendo"
+    },
+    "going-to": {
+      "yo": "voy a parecer",
+      "tú": "vas a parecer",
+      "vos": "vas a parecer",
+      "él/ella/usted": "va a parecer",
+      "nosotros": "vamos a parecer",
+      "vosotros": "vais a parecer",
+      "ellos/ellas/ustedes": "van a parecer"
+    },
+    "present-perfect": {
+      "yo": "he parecido",
+      "tú": "has parecido",
+      "vos": "has parecido",
+      "él/ella/usted": "ha parecido",
+      "nosotros": "hemos parecido",
+      "vosotros": "habéis parecido",
+      "ellos/ellas/ustedes": "han parecido"
     }
   },
   "PREOCUPARSE": {
@@ -1423,6 +2638,33 @@
       "nosotros": "preocuparemos",
       "vosotros": "preocuparéis",
       "ellos/ellas/ustedes": "preocuparán"
+    },
+    "present-progressive": {
+      "yo": "estoy preocupándose",
+      "tú": "estás preocupándose",
+      "vos": "estás preocupándose",
+      "él/ella/usted": "está preocupándose",
+      "nosotros": "estamos preocupándose",
+      "vosotros": "estáis preocupándose",
+      "ellos/ellas/ustedes": "están preocupándose"
+    },
+    "going-to": {
+      "yo": "voy a preocuparse",
+      "tú": "vas a preocuparse",
+      "vos": "vas a preocuparse",
+      "él/ella/usted": "va a preocuparse",
+      "nosotros": "vamos a preocuparse",
+      "vosotros": "vais a preocuparse",
+      "ellos/ellas/ustedes": "van a preocuparse"
+    },
+    "present-perfect": {
+      "yo": "he preocupado",
+      "tú": "has preocupado",
+      "vos": "has preocupado",
+      "él/ella/usted": "ha preocupado",
+      "nosotros": "hemos preocupado",
+      "vosotros": "habéis preocupado",
+      "ellos/ellas/ustedes": "han preocupado"
     }
   },
   "DIVERTIRSE": {
@@ -1454,6 +2696,33 @@
       "nosotros": "divertiremos",
       "vosotros": "divertiréis",
       "ellos/ellas/ustedes": "divertirán"
+    },
+    "present-progressive": {
+      "yo": "estoy divirtiéndose",
+      "tú": "estás divirtiéndose",
+      "vos": "estás divirtiéndose",
+      "él/ella/usted": "está divirtiéndose",
+      "nosotros": "estamos divirtiéndose",
+      "vosotros": "estáis divirtiéndose",
+      "ellos/ellas/ustedes": "están divirtiéndose"
+    },
+    "going-to": {
+      "yo": "voy a divertirse",
+      "tú": "vas a divertirse",
+      "vos": "vas a divertirse",
+      "él/ella/usted": "va a divertirse",
+      "nosotros": "vamos a divertirse",
+      "vosotros": "vais a divertirse",
+      "ellos/ellas/ustedes": "van a divertirse"
+    },
+    "present-perfect": {
+      "yo": "he divertido",
+      "tú": "has divertido",
+      "vos": "has divertido",
+      "él/ella/usted": "ha divertido",
+      "nosotros": "hemos divertido",
+      "vosotros": "habéis divertido",
+      "ellos/ellas/ustedes": "han divertido"
     }
   },
   "ENCONTRARSE": {
@@ -1485,6 +2754,33 @@
       "nosotros": "encontraremos",
       "vosotros": "encontraréis",
       "ellos/ellas/ustedes": "encontrarán"
+    },
+    "present-progressive": {
+      "yo": "estoy encontrándose",
+      "tú": "estás encontrándose",
+      "vos": "estás encontrándose",
+      "él/ella/usted": "está encontrándose",
+      "nosotros": "estamos encontrándose",
+      "vosotros": "estáis encontrándose",
+      "ellos/ellas/ustedes": "están encontrándose"
+    },
+    "going-to": {
+      "yo": "voy a encontrarse",
+      "tú": "vas a encontrarse",
+      "vos": "vas a encontrarse",
+      "él/ella/usted": "va a encontrarse",
+      "nosotros": "vamos a encontrarse",
+      "vosotros": "vais a encontrarse",
+      "ellos/ellas/ustedes": "van a encontrarse"
+    },
+    "present-perfect": {
+      "yo": "he encontrado",
+      "tú": "has encontrado",
+      "vos": "has encontrado",
+      "él/ella/usted": "ha encontrado",
+      "nosotros": "hemos encontrado",
+      "vosotros": "habéis encontrado",
+      "ellos/ellas/ustedes": "han encontrado"
     }
   }
 }

@@ -23,7 +23,7 @@ export class AppController {
         cardTypes: ['cloze'],
         tenses: ['present'],
         subjects: ['yo', 'tú', 'vos', 'él/ella/usted', 'nosotros', 'vosotros', 'ellos/ellas/ustedes'],
-        corpusTiers: [1, 2], // Which corpus tiers to include
+        corpusTiers: [1], // Which corpus tiers to include - start with Foundation only
         regions: ['universal', 'argentina', 'spain'] // Which regions to include
       },
       generatedCards: [],
@@ -95,7 +95,7 @@ export class AppController {
       
       // Load corpus data for all tiers
       const corpusData = {};
-      for (let tier = 1; tier <= 4; tier++) {
+      for (let tier = 1; tier <= 5; tier++) {
         try {
           const corpusResponse = await fetch(`data/corpus/tier${tier}-complete.json`);
           const tierData = await corpusResponse.json();
@@ -927,7 +927,46 @@ export class AppController {
       const choice = options[Math.floor(Math.random() * options.length)];
       
       // Replace "He/She" with chosen pronoun in English
-      const newEnglish = english.replace(/He\/She/g, choice.english);
+      let newEnglish = english.replace(/He\/She/g, choice.english);
+      
+      // Fix verb conjugation when "You" is selected
+      if (choice.english === 'You') {
+        // Convert third-person singular verbs to second-person
+        newEnglish = newEnglish.replace(/\bwants\b/g, 'want');
+        newEnglish = newEnglish.replace(/\bgoes\b/g, 'go');
+        newEnglish = newEnglish.replace(/\bhas\b/g, 'have');
+        newEnglish = newEnglish.replace(/\bdoes\b/g, 'do');
+        newEnglish = newEnglish.replace(/\bsays\b/g, 'say');
+        newEnglish = newEnglish.replace(/\bcomes\b/g, 'come');
+        newEnglish = newEnglish.replace(/\bneeds\b/g, 'need');
+        newEnglish = newEnglish.replace(/\btakes\b/g, 'take');
+        newEnglish = newEnglish.replace(/\bmakes\b/g, 'make');
+        newEnglish = newEnglish.replace(/\bgets\b/g, 'get');
+        newEnglish = newEnglish.replace(/\bworks\b/g, 'work');
+        newEnglish = newEnglish.replace(/\blives\b/g, 'live');
+        newEnglish = newEnglish.replace(/\bstudies\b/g, 'study');
+        newEnglish = newEnglish.replace(/\btries\b/g, 'try');
+        newEnglish = newEnglish.replace(/\bcarries\b/g, 'carry');
+        newEnglish = newEnglish.replace(/\bwears\b/g, 'wear');
+        newEnglish = newEnglish.replace(/\bfeels\b/g, 'feel');
+        newEnglish = newEnglish.replace(/\bthinks\b/g, 'think');
+        newEnglish = newEnglish.replace(/\bknows\b/g, 'know');
+        newEnglish = newEnglish.replace(/\blikes\b/g, 'like');
+        newEnglish = newEnglish.replace(/\bloves\b/g, 'love');
+        newEnglish = newEnglish.replace(/\bfinds\b/g, 'find');
+        newEnglish = newEnglish.replace(/\bbrings\b/g, 'bring');
+        newEnglish = newEnglish.replace(/\bputs\b/g, 'put');
+        newEnglish = newEnglish.replace(/\bsees\b/g, 'see');
+        newEnglish = newEnglish.replace(/\bhears\b/g, 'hear');
+        newEnglish = newEnglish.replace(/\bbelieves\b/g, 'believe');
+        newEnglish = newEnglish.replace(/\bunderstands\b/g, 'understand');
+        newEnglish = newEnglish.replace(/\bseems\b/g, 'seem');
+        newEnglish = newEnglish.replace(/\bmatters\b/g, 'matter');
+        newEnglish = newEnglish.replace(/\bbothers\b/g, 'bother');
+        newEnglish = newEnglish.replace(/\bhurts\b/g, 'hurt');
+        // Handle "is" -> "are" for "You"
+        newEnglish = newEnglish.replace(/\bis\b/g, 'are');
+      }
       // Add explicit pronoun to Spanish if not already present
       const newSpanish = spanish.startsWith('Es ') ? `${choice.spanish} es ${spanish.substring(3)}` : spanish;
       
@@ -936,15 +975,28 @@ export class AppController {
     
     if (originalSubject === 'ellos/ellas/ustedes') {
       const options = [
-        { english: 'They (men)', spanish: 'Ellos' },
-        { english: 'They (women)', spanish: 'Ellas' },
-        { english: 'They (mixed)', spanish: 'Ellos' },
-        { english: 'You all', spanish: 'Ustedes' }
+        { english: 'They (men)', spanish: 'Ellos', possessive: 'their' },
+        { english: 'They (women)', spanish: 'Ellas', possessive: 'their' },
+        { english: 'They (mixed)', spanish: 'Ellos', possessive: 'their' },
+        { english: 'You all', spanish: 'Ustedes', possessive: 'your' }
       ];
       const choice = options[Math.floor(Math.random() * options.length)];
       
       // Replace "They" with chosen form in English
-      const newEnglish = english.replace(/They/g, choice.english);
+      let newEnglish = english.replace(/They/g, choice.english);
+      
+      // Handle possessive pronoun replacement and additional pronoun instances
+      if (choice.possessive === 'your') {
+        // Replace "their" with "your" when "You all" is selected
+        newEnglish = newEnglish.replace(/their/g, 'your');
+        // Replace additional instances of "they" with "you all" for consistency
+        newEnglish = newEnglish.replace(/\bthey\b/g, 'you all');
+        // Replace reflexive pronouns that refer back to the same subject
+        newEnglish = newEnglish.replace(/themselves/g, 'yourselves');
+        // Replace "them" with "you" when it refers to the same group
+        newEnglish = newEnglish.replace(/\bthem\b/g, 'you');
+      }
+      
       // Add explicit pronoun to Spanish if not already present
       const newSpanish = spanish.startsWith('Son ') ? `${choice.spanish} son ${spanish.substring(4)}` : spanish;
       

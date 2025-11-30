@@ -2,12 +2,15 @@
   "metadata": {
     "tier": 4,
     "description": "Advanced verbs - specialized actions and complex constructions",
-    "verb_count": 10,
-    "sentence_count": 210,
+    "verb_count": 9,
+    "sentence_count": 231,
     "tenses": [
       "present",
       "preterite",
-      "future"
+      "future",
+      "present-progressive",
+      "going-to",
+      "present-perfect"
     ],
     "subjects": [
       "yo",
@@ -45,13 +48,14 @@
           "region": "universal",
           "source": "family_concern",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb",
-            "reflexive"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -61,13 +65,14 @@
           "region": "universal",
           "source": "work_stress",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb",
-            "reflexive"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -77,13 +82,14 @@
           "region": "argentina",
           "source": "anxiety_advice",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb",
-            "reflexive"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -93,13 +99,14 @@
           "region": "universal",
           "source": "parental_concern",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb",
-            "reflexive"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -109,13 +116,14 @@
           "region": "universal",
           "source": "environmental_concern",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb",
-            "reflexive"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -125,13 +133,14 @@
           "region": "spain",
           "source": "elderly_care_concern",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb",
-            "reflexive"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -141,13 +150,14 @@
           "region": "universal",
           "source": "economic_anxiety",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb",
-            "reflexive"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -159,13 +169,14 @@
           "region": "universal",
           "source": "family_concern",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb",
-            "reflexive"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -175,13 +186,14 @@
           "region": "universal",
           "source": "academic_anxiety",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb",
-            "reflexive"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -191,13 +203,14 @@
           "region": "argentina",
           "source": "sibling_concern",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb",
-            "reflexive"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -207,13 +220,14 @@
           "region": "universal",
           "source": "elderly_care_concern",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb",
-            "reflexive"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -223,13 +237,14 @@
           "region": "universal",
           "source": "business_uncertainty",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb",
-            "reflexive"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -239,13 +254,14 @@
           "region": "spain",
           "source": "project_anxiety",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb",
-            "reflexive"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -255,13 +271,14 @@
           "region": "universal",
           "source": "community_safety",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb",
-            "reflexive"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -273,13 +290,14 @@
           "region": "universal",
           "source": "parental_relief",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb",
-            "reflexive"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -289,13 +307,14 @@
           "region": "universal",
           "source": "parenting_anticipation",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb",
-            "reflexive"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -305,13 +324,14 @@
           "region": "argentina",
           "source": "vacation_planning",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb",
-            "reflexive"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -321,13 +341,14 @@
           "region": "universal",
           "source": "retirement_planning",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb",
-            "reflexive"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -337,13 +358,14 @@
           "region": "universal",
           "source": "environmental_concern",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb",
-            "reflexive"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -353,13 +375,14 @@
           "region": "spain",
           "source": "grandparent_anticipation",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb",
-            "reflexive"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -369,16 +392,20 @@
           "region": "universal",
           "source": "digital_privacy",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
+            "reflexive:true",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb",
-            "reflexive"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
-      ]
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
     },
     "DIVERTIRSE": {
       "metadata": {
@@ -401,14 +428,16 @@
           "region": "universal",
           "source": "family_celebration",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:yo",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -418,14 +447,16 @@
           "region": "universal",
           "source": "gaming_entertainment",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:tú",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -435,14 +466,16 @@
           "region": "argentina",
           "source": "cultural_dance",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:vos",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -452,14 +485,16 @@
           "region": "universal",
           "source": "reading_entertainment",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:él/ella/usted",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -469,14 +504,16 @@
           "region": "universal",
           "source": "sports_recreation",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:nosotros",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -486,14 +523,16 @@
           "region": "spain",
           "source": "karaoke_entertainment",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:spain",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:vosotros",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -503,14 +542,16 @@
           "region": "universal",
           "source": "culinary_exploration",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:ellos/ellas/ustedes",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         }
       ],
@@ -522,14 +563,16 @@
           "region": "universal",
           "source": "party_enjoyment",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:yo",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -539,14 +582,16 @@
           "region": "universal",
           "source": "amusement_park_fun",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:tú",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -556,14 +601,16 @@
           "region": "argentina",
           "source": "tango_dancing",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:vos",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -573,14 +620,16 @@
           "region": "universal",
           "source": "grandparent_play",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:él/ella/usted",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -590,14 +639,16 @@
           "region": "universal",
           "source": "city_exploration",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:nosotros",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -607,14 +658,16 @@
           "region": "spain",
           "source": "karaoke_night",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:spain",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:vosotros",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -624,14 +677,16 @@
           "region": "universal",
           "source": "hotel_recreation",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:ellos/ellas/ustedes",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         }
       ],
@@ -643,14 +698,16 @@
           "region": "universal",
           "source": "vacation_anticipation",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:yo",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -660,14 +717,16 @@
           "region": "universal",
           "source": "musical_learning",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:tú",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -677,14 +736,16 @@
           "region": "argentina",
           "source": "nightlife_exploration",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:vos",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -694,14 +755,16 @@
           "region": "universal",
           "source": "european_adventure",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:él/ella/usted",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -711,14 +774,16 @@
           "region": "universal",
           "source": "cooking_activity",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:nosotros",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -728,14 +793,16 @@
           "region": "spain",
           "source": "music_festival",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:spain",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:vosotros",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -745,17 +812,22 @@
           "region": "universal",
           "source": "water_sports",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
             "subject:ellos/ellas/ustedes",
-            "ir-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         }
-      ]
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
     },
     "ENCONTRARSE": {
       "metadata": {
@@ -778,14 +850,16 @@
           "region": "universal",
           "source": "post_vacation_wellness",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:yo",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -795,14 +869,16 @@
           "region": "universal",
           "source": "weekly_social_meeting",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:tú",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -812,14 +888,16 @@
           "region": "argentina",
           "source": "advantageous_position",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:vos",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -829,14 +907,16 @@
           "region": "universal",
           "source": "work_engagement",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:él/ella/usted",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -846,14 +926,16 @@
           "region": "universal",
           "source": "morning_meeting_routine",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:nosotros",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -863,14 +945,16 @@
           "region": "spain",
           "source": "satisfaction_with_results",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:spain",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:vosotros",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -880,14 +964,16 @@
           "region": "universal",
           "source": "exam_preparation",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:ellos/ellas/ustedes",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -899,14 +985,16 @@
           "region": "universal",
           "source": "unexpected_encounter",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:yo",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -916,14 +1004,16 @@
           "region": "universal",
           "source": "post_vacation_wellness",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:tú",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -933,14 +1023,16 @@
           "region": "argentina",
           "source": "awkward_encounter",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:vos",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -950,14 +1042,16 @@
           "region": "universal",
           "source": "navigation_confusion",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:él/ella/usted",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -967,14 +1061,16 @@
           "region": "universal",
           "source": "chance_meeting",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:nosotros",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -984,14 +1080,16 @@
           "region": "spain",
           "source": "travel_fatigue",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:spain",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:vosotros",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -1001,14 +1099,16 @@
           "region": "universal",
           "source": "project_obstacles",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:ellos/ellas/ustedes",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -1020,14 +1120,16 @@
           "region": "universal",
           "source": "medical_recovery",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:yo",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -1037,14 +1139,16 @@
           "region": "universal",
           "source": "new_city_opportunities",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:tú",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -1054,14 +1158,16 @@
           "region": "argentina",
           "source": "reunion_anticipation",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:argentina",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:vos",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -1071,14 +1177,16 @@
           "region": "universal",
           "source": "job_satisfaction",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:él/ella/usted",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -1088,14 +1196,16 @@
           "region": "universal",
           "source": "circumstance_change",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:nosotros",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -1105,14 +1215,16 @@
           "region": "spain",
           "source": "travel_surprises",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:spain",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:vosotros",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -1122,17 +1234,22 @@
           "region": "universal",
           "source": "international_business",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
+            "reflexive:true",
             "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
             "subject:ellos/ellas/ustedes",
-            "ar-verb",
-            "reflexive",
-            "stem-changing"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
-      ]
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
     },
     "CREER": {
       "metadata": {
@@ -1153,12 +1270,14 @@
           "region": "universal",
           "source": "personal_values",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:yo",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1168,12 +1287,14 @@
           "region": "universal",
           "source": "optimistic_worldview",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:tú",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1183,12 +1304,14 @@
           "region": "argentina",
           "source": "positive_outlook",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:vos",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1198,12 +1321,14 @@
           "region": "universal",
           "source": "dream_pursuit",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1213,12 +1338,14 @@
           "region": "universal",
           "source": "educational_values",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:nosotros",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1228,12 +1355,14 @@
           "region": "spain",
           "source": "sports_confidence",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:vosotros",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1243,12 +1372,14 @@
           "region": "universal",
           "source": "technology_optimism",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         }
       ],
@@ -1260,12 +1391,14 @@
           "region": "universal",
           "source": "reality_check",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:yo",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1275,12 +1408,14 @@
           "region": "universal",
           "source": "faith_support",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:tú",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1290,12 +1425,14 @@
           "region": "argentina",
           "source": "wishful_thinking",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:vos",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1305,12 +1442,14 @@
           "region": "universal",
           "source": "project_faith",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1320,12 +1459,14 @@
           "region": "universal",
           "source": "timing_miscalculation",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:nosotros",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1335,12 +1476,14 @@
           "region": "spain",
           "source": "exam_expectation",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:vosotros",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1350,12 +1493,14 @@
           "region": "universal",
           "source": "achievement_surprise",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         }
       ],
@@ -1367,12 +1512,14 @@
           "region": "universal",
           "source": "unconditional_support",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:yo",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1382,12 +1529,14 @@
           "region": "universal",
           "source": "transformative_experience",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:tú",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1397,12 +1546,14 @@
           "region": "argentina",
           "source": "self_confidence",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:vos",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1412,12 +1563,14 @@
           "region": "universal",
           "source": "educational_values",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1427,12 +1580,14 @@
           "region": "universal",
           "source": "parental_hope",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:nosotros",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1442,12 +1597,14 @@
           "region": "spain",
           "source": "skill_development",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:vosotros",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         },
         {
@@ -1457,15 +1614,20 @@
           "region": "universal",
           "source": "technological_optimism",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
+            "spelling-change:preterite",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb"
           ]
         }
-      ]
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
     },
     "OÍR": {
       "metadata": {
@@ -1486,12 +1648,13 @@
           "region": "universal",
           "source": "concentration_aid",
           "tags": [
-            "present",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:yo",
-            "ir-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1501,12 +1664,13 @@
           "region": "universal",
           "source": "nighttime_sounds",
           "tags": [
-            "present",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:tú",
-            "ir-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1516,12 +1680,13 @@
           "region": "argentina",
           "source": "news_consumption",
           "tags": [
-            "present",
-            "tier:4",
-            "highly-irregular",
             "region:argentina",
+            "regularity:highly-irregular",
             "subject:vos",
-            "ir-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1531,12 +1696,13 @@
           "region": "universal",
           "source": "office_environment",
           "tags": [
-            "present",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:él/ella/usted",
-            "ir-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1546,12 +1712,13 @@
           "region": "universal",
           "source": "nature_sounds",
           "tags": [
-            "present",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:nosotros",
-            "ir-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1561,12 +1728,13 @@
           "region": "spain",
           "source": "outdoor_entertainment",
           "tags": [
-            "present",
-            "tier:4",
-            "highly-irregular",
             "region:spain",
+            "regularity:highly-irregular",
             "subject:vosotros",
-            "ir-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1576,12 +1744,13 @@
           "region": "universal",
           "source": "distant_recognition",
           "tags": [
-            "present",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:ellos/ellas/ustedes",
-            "ir-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         }
       ],
@@ -1593,12 +1762,13 @@
           "region": "universal",
           "source": "mysterious_sounds",
           "tags": [
-            "preterite",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:yo",
-            "ir-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1608,12 +1778,13 @@
           "region": "universal",
           "source": "news_discovery",
           "tags": [
-            "preterite",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:tú",
-            "ir-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1623,12 +1794,13 @@
           "region": "argentina",
           "source": "concert_experience",
           "tags": [
-            "preterite",
-            "tier:4",
-            "highly-irregular",
             "region:argentina",
+            "regularity:highly-irregular",
             "subject:vos",
-            "ir-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1638,12 +1810,13 @@
           "region": "universal",
           "source": "victory_announcement",
           "tags": [
-            "preterite",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:él/ella/usted",
-            "ir-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1653,12 +1826,13 @@
           "region": "universal",
           "source": "political_event",
           "tags": [
-            "preterite",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:nosotros",
-            "ir-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1668,12 +1842,13 @@
           "region": "spain",
           "source": "performance_success",
           "tags": [
-            "preterite",
-            "tier:4",
-            "highly-irregular",
             "region:spain",
+            "regularity:highly-irregular",
             "subject:vosotros",
-            "ir-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1683,12 +1858,13 @@
           "region": "universal",
           "source": "distant_emergency",
           "tags": [
-            "preterite",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:ellos/ellas/ustedes",
-            "ir-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         }
       ],
@@ -1700,12 +1876,13 @@
           "region": "universal",
           "source": "meeting_anticipation",
           "tags": [
-            "future",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:yo",
-            "ir-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1715,12 +1892,13 @@
           "region": "universal",
           "source": "festival_anticipation",
           "tags": [
-            "future",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:tú",
-            "ir-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1730,12 +1908,13 @@
           "region": "argentina",
           "source": "musical_surprise",
           "tags": [
-            "future",
-            "tier:4",
-            "highly-irregular",
             "region:argentina",
+            "regularity:highly-irregular",
             "subject:vos",
-            "ir-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1745,12 +1924,13 @@
           "region": "universal",
           "source": "result_notification",
           "tags": [
-            "future",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:él/ella/usted",
-            "ir-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1760,12 +1940,13 @@
           "region": "universal",
           "source": "project_optimism",
           "tags": [
-            "future",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:nosotros",
-            "ir-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1775,12 +1956,13 @@
           "region": "spain",
           "source": "wedding_celebration",
           "tags": [
-            "future",
-            "tier:4",
-            "highly-irregular",
             "region:spain",
+            "regularity:highly-irregular",
             "subject:vosotros",
-            "ir-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         },
         {
@@ -1790,15 +1972,19 @@
           "region": "universal",
           "source": "graduation_recognition",
           "tags": [
-            "future",
-            "tier:4",
-            "highly-irregular",
             "region:universal",
+            "regularity:highly-irregular",
             "subject:ellos/ellas/ustedes",
-            "ir-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ir",
+            "word-type:verb"
           ]
         }
-      ]
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
     },
     "TRAER": {
       "metadata": {
@@ -1819,12 +2005,14 @@
           "region": "universal",
           "source": "meal_preparation",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:yo",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1834,12 +2022,14 @@
           "region": "universal",
           "source": "positive_messenger",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:tú",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1849,12 +2039,14 @@
           "region": "argentina",
           "source": "travel_souvenirs",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:argentina",
+            "regularity:irregular",
             "subject:vos",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1864,12 +2056,14 @@
           "region": "universal",
           "source": "home_decoration",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1879,12 +2073,14 @@
           "region": "universal",
           "source": "office_sharing",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:nosotros",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1894,12 +2090,14 @@
           "region": "spain",
           "source": "meeting_atmosphere",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:spain",
+            "regularity:irregular",
             "subject:vosotros",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1909,12 +2107,14 @@
           "region": "universal",
           "source": "cultural_exchange",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         }
       ],
@@ -1926,12 +2126,14 @@
           "region": "universal",
           "source": "home_decoration",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:yo",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1941,12 +2143,14 @@
           "region": "universal",
           "source": "travel_souvenirs",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:tú",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1956,12 +2160,14 @@
           "region": "argentina",
           "source": "positive_update",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:argentina",
+            "regularity:irregular",
             "subject:vos",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1971,12 +2177,14 @@
           "region": "universal",
           "source": "professional_contribution",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -1986,12 +2194,14 @@
           "region": "universal",
           "source": "office_sharing",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:nosotros",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2001,12 +2211,14 @@
           "region": "spain",
           "source": "dinner_contribution",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:spain",
+            "regularity:irregular",
             "subject:vosotros",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2016,12 +2228,14 @@
           "region": "universal",
           "source": "project_innovation",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         }
       ],
@@ -2033,12 +2247,14 @@
           "region": "universal",
           "source": "party_entertainment",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:yo",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2048,12 +2264,14 @@
           "region": "universal",
           "source": "team_contribution",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:tú",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2063,12 +2281,14 @@
           "region": "argentina",
           "source": "family_happiness",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:argentina",
+            "regularity:irregular",
             "subject:vos",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2078,12 +2298,14 @@
           "region": "universal",
           "source": "corporate_improvement",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2093,12 +2315,14 @@
           "region": "universal",
           "source": "conference_planning",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:nosotros",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2108,12 +2332,14 @@
           "region": "spain",
           "source": "cultural_transmission",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:spain",
+            "regularity:irregular",
             "subject:vosotros",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         },
         {
@@ -2123,15 +2349,20 @@
           "region": "universal",
           "source": "technology_introduction",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
           ]
         }
-      ]
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
     },
     "CONOCER": {
       "metadata": {
@@ -2152,12 +2383,14 @@
           "region": "universal",
           "source": "long_friendship",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:yo",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2167,12 +2400,14 @@
           "region": "universal",
           "source": "local_expertise",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:tú",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2182,12 +2417,14 @@
           "region": "argentina",
           "source": "neighborhood_knowledge",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:argentina",
+            "regularity:irregular",
             "subject:vos",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2197,12 +2434,14 @@
           "region": "universal",
           "source": "travel_experience",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2212,12 +2451,14 @@
           "region": "universal",
           "source": "dining_familiarity",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:nosotros",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2227,12 +2468,14 @@
           "region": "spain",
           "source": "historical_knowledge",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:spain",
+            "regularity:irregular",
             "subject:vosotros",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2242,12 +2485,14 @@
           "region": "universal",
           "source": "political_connections",
           "tags": [
-            "present",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         }
       ],
@@ -2259,12 +2504,14 @@
           "region": "universal",
           "source": "friendship_origin",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:yo",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2274,12 +2521,14 @@
           "region": "universal",
           "source": "travel_discovery",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:tú",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2289,12 +2538,14 @@
           "region": "argentina",
           "source": "professional_networking",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:argentina",
+            "regularity:irregular",
             "subject:vos",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2304,12 +2555,14 @@
           "region": "universal",
           "source": "career_achievement",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2319,12 +2572,14 @@
           "region": "universal",
           "source": "cultural_immersion",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:nosotros",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2334,12 +2589,14 @@
           "region": "spain",
           "source": "secret_revelation",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:spain",
+            "regularity:irregular",
             "subject:vosotros",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2349,12 +2606,14 @@
           "region": "universal",
           "source": "job_challenges",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         }
       ],
@@ -2366,12 +2625,14 @@
           "region": "universal",
           "source": "retirement_travel",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:yo",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2381,12 +2642,14 @@
           "region": "universal",
           "source": "job_networking",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:tú",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2396,12 +2659,14 @@
           "region": "argentina",
           "source": "romantic_destiny",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:argentina",
+            "regularity:irregular",
             "subject:vos",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2411,12 +2676,14 @@
           "region": "universal",
           "source": "business_success",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:él/ella/usted",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2426,12 +2693,14 @@
           "region": "universal",
           "source": "research_outcome",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:nosotros",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2441,12 +2710,14 @@
           "region": "spain",
           "source": "documentary_education",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:spain",
+            "regularity:irregular",
             "subject:vosotros",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         },
         {
@@ -2456,15 +2727,20 @@
           "region": "universal",
           "source": "consequence_realization",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:irregular",
             "subject:ellos/ellas/ustedes",
-            "er-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
           ]
         }
-      ]
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
     },
     "LLEVAR": {
       "metadata": {
@@ -2485,12 +2761,13 @@
           "region": "universal",
           "source": "work_routine",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2500,12 +2777,13 @@
           "region": "universal",
           "source": "lifestyle_description",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2515,12 +2793,13 @@
           "region": "argentina",
           "source": "fashion_compliment",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2530,12 +2809,13 @@
           "region": "universal",
           "source": "eye_protection",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2545,12 +2825,13 @@
           "region": "universal",
           "source": "party_contribution",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2560,12 +2841,13 @@
           "region": "spain",
           "source": "residential_stability",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2575,12 +2857,13 @@
           "region": "universal",
           "source": "relationship_description",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -2592,12 +2875,13 @@
           "region": "universal",
           "source": "family_assistance",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2607,12 +2891,13 @@
           "region": "universal",
           "source": "lifestyle_description",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2622,12 +2907,13 @@
           "region": "argentina",
           "source": "project_leadership",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2637,12 +2923,13 @@
           "region": "universal",
           "source": "hospital_visit",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2652,12 +2939,13 @@
           "region": "universal",
           "source": "party_contribution",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2667,12 +2955,13 @@
           "region": "spain",
           "source": "plan_execution",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2682,12 +2971,13 @@
           "region": "universal",
           "source": "business_growth",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -2699,12 +2989,13 @@
           "region": "universal",
           "source": "family_entertainment",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2714,12 +3005,13 @@
           "region": "universal",
           "source": "life_prediction",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2729,12 +3021,13 @@
           "region": "argentina",
           "source": "sports_leadership",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2744,12 +3037,13 @@
           "region": "universal",
           "source": "artistic_success",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2759,12 +3053,13 @@
           "region": "universal",
           "source": "cultural_preservation",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2774,12 +3069,13 @@
           "region": "spain",
           "source": "innovation_commercialization",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2789,12 +3085,355 @@
           "region": "universal",
           "source": "technology_outreach",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Estoy llevando mi mochila al trabajo cada día.",
+          "english": "I am carrying my backpack to work every day.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "work_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estás llevando una vida muy activa y saludable.",
+          "english": "You are carrying a very active and healthy life.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "lifestyle_description",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estás llevando un vestido muy elegante hoy.",
+          "english": "You're wearing a very elegant dress today.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "fashion_compliment",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "subject:vos",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está llevando gafas de sol porque le molesta la luz.",
+          "english": "He/She is carrying sunglasses because light bothers him/her.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "eye_protection",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él/ella/usted",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estamos llevando comida deliciosa a la fiesta.",
+          "english": "We are carrying delicious food to the party.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "party_contribution",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estáis llevando años viviendo en el mismo barrio.",
+          "english": "You all are carrying have been living in the same neighborhood for years.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "residential_stability",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "subject:vosotros",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Están llevando una relación muy feliz juntos.",
+          "english": "They are carrying a very happy relationship together.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "relationship_description",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ellos/ellas/ustedes",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Voy a llevar mi mochila al trabajo cada día.",
+          "english": "I'm going to carry my backpack to work every day.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "work_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vas a llevar una vida muy activa y saludable.",
+          "english": "You're going to carry a very active and healthy life.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "lifestyle_description",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vas a llevar un vestido muy elegante hoy.",
+          "english": "You're wearing a very elegant dress today.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "fashion_compliment",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "subject:vos",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a llevar gafas de sol porque le molesta la luz.",
+          "english": "He/She is going to carry sunglasses because light bothers him/her.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "eye_protection",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él/ella/usted",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vamos a llevar comida deliciosa a la fiesta.",
+          "english": "We're going to carry delicious food to the party.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "party_contribution",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vais a llevar años viviendo en el mismo barrio.",
+          "english": "You all are going to carry have been living in the same neighborhood for years.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "residential_stability",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "subject:vosotros",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Van a llevar una relación muy feliz juntos.",
+          "english": "They're going to carry a very happy relationship together.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "relationship_description",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ellos/ellas/ustedes",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "He llevado mi mochila al trabajo cada día.",
+          "english": "I have carried my backpack to work every day.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "work_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Has llevado una vida muy activa y saludable.",
+          "english": "You have carried a very active and healthy life.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "lifestyle_description",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Has llevado un vestido muy elegante hoy.",
+          "english": "You're wearing a very elegant dress today.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "fashion_compliment",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "subject:vos",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha llevado gafas de sol porque le molesta la luz.",
+          "english": "He/She has carried sunglasses because light bothers him/her.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "eye_protection",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él/ella/usted",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Hemos llevado comida deliciosa a la fiesta.",
+          "english": "We have carried delicious food to the party.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "party_contribution",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Habéis llevado años viviendo en el mismo barrio.",
+          "english": "You all have carried have been living in the same neighborhood for years.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "residential_stability",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "subject:vosotros",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Han llevado una relación muy feliz juntos.",
+          "english": "They have carried a very happy relationship together.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "relationship_description",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ellos/ellas/ustedes",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ]
@@ -2818,12 +3457,13 @@
           "region": "universal",
           "source": "work_deadline",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2833,12 +3473,13 @@
           "region": "universal",
           "source": "health_advice",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2848,12 +3489,13 @@
           "region": "argentina",
           "source": "moving_assistance",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2863,12 +3505,13 @@
           "region": "universal",
           "source": "medical_urgency",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2878,12 +3521,13 @@
           "region": "universal",
           "source": "family_transportation",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2893,12 +3537,13 @@
           "region": "spain",
           "source": "academic_preparation",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2908,12 +3553,13 @@
           "region": "universal",
           "source": "access_requirement",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb"
+            "tense:present",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -2925,12 +3571,13 @@
           "region": "universal",
           "source": "project_assistance",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2940,12 +3587,13 @@
           "region": "universal",
           "source": "brave_decision",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2955,12 +3603,13 @@
           "region": "argentina",
           "source": "emotional_processing",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2970,12 +3619,13 @@
           "region": "universal",
           "source": "medical_emergency",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -2985,12 +3635,13 @@
           "region": "universal",
           "source": "home_financing",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3000,12 +3651,13 @@
           "region": "spain",
           "source": "event_planning",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3015,12 +3667,13 @@
           "region": "universal",
           "source": "exam_persistence",
           "tags": [
-            "preterite",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb"
+            "tense:preterite",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
@@ -3032,12 +3685,13 @@
           "region": "universal",
           "source": "emotional_support",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3047,12 +3701,13 @@
           "region": "universal",
           "source": "travel_documentation",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3062,12 +3717,13 @@
           "region": "argentina",
           "source": "academic_preparation",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:argentina",
+            "regularity:regular",
             "subject:vos",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3077,12 +3733,13 @@
           "region": "universal",
           "source": "job_requirements",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:él/ella/usted",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3092,12 +3749,13 @@
           "region": "universal",
           "source": "research_timeline",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:nosotros",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3107,12 +3765,13 @@
           "region": "spain",
           "source": "dining_reservation",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:spain",
+            "regularity:regular",
             "subject:vosotros",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
@@ -3122,177 +3781,355 @@
           "region": "universal",
           "source": "business_competition",
           "tags": [
-            "future",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:ellos/ellas/ustedes",
-            "ar-verb"
+            "tense:future",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
-      ]
-    },
-    "FALTAR": {
-      "metadata": {
-        "english": "to lack/be missing",
-        "verb_type": "ar",
-        "regularity": "regular",
-        "special_construction": "indirect-object",
-        "tags": [
-          "backwards-verb",
-          "tier:4"
-        ]
-      },
-      "present": [
+      ],
+      "present-progressive": [
         {
-          "spanish": "Me faltan cinco euros para comprar el libro.",
-          "english": "I'm missing five euros to buy the book.",
+          "spanish": "Estoy necesitando más tiempo para terminar el proyecto.",
+          "english": "I am needing more time to finish the project.",
           "subject": "yo",
           "region": "universal",
-          "source": "money_shortage",
+          "source": "work_deadline",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "ar-verb",
-            "backwards-verb"
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
-          "spanish": "Te falta experiencia en este trabajo.",
-          "english": "You lack experience in this job.",
+          "spanish": "Estás necesitando descansar después de tanto trabajo.",
+          "english": "You are needing to rest after so much work.",
           "subject": "tú",
           "region": "universal",
-          "source": "skill_assessment",
+          "source": "health_advice",
           "tags": [
-            "present",
-            "tier:4",
-            "regular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "ar-verb",
-            "backwards-verb"
-          ]
-        }
-      ],
-      "preterite": [
-        {
-          "spanish": "Me faltó tiempo para terminar el examen.",
-          "english": "I lacked time to finish the exam.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "time_pressure",
-          "tags": [
-            "preterite",
+            "tense:present-progressive",
             "tier:4",
-            "regular",
-            "region:universal",
-            "subject:yo",
-            "ar-verb",
-            "backwards-verb"
-          ]
-        }
-      ],
-      "future": [
-        {
-          "spanish": "Te faltarán ingredientes para la receta.",
-          "english": "You will be missing ingredients for the recipe.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "cooking_preparation",
-          "tags": [
-            "future",
-            "tier:4",
-            "regular",
-            "region:universal",
-            "subject:tú",
-            "ar-verb",
-            "backwards-verb"
-          ]
-        }
-      ]
-    },
-    "PARECER": {
-      "metadata": {
-        "english": "to seem/appear",
-        "verb_type": "er",
-        "regularity": "irregular",
-        "yo_form": "zco",
-        "special_construction": "indirect-object",
-        "tags": [
-          "backwards-verb",
-          "tier:4"
-        ]
-      },
-      "present": [
-        {
-          "spanish": "Me parece una buena idea.",
-          "english": "It seems like a good idea to me.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "opinion_expression",
-          "tags": [
-            "present",
-            "tier:4",
-            "irregular",
-            "region:universal",
-            "subject:yo",
-            "er-verb",
-            "backwards-verb"
+            "verb-type:ar",
+            "word-type:verb"
           ]
         },
         {
-          "spanish": "Te parecen interesantes estos libros.",
-          "english": "These books seem interesting to you.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "book_evaluation",
+          "spanish": "Estás necesitando ayuda con la mudanza.",
+          "english": "You are needing help with the move.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "moving_assistance",
           "tags": [
-            "present",
+            "region:argentina",
+            "regularity:regular",
+            "subject:vos",
+            "tense:present-progressive",
             "tier:4",
-            "irregular",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está necesitando hablar con el doctor urgentemente.",
+          "english": "He/She is needing to talk to the doctor urgently.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "medical_urgency",
+          "tags": [
             "region:universal",
-            "subject:tú",
-            "er-verb",
-            "backwards-verb"
+            "regularity:regular",
+            "subject:él/ella/usted",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estamos necesitando un coche más grande para la familia.",
+          "english": "We are needing a bigger car for the family.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "family_transportation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estáis necesitando estudiar más para el examen.",
+          "english": "You all are needing need to study more for the exam.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "academic_preparation",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "subject:vosotros",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Están necesitando permiso especial para entrar.",
+          "english": "They are needing special permission to enter.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "access_requirement",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ellos/ellas/ustedes",
+            "tense:present-progressive",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
-      "preterite": [
+      "going-to": [
         {
-          "spanish": "Me pareció extraño su comportamiento.",
-          "english": "His/Her behavior seemed strange to me.",
+          "spanish": "Voy a necesitar más tiempo para terminar el proyecto.",
+          "english": "I'm going to need more time to finish the project.",
           "subject": "yo",
           "region": "universal",
-          "source": "behavior_observation",
+          "source": "work_deadline",
           "tags": [
-            "preterite",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:regular",
             "subject:yo",
-            "er-verb",
-            "backwards-verb"
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vas a necesitar descansar después de tanto trabajo.",
+          "english": "You're going to need to rest after so much work.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "health_advice",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vas a necesitar ayuda con la mudanza.",
+          "english": "You're going to need help with the move.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "moving_assistance",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "subject:vos",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a necesitar hablar con el doctor urgentemente.",
+          "english": "He/She is going to need to talk to the doctor urgently.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "medical_urgency",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él/ella/usted",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vamos a necesitar un coche más grande para la familia.",
+          "english": "We're going to need a bigger car for the family.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "family_transportation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vais a necesitar estudiar más para el examen.",
+          "english": "You all are going to need need to study more for the exam.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "academic_preparation",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "subject:vosotros",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Van a necesitar permiso especial para entrar.",
+          "english": "They're going to need special permission to enter.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "access_requirement",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ellos/ellas/ustedes",
+            "tense:going-to",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ],
-      "future": [
+      "present-perfect": [
         {
-          "spanish": "Te parecerá difícil al principio.",
-          "english": "It will seem difficult to you at first.",
+          "spanish": "He necesitado más tiempo para terminar el proyecto.",
+          "english": "I have neededed more time to finish the project.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "work_deadline",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Has necesitado descansar después de tanto trabajo.",
+          "english": "You have neededed to rest after so much work.",
           "subject": "tú",
           "region": "universal",
-          "source": "learning_prediction",
+          "source": "health_advice",
           "tags": [
-            "future",
-            "tier:4",
-            "irregular",
             "region:universal",
+            "regularity:regular",
             "subject:tú",
-            "er-verb",
-            "backwards-verb"
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Has necesitado ayuda con la mudanza.",
+          "english": "You have neededed help with the move.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "moving_assistance",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "subject:vos",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha necesitado hablar con el doctor urgentemente.",
+          "english": "He/She has neededed to talk to the doctor urgently.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "medical_urgency",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él/ella/usted",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Hemos necesitado un coche más grande para la familia.",
+          "english": "We have neededed a bigger car for the family.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "family_transportation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Habéis necesitado estudiar más para el examen.",
+          "english": "You all have neededed need to study more for the exam.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "academic_preparation",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "subject:vosotros",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Han necesitado permiso especial para entrar.",
+          "english": "They have neededed special permission to enter.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "access_requirement",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ellos/ellas/ustedes",
+            "tense:present-perfect",
+            "tier:4",
+            "verb-type:ar",
+            "word-type:verb"
           ]
         }
       ]

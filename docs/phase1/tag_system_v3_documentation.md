@@ -19,14 +19,16 @@ verb-tense:future:irregular;verb-tense:preterite:irregular
 
 ### tier (REQUIRED)
 Learning priority for progressive study
-- `tier:1` - Most essential (foundation)
-- `tier:2` - Core daily usage
-- `tier:3` - Common expansion
-- `tier:4` - Complete essentials
-- `tier:5` - Advanced (for future expansion)
+- `tier:1` - Most essential (foundation) - 10 verbs: HABLAR, COMER, VIVIR, SER, ESTAR, TENER, IR, HACER, PODER, QUERER
+- `tier:2` - Core daily usage - 12 verbs: reflexive verbs, daily routines (LLAMARSE, LEVANTARSE, SENTARSE, etc.)
+- `tier:3` - Common expansion - 12 verbs: motion/communication (IRSE, VENIR, PONER, SALIR, VER, DAR, DECIR, etc.)
+- `tier:4` - Complete essentials - 9 verbs: cognition/emotion (NECESITAR, LLEVAR, PENSAR, ENTENDER, SENTIR, etc.)
+- `tier:5` - Backwards verbs - 7 verbs: GUSTAR-type constructions (GUSTAR, DOLER, ENCANTAR, MOLESTAR, etc.)
 - `tier:6` - Specialized (for future expansion)
 
 **Values**: `1`, `2`, `3`, `4`, `5`, `6`
+
+**Current distribution**: 50 total verbs across tiers 1-5
 
 ### word-type (REQUIRED)
 Type of word being studied
@@ -51,6 +53,60 @@ Word frequency in spoken/written Spanish
 - `frequency:advanced` - Rare/specialized
 
 **Values**: `top-100`, `top-500`, `top-1000`, `common`, `intermediate`, `advanced`
+
+---
+
+## Sentence-Level Tags (Current Implementation)
+
+### tense (REQUIRED for sentences)
+The grammatical tense of the sentence
+- `tense:present` - Simple present tense
+- `tense:present-progressive` - Present continuous/gerund
+- `tense:going-to` - Near future construction
+- `tense:preterite` - Simple past tense
+- `tense:present-perfect` - Present perfect tense
+- `tense:future` - Simple future tense
+
+**Values**: `present`, `present-progressive`, `going-to`, `preterite`, `present-perfect`, `future`
+
+### subject (REQUIRED for sentences)
+The grammatical subject of the sentence
+- `subject:yo` - First person singular (I)
+- `subject:tú` - Second person singular informal (you)
+- `subject:vos` - Second person singular (Argentina/Uruguay)
+- `subject:él/ella/usted` - Third person singular/formal (he/she/you formal)
+- `subject:nosotros` - First person plural (we)
+- `subject:vosotros` - Second person plural (Spain - you all)
+- `subject:ellos/ellas/ustedes` - Third person plural (they/you all)
+
+**Values**: `yo`, `tú`, `vos`, `él/ella/usted`, `nosotros`, `vosotros`, `ellos/ellas/ustedes`
+
+### region (REQUIRED for sentences)
+Regional variation of Spanish
+- `region:universal` - Used across all Spanish-speaking regions
+- `region:spain` - Spain-specific (vosotros forms)
+- `region:argentina` - Argentina-specific (vos forms)
+- `region:mexico` - Mexico-specific variations (future)
+- `region:colombia` - Colombia-specific variations (future)
+
+**Values**: `universal`, `spain`, `argentina`, `mexico`, `colombia`
+
+### card-type (OPTIONAL for sentences)
+Type of flashcard/study method this sentence is optimized for
+- `card-type:cloze` - Cloze deletion (fill in the blank)
+- `card-type:translation-es-en` - Spanish to English translation
+- `card-type:translation-en-es` - English to Spanish translation
+- `card-type:conjugation` - Conjugation practice
+- `card-type:listening` - Audio comprehension (future)
+- `card-type:production` - Sentence production (future)
+
+**Values**: `cloze`, `translation-es-en`, `translation-en-es`, `conjugation`, `listening`, `production`
+
+**Current pedagogical order**:
+1. `translation-en-es` - Most important for active production
+2. `cloze` - Good for pattern recognition
+3. `translation-es-en` - Comprehension practice
+4. `conjugation` - Verb form drilling
 
 ---
 
@@ -91,11 +147,26 @@ Examples:
 - `verb-tense:preterite:stem-change:e-i` - Stem change in preterite 3rd person
 - `verb-tense:present-subjunctive:irregular` - Irregular in subjunctive (future)
 
+**Current implemented tenses**:
+- `present` - Simple present (hablo)
+- `present-progressive` - Present continuous (estoy hablando)
+- `going-to` - Near future (voy a hablar)
+- `preterite` - Simple past (hablé)
+- `present-perfect` - Present perfect (he hablado)
+- `future` - Simple future (hablaré)
+
 **Common patterns**:
 - `verb-tense:preterite:irregular`
 - `verb-tense:future:irregular`
 - `verb-tense:preterite:stem-change:e-i`
 - `verb-tense:imperfect:irregular` (future - rare, only 3 verbs)
+
+**Future tenses to implement**:
+- `imperfect` - Past continuous (hablaba)
+- `conditional` - Conditional (hablaría)
+- `present-subjunctive` - Present subjunctive (hable)
+- `imperfect-subjunctive` - Imperfect subjunctive (hablara/hablase)
+- `imperative` - Commands (habla, hablad)
 
 ### yo-form (OPTIONAL)
 Irregularity only in first-person singular
@@ -379,10 +450,15 @@ CREATE TABLE relationships (
 
 ## Migration Path
 
-### Phase 1: Verbs (Current)
-- 42 essential verbs with full tagging
-- Focus on tier-based learning
-- Conjugation practice
+### Phase 1: Verbs (COMPLETED ✅)
+- 50 essential verbs with full tagging across 5 tiers
+- 6 tenses implemented: present, present-progressive, going-to, preterite, present-perfect, future
+- 4 card types: EN→ES, Cloze, ES→EN, Conjugation Practice
+- Subject randomization with proper English grammar
+- Regional variations (universal, Spain, Argentina)
+- Tier-based pedagogical progression
+- Complete conjugation system with irregular verb handling
+- 2,700+ cards generating cleanly with zero errors
 
 ### Phase 2: High-Frequency Nouns
 - Add ~50-100 essential nouns
@@ -409,6 +485,53 @@ CREATE TABLE relationships (
 - Confused-word pairs
 - Contextual sentence generation
 - Spaced repetition optimization
+
+---
+
+## Current Tag Standardization Status
+
+### Issues to Address
+The current corpus files have **inconsistent tag formats**:
+
+**Current mixed format**:
+```json
+"tags": [
+  "present",              // ❌ Standalone - should be "tense:present"
+  "tier:1",              // ✅ Key-value format
+  "regular",             // ❌ Standalone - should be "regularity:regular"  
+  "region:universal",    // ✅ Key-value format
+  "subject:yo",          // ✅ Key-value format
+  "ar-verb"              // ❌ Standalone - should be "verb-type:ar"
+]
+```
+
+**Target standardized format**:
+```json
+"tags": [
+  "tense:present",
+  "tier:1", 
+  "word-type:verb",
+  "verb-type:ar",
+  "regularity:regular",
+  "region:universal",
+  "subject:yo"
+]
+```
+
+### Migration Script Needed
+A script should be created to:
+1. Convert standalone tags to key-value format
+2. Standardize all tag names according to this documentation
+3. Ensure consistent formatting across all corpus files
+4. Validate tags against the official schema
+5. Generate migration report showing changes made
+
+### Benefits After Migration
+- **Precise filtering**: `tense:present` vs `tense:present-progressive`
+- **Anki compatibility**: Better search patterns
+- **Future-proof**: Easy to add new tag categories
+- **Queryable**: Database-style filtering capabilities
+- **Consistent**: No more mixed formats
 
 ---
 

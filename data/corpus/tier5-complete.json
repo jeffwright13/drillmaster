@@ -1,0 +1,972 @@
+{
+  "metadata": {
+    "tier": 5,
+    "description": "Gustar-type verbs with special indirect object construction",
+    "verb_count": 7,
+    "sentence_count": 46,
+    "tenses": [
+      "present",
+      "present-progressive",
+      "going-to",
+      "preterite",
+      "present-perfect",
+      "future"
+    ],
+    "subjects": [
+      "yo",
+      "tú",
+      "vos",
+      "él/ella/usted",
+      "nosotros",
+      "vosotros",
+      "ellos/ellas/ustedes"
+    ],
+    "regions": [
+      "universal",
+      "argentina",
+      "spain"
+    ]
+  },
+  "verbs": {
+    "GUSTAR": {
+      "metadata": {
+        "english": "to like/please",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me gusta mucho leer libros de historia.",
+          "english": "I really like reading history books.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "reading_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te gusta la música clásica más que el rock.",
+          "english": "You like classical music more than rock.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "music_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te gustan los deportes acuáticos en verano.",
+          "english": "You like water sports in summer.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "summer_activities",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:vos",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gusta cocinar platos internacionales.",
+          "english": "He/She likes cooking international dishes.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "cooking_interest",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:él/ella/usted",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Nos gusta viajar a lugares exóticos.",
+          "english": "We like traveling to exotic places.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "travel_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:nosotros",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Os gusta bailar salsa los fines de semana.",
+          "english": "You all like dancing salsa on weekends.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "weekend_entertainment",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:vosotros",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Les gustan las películas de ciencia ficción.",
+          "english": "They like science fiction movies.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "movie_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:ellos/ellas/ustedes",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me gustó mucho la película que vimos anoche.",
+          "english": "I really liked the movie we saw last night.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "entertainment_review",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te gustó la comida del restaurante italiano.",
+          "english": "You liked the food at the Italian restaurant.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "dining_experience",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te gustaron las vacaciones en la playa.",
+          "english": "You liked the beach vacation.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "vacation_enjoyment",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:vos",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustó el regalo que le dimos.",
+          "english": "He/She liked the gift we gave him/her.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "gift_appreciation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:él/ella/usted",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Nos gustó mucho el concierto de jazz.",
+          "english": "We really liked the jazz concert.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "concert_enjoyment",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:nosotros",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Os gustaron las tapas del bar español.",
+          "english": "You all liked the tapas at the Spanish bar.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "spanish_cuisine",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:vosotros",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Les gustó la propuesta del nuevo proyecto.",
+          "english": "They liked the new project proposal.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "project_approval",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:ellos/ellas/ustedes",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Me gustará viajar por Europa el próximo verano.",
+          "english": "I will like traveling through Europe next summer.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "travel_anticipation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te gustará la nueva casa cuando la veas.",
+          "english": "You will like the new house when you see it.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "house_preview",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te gustarán las clases de tango en Buenos Aires.",
+          "english": "You will like the tango classes in Buenos Aires.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "cultural_activity",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:vos",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustará el nuevo trabajo en la empresa.",
+          "english": "He/She will like the new job at the company.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "job_satisfaction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:él/ella/usted",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Nos gustará vivir cerca del mar.",
+          "english": "We will like living near the sea.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "coastal_living",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:nosotros",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Os gustará la comida de la nueva chef.",
+          "english": "You all will like the new chef's food.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "culinary_anticipation",
+          "tags": [
+            "region:spain",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:vosotros",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Les gustarán los cambios en la oficina.",
+          "english": "They will like the changes in the office.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "office_renovation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:ellos/ellas/ustedes",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    },
+    "DOLER": {
+      "metadata": {
+        "english": "to hurt/ache",
+        "verb_type": "er",
+        "regularity": "irregular",
+        "stem_change": "o-ue",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me duele la cabeza después de trabajar.",
+          "english": "My head hurts after working.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "health_complaint",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te duelen los pies después de caminar.",
+          "english": "Your feet hurt after walking.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "physical_discomfort",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le duele el estómago por comer mucho.",
+          "english": "His/Her stomach hurts from eating too much.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "digestive_issue",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:él/ella/usted",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me dolió mucho la espalda ayer.",
+          "english": "My back hurt a lot yesterday.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "past_pain",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te dolerá la garganta si gritas mucho.",
+          "english": "Your throat will hurt if you shout a lot.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "future_consequence",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    },
+    "ENCANTAR": {
+      "metadata": {
+        "english": "to love/enchant",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me encanta la música clásica.",
+          "english": "I love classical music.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "music_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te encantan los libros de aventuras.",
+          "english": "You love adventure books.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "reading_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me encantó la película que vimos anoche.",
+          "english": "I loved the movie we saw last night.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "entertainment_review",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te encantará el nuevo restaurante italiano.",
+          "english": "You will love the new Italian restaurant.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "dining_prediction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    },
+    "MOLESTAR": {
+      "metadata": {
+        "english": "to bother/annoy",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me molesta el ruido de la construcción.",
+          "english": "The construction noise bothers me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "noise_complaint",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te molestan las interrupciones durante el trabajo.",
+          "english": "Interruptions during work bother you.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "work_irritation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me molestó mucho su actitud ayer.",
+          "english": "His/Her attitude really bothered me yesterday.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "social_conflict",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te molestará el calor en el verano.",
+          "english": "The heat will bother you in summer.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "weather_prediction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    },
+    "IMPORTAR": {
+      "metadata": {
+        "english": "to matter/care",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "No me importa el dinero.",
+          "english": "Money doesn't matter to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "value_statement",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te importan mucho tus amigos.",
+          "english": "Your friends matter a lot to you.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "relationship_priority",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "No me importó su opinión sobre mi decisión.",
+          "english": "His/Her opinion about my decision didn't matter to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "independence_statement",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te importará más la salud cuando seas mayor.",
+          "english": "Health will matter more to you when you're older.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "life_wisdom",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    },
+    "FALTAR": {
+      "metadata": {
+        "english": "to lack/be missing",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me faltan cinco euros para comprar el libro.",
+          "english": "I'm missing five euros to buy the book.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "money_shortage",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te falta experiencia en este trabajo.",
+          "english": "You lack experience in this job.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "skill_assessment",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me faltó tiempo para terminar el examen.",
+          "english": "I lacked time to finish the exam.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "time_pressure",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te faltarán ingredientes para la receta.",
+          "english": "You will be missing ingredients for the recipe.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "cooking_preparation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    },
+    "PARECER": {
+      "metadata": {
+        "english": "to seem/appear",
+        "verb_type": "er",
+        "regularity": "irregular",
+        "yo_form": "zco",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me parece una buena idea.",
+          "english": "It seems like a good idea to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "opinion_expression",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        },
+        {
+          "spanish": "Te parecen interesantes estos libros.",
+          "english": "These books seem interesting to you.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "book_evaluation",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me pareció extraño su comportamiento.",
+          "english": "His/Her behavior seemed strange to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "behavior_observation",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te parecerá difícil al principio.",
+          "english": "It will seem difficult to you at first.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "learning_prediction",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    }
+  }
+}
