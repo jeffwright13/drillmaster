@@ -171,6 +171,7 @@ export class AppController {
       // Export buttons
       exportTsvBtn: document.getElementById('export-tsv-btn'),
       exportApkgBtn: document.getElementById('export-apkg-btn'),
+      generateTierApkgsBtn: document.getElementById('generate-tier-apkgs-btn'),
       exportTableTxtBtn: document.getElementById('export-table-txt-btn'),
       exportTableHtmlBtn: document.getElementById('export-table-html-btn'),
       
@@ -242,6 +243,7 @@ export class AppController {
     // Export buttons
     this.elements.exportTsvBtn.addEventListener('click', () => this.exportTSV());
     this.elements.exportApkgBtn.addEventListener('click', () => this.exportAPKG());
+    this.elements.generateTierApkgsBtn.addEventListener('click', () => this.generateTierBasedApkgs());
     this.elements.exportTableTxtBtn.addEventListener('click', () => this.exportTableText());
     this.elements.exportTableHtmlBtn.addEventListener('click', () => this.exportTableHTML());
     
@@ -895,6 +897,9 @@ export class AppController {
       }
     }
     
+    // Add subject hints to disambiguate formality
+    const englishWithHints = this.addSubjectHints(english, sentence.subject);
+    
     cards.push({
       type: 'trans-es-en',
       verb: verbName,
@@ -903,7 +908,7 @@ export class AppController {
       subject: sentence.subject,
       region: sentence.region,
       front: highlightedSpanish,
-      back: `<div style="font-size: 1.1em; margin-bottom: 0.5em;">${english}</div><div style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><em>${verbName} (${verb.english}) - ${tense}</em></div>`,
+      back: `<div style="font-size: 1.1em; margin-bottom: 0.5em;">${englishWithHints}</div><div style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><em>${verbName} (${verb.english}) - ${tense}</em></div>`,
       extra: '',
       tags: tags.join(';'),
       source: 'corpus',
@@ -914,6 +919,35 @@ export class AppController {
   /**
    * Generate an English to Spanish translation card
    */
+  /**
+   * Add subject hints to disambiguate formality for translation cards
+   */
+  addSubjectHints(english, subject) {
+    // Add hints to disambiguate tú vs usted and other ambiguous subjects
+    switch (subject) {
+      case 'tú':
+        return english.replace(/\bYou\b/g, 'You (informal)').replace(/\byou\b/g, 'you (informal)');
+      case 'él/ella/usted':
+        // This gets randomized later, but we need to handle the usted case
+        if (english.includes('You') || english.includes('you')) {
+          return english.replace(/\bYou\b/g, 'You (formal)').replace(/\byou\b/g, 'you (formal)');
+        }
+        return english; // He/She cases don't need hints
+      case 'ellos/ellas/ustedes':
+        // This gets randomized later, but we need to handle the ustedes case  
+        if (english.includes('You') || english.includes('you')) {
+          return english.replace(/\bYou\b/g, 'You all').replace(/\byou\b/g, 'you all');
+        }
+        return english; // They cases don't need hints
+      case 'vos':
+        return english.replace(/\bYou\b/g, 'You (vos)').replace(/\byou\b/g, 'you (vos)');
+      case 'vosotros':
+        return english.replace(/\bYou\b/g, 'You all (Spain)').replace(/\byou\b/g, 'you all (Spain)');
+      default:
+        return english; // yo, nosotros don't need hints
+    }
+  }
+
   /**
    * Randomize subject pronouns for natural English sentences
    */
@@ -939,6 +973,8 @@ export class AppController {
       } else if (choice.english === 'You') {
         newEnglish = newEnglish.replace(/his\/her/g, 'your');
         newEnglish = newEnglish.replace(/His\/Her/g, 'Your');
+        // Add formal hint when usted is selected
+        newEnglish = newEnglish.replace(/\bYou\b/g, 'You (formal)').replace(/\byou\b/g, 'you (formal)');
       }
       
       // Fix verb conjugation when "You" is selected
@@ -1058,8 +1094,8 @@ export class AppController {
       }
     }
     
-    // Use original sentences
-    let finalEnglish = english;
+    // Add subject hints to disambiguate formality
+    let finalEnglish = this.addSubjectHints(english, sentence.subject);
     let finalSpanish = highlightedSpanish;
     
     cards.push({
@@ -1182,7 +1218,7 @@ export class AppController {
   }
 
   /**
-   * Export cards as .apkg file with custom note types
+   * Export cards as .apkg file for Anki
    */
   async exportAPKG() {
     if (this.state.generatedCards.length === 0) {
@@ -1193,11 +1229,11 @@ export class AppController {
     try {
       this.showStatus('🚀 Generating custom .apkg file...');
       
-      // Import the APKG service dynamically
+      // Dynamic import of AnkiApkgService
       const { default: AnkiApkgService } = await import('../services/AnkiApkgService.js');
       const apkgService = new AnkiApkgService();
       
-      // Prepare selections metadata
+      // Get current UI selections
       const selections = {
         name: 'Custom Drillmaster Selection',
         tiers: this.getCurrentTiers(),
@@ -1207,10 +1243,10 @@ export class AppController {
         regions: this.getCurrentRegions()
       };
       
-      // Convert generated cards to APKG format
+      // Convert cards to APKG format
       const apkgCards = this.convertCardsForApkg(this.state.generatedCards);
       
-      // Generate and download .apkg file
+      // Generate and download .apkg
       await apkgService.generateApkg(apkgCards, selections);
       
       this.showStatus(`✅ Downloaded custom .apkg file with ${apkgCards.length} cards!`);
@@ -1218,6 +1254,40 @@ export class AppController {
     } catch (error) {
       console.error('APKG export error:', error);
       this.showError(`Failed to generate .apkg file: ${error.message}. Please try TSV export instead.`);
+    }
+  }
+
+  /**
+   * Generate all tier-based .apkg files with subdecks
+   */
+  async generateTierBasedApkgs() {
+    try {
+      this.showStatus('🚀 Generating all tier-based .apkg files...');
+      
+      // Dynamic import of TierBasedApkgService
+      const { default: TierBasedApkgService } = await import('../services/TierBasedApkgService.js');
+      const tierService = new TierBasedApkgService();
+      
+      // Generate all tier .apkg files
+      const results = await tierService.generateAllTierApkgs(this);
+      
+      // Show results
+      const successful = results.filter(r => !r.error);
+      const failed = results.filter(r => r.error);
+      
+      if (successful.length > 0) {
+        const totalCards = successful.reduce((sum, r) => sum + (r.totalCards || 0), 0);
+        this.showStatus(`✅ Generated ${successful.length} tier-based .apkg files with ${totalCards} total cards!`);
+      }
+      
+      if (failed.length > 0) {
+        console.error('Some tiers failed:', failed);
+        this.showError(`${failed.length} tiers failed to generate. Check console for details.`);
+      }
+      
+    } catch (error) {
+      console.error('Tier-based APKG generation error:', error);
+      this.showError(`Failed to generate tier-based .apkg files: ${error.message}`);
     }
   }
 

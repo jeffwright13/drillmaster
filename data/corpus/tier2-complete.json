@@ -4832,7 +4832,7 @@
         },
         {
           "spanish": "Estamos llamándose llamamos por teléfono cada semana.",
-          "english": "We are being calleding each other on the phone every week.",
+          "english": "We are calling each other on the phone every week.",
           "subject": "nosotros",
           "region": "universal",
           "source": "communication_context",
@@ -4849,7 +4849,7 @@
         },
         {
           "spanish": "Estáis llamándose llamáis hermanos pero sois primos.",
-          "english": "You all are being calleding yourselves brothers but you're cousins.",
+          "english": "You all are calling yourselves brothers but you're cousins.",
           "subject": "vosotros",
           "region": "spain",
           "source": "family_relationship",

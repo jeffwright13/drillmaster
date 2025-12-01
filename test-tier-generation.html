@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tier-Based .apkg Generation</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; }
+        button { padding: 1rem 2rem; margin: 1rem; background: #2563eb; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #1d4ed8; }
+        .result { margin: 1rem 0; padding: 1rem; background: #f3f4f6; border-radius: 4px; }
+        .error { background: #fee2e2; color: #dc2626; }
+        .success { background: #d1fae5; color: #065f46; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Tier-Based .apkg Generation Test</h1>
+    
+    <p>This page tests the tier-based .apkg generation system that creates 5 pedagogically structured Anki decks:</p>
+    
+    <ul>
+        <li><strong>Tier 1: Foundations</strong> - Present → Gerund → Going-to Future → Preterite → Present Perfect → Simple Future</li>
+        <li><strong>Tier 2: Daily Routines</strong> - Present → Gerund → Going-to Future → Preterite</li>
+        <li><strong>Tier 3: Irregular Essentials</strong> - Present → Gerund → Going-to Future → Preterite → Present Perfect</li>
+        <li><strong>Tier 4: Emotional & Cognitive</strong> - Present → Gerund → Going-to Future → Present Perfect</li>
+        <li><strong>Tier 5: Gustar-Type Verbs</strong> - Present → Going-to Future → Preterite</li>
+    </ul>
+    
+    <button onclick="testTierGeneration()">🚀 Generate All Tier .apkg Files</button>
+    
+    <div id="results"></div>
+    
+    <script type="module">
+        import AppController from './js/controllers/AppController.js';
+        
+        // Initialize app controller
+        window.appController = new AppController();
+        
+        window.testTierGeneration = async function() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="result">🚀 Starting tier-based .apkg generation...</div>';
+            
+            try {
+                await window.appController.generateTierBasedApkgs();
+                resultsDiv.innerHTML += '<div class="result success">✅ Tier-based .apkg generation completed!</div>';
+            } catch (error) {
+                console.error('Test failed:', error);
+                resultsDiv.innerHTML += `<div class="result error">❌ Generation failed: ${error.message}</div>`;
+            }
+        };
+    </script>
+</body>
+</html>

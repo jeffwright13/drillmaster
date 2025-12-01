@@ -3211,7 +3211,7 @@
       "present-progressive": [
         {
           "spanish": "Estoy pudiendo ayudarte con el proyecto si quieres.",
-          "english": "I am being abling help you with the project if you want.",
+          "english": "I am able to help you with the project if you want.",
           "subject": "yo",
           "region": "universal",
           "source": "offer_assistance",
@@ -3229,7 +3229,7 @@
         },
         {
           "spanish": "Estás pudiendo hacerlo mejor si te concentras más.",
-          "english": "You are being abling do it better if you concentrate more.",
+          "english": "You are able to do it better if you concentrate more.",
           "subject": "tú",
           "region": "universal",
           "source": "encouragement",
@@ -3247,7 +3247,7 @@
         },
         {
           "spanish": "Estás pudiendo venir a casa cuando quieras.",
-          "english": "You are being abling come home whenever you want.",
+          "english": "You are able to come home whenever you want.",
           "subject": "vos",
           "region": "argentina",
           "source": "open_invitation",
@@ -3265,7 +3265,7 @@
         },
         {
           "spanish": "Está pudiendo hablar tres idiomas con fluidez.",
-          "english": "He/She is being abling speak three languages fluently.",
+          "english": "He/She is able to speak three languages fluently.",
           "subject": "él/ella/usted",
           "region": "universal",
           "source": "language_ability",
@@ -3283,7 +3283,7 @@
         },
         {
           "spanish": "Estamos pudiendo terminar el trabajo antes del viernes.",
-          "english": "We are being abling finish the work before Friday.",
+          "english": "We are able to finish the work before Friday.",
           "subject": "nosotros",
           "region": "universal",
           "source": "work_planning",
@@ -3301,7 +3301,7 @@
         },
         {
           "spanish": "Estáis pudiendo venir a la fiesta si queréis.",
-          "english": "You all are being abling can come to the party if you want.",
+          "english": "You all are able to come to the party if you want.",
           "subject": "vosotros",
           "region": "spain",
           "source": "party_invitation",
@@ -3319,7 +3319,7 @@
         },
         {
           "spanish": "Están pudiendo resolver el problema sin ayuda externa.",
-          "english": "They are being abling solve the problem without external help.",
+          "english": "They are able to solve the problem without external help.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "problem_solving",
@@ -6255,7 +6255,7 @@
       "present-progressive": [
         {
           "spanish": "Estoy estando trabajando desde casa hoy.",
-          "english": "I am being working from home today.",
+          "english": "I am working from home today.",
           "subject": "yo",
           "region": "universal",
           "source": "work_context",
@@ -6323,7 +6323,7 @@
         },
         {
           "spanish": "Estamos estando preparando la cena juntos.",
-          "english": "We are being preparing dinner together.",
+          "english": "We are preparing dinner together.",
           "subject": "nosotros",
           "region": "universal",
           "source": "family_context",
@@ -6340,7 +6340,7 @@
         },
         {
           "spanish": "Estáis estando estudiando para el examen final.",
-          "english": "You all are being are studying for the final exam.",
+          "english": "You all are studying for the final exam.",
           "subject": "vosotros",
           "region": "spain",
           "source": "academic_context",
@@ -6357,7 +6357,7 @@
         },
         {
           "spanish": "Están estando construyendo un nuevo centro comercial.",
-          "english": "They are being building a new shopping center.",
+          "english": "They are building a new shopping center.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "construction_context",
