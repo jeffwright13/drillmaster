@@ -929,6 +929,18 @@ export class AppController {
       // Replace "He/She" with chosen pronoun in English
       let newEnglish = english.replace(/He\/She/g, choice.english);
       
+      // Fix possessive pronouns based on gender
+      if (choice.english === 'He') {
+        newEnglish = newEnglish.replace(/his\/her/g, 'his');
+        newEnglish = newEnglish.replace(/His\/Her/g, 'His');
+      } else if (choice.english === 'She') {
+        newEnglish = newEnglish.replace(/his\/her/g, 'her');
+        newEnglish = newEnglish.replace(/His\/Her/g, 'Her');
+      } else if (choice.english === 'You') {
+        newEnglish = newEnglish.replace(/his\/her/g, 'your');
+        newEnglish = newEnglish.replace(/His\/Her/g, 'Your');
+      }
+      
       // Fix verb conjugation when "You" is selected
       if (choice.english === 'You') {
         // Convert third-person singular verbs to second-person
@@ -944,6 +956,7 @@ export class AppController {
         newEnglish = newEnglish.replace(/\bgets\b/g, 'get');
         newEnglish = newEnglish.replace(/\bworks\b/g, 'work');
         newEnglish = newEnglish.replace(/\blives\b/g, 'live');
+        newEnglish = newEnglish.replace(/\btalks\b/g, 'talk');
         newEnglish = newEnglish.replace(/\bstudies\b/g, 'study');
         newEnglish = newEnglish.replace(/\btries\b/g, 'try');
         newEnglish = newEnglish.replace(/\bcarries\b/g, 'carry');
@@ -1011,10 +1024,13 @@ export class AppController {
     const verbName = verb.verb;
     let { spanish, english } = sentence;
     
-    // Randomize subject for natural English sentences
-    const randomizedSubject = this.randomizeSubject(sentence.subject, english, spanish);
-    english = randomizedSubject.english;
-    spanish = randomizedSubject.spanish;
+    // Use consistent subject form to avoid repetitive variations
+    // Only randomize if the sentence has generic pronouns that need fixing
+    if (english.includes('He/She') || english.includes('his/her')) {
+      const randomizedSubject = this.randomizeSubject(sentence.subject, english, spanish);
+      english = randomizedSubject.english;
+      spanish = randomizedSubject.spanish;
+    }
     
     // Get conjugated form
     const conjugation = this.getConjugation(verbName, conjugations);
@@ -1042,6 +1058,10 @@ export class AppController {
       }
     }
     
+    // Use original sentences
+    let finalEnglish = english;
+    let finalSpanish = highlightedSpanish;
+    
     cards.push({
       type: 'trans-en-es',
       verb: verbName,
@@ -1049,8 +1069,8 @@ export class AppController {
       tense: tense,
       subject: sentence.subject,
       region: sentence.region,
-      front: english,
-      back: `<div style="font-size: 1.1em;">${highlightedSpanish}</div>`,
+      front: finalEnglish,
+      back: `<div style="font-size: 1.1em;">${finalSpanish}</div>`,
       extra: '',
       tags: tags.join(';'),
       source: 'corpus',
@@ -1171,19 +1191,242 @@ export class AppController {
     }
 
     try {
-      this.showStatus('Generating .apkg file...');
+      this.showStatus('🚀 Generating custom .apkg file...');
       
-      // For now, show a message about the feature being in development
-      // TODO: Implement full .apkg generation
-      this.showStatus('⚠️ .apkg export is in development. For now, please use TSV export with the setup instructions below.');
+      // Import the APKG service dynamically
+      const { default: AnkiApkgService } = await import('../services/AnkiApkgService.js');
+      const apkgService = new AnkiApkgService();
       
-      // Show setup instructions
-      this.showAPKGSetupInstructions();
+      // Prepare selections metadata
+      const selections = {
+        name: 'Custom Drillmaster Selection',
+        tiers: this.getCurrentTiers(),
+        tenses: this.getCurrentTenses(),
+        cardTypes: this.getCurrentCardTypes(),
+        subjects: this.getCurrentSubjects(),
+        regions: this.getCurrentRegions()
+      };
+      
+      // Convert generated cards to APKG format
+      const apkgCards = this.convertCardsForApkg(this.state.generatedCards);
+      
+      // Generate and download .apkg file
+      await apkgService.generateApkg(apkgCards, selections);
+      
+      this.showStatus(`✅ Downloaded custom .apkg file with ${apkgCards.length} cards!`);
       
     } catch (error) {
       console.error('APKG export error:', error);
-      this.showError('Failed to generate .apkg file. Please try TSV export instead.');
+      this.showError(`Failed to generate .apkg file: ${error.message}. Please try TSV export instead.`);
     }
+  }
+
+  /**
+   * Convert generated cards to APKG service format
+   */
+  convertCardsForApkg(cards) {
+    return cards.map(card => ({
+      front: card.front,
+      back: card.back,
+      verb: card.verb,
+      tense: card.tense,
+      subject: card.subject,
+      tags: card.tags || [],
+      type: card.type
+    }));
+  }
+
+  /**
+   * Get currently selected subjects from UI
+   */
+  getCurrentSubjects() {
+    const subjects = [];
+    const checkboxes = document.querySelectorAll('input[name="subject"]:checked');
+    checkboxes.forEach(cb => subjects.push(cb.value));
+    return subjects.length > 0 ? subjects : ['yo', 'tú', 'él/ella/usted', 'nosotros', 'ellos/ellas/ustedes'];
+  }
+
+  /**
+   * Get currently selected regions from UI
+   */
+  getCurrentRegions() {
+    const regions = [];
+    const checkboxes = document.querySelectorAll('input[name="region"]:checked');
+    checkboxes.forEach(cb => regions.push(cb.value));
+    return regions.length > 0 ? regions : ['universal'];
+  }
+
+
+
+  /**
+   * Get currently selected tiers from state
+   */
+  getCurrentTiers() {
+    return this.state.corpusTiers || [1];
+  }
+
+  /**
+   * Get currently selected tenses from state  
+   */
+  getCurrentTenses() {
+    return this.state.corpusTenses || ['present'];
+  }
+
+  /**
+   * Get currently selected card types from generated cards
+   */
+  getCurrentCardTypes() {
+    const cardTypes = new Set();
+    this.state.generatedCards.forEach(card => {
+      cardTypes.add(card.type);
+    });
+    return Array.from(cardTypes);
+  }
+
+  /**
+   * Find matching pedagogical level for current selections
+   */
+  findPedagogicalMatch(selectedTiers, selectedTenses) {
+    const pedagogicalLevels = [
+      { name: "01 - Present Foundation", tiers: [1], tenses: ["present"] },
+      { name: "02 - Present + Progressive", tiers: [1], tenses: ["present", "present-progressive"] },
+      { name: "03 - Present + Progressive + Going-to", tiers: [1], tenses: ["present", "present-progressive", "going-to"] },
+      { name: "04 - Add Daily Routines", tiers: [1, 2], tenses: ["present", "present-progressive", "going-to"] },
+      { name: "05 - Add Preterite", tiers: [1, 2], tenses: ["present", "present-progressive", "going-to", "preterite"] }
+    ];
+
+    return pedagogicalLevels.find(level => 
+      this.arraysEqual(level.tiers.sort(), selectedTiers.sort()) &&
+      this.arraysEqual(level.tenses.sort(), selectedTenses.sort())
+    );
+  }
+
+  /**
+   * Download pre-generated .apkg file
+   */
+  downloadPreGeneratedAPKG(level) {
+    this.showStatus(`📦 Downloading ${level.name}...`);
+    
+    // Create download link
+    const link = document.createElement('a');
+    link.href = 'output/single-apkg/Drillmaster_Spanish_Test.apkg';
+    link.download = `${level.name.replace(/[^a-zA-Z0-9]/g, '_')}.apkg`;
+    link.style.display = 'none';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    this.showStatus(`✅ Downloaded ${level.name}.apkg - Ready to import into Anki!`);
+  }
+
+  /**
+   * Show options for custom .apkg generation
+   */
+  showCustomAPKGOptions(selectedTiers, selectedTenses, selectedCardTypes) {
+    const estimatedCards = this.estimateCardCount(selectedTiers, selectedTenses, selectedCardTypes);
+    
+    // Find the closest pedagogical match
+    const closestMatch = this.findClosestPedagogicalMatch(selectedTiers, selectedTenses);
+    
+    let message = `
+📦 .apkg Export: Custom Generation Required
+
+Your current selection:
+• Tiers: ${selectedTiers.join(', ')}
+• Tenses: ${selectedTenses.join(', ')}
+• Card Types: ${selectedCardTypes.join(', ')}
+• Estimated Cards: ~${estimatedCards}
+
+⚠️ Pre-generated .apkg files don't respect UI filters (subjects, regions, etc.)
+They contain ALL subjects including vos/vosotros and all regional variations.
+    `;
+
+    if (closestMatch) {
+      message += `
+🎯 Closest Match: ${closestMatch.name}
+• Tiers: ${closestMatch.tiers.join(', ')}
+• Tenses: ${closestMatch.tenses.join(', ')}
+
+Recommended options:
+1. 📄 **Export as TSV files** (respects your exact selections)
+2. 🛠️ Generate custom .apkg (requires Python script modification)
+
+Note: Pre-generated .apkg files contain comprehensive data (all subjects/regions)
+but don't filter by your UI selections.
+      `;
+    } else {
+      message += `
+Recommended options:
+1. 📄 **Export as TSV files** (respects your exact selections)
+2. 🛠️ Generate custom .apkg (requires Python script)
+
+TSV export will give you exactly ${estimatedCards} cards matching your selections:
+• Only selected subjects (no vos/vosotros if unchecked)
+• Only selected tenses and tiers
+• Only selected card types
+      `;
+    }
+    
+    this.showStatus(message);
+  }
+
+  /**
+   * Find closest pedagogical match (even if not exact)
+   */
+  findClosestPedagogicalMatch(selectedTiers, selectedTenses) {
+    const pedagogicalLevels = [
+      { name: "01 - Present Foundation", tiers: [1], tenses: ["present"] },
+      { name: "02 - Present + Progressive", tiers: [1], tenses: ["present", "present-progressive"] },
+      { name: "03 - Present + Progressive + Going-to", tiers: [1], tenses: ["present", "present-progressive", "going-to"] },
+      { name: "04 - Add Daily Routines", tiers: [1, 2], tenses: ["present", "present-progressive", "going-to"] },
+      { name: "05 - Add Preterite", tiers: [1, 2], tenses: ["present", "present-progressive", "going-to", "preterite"] }
+    ];
+
+    // First try exact match
+    const exactMatch = pedagogicalLevels.find(level => 
+      this.arraysEqual(level.tiers.sort(), selectedTiers.sort()) &&
+      this.arraysEqual(level.tenses.sort(), selectedTenses.sort())
+    );
+    
+    if (exactMatch) return exactMatch;
+
+    // Then try tier match with subset of tenses
+    return pedagogicalLevels.find(level => 
+      this.arraysEqual(level.tiers.sort(), selectedTiers.sort()) &&
+      selectedTenses.every(tense => level.tenses.includes(tense))
+    );
+  }
+
+  /**
+   * Estimate card count for selections
+   */
+  estimateCardCount(tiers, tenses, cardTypes) {
+    const verbsPerTier = { 1: 10, 2: 12, 3: 12, 4: 9, 5: 7 };
+    const subjectsPerTense = 7;
+    
+    let totalVerbs = 0;
+    for (const tier of tiers) {
+      totalVerbs += verbsPerTier[tier] || 0;
+    }
+
+    const sentenceCards = totalVerbs * tenses.length * subjectsPerTense;
+    let totalCards = 0;
+    
+    if (cardTypes.includes('trans-en-es')) totalCards += sentenceCards;
+    if (cardTypes.includes('cloze')) totalCards += sentenceCards;
+    if (cardTypes.includes('trans-es-en')) totalCards += sentenceCards;
+    if (cardTypes.includes('conjugation')) totalCards += totalVerbs * tenses.length * 5;
+
+    return totalCards;
+  }
+
+  /**
+   * Helper function to compare arrays
+   */
+  arraysEqual(a, b) {
+    if (a.length !== b.length) return false;
+    return a.every((val, index) => val === b[index]);
   }
 
   /**

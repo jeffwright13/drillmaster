@@ -4022,7 +4022,7 @@
       "present-perfect": [
         {
           "spanish": "He necesitado más tiempo para terminar el proyecto.",
-          "english": "I have neededed more time to finish the project.",
+          "english": "I have needed more time to finish the project.",
           "subject": "yo",
           "region": "universal",
           "source": "work_deadline",
@@ -4038,7 +4038,7 @@
         },
         {
           "spanish": "Has necesitado descansar después de tanto trabajo.",
-          "english": "You have neededed to rest after so much work.",
+          "english": "You have needed to rest after so much work.",
           "subject": "tú",
           "region": "universal",
           "source": "health_advice",
@@ -4054,7 +4054,7 @@
         },
         {
           "spanish": "Has necesitado ayuda con la mudanza.",
-          "english": "You have neededed help with the move.",
+          "english": "You have needed help with the move.",
           "subject": "vos",
           "region": "argentina",
           "source": "moving_assistance",
@@ -4070,7 +4070,7 @@
         },
         {
           "spanish": "Ha necesitado hablar con el doctor urgentemente.",
-          "english": "He/She has neededed to talk to the doctor urgently.",
+          "english": "He/She has needed to talk to the doctor urgently.",
           "subject": "él/ella/usted",
           "region": "universal",
           "source": "medical_urgency",
@@ -4086,7 +4086,7 @@
         },
         {
           "spanish": "Hemos necesitado un coche más grande para la familia.",
-          "english": "We have neededed a bigger car for the family.",
+          "english": "We have needed a bigger car for the family.",
           "subject": "nosotros",
           "region": "universal",
           "source": "family_transportation",
@@ -4102,7 +4102,7 @@
         },
         {
           "spanish": "Habéis necesitado estudiar más para el examen.",
-          "english": "You all have neededed need to study more for the exam.",
+          "english": "You all have needed to study more for the exam.",
           "subject": "vosotros",
           "region": "spain",
           "source": "academic_preparation",
@@ -4118,7 +4118,7 @@
         },
         {
           "spanish": "Han necesitado permiso especial para entrar.",
-          "english": "They have neededed special permission to enter.",
+          "english": "They have needed special permission to enter.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "access_requirement",

@@ -1308,7 +1308,7 @@
       "present-perfect": [
         {
           "spanish": "He comido frutas y verduras todos los días.",
-          "english": "I have eatened fruits and vegetables every day.",
+          "english": "I have eaten fruits and vegetables every day.",
           "subject": "yo",
           "region": "universal",
           "source": "healthy_eating",
@@ -1324,7 +1324,7 @@
         },
         {
           "spanish": "Has comido muy saludable desde que empezaste la dieta.",
-          "english": "You have eatened very healthy since you started the diet.",
+          "english": "You have eaten very healthy since you started the diet.",
           "subject": "tú",
           "region": "universal",
           "source": "diet_lifestyle",
@@ -1340,7 +1340,7 @@
         },
         {
           "spanish": "Has comido las mejores milanesas de la ciudad.",
-          "english": "You have eatened the best milanesas in the city.",
+          "english": "You have eaten the best milanesas in the city.",
           "subject": "vos",
           "region": "argentina",
           "source": "local_cuisine",
@@ -1356,7 +1356,7 @@
         },
         {
           "spanish": "Ha comido en el restaurante italiano cada viernes.",
-          "english": "He/She has eatened at the Italian restaurant every Friday.",
+          "english": "He/She has eaten at the Italian restaurant every Friday.",
           "subject": "él/ella/usted",
           "region": "universal",
           "source": "dining_routine",
@@ -1372,7 +1372,7 @@
         },
         {
           "spanish": "Hemos comido juntos en familia los domingos.",
-          "english": "We have eatened together as a family on Sundays.",
+          "english": "We have eaten together as a family on Sundays.",
           "subject": "nosotros",
           "region": "universal",
           "source": "family_tradition",
@@ -1388,7 +1388,7 @@
         },
         {
           "spanish": "Habéis comido tapas en el bar de la esquina.",
-          "english": "You all have eatened eat tapas at the corner bar.",
+          "english": "You all have eaten tapas at the corner bar.",
           "subject": "vosotros",
           "region": "spain",
           "source": "spanish_culture",
@@ -1404,7 +1404,7 @@
         },
         {
           "spanish": "Han comido pizza los viernes por la noche.",
-          "english": "They have eatened pizza on Friday nights.",
+          "english": "They have eaten pizza on Friday nights.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "weekend_routine",
@@ -1433,8 +1433,8 @@
       },
       "present": [
         {
-          "spanish": "Vivo en el centro de la ciudad desde hace años.",
-          "english": "I live in the city center for years now.",
+          "spanish": "Vivo en el centro de la ciudad.",
+          "english": "I live in the city center.",
           "subject": "yo",
           "region": "universal",
           "source": "residential_context",
@@ -2004,7 +2004,7 @@
       "present-perfect": [
         {
           "spanish": "He vivido en el centro de la ciudad desde hace años.",
-          "english": "I have liveded in the city center for years now.",
+          "english": "I have lived in the city center for years now.",
           "subject": "yo",
           "region": "universal",
           "source": "residential_context",
@@ -2020,7 +2020,7 @@
         },
         {
           "spanish": "Has vivido cerca del parque y es muy conveniente.",
-          "english": "You have liveded near the park and it's very convenient.",
+          "english": "You have lived near the park and it's very convenient.",
           "subject": "tú",
           "region": "universal",
           "source": "location_advantage",
@@ -2036,7 +2036,7 @@
         },
         {
           "spanish": "Has vivido en el barrio más lindo de Buenos Aires.",
-          "english": "You have liveded in the most beautiful neighborhood in Buenos Aires.",
+          "english": "You have lived in the most beautiful neighborhood in Buenos Aires.",
           "subject": "vos",
           "region": "argentina",
           "source": "neighborhood_pride",
@@ -2052,7 +2052,7 @@
         },
         {
           "spanish": "Ha vivido con sus padres para ahorrar dinero.",
-          "english": "He/She has liveded with his/her parents to save money.",
+          "english": "He/She has lived with his/her parents to save money.",
           "subject": "él/ella/usted",
           "region": "universal",
           "source": "financial_strategy",
@@ -2068,7 +2068,7 @@
         },
         {
           "spanish": "Hemos vivido en una casa grande con jardín.",
-          "english": "We have liveded in a big house with a garden.",
+          "english": "We have lived in a big house with a garden.",
           "subject": "nosotros",
           "region": "universal",
           "source": "housing_description",
@@ -2084,7 +2084,7 @@
         },
         {
           "spanish": "Habéis vivido en el mismo barrio desde la infancia.",
-          "english": "You all have liveded live in the same neighborhood since childhood.",
+          "english": "You all have lived in the same neighborhood since childhood.",
           "subject": "vosotros",
           "region": "spain",
           "source": "long_term_residence",
@@ -2100,7 +2100,7 @@
         },
         {
           "spanish": "Han vivido en el mismo edificio que nosotros.",
-          "english": "They have liveded in the same building as us.",
+          "english": "They have lived in the same building as us.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "neighbor_context",
@@ -2145,8 +2145,8 @@
           ]
         },
         {
-          "spanish": "Vas a la universidad en bicicleta.",
-          "english": "You go to university by bicycle.",
+          "spanish": "Vas a la escuela en bicicleta.",
+          "english": "You go to school by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -4248,7 +4248,7 @@
       "present-perfect": [
         {
           "spanish": "He querido aprender francés el próximo año.",
-          "english": "I have wanteded to learn French next year.",
+          "english": "I have wanted to learn French next year.",
           "subject": "yo",
           "region": "universal",
           "source": "language_goals",
@@ -4266,7 +4266,7 @@
         },
         {
           "spanish": "Has querido viajar a Europa este verano.",
-          "english": "You have wanteded to travel to Europe this summer.",
+          "english": "You have wanted to travel to Europe this summer.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_desires",
@@ -4284,7 +4284,7 @@
         },
         {
           "spanish": "Has querido comprar una casa en las afueras.",
-          "english": "You have wanteded to buy a house in the suburbs.",
+          "english": "You have wanted to buy a house in the suburbs.",
           "subject": "vos",
           "region": "argentina",
           "source": "housing_goals",
@@ -4302,7 +4302,7 @@
         },
         {
           "spanish": "Ha querido estudiar medicina en la universidad.",
-          "english": "He/She has wanteded to study medicine at university.",
+          "english": "He/She has wanted to study medicine at university.",
           "subject": "él/ella/usted",
           "region": "universal",
           "source": "career_aspirations",
@@ -4320,7 +4320,7 @@
         },
         {
           "spanish": "Hemos querido comprar un coche nuevo este año.",
-          "english": "We have wanteded to buy a new car this year.",
+          "english": "We have wanted to buy a new car this year.",
           "subject": "nosotros",
           "region": "universal",
           "source": "purchase_plans",
@@ -4338,7 +4338,7 @@
         },
         {
           "spanish": "Habéis querido ir al concierto de rock mañana.",
-          "english": "You all have wanteded want to go to the rock concert tomorrow.",
+          "english": "You all have wanted to go to the rock concert tomorrow.",
           "subject": "vosotros",
           "region": "spain",
           "source": "entertainment_plans",
@@ -4356,7 +4356,7 @@
         },
         {
           "spanish": "Han querido mudarse a una ciudad más pequeña.",
-          "english": "They have wanteded to move to a smaller city.",
+          "english": "They have wanted to move to a smaller city.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "relocation_plans",
@@ -5271,8 +5271,8 @@
           ]
         },
         {
-          "spanish": "Son mis vecinos desde hace años.",
-          "english": "They are my neighbors for years.",
+          "spanish": "Son mis vecinos.",
+          "english": "They are my neighbors.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "neighborhood_context",
@@ -5583,8 +5583,8 @@
           ]
         },
         {
-          "spanish": "Está siendo médico en el hospital central.",
-          "english": "He/She is being a doctor at the central hospital.",
+          "spanish": "Está trabajando como médico en el hospital central.",
+          "english": "He/She is working as a doctor at the central hospital.",
           "subject": "él/ella/usted",
           "region": "universal",
           "source": "professional_context",
@@ -5600,8 +5600,42 @@
           ]
         },
         {
-          "spanish": "Estamos siendo estudiantes de intercambio.",
-          "english": "We are being exchange students.",
+          "spanish": "Está siendo muy amable conmigo.",
+          "english": "He/She is being very kind to me.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "social_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él/ella/usted",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está siendo muy difícil conmigo.",
+          "english": "He/She is being very difficult with me.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": "social_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él/ella/usted",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estamos trabajando como estudiantes de intercambio.",
+          "english": "We are working as exchange students.",
           "subject": "nosotros",
           "region": "universal",
           "source": "academic_context",
@@ -5908,23 +5942,6 @@
       },
       "present": [
         {
-          "spanish": "Estoy trabajando desde casa hoy.",
-          "english": "I am working from home today.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "work_context",
-          "tags": [
-            "copula:true",
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:1",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Estás muy guapa con ese vestido.",
           "english": "You look very pretty in that dress.",
           "subject": "tú",
@@ -5959,40 +5976,6 @@
           ]
         },
         {
-          "spanish": "Está lloviendo mucho esta tarde.",
-          "english": "It is raining a lot this afternoon.",
-          "subject": "él/ella/usted",
-          "region": "universal",
-          "source": "weather_context",
-          "tags": [
-            "copula:true",
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él/ella/usted",
-            "tense:present",
-            "tier:1",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estamos preparando la cena juntos.",
-          "english": "We are preparing dinner together.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "family_context",
-          "tags": [
-            "copula:true",
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:nosotros",
-            "tense:present",
-            "tier:1",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Estáis estudiando para el examen final.",
           "english": "You all are studying for the final exam.",
           "subject": "vosotros",
@@ -6003,7 +5986,7 @@
             "region:spain",
             "regularity:highly-irregular",
             "subject:vosotros",
-            "tense:present",
+            "tense:present-progressive",
             "tier:1",
             "verb-type:ar",
             "word-type:verb"
@@ -6020,7 +6003,7 @@
             "region:universal",
             "regularity:highly-irregular",
             "subject:ellos/ellas/ustedes",
-            "tense:present",
+            "tense:present-progressive",
             "tier:1",
             "verb-type:ar",
             "word-type:verb"
