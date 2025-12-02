@@ -76,122 +76,138 @@
           ]
         },
         {
-          "spanish": "Te preocupás por cosas que no podés controlar.",
-          "english": "You worry about things you can't control.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "anxiety_advice",
-          "tags": [
-            "reflexive:true",
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupa por el futuro de sus hijos.",
-          "english": "He worries about his children's future.",
-          "subject": "él",
+          "spanish": "Me preocupo cuando no me contestas el mensaje.",
+          "english": "I worry when you don't answer my message.",
+          "subject": "yo",
           "region": "universal",
-          "source": "parental_concern",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
-            "reflexive:true",
             "region:universal",
-            "regularity:regular",
-            "subject:él",
+            "subject:yo",
             "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:preocuparse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         },
         {
-          "spanish": "Se preocupa por el futuro de sus hijos.",
-          "english": "She worries about her children's future.",
-          "subject": "ella",
+          "spanish": "No te preocupes; todo va a salir bien.",
+          "english": "Don't worry; everything is going to be fine.",
+          "subject": "tú",
           "region": "universal",
-          "source": "parental_concern",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
-            "reflexive:true",
             "region:universal",
-            "regularity:regular",
-            "subject:ella",
+            "subject:tú",
             "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:preocuparse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         },
         {
-          "spanish": "Se preocupa por el futuro de sus hijos.",
-          "english": "You (formal) worry about your children's future.",
-          "subject": "usted",
+          "spanish": "Mi mamá se preocupa mucho por mí.",
+          "english": "My mom worries about me a lot.",
+          "subject": "él/ella/usted",
           "region": "universal",
-          "source": "parental_concern",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
-            "reflexive:true",
             "region:universal",
-            "regularity:regular",
-            "subject:usted",
+            "subject:él/ella/usted",
             "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos preocupamos por el medio ambiente.",
-          "english": "We worry about the environment.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "environmental_concern",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os preocupáis por vuestros padres mayores.",
-          "english": "You all worry about your elderly parents.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "elderly_care_concern",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupan por la situación económica.",
-          "english": "They worry about the economic situation.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "economic_anxiety",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:preocuparse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         }
       ],
@@ -214,109 +230,7 @@
           ]
         },
         {
-          "spanish": "Te preocupaste demasiado por el examen final.",
-          "english": "You (informal) worried too much about the final exam.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "academic_anxiety",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te preocupaste por tu hermano durante su enfermedad.",
-          "english": "You worried about your brother during his illness.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "sibling_concern",
-          "tags": [
-            "reflexive:true",
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupó por la salud de sus padres ancianos.",
-          "english": "He worried about his elderly parents' health.",
-          "subject": "él",
-          "region": "universal",
-          "source": "elderly_care_concern",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupó por la salud de sus padres ancianos.",
-          "english": "She worried about her elderly parents' health.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "elderly_care_concern",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupó por la salud de sus padres ancianos.",
-          "english": "You (formal) worried about your elderly parents' health.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "elderly_care_concern",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos preocupamos por el futuro de la empresa.",
-          "english": "We worried about the company's future.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "business_uncertainty",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os preocupasteis por los resultados del trabajo.",
+          "spanish": "Ustedes se preocuparon por los resultados del trabajo.",
           "english": "You all worried about the work results.",
           "subject": "vosotros",
           "region": "spain",
@@ -330,24 +244,14 @@
             "tier:4",
             "verb-type:ar",
             "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocuparon por la seguridad del barrio.",
-          "english": "They worried about neighborhood safety.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "community_safety",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Spain-only vosotros form",
+            "chunk": 7
+          }
         }
       ],
       "future": [
@@ -384,125 +288,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Te preocuparás por el clima durante las vacaciones.",
-          "english": "You will worry about the weather during vacation.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "vacation_planning",
-          "tags": [
-            "reflexive:true",
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupará por la jubilación en unos años.",
-          "english": "He will worry about retirement in a few years.",
-          "subject": "él",
-          "region": "universal",
-          "source": "retirement_planning",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupará por la jubilación en unos años.",
-          "english": "She will worry about retirement in a few years.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "retirement_planning",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupará por la jubilación en unos años.",
-          "english": "You (formal) will worry about retirement in a few years.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "retirement_planning",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos preocuparemos por el medio ambiente del futuro.",
-          "english": "We will worry about the future environment.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "environmental_concern",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os preocuparéis por vuestros nietos cuando nazcan.",
-          "english": "You all will worry about your grandchildren when they're born.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "grandparent_anticipation",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocuparán por la tecnología y la privacidad.",
-          "english": "They will worry about technology and privacy.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "digital_privacy",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-progressive": [],
@@ -524,25 +309,6 @@
       },
       "present": [
         {
-          "spanish": "Me divierto mucho en las fiestas familiares.",
-          "english": "I have a lot of fun at family parties.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "family_celebration",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Te diviertes jugando videojuegos con amigos.",
           "english": "You (informal) have fun playing video games with friends.",
           "subject": "tú",
@@ -562,7 +328,7 @@
           ]
         },
         {
-          "spanish": "Te divertís bailando tango en la milonga.",
+          "spanish": "Te diviertes bailando tango en la milonga.",
           "english": "You have fun dancing tango at the milonga.",
           "subject": "vos",
           "region": "argentina",
@@ -578,120 +344,148 @@
             "tier:4",
             "verb-type:ir",
             "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Rioplatense form 'divertís'",
+            "chunk": 7
+          }
         },
         {
-          "spanish": "Se divierte leyendo novelas de misterio.",
-          "english": "He has fun reading mystery novels.",
-          "subject": "él",
+          "spanish": "Siempre me divierto cuando salgo con mis amigos.",
+          "english": "I always have fun when I go out with my friends.",
+          "subject": "yo",
           "region": "universal",
-          "source": "reading_entertainment",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
-            "reflexive:true",
             "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:él",
+            "subject:yo",
             "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:divertirse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         },
         {
-          "spanish": "Se divierte leyendo novelas de misterio.",
-          "english": "She has fun reading mystery novels.",
-          "subject": "ella",
+          "spanish": "¿Te diviertes en tus clases de español?",
+          "english": "Are you having fun in your Spanish classes?",
+          "subject": "tú",
           "region": "universal",
-          "source": "reading_entertainment",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
-            "reflexive:true",
             "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:ella",
+            "subject:tú",
             "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:divertirse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         },
         {
-          "spanish": "Se divierte leyendo novelas de misterio.",
-          "english": "You (formal) have fun reading mystery novels.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "reading_entertainment",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos divertimos haciendo deportes juntos.",
-          "english": "We have fun playing sports together.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "sports_recreation",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os divertís cantando karaoke los viernes.",
-          "english": "You all have fun singing karaoke on Fridays.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "karaoke_entertainment",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divierten explorando nuevos restaurantes.",
-          "english": "They have fun exploring new restaurants.",
+          "spanish": "Los niños se divierten en el parque todas las tardes.",
+          "english": "The kids have fun at the park every afternoon.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
-          "source": "culinary_exploration",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
-            "reflexive:true",
             "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
             "subject:ellos/ellas/ustedes",
             "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:divertirse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         }
       ],
@@ -716,44 +510,6 @@
           ]
         },
         {
-          "spanish": "Te divertiste mucho en el parque de diversiones.",
-          "english": "You (informal) had a lot of fun at the amusement park.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "amusement_park_fun",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te divertiste bailando tango en la milonga.",
-          "english": "You had fun dancing tango at the milonga.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "tango_dancing",
-          "tags": [
-            "reflexive:true",
-            "region:argentina",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:vos",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Se divirtió jugando con sus nietos en el jardín.",
           "english": "He had fun playing with his grandchildren in the garden.",
           "subject": "él",
@@ -766,101 +522,6 @@
             "stem-change:e-ie",
             "stem-changing",
             "subject:él",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divirtió jugando con sus nietos en el jardín.",
-          "english": "She had fun playing with her grandchildren in the garden.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "grandparent_play",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divirtió jugando con sus nietos en el jardín.",
-          "english": "You (formal) had fun playing with your grandchildren in the garden.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "grandparent_play",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos divertimos explorando la ciudad antigua.",
-          "english": "We had fun exploring the old city.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "city_exploration",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os divertisteis cantando karaoke hasta muy tarde.",
-          "english": "You all had fun singing karaoke until very late.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "karaoke_night",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:vosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divirtieron nadando en la piscina del hotel.",
-          "english": "They had fun swimming in the hotel pool.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "hotel_recreation",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:ellos/ellas/ustedes",
             "tense:preterite",
             "tier:4",
             "verb-type:ir",
@@ -906,139 +567,6 @@
             "verb-type:ir",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Te divertirás conociendo Buenos Aires de noche.",
-          "english": "You will have fun getting to know Buenos Aires at night.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "nightlife_exploration",
-          "tags": [
-            "reflexive:true",
-            "region:argentina",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:vos",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divertirá mucho en su primer viaje a Europa.",
-          "english": "He will have a lot of fun on his first trip to Europe.",
-          "subject": "él",
-          "region": "universal",
-          "source": "european_adventure",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divertirá mucho en su primer viaje a Europa.",
-          "english": "She will have a lot of fun on her first trip to Europe.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "european_adventure",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divertirá mucho en su primer viaje a Europa.",
-          "english": "You (formal) will have a lot of fun on your first trip to Europe.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "european_adventure",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos divertiremos cocinando juntos el fin de semana.",
-          "english": "We will have fun cooking together on the weekend.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "cooking_activity",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os divertiréis muchísimo en el festival de música.",
-          "english": "You all will have a great time at the music festival.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "music_festival",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divertirán practicando deportes acuáticos.",
-          "english": "They will have fun practicing water sports.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "water_sports",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:e-ie",
-            "stem-changing",
-            "subject:ellos/ellas/ustedes",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
         }
       ],
       "present-progressive": [],
@@ -1060,25 +588,6 @@
       },
       "present": [
         {
-          "spanish": "Me encuentro muy bien después de las vacaciones.",
-          "english": "I feel very well after vacation.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "post_vacation_wellness",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Te encuentras con tus amigos cada sábado.",
           "english": "You (informal) meet with your friends every Saturday.",
           "subject": "tú",
@@ -1098,27 +607,8 @@
           ]
         },
         {
-          "spanish": "Te encontrás en una situación muy favorable.",
-          "english": "You find yourself in a very favorable situation.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "advantageous_position",
-          "tags": [
-            "reflexive:true",
-            "region:argentina",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:vos",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encuentra trabajando en un trabajo importante.",
-          "english": "He finds himself/herself working on an important work.",
+          "spanish": "Está trabajando en un proyecto importante.",
+          "english": "He is working on an important project.",
           "subject": "él",
           "region": "universal",
           "source": "work_engagement",
@@ -1133,102 +623,14 @@
             "tier:4",
             "verb-type:ar",
             "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encuentra trabajando en un trabajo importante.",
-          "english": "She finds himself/herself working on an important work.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "work_engagement",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:ella",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encuentra trabajando en un trabajo importante.",
-          "english": "You (formal) find himself/herself working on an important work.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "work_engagement",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos encontramos en el parque cada mañana.",
-          "english": "We meet in the park every morning.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "morning_meeting_routine",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os encontráis muy contentos con los resultados.",
-          "english": "You all find yourselves very happy with the results.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "satisfaction_with_results",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encuentran estudiando para los exámenes finales.",
-          "english": "They find themselves studying for final exams.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "exam_preparation",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:ellos/ellas/ustedes",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Spanish wording awkward + English translation unnatural",
+            "chunk": 7
+          }
         }
       ],
       "preterite": [
@@ -1245,139 +647,6 @@
             "stem-change:o-ue",
             "stem-changing",
             "subject:yo",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te encontraste muy bien después de las vacaciones.",
-          "english": "You (informal) felt very well after vacation.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "post_vacation_wellness",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te encontraste con tu ex novio en el supermercado.",
-          "english": "You ran into your ex-boyfriend at the supermarket.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "awkward_encounter",
-          "tags": [
-            "reflexive:true",
-            "region:argentina",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:vos",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encontró perdido en la ciudad nueva.",
-          "english": "He found himself/herself lost in the new city.",
-          "subject": "él",
-          "region": "universal",
-          "source": "navigation_confusion",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:él",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encontró perdido en la ciudad nueva.",
-          "english": "She found himself/herself lost in the new city.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "navigation_confusion",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encontró perdido en la ciudad nueva.",
-          "english": "You (formal) found himself/herself lost in the new city.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "navigation_confusion",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos encontramos por casualidad en el aeropuerto.",
-          "english": "We ran into each other by chance at the airport.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "chance_meeting",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os encontrasteis muy cansados después del viaje.",
-          "english": "You all found yourselves very tired after the trip.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "travel_fatigue",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:vosotros",
             "tense:preterite",
             "tier:4",
             "verb-type:ar",
@@ -1406,44 +675,6 @@
       ],
       "future": [
         {
-          "spanish": "Me encontraré mejor después del ayuda médico.",
-          "english": "I will feel better after medical help.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "medical_recovery",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:yo",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te encontrarás con muchas oportunidades en la nueva ciudad.",
-          "english": "You (informal) will encounter many opportunities in the new city.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "new_city_opportunities",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:tú",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Te encontrarás con viejos amigos en la clase.",
           "english": "You will meet old friends at the reunion.",
           "subject": "vos",
@@ -1463,8 +694,8 @@
           ]
         },
         {
-          "spanish": "Se encontrará muy feliz en su nuevo trabajo.",
-          "english": "He will find himself/herself very happy in his new job.",
+          "spanish": "Se sentirá muy feliz en su nuevo trabajo.",
+          "english": "He will feel very happy in his new job.",
           "subject": "él",
           "region": "universal",
           "source": "job_satisfaction",
@@ -1479,102 +710,14 @@
             "tier:4",
             "verb-type:ar",
             "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encontrará muy feliz en su nuevo trabajo.",
-          "english": "She will find himself/herself very happy in her new job.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "job_satisfaction",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encontrará muy feliz en su nuevo trabajo.",
-          "english": "You (formal) will find himself/herself very happy in your new job.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "job_satisfaction",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos encontraremos en una situación muy diferente.",
-          "english": "We will find ourselves in a very different situation.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "circumstance_change",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Os encontraréis con sorpresas agradables en el viaje.",
-          "english": "You all will encounter pleasant surprises on the trip.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "travel_surprises",
-          "tags": [
-            "reflexive:true",
-            "region:spain",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encontrarán con nuevos desafíos en el mercado internacional.",
-          "english": "They will encounter new challenges in the international market.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "international_business",
-          "tags": [
-            "reflexive:true",
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:ellos/ellas/ustedes",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "English unnatural; Spanish okay but formal",
+            "chunk": 7
+          }
         }
       ],
       "present-progressive": [],
@@ -1594,41 +737,7 @@
       },
       "present": [
         {
-          "spanish": "Creo en la amistad verdadera.",
-          "english": "I believe in true friendship.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "personal_values",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Crees que es posible cambiar el mundo.",
-          "english": "You (informal) believe it's possible to change the world.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "optimistic_worldview",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creés que todo va a salir bien.",
+          "spanish": "Crees que todo va a salir bien.",
           "english": "You believe everything will turn out well.",
           "subject": "vos",
           "region": "argentina",
@@ -1642,7 +751,14 @@
             "tier:4",
             "verb-type:er",
             "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Rioplatense form 'Creés'",
+            "chunk": 7
+          }
         },
         {
           "spanish": "Cree en sus sueños y los persigue.",
@@ -1660,145 +776,9 @@
             "verb-type:er",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Cree en sus sueños y los persigue.",
-          "english": "She believes in her dreams and pursues them.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "dream_pursuit",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:ella",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Cree en sus sueños y los persigue.",
-          "english": "You (formal) believe in your dreams and pursues them.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "dream_pursuit",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creemos en el poder de la educación.",
-          "english": "We believe in the power of education.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "educational_values",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creéis que el equipo va a ganar.",
-          "english": "You all believe the team is going to win.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "sports_confidence",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creen que la tecnología mejora la vida.",
-          "english": "They believe technology improves life.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "technology_optimism",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:ellos/ellas/ustedes",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
         }
       ],
       "preterite": [
-        {
-          "spanish": "Creí que era una broma hasta que lo vi.",
-          "english": "I believed it was a joke until I saw it.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "reality_check",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:yo",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creíste en mí cuando nadie más lo hacía.",
-          "english": "You (informal) believed in me when no one else did.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "faith_support",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creíste que ibas a ganar la lotería.",
-          "english": "You believed you were going to win the lottery.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "wishful_thinking",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:vos",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Creyó en el trabajo desde el primer momento.",
           "english": "He believed in the work from the first moment.",
@@ -1827,74 +807,6 @@
             "regularity:regular",
             "spelling-change:preterite",
             "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creyó en el trabajo desde el primer momento.",
-          "english": "You (formal) believed in the work from the first moment.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "project_faith",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creímos que llegaríamos a tiempo pero nos equivocamos.",
-          "english": "We believed we would arrive on time but we were wrong.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "timing_miscalculation",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creísteis que el examen sería más fácil.",
-          "english": "You all believed the exam would be easier.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "exam_expectation",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:vosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creyeron que era imposible hasta que lo lograron.",
-          "english": "They believed it was impossible until they achieved it.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "achievement_surprise",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:ellos/ellas/ustedes",
             "tense:preterite",
             "tier:4",
             "verb-type:er",
@@ -1936,125 +848,6 @@
             "verb-type:er",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Creerás en vos mismo cuando veas los resultados.",
-          "english": "You will believe in yourself when you see the results.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "self_confidence",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:vos",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creerá en la importancia de la educación.",
-          "english": "He will believe in the importance of education.",
-          "subject": "él",
-          "region": "universal",
-          "source": "educational_values",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creerá en la importancia de la educación.",
-          "english": "She will believe in the importance of education.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "educational_values",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creerá en la importancia de la educación.",
-          "english": "You (formal) will believe in the importance of education.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "educational_values",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creeremos en un futuro mejor para nuestros hijos.",
-          "english": "We will believe in a better future for our children.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "parental_hope",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creeréis en vuestras capacidades después del entrenamiento.",
-          "english": "You all will believe in your abilities after training.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "skill_development",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creerán en el poder de la tecnología para cambiar el mundo.",
-          "english": "They will believe in technology's power to change the world.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "technological_optimism",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "spelling-change:preterite",
-            "subject:ellos/ellas/ustedes",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb"
-          ]
         }
       ],
       "present-progressive": [],
@@ -2073,54 +866,6 @@
         ]
       },
       "present": [
-        {
-          "spanish": "Oigo música clásica para concentrarme.",
-          "english": "I listen to classical music to concentrate.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "concentration_aid",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oyes ruidos extraños por la noche.",
-          "english": "You (informal) hear strange noises at night.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "nighttime_sounds",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oís las noticias en la radio.",
-          "english": "You listen to the news on the radio.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "news_consumption",
-          "tags": [
-            "region:argentina",
-            "regularity:highly-irregular",
-            "subject:vos",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Oye conversaciones desde su casa.",
           "english": "He hears conversations from his house.",
@@ -2147,70 +892,6 @@
             "region:universal",
             "regularity:highly-irregular",
             "subject:ella",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oye conversaciones desde su casa.",
-          "english": "You (formal) hear conversations from your house.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "office_environment",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oímos a los pájaros cantar cada mañana.",
-          "english": "We hear the birds singing every morning.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "nature_sounds",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oís música en vivo en el parque.",
-          "english": "You all hear live music in the park.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "outdoor_entertainment",
-          "tags": [
-            "region:spain",
-            "regularity:highly-irregular",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oyen voces familiares en la distancia.",
-          "english": "They hear familiar voices in the distance.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "distant_recognition",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:ellos/ellas/ustedes",
             "tense:present",
             "tier:4",
             "verb-type:ir",
@@ -2250,217 +931,9 @@
             "verb-type:ir",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Oíste música hermosa en el concierto de ayer.",
-          "english": "You heard beautiful music at yesterday's concert.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "concert_experience",
-          "tags": [
-            "region:argentina",
-            "regularity:highly-irregular",
-            "subject:vos",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oyó su nombre en la lista de ganadores.",
-          "english": "He heard his name on the winners' list.",
-          "subject": "él",
-          "region": "universal",
-          "source": "victory_announcement",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oyó su nombre en la lista de ganadores.",
-          "english": "She heard her name on the winners' list.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "victory_announcement",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oyó su nombre en la lista de ganadores.",
-          "english": "You (formal) heard your name on the winners' list.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "victory_announcement",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oímos el discurso completo del presidente.",
-          "english": "We heard the president's complete speech.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "political_event",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oísteis los aplausos desde el pasillo.",
-          "english": "You all heard the applause from the hallway.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "performance_success",
-          "tags": [
-            "region:spain",
-            "regularity:highly-irregular",
-            "subject:vosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oyeron la explosión desde varios kilómetros.",
-          "english": "They heard the explosion from several kilometers away.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "distant_emergency",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:ellos/ellas/ustedes",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
         }
       ],
       "future": [
-        {
-          "spanish": "Oiré noticias importantes en la clase de mañana.",
-          "english": "I will hear important news at tomorrow's class.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "meeting_anticipation",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oirás música increíble en el festival de jazz.",
-          "english": "You (informal) will hear incredible music at the jazz festival.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "festival_anticipation",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oirás tu canción favorita en la radio.",
-          "english": "You will hear your favorite song on the radio.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "musical_surprise",
-          "tags": [
-            "region:argentina",
-            "regularity:highly-irregular",
-            "subject:vos",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oirá los resultados del examen por teléfono.",
-          "english": "He will hear the exam results by phone.",
-          "subject": "él",
-          "region": "universal",
-          "source": "result_notification",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oirá los resultados del examen por teléfono.",
-          "english": "She will hear the exam results by phone.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "result_notification",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oirá los resultados del examen por teléfono.",
-          "english": "You (formal) will hear the exam results by phone.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "result_notification",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Oiremos buenas noticias sobre el trabajo.",
           "english": "We will hear good news about the work.",
@@ -2478,31 +951,15 @@
           ]
         },
         {
-          "spanish": "Oiréis campanas de boda el próximo sábado.",
-          "english": "You all will hear wedding bells next Saturday.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "wedding_celebration",
-          "tags": [
-            "region:spain",
-            "regularity:highly-irregular",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ir",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oirán su nombre en la ceremonia de graduación.",
-          "english": "They will hear their names at the graduation ceremony.",
-          "subject": "ellos/ellas/ustedes",
+          "spanish": "Oiré noticias importantes en la clase de mañana.",
+          "english": "I will hear important news at tomorrow's class.",
+          "subject": "yo",
           "region": "universal",
-          "source": "graduation_recognition",
+          "source": "meeting_anticipation",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
-            "subject:ellos/ellas/ustedes",
+            "subject:yo",
             "tense:future",
             "tier:4",
             "verb-type:ir",
@@ -2544,91 +1001,6 @@
           ]
         },
         {
-          "spanish": "Traes buenas noticias siempre.",
-          "english": "You (informal) always bring good news.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "positive_messenger",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traés regalos únicos de tus viajes.",
-          "english": "You bring unique gifts from your travels.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "travel_souvenirs",
-          "tags": [
-            "region:argentina",
-            "regularity:irregular",
-            "subject:vos",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trae flores del jardín para decorar.",
-          "english": "He brings flowers from the garden to decorate.",
-          "subject": "él",
-          "region": "universal",
-          "source": "home_decoration",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trae flores del jardín para decorar.",
-          "english": "She brings flowers from the garden to decorate.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "home_decoration",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ella",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trae flores del jardín para decorar.",
-          "english": "You (formal) bring flowers from the garden to decorate.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "home_decoration",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
           "spanish": "Traemos comida para compartir en la casa.",
           "english": "We bring food to share at the house.",
           "subject": "nosotros",
@@ -2644,145 +1016,9 @@
             "word-type:verb",
             "yo-form:go"
           ]
-        },
-        {
-          "spanish": "Traéis energía positiva a cada clase.",
-          "english": "You all bring positive energy to every class.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "meeting_atmosphere",
-          "tags": [
-            "region:spain",
-            "regularity:irregular",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traen experiencias interesantes de otros países.",
-          "english": "They bring interesting experiences from other countries.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "cultural_exchange",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
         }
       ],
       "preterite": [
-        {
-          "spanish": "Traje flores del jardín para decorar la mesa.",
-          "english": "I brought flowers from the garden to decorate the table.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "home_decoration",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trajiste regalos increíbles de tu viaje a Europa.",
-          "english": "You (informal) brought incredible gifts from your trip to Europe.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "travel_souvenirs",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trajiste buenas noticias de la clase.",
-          "english": "You brought good news from the class.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "positive_update",
-          "tags": [
-            "region:argentina",
-            "regularity:irregular",
-            "subject:vos",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trajo su experiencia internacional al equipo.",
-          "english": "He brought his international experience to the team.",
-          "subject": "él",
-          "region": "universal",
-          "source": "professional_contribution",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trajo su experiencia internacional al equipo.",
-          "english": "She brought her international experience to the team.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "professional_contribution",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trajo su experiencia internacional al equipo.",
-          "english": "You (formal) brought your international experience to the team.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "professional_contribution",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
         {
           "spanish": "Trajimos comida casera para compartir en la casa.",
           "english": "We brought homemade food to share at the house.",
@@ -2793,23 +1029,6 @@
             "region:universal",
             "regularity:irregular",
             "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Trajisteis vino español para la cena especial.",
-          "english": "You all brought Spanish wine for the special dinner.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "dinner_contribution",
-          "tags": [
-            "region:spain",
-            "regularity:irregular",
-            "subject:vosotros",
             "tense:preterite",
             "tier:4",
             "verb-type:er",
@@ -2837,40 +1056,6 @@
       ],
       "future": [
         {
-          "spanish": "Traeré mi guitarra para tocar en la fiesta.",
-          "english": "I will bring my guitar to play at the party.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "party_entertainment",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traerás suerte al equipo con tu experiencia.",
-          "english": "You (informal) will bring luck to the team with your experience.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "team_contribution",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
           "spanish": "Traerás alegría a la familia con tu visita.",
           "english": "You will bring joy to the family with your visit.",
           "subject": "vos",
@@ -2888,100 +1073,15 @@
           ]
         },
         {
-          "spanish": "Traerá cambios positivos a la empresa.",
-          "english": "He will bring positive changes to the company.",
-          "subject": "él",
+          "spanish": "Traeré mi guitarra para tocar en la fiesta.",
+          "english": "I will bring my guitar to play at the party.",
+          "subject": "yo",
           "region": "universal",
-          "source": "corporate_improvement",
+          "source": "party_entertainment",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traerá cambios positivos a la empresa.",
-          "english": "She will bring positive changes to the company.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "corporate_improvement",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traerá cambios positivos a la empresa.",
-          "english": "You (formal) will bring positive changes to the company.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "corporate_improvement",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traeremos expertos internacionales para la conferencia.",
-          "english": "We will bring international experts for the conference.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "conference_planning",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traeréis tradiciones familiares a la nueva generación.",
-          "english": "You all will bring family traditions to the new generation.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "cultural_transmission",
-          "tags": [
-            "region:spain",
-            "regularity:irregular",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:go"
-          ]
-        },
-        {
-          "spanish": "Traerán tecnología avanzada al mercado local.",
-          "english": "They will bring advanced technology to the local market.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "technology_introduction",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
+            "subject:yo",
             "tense:future",
             "tier:4",
             "verb-type:er",
@@ -2991,7 +1091,52 @@
         }
       ],
       "present-progressive": [],
-      "going-to": [],
+      "going-to": [
+        {
+          "spanish": "Voy a traer el postre.",
+          "english": "I'm going to bring dessert.",
+          "subject": "yo",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "voy",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "contribution",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:yo",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:contribution",
+            "roi:high"
+          ]
+        }
+      ],
       "present-perfect": []
     },
     "CONOCER": {
@@ -3007,41 +1152,56 @@
       },
       "present": [
         {
-          "spanish": "Conozco a tu hermana desde la infancia.",
-          "english": "I've known your sister since childhood.",
-          "subject": "yo",
+          "spanish": "Mis jefes saben que en ese restaurante preparan muy buena pizza.",
+          "english": "My bosses know that they make very good pizza at that restaurant.",
           "region": "universal",
-          "source": "long_friendship",
+          "verb": "CONOCER",
+          "tense": "present",
+          "file": "tier4-complete.json",
+          "source": {
+            "type": "transformed",
+            "origin": "copyright_safe_transformation",
+            "method": "family_to_work_transformation",
+            "date_created": "2025-12-02",
+            "original_source": "textbook_transformed"
+          },
+          "quality": {
+            "score": 35,
+            "authenticity": "transformed",
+            "linguistic_review": "needs_review",
+            "copyright_status": "safe_transformation",
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Grammar error ('Mi jefes') + missing translation + unnatural Spanish",
+            "chunk": 8
+          },
+          "linguistic": {
+            "construction": "standard",
+            "difficulty": "beginner",
+            "register": "neutral"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "present",
+              "vocabulary"
+            ],
+            "cultural_context": "general",
+            "tier_appropriate": true,
+            "transformation_method": "family_to_work_transformation"
+          },
           "tags": [
             "region:universal",
-            "regularity:irregular",
-            "subject:yo",
+            "subject:undefined",
             "tense:present",
-            "tier:4",
-            "verb-type:er",
             "word-type:verb",
-            "yo-form:zco"
+            "source:transformed",
+            "copyright:safe",
+            "method:family_to_work_transformation"
           ]
         },
         {
-          "spanish": "Conoces la ciudad mejor que nadie.",
-          "english": "You (informal) know the city better than anyone.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "local_expertise",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocés todos los secretos del barrio.",
+          "spanish": "Conoces todos los secretos del barrio.",
           "english": "You know all the neighborhood secrets.",
           "subject": "vos",
           "region": "argentina",
@@ -3055,109 +1215,14 @@
             "verb-type:er",
             "word-type:verb",
             "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conoce muchos países de Europa.",
-          "english": "He knows many European countries.",
-          "subject": "él",
-          "region": "universal",
-          "source": "travel_experience",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conoce muchos países de Europa.",
-          "english": "She knows many European countries.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "travel_experience",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ella",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conoce muchos países de Europa.",
-          "english": "You (formal) know many European countries.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "travel_experience",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocemos este restaurante desde hace años.",
-          "english": "We've known this restaurant for years.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "dining_familiarity",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocéis la historia de la ciudad perfectamente.",
-          "english": "You all know the city's history perfectly.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "historical_knowledge",
-          "tags": [
-            "region:spain",
-            "regularity:irregular",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocen a personas importantes en el gobierno.",
-          "english": "They know important people in government.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "political_connections",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Rioplatense form 'Conocés'",
+            "chunk": 8
+          }
         }
       ],
       "preterite": [
@@ -3171,40 +1236,6 @@
             "region:universal",
             "regularity:irregular",
             "subject:yo",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conociste París durante tu luna de miel.",
-          "english": "You (informal) got to know Paris during your honeymoon.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "travel_discovery",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conociste a tu futuro jefe en la conferencia.",
-          "english": "You met your future boss at the conference.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "professional_networking",
-          "tags": [
-            "region:argentina",
-            "regularity:irregular",
-            "subject:vos",
             "tense:preterite",
             "tier:4",
             "verb-type:er",
@@ -3228,111 +1259,9 @@
             "word-type:verb",
             "yo-form:zco"
           ]
-        },
-        {
-          "spanish": "Conoció el éxito después de años de trabajo duro.",
-          "english": "She experienced success after years of hard work.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "career_achievement",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conoció el éxito después de años de trabajo duro.",
-          "english": "You (formal) experienced success after years of hard work.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "career_achievement",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocimos la cultura japonesa durante nuestro viaje.",
-          "english": "We got to know Japanese culture during our trip.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "cultural_immersion",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocisteis la verdad sobre el trabajo secreto.",
-          "english": "You all found out the truth about the secret work.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "secret_revelation",
-          "tags": [
-            "region:spain",
-            "regularity:irregular",
-            "subject:vosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocieron las dificultades del nuevo trabajo.",
-          "english": "They experienced the difficulties of the new job.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "job_challenges",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
         }
       ],
       "future": [
-        {
-          "spanish": "Conoceré muchos países cuando me jubile.",
-          "english": "I will get to know many countries when I retire.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "retirement_travel",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
         {
           "spanish": "Conocerás personas interesantes en tu nuevo trabajo.",
           "english": "You (informal) will meet interesting people in your new job.",
@@ -3351,117 +1280,15 @@
           ]
         },
         {
-          "spanish": "Conocerás el amor verdadero cuando menos lo esperes.",
-          "english": "You will find true love when you least expect it.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "romantic_destiny",
-          "tags": [
-            "region:argentina",
-            "regularity:irregular",
-            "subject:vos",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocerá el éxito con su nueva empresa.",
-          "english": "He will experience success with his new company.",
-          "subject": "él",
+          "spanish": "Conoceré muchos países cuando me jubile.",
+          "english": "I will get to know many countries when I retire.",
+          "subject": "yo",
           "region": "universal",
-          "source": "business_success",
+          "source": "retirement_travel",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocerá el éxito con su nueva empresa.",
-          "english": "She will experience success with her new company.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "business_success",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocerá el éxito con su nueva empresa.",
-          "english": "You (formal) will experience success with your new company.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "business_success",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conoceremos la respuesta después de la estudio.",
-          "english": "We will know the answer after the investigation.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "research_outcome",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conoceréis la historia completa en el documental.",
-          "english": "You all will learn the complete story in the documentary.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "documentary_education",
-          "tags": [
-            "region:spain",
-            "regularity:irregular",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:er",
-            "word-type:verb",
-            "yo-form:zco"
-          ]
-        },
-        {
-          "spanish": "Conocerán las consecuencias de sus acciones.",
-          "english": "They will experience the consequences of their actions.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "consequence_realization",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
+            "subject:yo",
             "tense:future",
             "tier:4",
             "verb-type:er",
@@ -3475,17 +1302,57 @@
       "present-perfect": []
     },
     "LLEVAR": {
-      "metadata": {
-        "english": "to take/carry/wear",
-        "verb_type": "ar",
-        "regularity": "regular",
-        "tags": [
-          "tier:4",
-          "regular",
-          "ar-verb"
-        ]
-      },
+      "metadata": [],
       "present": [
+        {
+          "spanish": "Cada semana, ella lleva al bebé a una guardería pública.",
+          "english": "Every week, she takes the baby to a public daycare.",
+          "region": "universal",
+          "verb": "LLEVAR",
+          "tense": "present",
+          "file": "tier4-complete.json",
+          "source": {
+            "type": "transformed",
+            "origin": "copyright_safe_transformation",
+            "method": "routine_transformation",
+            "date_created": "2025-12-02",
+            "original_source": "textbook_transformed"
+          },
+          "quality": {
+            "score": 35,
+            "authenticity": "transformed",
+            "linguistic_review": "needs_review",
+            "copyright_status": "safe_transformation",
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Missing period + missing English translation",
+            "chunk": 8
+          },
+          "linguistic": {
+            "construction": "standard",
+            "difficulty": "beginner",
+            "register": "neutral"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "present",
+              "vocabulary"
+            ],
+            "cultural_context": "general",
+            "tier_appropriate": true,
+            "transformation_method": "routine_transformation"
+          },
+          "tags": [
+            "region:universal",
+            "subject:undefined",
+            "tense:present",
+            "word-type:verb",
+            "source:transformed",
+            "copyright:safe",
+            "method:routine_transformation"
+          ]
+        },
         {
           "spanish": "Llevo mi mochila al trabajo cada día.",
           "english": "I carry my backpack to work every day.",
@@ -3501,169 +1368,9 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Llevas una vida muy activa y saludable.",
-          "english": "You (informal) lead a very active and healthy life.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "lifestyle_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevás un vestido muy elegante hoy.",
-          "english": "You're wearing a very elegant dress today.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "fashion_compliment",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Lleva gafas de sol porque le molesta la luz.",
-          "english": "He wears sunglasses because light bothers him/her.",
-          "subject": "él",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Lleva gafas de sol porque le molesta la luz.",
-          "english": "She wears sunglasses because light bothers him/her.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Lleva gafas de sol porque le molesta la luz.",
-          "english": "You (formal) wear sunglasses because light bother him/her.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevamos comida deliciosa a la fiesta.",
-          "english": "We bring delicious food to the party.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "party_contribution",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Lleváis años viviendo en el mismo barrio.",
-          "english": "You all have been living in the same neighborhood for years.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "residential_stability",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevan una relación muy feliz juntos.",
-          "english": "They have a very happy relationship together.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "relationship_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "preterite": [
-        {
-          "spanish": "Llevé a mis padres al aeropuerto esta mañana.",
-          "english": "I took my parents to the airport this morning.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "family_assistance",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevaste una vida muy activa durante la escuela.",
-          "english": "You (informal) led a very active life during school.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "lifestyle_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Llevaste el trabajo al éxito con tu dedicación.",
           "english": "You led the work to success with your dedication.",
@@ -3681,7 +1388,7 @@
           ]
         },
         {
-          "spanish": "Llevó flores a su madre en el casa.",
+          "spanish": "Llevó flores a su madre en la casa.",
           "english": "He brought flowers to his mother in the house.",
           "subject": "él",
           "region": "universal",
@@ -3694,332 +1401,18 @@
             "tier:4",
             "verb-type:ar",
             "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevó flores a su madre en el casa.",
-          "english": "She brought flowers to her mother in the house.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "hospital_visit",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevó flores a su madre en el casa.",
-          "english": "You (formal) brought flowers to your mother in the house.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "hospital_visit",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevamos comida deliciosa a la fiesta de cumpleaños.",
-          "english": "We brought delicious food to the birthday party.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "party_contribution",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevasteis a cabo el plan perfectamente.",
-          "english": "You all carried out the plan perfectly.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "plan_execution",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevaron la empresa al siguiente nivel.",
-          "english": "They took the company to the next level.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "business_growth",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Wrong article ('en el casa')",
+            "chunk": 8
+          }
         }
       ],
-      "future": [
-        {
-          "spanish": "Llevaré a mis hijos al parque de diversiones.",
-          "english": "I will take my children to the amusement park.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "family_entertainment",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevarás una vida plena y feliz.",
-          "english": "You (informal) will lead a full and happy life.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "life_prediction",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevarás el equipo a la victoria en el campeonato.",
-          "english": "You will lead the team to victory in the championship.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "sports_leadership",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevará su arte a galerías internacionales.",
-          "english": "He will take his art to international galleries.",
-          "subject": "él",
-          "region": "universal",
-          "source": "artistic_success",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevará su arte a galerías internacionales.",
-          "english": "She will take her art to international galleries.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "artistic_success",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevará su arte a galerías internacionales.",
-          "english": "You (formal) will take your art to international galleries.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "artistic_success",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevaremos la tradición a las futuras generaciones.",
-          "english": "We will carry the tradition to future generations.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "cultural_preservation",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevaréis vuestras ideas innovadoras al mercado.",
-          "english": "You all will bring your innovative ideas to market.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "innovation_commercialization",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevarán la tecnología a comunidades remotas.",
-          "english": "They will bring technology to remote communities.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "technology_outreach",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        }
-      ],
+      "future": [],
       "present-progressive": [
-        {
-          "spanish": "Estoy llevando mi mochila al trabajo cada día.",
-          "english": "I am carrying my backpack to work every day.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "work_routine",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estás llevando una vida muy activa y saludable.",
-          "english": "You (informal) are carrying a very active and healthy life.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "lifestyle_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estás llevando un vestido muy elegante hoy.",
-          "english": "You're wearing a very elegant dress today.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "fashion_compliment",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está llevando gafas de sol porque le molesta la luz.",
-          "english": "He is carrying sunglasses because light bothers him/her.",
-          "subject": "él",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está llevando gafas de sol porque le molesta la luz.",
-          "english": "She is carrying sunglasses because light bothers him/her.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está llevando gafas de sol porque le molesta la luz.",
-          "english": "You (formal) are carrying sunglasses because light bother him/her.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Estamos llevando comida deliciosa a la fiesta.",
           "english": "We are carrying delicious food to the party.",
@@ -4030,38 +1423,6 @@
             "region:universal",
             "regularity:regular",
             "subject:nosotros",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estáis llevando años viviendo en el mismo barrio.",
-          "english": "You all are carrying have been living in the same neighborhood for years.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "residential_stability",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Están llevando una relación muy feliz juntos.",
-          "english": "They are carrying a very happy relationship together.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "relationship_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
             "tense:present-progressive",
             "tier:4",
             "verb-type:ar",
@@ -4087,86 +1448,6 @@
           ]
         },
         {
-          "spanish": "Vas a llevar una vida muy activa y saludable.",
-          "english": "You (informal)'re going to carry a very active and healthy life.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "lifestyle_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a llevar un vestido muy elegante hoy.",
-          "english": "You're wearing a very elegant dress today.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "fashion_compliment",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Va a llevar gafas de sol porque le molesta la luz.",
-          "english": "He is going to carry sunglasses because light bothers him/her.",
-          "subject": "él",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Va a llevar gafas de sol porque le molesta la luz.",
-          "english": "She is going to carry sunglasses because light bothers him/her.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Va a llevar gafas de sol porque le molesta la luz.",
-          "english": "You (formal) are going to carry sunglasses because light bother him/her.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Vamos a llevar comida deliciosa a la fiesta.",
           "english": "We're going to carry delicious food to the party.",
           "subject": "nosotros",
@@ -4183,35 +1464,47 @@
           ]
         },
         {
-          "spanish": "Vais a llevar años viviendo en el mismo barrio.",
-          "english": "You all are going to carry have been living in the same neighborhood for years.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "residential_stability",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Van a llevar una relación muy feliz juntos.",
-          "english": "They're going to carry a very happy relationship together.",
-          "subject": "ellos/ellas/ustedes",
+          "spanish": "¿Qué vas a llevar a la fiesta?",
+          "english": "What are you going to bring to the party?",
+          "subject": "tú",
           "region": "universal",
-          "source": "relationship_description",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vas",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "social",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
           "tags": [
             "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
+            "subject:tú",
             "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:social",
+            "roi:high"
           ]
         }
       ],
@@ -4231,148 +1524,11 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Has llevado una vida muy activa y saludable.",
-          "english": "You (informal) have carried a very active and healthy life.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "lifestyle_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Has llevado un vestido muy elegante hoy.",
-          "english": "You're wearing a very elegant dress today.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "fashion_compliment",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha llevado gafas de sol porque le molesta la luz.",
-          "english": "He has carried sunglasses because light bothers him/her.",
-          "subject": "él",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha llevado gafas de sol porque le molesta la luz.",
-          "english": "She has carried sunglasses because light bothers him/her.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha llevado gafas de sol porque le molesta la luz.",
-          "english": "You (formal) have carried sunglasses because light bother him/her.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "eye_protection",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Hemos llevado comida deliciosa a la fiesta.",
-          "english": "We have carried delicious food to the party.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "party_contribution",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Habéis llevado años viviendo en el mismo barrio.",
-          "english": "You all have carried have been living in the same neighborhood for years.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "residential_stability",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Han llevado una relación muy feliz juntos.",
-          "english": "They have carried a very happy relationship together.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "relationship_description",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ]
     },
     "NECESITAR": {
-      "metadata": {
-        "english": "to need",
-        "verb_type": "ar",
-        "regularity": "regular",
-        "tags": [
-          "tier:4",
-          "regular",
-          "ar-verb"
-        ]
-      },
+      "metadata": [],
       "present": [
         {
           "spanish": "Necesito más tiempo para terminar el trabajo.",
@@ -4405,118 +1561,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Necesitás ayuda con la mudanza.",
-          "english": "You need help with the move.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "moving_assistance",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesita hablar con el doctor urgentemente.",
-          "english": "He needs to talk to the doctor urgently.",
-          "subject": "él",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesita hablar con el doctor urgentemente.",
-          "english": "She needs to talk to the doctor urgently.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesita hablar con el doctor urgentemente.",
-          "english": "You (formal) need to talk to the doctor urgently.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitamos un coche más grande para la familia.",
-          "english": "We need a bigger car for the family.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "family_transportation",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitáis estudiar más para el examen.",
-          "english": "You all need to study more for the exam.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "academic_preparation",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitan permiso especial para entrar.",
-          "english": "They need special permission to enter.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "access_requirement",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "preterite": [
@@ -4537,40 +1581,8 @@
           ]
         },
         {
-          "spanish": "Necesitaste mucho valor para tomar esa decisión.",
-          "english": "You (informal) needed a lot of courage to make that decision.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "brave_decision",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitaste tiempo para procesar la noticia.",
-          "english": "You needed time to process the news.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "emotional_processing",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Necesitó trabajo después del accidente.",
-          "english": "He needed work after the accident.",
+          "english": "He needed a job after the accident.",
           "subject": "él",
           "region": "universal",
           "source": "medical_emergency",
@@ -4582,381 +1594,18 @@
             "tier:4",
             "verb-type:ar",
             "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitó trabajo después del accidente.",
-          "english": "She needed work after the accident.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "medical_emergency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitó trabajo después del accidente.",
-          "english": "You (formal) needed work after the accident.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "medical_emergency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitamos un préstamo para comprar la casa.",
-          "english": "We needed a loan to buy the house.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "home_financing",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitasteis permisos especiales para el evento.",
-          "english": "You all needed special permits for the event.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "event_planning",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitaron tres intentos para aprobar el examen.",
-          "english": "They needed three attempts to pass the exam.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "exam_persistence",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:preterite",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "English translation ambiguous ('needed work')",
+            "chunk": 8
+          }
         }
       ],
-      "future": [
-        {
-          "spanish": "Necesitaré tu apoyo durante este período difícil.",
-          "english": "I will need your support during this difficult period.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "emotional_support",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitarás un pasaporte nuevo para el viaje.",
-          "english": "You (informal) will need a new passport for the trip.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "travel_documentation",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitarás estudiar mucho para el examen final.",
-          "english": "You will need to study a lot for the final exam.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "academic_preparation",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitará experiencia internacional para el puesto.",
-          "english": "He will need international experience for the position.",
-          "subject": "él",
-          "region": "universal",
-          "source": "job_requirements",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitará experiencia internacional para el puesto.",
-          "english": "She will need international experience for the position.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "job_requirements",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitará experiencia internacional para el puesto.",
-          "english": "You (formal) will need international experience for the position.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "job_requirements",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitaremos más tiempo para completar la estudio.",
-          "english": "We will need more time to complete the study.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "research_timeline",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitaréis reservar con anticipación para el restaurante.",
-          "english": "You all will need to book in advance for the restaurant.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "dining_reservation",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitarán invertir en tecnología para competir.",
-          "english": "They will need to invest in technology to compete.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "business_competition",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:future",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        }
-      ],
-      "present-progressive": [
-        {
-          "spanish": "Estoy necesitando más tiempo para terminar el trabajo.",
-          "english": "I am needing more time to finish the work.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "work_deadline",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estás necesitando descansar después de tanto trabajo.",
-          "english": "You (informal) are needing to rest after so much work.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "health_advice",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estás necesitando ayuda con la mudanza.",
-          "english": "You are needing help with the move.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "moving_assistance",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está necesitando hablar con el doctor urgentemente.",
-          "english": "He is needing to talk to the doctor urgently.",
-          "subject": "él",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está necesitando hablar con el doctor urgentemente.",
-          "english": "She is needing to talk to the doctor urgently.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está necesitando hablar con el doctor urgentemente.",
-          "english": "You (formal) are needing to talk to the doctor urgently.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estamos necesitando un coche más grande para la familia.",
-          "english": "We are needing a bigger car for the family.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "family_transportation",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estáis necesitando estudiar más para el examen.",
-          "english": "You all are needing need to study more for the exam.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "academic_preparation",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Están necesitando permiso especial para entrar.",
-          "english": "They are needing special permission to enter.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "access_requirement",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        }
-      ],
+      "future": [],
+      "present-progressive": [],
       "going-to": [
         {
           "spanish": "Voy a necesitar más tiempo para terminar el trabajo.",
@@ -4984,118 +1633,6 @@
             "region:universal",
             "regularity:regular",
             "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a necesitar ayuda con la mudanza.",
-          "english": "You're going to need help with the move.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "moving_assistance",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Va a necesitar hablar con el doctor urgentemente.",
-          "english": "He is going to need to talk to the doctor urgently.",
-          "subject": "él",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Va a necesitar hablar con el doctor urgentemente.",
-          "english": "She is going to need to talk to the doctor urgently.",
-          "subject": "ella",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Va a necesitar hablar con el doctor urgentemente.",
-          "english": "You (formal) are going to need to talk to the doctor urgently.",
-          "subject": "usted",
-          "region": "universal",
-          "source": "medical_urgency",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vamos a necesitar un coche más grande para la familia.",
-          "english": "We're going to need a bigger car for the family.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "family_transportation",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vais a necesitar estudiar más para el examen.",
-          "english": "You all are going to need need to study more for the exam.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "academic_preparation",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Van a necesitar permiso especial para entrar.",
-          "english": "They're going to need special permission to enter.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "access_requirement",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
             "tense:going-to",
             "tier:4",
             "verb-type:ar",
@@ -5135,117 +1672,144 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
+        }
+      ]
+    },
+    "SENTIRSE": {
+      "present": [
         {
-          "spanish": "Has necesitado ayuda con la mudanza.",
-          "english": "You have needed help with the move.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "moving_assistance",
-          "tags": [
-            "region:argentina",
-            "regularity:regular",
-            "subject:vos",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha necesitado hablar con el doctor urgentemente.",
-          "english": "He has needed to talk to the doctor urgently.",
-          "subject": "él",
+          "spanish": "Me siento muy cansado hoy; no dormí bien.",
+          "english": "I feel really tired today; I didn't sleep well.",
+          "subject": "yo",
           "region": "universal",
-          "source": "medical_urgency",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
             "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
+            "subject:yo",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:sentirse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         },
         {
-          "spanish": "Ha necesitado hablar con el doctor urgentemente.",
-          "english": "She has needed to talk to the doctor urgently.",
-          "subject": "ella",
+          "spanish": "¿Cómo te sientes después del ejercicio?",
+          "english": "How do you feel after exercising?",
+          "subject": "tú",
           "region": "universal",
-          "source": "medical_urgency",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
             "region:universal",
-            "regularity:regular",
-            "subject:ella",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:sentirse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         },
         {
-          "spanish": "Ha necesitado hablar con el doctor urgentemente.",
-          "english": "You (formal) have needed to talk to the doctor urgently.",
-          "subject": "usted",
+          "spanish": "Ella se siente mejor con esa noticia.",
+          "english": "She feels better with that news.",
+          "subject": "él/ella/usted",
           "region": "universal",
-          "source": "medical_urgency",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "emotional",
+              "reflexive"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
           "tags": [
             "region:universal",
-            "regularity:regular",
-            "subject:usted",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Hemos necesitado un coche más grande para la familia.",
-          "english": "We have needed a bigger car for the family.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "family_transportation",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:nosotros",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Habéis necesitado estudiar más para el examen.",
-          "english": "You all have needed to study more for the exam.",
-          "subject": "vosotros",
-          "region": "spain",
-          "source": "academic_preparation",
-          "tags": [
-            "region:spain",
-            "regularity:regular",
-            "subject:vosotros",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Han necesitado permiso especial para entrar.",
-          "english": "They have needed special permission to enter.",
-          "subject": "ellos/ellas/ustedes",
-          "region": "universal",
-          "source": "access_requirement",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:ellos/ellas/ustedes",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:sentirse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
           ]
         }
       ]

@@ -84,74 +84,6 @@ class CardGenerator {
     return tags;
   }
 
-  // Generate cloze card
-  generateClozeCard(cards, verb, sentence, tense, corpusVerb) {
-    const verbName = verb.verb;
-    const { spanish, english } = sentence;
-    let sentenceWithCloze = spanish;
-    
-    const conjugation = this.getConjugation(verbName);
-    if (!conjugation || !conjugation[tense] || !conjugation[tense][sentence.subject]) {
-      return;
-    }
-    
-    const conjugatedForm = conjugation[tense][sentence.subject];
-    
-    // Handle backwards verbs
-    const BACKWARDS_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
-    if (BACKWARDS_VERBS.includes(verbName)) {
-      const verbStems = {
-        'GUSTAR': 'gust', 'DOLER': 'duel|dol', 'ENCANTAR': 'encant',
-        'MOLESTAR': 'molest', 'IMPORTAR': 'import', 'FALTAR': 'falt', 'PARECER': 'parec|parezc'
-      };
-      const stem = verbStems[verbName];
-      const backwardsPattern = new RegExp(`(me|te|le|nos|os|les)\\s+(${stem}[aáéíóúeion]+n?)`, 'i');
-      const match = spanish.match(backwardsPattern);
-      if (match) {
-        sentenceWithCloze = spanish.replace(backwardsPattern, `{{c1::${match[0]}}}`);
-      }
-    } else if (corpusVerb?.metadata?.tags?.includes('reflexive')) {
-      // Handle reflexive verbs
-      const pronouns = {
-        'yo': 'me', 'tú': 'te', 'vos': 'te', 'él/ella/usted': 'se',
-        'nosotros': 'nos', 'vosotros': 'os', 'ellos/ellas/ustedes': 'se'
-      };
-      const pronoun = pronouns[sentence.subject];
-      const reflexiveRegex = this.createFlexibleRegex(`${pronoun} ${conjugatedForm}`);
-      const match = spanish.match(reflexiveRegex);
-      if (match) {
-        sentenceWithCloze = spanish.replace(reflexiveRegex, `$1{{c1::$2}}$3`);
-      } else {
-        const verbRegex = this.createFlexibleRegex(conjugatedForm);
-        const verbMatch = spanish.match(verbRegex);
-        if (verbMatch) {
-          sentenceWithCloze = spanish.replace(verbRegex, `$1{{c1::$2}}$3`);
-        }
-      }
-    } else {
-      const regex = this.createFlexibleRegex(conjugatedForm);
-      const match = spanish.match(regex);
-      if (match) {
-        sentenceWithCloze = spanish.replace(regex, `$1{{c1::$2}}$3`);
-      }
-    }
-    
-    const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
-    const verbInfo = `${verbName} (${verb.english}) - ${tense}`;
-    const frontWithVerbInfo = `<div style="text-align: center; margin-bottom: 1em; font-size: 0.9em; color: #666; font-weight: bold;">${verbInfo}</div>${sentenceWithCloze}`;
-    
-    cards.push({
-      type: 'cloze',
-      verb: verbName,
-      english: verb.english,
-      tense: tense,
-      subject: sentence.subject,
-      region: sentence.region,
-      front: frontWithVerbInfo,
-      back: `<div style="margin-top: 1em; font-size: 0.85em; color: #999;"><em>${english}</em></div>`,
-      tags: tags.join(';')
-    });
-  }
 
   // Generate ES→EN translation card
   generateTranslationEStoEN(cards, verb, sentence, tense, corpusVerb) {
@@ -185,7 +117,34 @@ class CardGenerator {
       }
     }
     
-    const englishWithHints = english; // No need for hints - already in corpus
+    // Add Spanish pronoun to eliminate ambiguity naturally
+    const spanishPronouns = {
+      'yo': 'Yo',
+      'tú': 'Tú',
+      'él': 'Él',
+      'ella': 'Ella', 
+      'usted': 'Usted',
+      'nosotros': 'Nosotros',
+      'ellos': 'Ellos',
+      'ellas': 'Ellas',
+      'ustedes': 'Ustedes',
+      'vos': 'Vos',
+      'vosotros': 'Vosotros'
+    };
+    
+    const pronoun = spanishPronouns[currentSubject] || currentSubject;
+    
+    // Handle questions correctly - pronoun goes after ¿, not before
+    let spanishWithPronoun;
+    if (highlightedSpanish.startsWith('¿')) {
+      spanishWithPronoun = highlightedSpanish.replace(/^¿/, `¿${pronoun} `).toLowerCase();
+      // Capitalize the first letter after ¿
+      spanishWithPronoun = spanishWithPronoun.replace(/^¿([a-z])/, (match, letter) => `¿${letter.toUpperCase()}`);
+    } else {
+      spanishWithPronoun = `${pronoun} ${highlightedSpanish.toLowerCase()}`;
+    }
+    
+    const englishWithHints = english;
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
     
     cards.push({
@@ -195,8 +154,8 @@ class CardGenerator {
       tense: tense,
       subject: currentSubject,
       region: sentence.region,
-      front: highlightedSpanish,
-      back: `<div style="font-size: 1.1em; margin-bottom: 0.5em;">${englishWithHints}</div><div style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><em>${verbName} (${verb.english}) - ${tense}</em></div>`,
+      front: spanishWithPronoun,
+      back: `<div style="font-size: 1.1em; margin-bottom: 0.5em;">${englishWithHints}</div><div style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><em>${verbName.toLowerCase()} (${verb.english}) - ${tense}</em></div>`,
       tags: tags.join(';')
     });
   }
@@ -233,7 +192,9 @@ class CardGenerator {
       }
     }
     
-    const finalEnglish = english; // No need for hints - already in corpus
+    // English already has disambiguation hints in the corpus (e.g., "You (informal)")
+    // No need to add headers - keep the existing English sentence as-is
+    
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
     
     cards.push({
@@ -243,55 +204,18 @@ class CardGenerator {
       tense: tense,
       subject: currentSubject,
       region: sentence.region,
-      front: finalEnglish,
+      front: english,
       back: `<div style="font-size: 1.1em;">${highlightedSpanish}</div>`,
       tags: tags.join(';')
     });
   }
 
-  // Generate conjugation practice card
-  generateConjugationPractice(cards, verb, sentence, tense, corpusVerb) {
-    const verbName = verb.verb;
-    
-    const BACKWARDS_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
-    if (BACKWARDS_VERBS.includes(verbName)) {
-      return;
-    }
-    
-    const conjugation = this.getConjugation(verbName);
-    if (!conjugation || !conjugation[tense] || !conjugation[tense][sentence.subject]) {
-      return;
-    }
-    
-    const conjugatedForm = conjugation[tense][sentence.subject];
-    const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
-    
-    const front = `<div style="text-align: center;">
-      <div style="font-size: 1.2em; margin-bottom: 0.5em;"><strong>${verbName}</strong> (${verb.english})</div>
-      <div style="font-size: 1em; color: #666;">${tense}</div>
-      <div style="font-size: 1.1em; margin-top: 0.5em;">${sentence.subject}</div>
-    </div>`;
-    
-    const back = `<div style="text-align: center; font-size: 1.3em;"><strong>${conjugatedForm}</strong></div>`;
-    
-    cards.push({
-      type: 'conjugation',
-      verb: verbName,
-      english: verb.english,
-      tense: tense,
-      subject: sentence.subject,
-      region: sentence.region,
-      front: front,
-      back: back,
-      tags: tags.join(';')
-    });
-  }
 
   // Generate cards for a tier
   generateTierCards(tierNum, verbs, corpus) {
     const cards = [];
     const tierConfig = this.tierConfigs[tierNum];
-    const cardTypes = ['trans-en-es', 'trans-es-en', 'cloze', 'conjugation'];
+    const cardTypes = ['trans-en-es', 'trans-es-en'];
     
     // Get verbs for this tier
     const tierVerbs = verbs.filter(v => v.tier === tierNum);
@@ -313,14 +237,10 @@ class CardGenerator {
           if (!this.regionConfig.regions.includes(sentence.region) && sentence.region !== 'universal') return;
           
           cardTypes.forEach(cardType => {
-            if (cardType === 'cloze') {
-              this.generateClozeCard(cards, verb, sentence, tense, corpusVerb);
-            } else if (cardType === 'trans-es-en') {
+            if (cardType === 'trans-es-en') {
               this.generateTranslationEStoEN(cards, verb, sentence, tense, corpusVerb);
             } else if (cardType === 'trans-en-es') {
               this.generateTranslationENtoES(cards, verb, sentence, tense, corpusVerb);
-            } else if (cardType === 'conjugation') {
-              this.generateConjugationPractice(cards, verb, sentence, tense, corpusVerb);
             }
           });
         });
@@ -337,15 +257,13 @@ class CardGenerator {
     cards.forEach(card => {
       const tense = card.tense;
       if (!grouped[tense]) {
-        grouped[tense] = { recognition: [], production: [], grammar: [] };
+        grouped[tense] = { recognition: [], production: [] };
       }
       
       if (card.type === 'trans-es-en') {
         grouped[tense].recognition.push(card);
       } else if (card.type === 'trans-en-es') {
         grouped[tense].production.push(card);
-      } else if (card.type === 'cloze' || card.type === 'conjugation') {
-        grouped[tense].grammar.push(card);
       }
     });
     
@@ -374,8 +292,7 @@ class CardGenerator {
       
       const skillLevels = [
         { key: 'recognition', name: 'A Recognition (ES→EN)' },
-        { key: 'production', name: 'B Production (EN→ES)' },
-        { key: 'grammar', name: 'C Grammar (Cloze & Conjugation)' }
+        { key: 'production', name: 'B Production (EN→ES)' }
       ];
       
       skillLevels.forEach(skill => {
@@ -456,7 +373,7 @@ class CardGenerator {
         id: baseClozeNoteTypeId, name: "Drillmaster Cloze", type: 1, mod: Math.floor(now / 1000), usn: 0, sortf: 0, did: null,
         tmpls: [{ name: "Cloze", ord: 0, qfmt: "{{cloze:Text}}", afmt: "{{cloze:Text}}<br>{{Extra}}", bqfmt: "", bafmt: "", did: null, bfont: "", bsize: 0 }],
         flds: [{ name: "Text", ord: 0, sticky: false, rtl: false, font: "Arial", size: 20 }, { name: "Extra", ord: 1, sticky: false, rtl: false, font: "Arial", size: 20 }],
-        css: ".card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white; } .cloze { font-weight: bold; color: blue; }",
+        css: ".card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white; } .cloze { font-weight: bold; color: #0066cc; }",
         latexPre: "", latexPost: "", latexsvg: false, req: [[0, "any", [0]]]
       }
     };
