@@ -59,7 +59,7 @@
         },
         {
           "spanish": "Te gusta la música clásica más que el rock.",
-          "english": "You like classical music more than rock.",
+          "english": "You (informal) like classical music more than rock.",
           "subject": "tú",
           "region": "universal",
           "source": "music_preference",
@@ -93,15 +93,49 @@
         },
         {
           "spanish": "Le gusta cocinar platos internacionales.",
-          "english": "He/She likes cooking international dishes.",
-          "subject": "él/ella/usted",
+          "english": "He likes cooking international dishes.",
+          "subject": "él",
           "region": "universal",
           "source": "cooking_interest",
           "tags": [
             "region:universal",
             "regularity:regular",
             "special-construction:indirect-object",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gusta cocinar platos internacionales.",
+          "english": "She likes cooking international dishes.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "cooking_interest",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:ella",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gusta cocinar platos internacionales.",
+          "english": "You (formal) like cooking international dishes.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "cooking_interest",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:usted",
             "tense:present",
             "tier:5",
             "verb-type:ar",
@@ -180,7 +214,7 @@
         },
         {
           "spanish": "Te gustó la comida del restaurante italiano.",
-          "english": "You liked the food at the Italian restaurant.",
+          "english": "You (informal) liked the food at the Italian restaurant.",
           "subject": "tú",
           "region": "universal",
           "source": "dining_experience",
@@ -214,15 +248,49 @@
         },
         {
           "spanish": "Le gustó el regalo que le dimos.",
-          "english": "He/She liked the gift we gave him/her.",
-          "subject": "él/ella/usted",
+          "english": "He liked the gift we gave him/her.",
+          "subject": "él",
           "region": "universal",
           "source": "gift_appreciation",
           "tags": [
             "region:universal",
             "regularity:regular",
             "special-construction:indirect-object",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustó el regalo que le dimos.",
+          "english": "She liked the gift we gave him/her.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "gift_appreciation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:ella",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustó el regalo que le dimos.",
+          "english": "You (formal) liked the gift we gave him/her.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "gift_appreciation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:usted",
             "tense:preterite",
             "tier:5",
             "verb-type:ar",
@@ -301,7 +369,7 @@
         },
         {
           "spanish": "Te gustará la nueva casa cuando la veas.",
-          "english": "You will like the new house when you see it.",
+          "english": "You (informal) will like the new house when you (informal) see it.",
           "subject": "tú",
           "region": "universal",
           "source": "house_preview",
@@ -335,15 +403,49 @@
         },
         {
           "spanish": "Le gustará el nuevo trabajo en la empresa.",
-          "english": "He/She will like the new job at the company.",
-          "subject": "él/ella/usted",
+          "english": "He will like the new job at the company.",
+          "subject": "él",
           "region": "universal",
           "source": "job_satisfaction",
           "tags": [
             "region:universal",
             "regularity:regular",
             "special-construction:indirect-object",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustará el nuevo trabajo en la empresa.",
+          "english": "She will like the new job at the company.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "job_satisfaction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:ella",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustará el nuevo trabajo en la empresa.",
+          "english": "You (formal) will like the new job at the company.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "job_satisfaction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:usted",
             "tense:future",
             "tier:5",
             "verb-type:ar",
@@ -457,8 +559,8 @@
         },
         {
           "spanish": "Le duele el estómago por comer mucho.",
-          "english": "His/Her stomach hurts from eating too much.",
-          "subject": "él/ella/usted",
+          "english": "His stomach hurts from eating too much.",
+          "subject": "él",
           "region": "universal",
           "source": "digestive_issue",
           "tags": [
@@ -466,7 +568,43 @@
             "regularity:irregular",
             "special-construction:indirect-object",
             "stem-change:o-ue",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le duele el estómago por comer mucho.",
+          "english": "Her stomach hurts from eating too much.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "digestive_issue",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:ella",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le duele el estómago por comer mucho.",
+          "english": "Your stomach hurt from eating too much.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "digestive_issue",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:usted",
             "tense:present",
             "tier:5",
             "verb-type:er",
@@ -497,7 +635,7 @@
       "future": [
         {
           "spanish": "Te dolerá la garganta si gritas mucho.",
-          "english": "Your throat will hurt if you shout a lot.",
+          "english": "Your throat will hurt if you (informal) shout a lot.",
           "subject": "tú",
           "region": "universal",
           "source": "future_consequence",
@@ -549,7 +687,7 @@
         },
         {
           "spanish": "Te encantan los libros de aventuras.",
-          "english": "You love adventure books.",
+          "english": "You (informal) love adventure books.",
           "subject": "tú",
           "region": "universal",
           "source": "reading_preference",
@@ -587,7 +725,7 @@
       "future": [
         {
           "spanish": "Te encantará el nuevo restaurante italiano.",
-          "english": "You will love the new Italian restaurant.",
+          "english": "You (informal) will love the new Italian restaurant.",
           "subject": "tú",
           "region": "universal",
           "source": "dining_prediction",
@@ -638,7 +776,7 @@
         },
         {
           "spanish": "Te molestan las interrupciones durante el trabajo.",
-          "english": "Interruptions during work bother you.",
+          "english": "Interruptions during work bother you (informal).",
           "subject": "tú",
           "region": "universal",
           "source": "work_irritation",
@@ -676,7 +814,7 @@
       "future": [
         {
           "spanish": "Te molestará el calor en el verano.",
-          "english": "The heat will bother you in summer.",
+          "english": "The heat will bother you (informal) in summer.",
           "subject": "tú",
           "region": "universal",
           "source": "weather_prediction",
@@ -727,7 +865,7 @@
         },
         {
           "spanish": "Te importan mucho tus amigos.",
-          "english": "Your friends matter a lot to you.",
+          "english": "Your friends matter a lot to you (informal).",
           "subject": "tú",
           "region": "universal",
           "source": "relationship_priority",
@@ -765,7 +903,7 @@
       "future": [
         {
           "spanish": "Te importará más la salud cuando seas mayor.",
-          "english": "Health will matter more to you when you're older.",
+          "english": "Health will matter more to you (informal) when you (informal)'re older.",
           "subject": "tú",
           "region": "universal",
           "source": "life_wisdom",
@@ -816,7 +954,7 @@
         },
         {
           "spanish": "Te falta experiencia en este trabajo.",
-          "english": "You lack experience in this job.",
+          "english": "You (informal) lack experience in this job.",
           "subject": "tú",
           "region": "universal",
           "source": "skill_assessment",
@@ -854,7 +992,7 @@
       "future": [
         {
           "spanish": "Te faltarán ingredientes para la receta.",
-          "english": "You will be missing ingredients for the recipe.",
+          "english": "You (informal) will be missing ingredients for the recipe.",
           "subject": "tú",
           "region": "universal",
           "source": "cooking_preparation",
@@ -907,7 +1045,7 @@
         },
         {
           "spanish": "Te parecen interesantes estos libros.",
-          "english": "These books seem interesting to you.",
+          "english": "These books seem interesting to you (informal).",
           "subject": "tú",
           "region": "universal",
           "source": "book_evaluation",
@@ -947,7 +1085,7 @@
       "future": [
         {
           "spanish": "Te parecerá difícil al principio.",
-          "english": "It will seem difficult to you at first.",
+          "english": "It will seem difficult to you (informal) at first.",
           "subject": "tú",
           "region": "universal",
           "source": "learning_prediction",

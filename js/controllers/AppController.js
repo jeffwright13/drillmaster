@@ -22,9 +22,11 @@ export class AppController {
       cardSettings: {
         cardTypes: ['cloze'],
         tenses: ['present'],
-        subjects: ['yo', 'tú', 'vos', 'él/ella/usted', 'nosotros', 'vosotros', 'ellos/ellas/ustedes'],
+        // Mexico/Latin America: no vos (Argentina) or vosotros (Spain)
+        subjects: ['yo', 'tú', 'él/ella/usted', 'nosotros', 'ellos/ellas/ustedes'],
         corpusTiers: [1], // Which corpus tiers to include - start with Foundation only
-        regions: ['universal', 'argentina', 'spain'] // Which regions to include
+        regions: ['universal'], // Mexico/Latin America only - exclude argentina/spain specific sentences
+        spanishVariant: 'mexico' // 'mexico' | 'argentina' | 'spain' - for future expansion
       },
       generatedCards: [],
       currentPreviewIndex: 0
@@ -869,7 +871,14 @@ export class AppController {
    */
   generateTranslationEStoEN(cards, verb, sentence, tense, conjugations, corpusVerb) {
     const verbName = verb.verb;
-    const { spanish, english } = sentence;
+    let { spanish, english } = sentence;
+    
+    // Randomize He/She sentences for variety (picks He, She, or You)
+    if (english.includes('He/She') || english.includes('his/her')) {
+      const randomizedSubject = this.randomizeSubject(sentence.subject, english, spanish);
+      english = randomizedSubject.english;
+      spanish = randomizedSubject.spanish;
+    }
     
     // Get conjugated form for context
     const conjugation = this.getConjugation(verbName, conjugations);
@@ -921,27 +930,39 @@ export class AppController {
    */
   /**
    * Add subject hints to disambiguate formality for translation cards
+   * For Mexico/Latin America:
+   *   - tú = informal singular "you"
+   *   - usted = formal singular "you" 
+   *   - ustedes = plural "you" (both formal and informal)
    */
   addSubjectHints(english, subject) {
-    // Add hints to disambiguate tú vs usted and other ambiguous subjects
+    // Skip if hints already added (e.g., from randomizeSubject)
+    if (english.includes('(informal)') || english.includes('(formal)') || 
+        english.includes('You all') || english.includes('you all')) {
+      return english;
+    }
+    
+    // Add hints to disambiguate tú vs usted and ustedes
     switch (subject) {
       case 'tú':
         return english.replace(/\bYou\b/g, 'You (informal)').replace(/\byou\b/g, 'you (informal)');
       case 'él/ella/usted':
-        // This gets randomized later, but we need to handle the usted case
+        // Only add hint if this is a "You" sentence (not He/She)
         if (english.includes('You') || english.includes('you')) {
           return english.replace(/\bYou\b/g, 'You (formal)').replace(/\byou\b/g, 'you (formal)');
         }
         return english; // He/She cases don't need hints
       case 'ellos/ellas/ustedes':
-        // This gets randomized later, but we need to handle the ustedes case  
+        // Only add hint if this is a "You" sentence (not They)
         if (english.includes('You') || english.includes('you')) {
           return english.replace(/\bYou\b/g, 'You all').replace(/\byou\b/g, 'you all');
         }
         return english; // They cases don't need hints
       case 'vos':
+        // Argentina: informal singular (like tú)
         return english.replace(/\bYou\b/g, 'You (vos)').replace(/\byou\b/g, 'you (vos)');
       case 'vosotros':
+        // Spain: informal plural
         return english.replace(/\bYou\b/g, 'You all (Spain)').replace(/\byou\b/g, 'you all (Spain)');
       default:
         return english; // yo, nosotros don't need hints

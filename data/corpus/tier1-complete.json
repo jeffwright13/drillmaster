@@ -58,7 +58,7 @@
         },
         {
           "spanish": "Hablas muy bien inglés para ser principiante.",
-          "english": "You speak English very well for a beginner.",
+          "english": "You (informal) speak English very well for a beginner.",
           "subject": "tú",
           "region": "universal",
           "source": "language_compliment",
@@ -90,14 +90,46 @@
         },
         {
           "spanish": "Habla por teléfono con su madre todos los días.",
-          "english": "He/She talks on the phone with his/her mother every day.",
-          "subject": "él/ella/usted",
+          "english": "He talks on the phone with his mother every day.",
+          "subject": "él",
           "region": "universal",
           "source": "family_communication",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Habla por teléfono con su madre todos los días.",
+          "english": "She talks on the phone with her mother every day.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_communication",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Habla por teléfono con su madre todos los días.",
+          "english": "You (formal) talk on the phone with your mother every day.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_communication",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:ar",
@@ -172,7 +204,7 @@
         },
         {
           "spanish": "Hablaste muy bien en la presentación.",
-          "english": "You spoke very well in the presentation.",
+          "english": "You (informal) spoke very well in the presentation.",
           "subject": "tú",
           "region": "universal",
           "source": "presentation_feedback",
@@ -204,14 +236,46 @@
         },
         {
           "spanish": "Habló durante dos horas en la conferencia.",
-          "english": "He/She spoke for two hours at the conference.",
-          "subject": "él/ella/usted",
+          "english": "He spoke for two hours at the conference.",
+          "subject": "él",
           "region": "universal",
           "source": "academic_presentation",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Habló durante dos horas en la conferencia.",
+          "english": "She spoke for two hours at the conference.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "academic_presentation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Habló durante dos horas en la conferencia.",
+          "english": "You (formal) spoke for two hours at the conference.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "academic_presentation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:ar",
@@ -286,7 +350,7 @@
         },
         {
           "spanish": "Hablarás con fluidez después de practicar más.",
-          "english": "You will speak fluently after practicing more.",
+          "english": "You (informal) will speak fluently after practicing more.",
           "subject": "tú",
           "region": "universal",
           "source": "language_progress",
@@ -318,14 +382,46 @@
         },
         {
           "spanish": "Hablará en nombre de toda la organización.",
-          "english": "He/She will speak on behalf of the entire organization.",
-          "subject": "él/ella/usted",
+          "english": "He will speak on behalf of the entire organization.",
+          "subject": "él",
           "region": "universal",
           "source": "organizational_representation",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Hablará en nombre de toda la organización.",
+          "english": "She will speak on behalf of the entire organization.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "organizational_representation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Hablará en nombre de toda la organización.",
+          "english": "You (formal) will speak on behalf of the entire organization.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "organizational_representation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:ar",
@@ -400,7 +496,7 @@
         },
         {
           "spanish": "Estás hablando muy rápido, no te entiendo.",
-          "english": "You are speaking very fast, I don't understand you.",
+          "english": "You (informal) are speaking very fast, I don't understand you (informal).",
           "subject": "tú",
           "region": "universal",
           "source": "communication_difficulty",
@@ -432,14 +528,46 @@
         },
         {
           "spanish": "Está hablando por teléfono con un cliente importante.",
-          "english": "He/She is talking on the phone with an important client.",
-          "subject": "él/ella/usted",
+          "english": "He is talking on the phone with an important client.",
+          "subject": "él",
           "region": "universal",
           "source": "business_communication",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está hablando por teléfono con un cliente importante.",
+          "english": "She is talking on the phone with an important client.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "business_communication",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está hablando por teléfono con un cliente importante.",
+          "english": "You (formal) are talking on the phone with an important client.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "business_communication",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:ar",
@@ -514,7 +642,7 @@
         },
         {
           "spanish": "Vas a hablar en la conferencia la próxima semana.",
-          "english": "You're going to speak at the conference next week.",
+          "english": "You (informal)'re going to speak at the conference next week.",
           "subject": "tú",
           "region": "universal",
           "source": "professional_speaking",
@@ -546,14 +674,46 @@
         },
         {
           "spanish": "Va a hablar en público por primera vez.",
-          "english": "He/She is going to speak in public for the first time.",
-          "subject": "él/ella/usted",
+          "english": "He is going to speak in public for the first time.",
+          "subject": "él",
           "region": "universal",
           "source": "public_speaking",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a hablar en público por primera vez.",
+          "english": "She is going to speak in public for the first time.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "public_speaking",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a hablar en público por primera vez.",
+          "english": "You (formal) are going to speak in public for the first time.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "public_speaking",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:ar",
@@ -628,7 +788,7 @@
         },
         {
           "spanish": "Has hablado muy bien en la presentación.",
-          "english": "You have spoken very well in the presentation.",
+          "english": "You (informal) have spoken very well in the presentation.",
           "subject": "tú",
           "region": "universal",
           "source": "presentation_feedback",
@@ -660,14 +820,46 @@
         },
         {
           "spanish": "Ha hablado con el médico sobre los síntomas.",
-          "english": "He/She has talked with the doctor about the symptoms.",
-          "subject": "él/ella/usted",
+          "english": "He has talked with the doctor about the symptoms.",
+          "subject": "él",
           "region": "universal",
           "source": "medical_consultation",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha hablado con el médico sobre los síntomas.",
+          "english": "She has talked with the doctor about the symptoms.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "medical_consultation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha hablado con el médico sobre los síntomas.",
+          "english": "You (formal) have talked with the doctor about the symptoms.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "medical_consultation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:ar",
@@ -754,7 +946,7 @@
         },
         {
           "spanish": "Comes muy saludable desde que empezaste la dieta.",
-          "english": "You eat very healthy since you started the diet.",
+          "english": "You (informal) eat very healthy since you (informal) started the diet.",
           "subject": "tú",
           "region": "universal",
           "source": "diet_lifestyle",
@@ -786,14 +978,46 @@
         },
         {
           "spanish": "Come en el restaurante italiano cada viernes.",
-          "english": "He/She eats at the Italian restaurant every Friday.",
-          "subject": "él/ella/usted",
+          "english": "He eats at the Italian restaurant every Friday.",
+          "subject": "él",
           "region": "universal",
           "source": "dining_routine",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Come en el restaurante italiano cada viernes.",
+          "english": "She eats at the Italian restaurant every Friday.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Come en el restaurante italiano cada viernes.",
+          "english": "You (formal) eat at the Italian restaurant every Friday.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:er",
@@ -868,7 +1092,7 @@
         },
         {
           "spanish": "Comiste demasiado en la cena de ayer.",
-          "english": "You ate too much at yesterday's dinner.",
+          "english": "You (informal) ate too much at yesterday's dinner.",
           "subject": "tú",
           "region": "universal",
           "source": "overeating_concern",
@@ -900,14 +1124,46 @@
         },
         {
           "spanish": "Comió sushi por primera vez anoche.",
-          "english": "He/She ate sushi for the first time last night.",
-          "subject": "él/ella/usted",
+          "english": "He ate sushi for the first time last night.",
+          "subject": "él",
           "region": "universal",
           "source": "new_cuisine_experience",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Comió sushi por primera vez anoche.",
+          "english": "She ate sushi for the first time last night.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "new_cuisine_experience",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Comió sushi por primera vez anoche.",
+          "english": "You (formal) ate sushi for the first time last night.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "new_cuisine_experience",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:er",
@@ -982,7 +1238,7 @@
         },
         {
           "spanish": "Comerás platos exóticos en tu viaje a Asia.",
-          "english": "You will eat exotic dishes on your trip to Asia.",
+          "english": "You (informal) will eat exotic dishes on your trip to Asia.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_anticipation",
@@ -1014,14 +1270,46 @@
         },
         {
           "spanish": "Comerá en los mejores restaurantes de París.",
-          "english": "He/She will eat at the best restaurants in Paris.",
-          "subject": "él/ella/usted",
+          "english": "He will eat at the best restaurants in Paris.",
+          "subject": "él",
           "region": "universal",
           "source": "luxury_travel",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Comerá en los mejores restaurantes de París.",
+          "english": "She will eat at the best restaurants in Paris.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "luxury_travel",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Comerá en los mejores restaurantes de París.",
+          "english": "You (formal) will eat at the best restaurants in Paris.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "luxury_travel",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:er",
@@ -1096,7 +1384,7 @@
         },
         {
           "spanish": "Estás comiendo muy saludable desde que empezaste la dieta.",
-          "english": "You are eating very healthy since you started the diet.",
+          "english": "You (informal) are eating very healthy since you (informal) started the diet.",
           "subject": "tú",
           "region": "universal",
           "source": "diet_lifestyle",
@@ -1128,14 +1416,46 @@
         },
         {
           "spanish": "Está comiendo en el restaurante italiano cada viernes.",
-          "english": "He/She is eating at the Italian restaurant every Friday.",
-          "subject": "él/ella/usted",
+          "english": "He is eating at the Italian restaurant every Friday.",
+          "subject": "él",
           "region": "universal",
           "source": "dining_routine",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está comiendo en el restaurante italiano cada viernes.",
+          "english": "She is eating at the Italian restaurant every Friday.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está comiendo en el restaurante italiano cada viernes.",
+          "english": "You (formal) are eating at the Italian restaurant every Friday.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -1210,7 +1530,7 @@
         },
         {
           "spanish": "Vas a comer muy saludable desde que empezaste la dieta.",
-          "english": "You're going to eat very healthy since you started the diet.",
+          "english": "You (informal)'re going to eat very healthy since you (informal) started the diet.",
           "subject": "tú",
           "region": "universal",
           "source": "diet_lifestyle",
@@ -1242,14 +1562,46 @@
         },
         {
           "spanish": "Va a comer en el restaurante italiano cada viernes.",
-          "english": "He/She is going to eat at the Italian restaurant every Friday.",
-          "subject": "él/ella/usted",
+          "english": "He is going to eat at the Italian restaurant every Friday.",
+          "subject": "él",
           "region": "universal",
           "source": "dining_routine",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a comer en el restaurante italiano cada viernes.",
+          "english": "She is going to eat at the Italian restaurant every Friday.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a comer en el restaurante italiano cada viernes.",
+          "english": "You (formal) are going to eat at the Italian restaurant every Friday.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:er",
@@ -1324,7 +1676,7 @@
         },
         {
           "spanish": "Has comido muy saludable desde que empezaste la dieta.",
-          "english": "You have eaten very healthy since you started the diet.",
+          "english": "You (informal) have eaten very healthy since you (informal) started the diet.",
           "subject": "tú",
           "region": "universal",
           "source": "diet_lifestyle",
@@ -1356,14 +1708,46 @@
         },
         {
           "spanish": "Ha comido en el restaurante italiano cada viernes.",
-          "english": "He/She has eaten at the Italian restaurant every Friday.",
-          "subject": "él/ella/usted",
+          "english": "He has eaten at the Italian restaurant every Friday.",
+          "subject": "él",
           "region": "universal",
           "source": "dining_routine",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha comido en el restaurante italiano cada viernes.",
+          "english": "She has eaten at the Italian restaurant every Friday.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha comido en el restaurante italiano cada viernes.",
+          "english": "You (formal) have eaten at the Italian restaurant every Friday.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "dining_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:er",
@@ -1450,7 +1834,7 @@
         },
         {
           "spanish": "Vives cerca del parque y es muy conveniente.",
-          "english": "You live near the park and it's very convenient.",
+          "english": "You (informal) live near the park and it's very convenient.",
           "subject": "tú",
           "region": "universal",
           "source": "location_advantage",
@@ -1482,14 +1866,46 @@
         },
         {
           "spanish": "Vive con sus padres para ahorrar dinero.",
-          "english": "He/She lives with his/her parents to save money.",
-          "subject": "él/ella/usted",
+          "english": "He lives with his parents to save money.",
+          "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vive con sus padres para ahorrar dinero.",
+          "english": "She lives with her parents to save money.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vive con sus padres para ahorrar dinero.",
+          "english": "You (formal) live with your parents to save money.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:ir",
@@ -1564,7 +1980,7 @@
         },
         {
           "spanish": "Viviste una experiencia increíble en Japón.",
-          "english": "You lived an incredible experience in Japan.",
+          "english": "You (informal) lived an incredible experience in Japan.",
           "subject": "tú",
           "region": "universal",
           "source": "cultural_immersion",
@@ -1596,14 +2012,46 @@
         },
         {
           "spanish": "Vivió en tres países diferentes antes de los treinta.",
-          "english": "He/She lived in three different countries before thirty.",
-          "subject": "él/ella/usted",
+          "english": "He lived in three different countries before thirty.",
+          "subject": "él",
           "region": "universal",
           "source": "international_experience",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vivió en tres países diferentes antes de los treinta.",
+          "english": "She lived in three different countries before thirty.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "international_experience",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vivió en tres países diferentes antes de los treinta.",
+          "english": "You (formal) lived in three different countries before thirty.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "international_experience",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:ir",
@@ -1678,7 +2126,7 @@
         },
         {
           "spanish": "Vivirás experiencias únicas en tu nuevo trabajo.",
-          "english": "You will live unique experiences in your new job.",
+          "english": "You (informal) will live unique experiences in your new job.",
           "subject": "tú",
           "region": "universal",
           "source": "career_opportunity",
@@ -1710,14 +2158,46 @@
         },
         {
           "spanish": "Vivirá en una casa frente al mar.",
-          "english": "He/She will live in a house facing the sea.",
-          "subject": "él/ella/usted",
+          "english": "He will live in a house facing the sea.",
+          "subject": "él",
           "region": "universal",
           "source": "dream_home",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vivirá en una casa frente al mar.",
+          "english": "She will live in a house facing the sea.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "dream_home",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vivirá en una casa frente al mar.",
+          "english": "You (formal) will live in a house facing the sea.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "dream_home",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:ir",
@@ -1792,7 +2272,7 @@
         },
         {
           "spanish": "Estás viviendo cerca del parque y es muy conveniente.",
-          "english": "You are living near the park and it's very convenient.",
+          "english": "You (informal) are living near the park and it's very convenient.",
           "subject": "tú",
           "region": "universal",
           "source": "location_advantage",
@@ -1824,14 +2304,46 @@
         },
         {
           "spanish": "Está viviendo con sus padres para ahorrar dinero.",
-          "english": "He/She is living with his/her parents to save money.",
-          "subject": "él/ella/usted",
+          "english": "He is living with his parents to save money.",
+          "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está viviendo con sus padres para ahorrar dinero.",
+          "english": "She is living with her parents to save money.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está viviendo con sus padres para ahorrar dinero.",
+          "english": "You (formal) are living with your parents to save money.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:ir",
@@ -1906,7 +2418,7 @@
         },
         {
           "spanish": "Vas a vivir cerca del parque y es muy conveniente.",
-          "english": "You're going to live near the park and it's very convenient.",
+          "english": "You (informal)'re going to live near the park and it's very convenient.",
           "subject": "tú",
           "region": "universal",
           "source": "location_advantage",
@@ -1938,14 +2450,46 @@
         },
         {
           "spanish": "Va a vivir con sus padres para ahorrar dinero.",
-          "english": "He/She is going to live with his/her parents to save money.",
-          "subject": "él/ella/usted",
+          "english": "He is going to live with his parents to save money.",
+          "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a vivir con sus padres para ahorrar dinero.",
+          "english": "She is going to live with her parents to save money.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a vivir con sus padres para ahorrar dinero.",
+          "english": "You (formal) are going to live with your parents to save money.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:ir",
@@ -2020,7 +2564,7 @@
         },
         {
           "spanish": "Has vivido cerca del parque y es muy conveniente.",
-          "english": "You have lived near the park and it's very convenient.",
+          "english": "You (informal) have lived near the park and it's very convenient.",
           "subject": "tú",
           "region": "universal",
           "source": "location_advantage",
@@ -2052,14 +2596,46 @@
         },
         {
           "spanish": "Ha vivido con sus padres para ahorrar dinero.",
-          "english": "He/She has lived with his/her parents to save money.",
-          "subject": "él/ella/usted",
+          "english": "He has lived with his parents to save money.",
+          "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha vivido con sus padres para ahorrar dinero.",
+          "english": "She has lived with her parents to save money.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha vivido con sus padres para ahorrar dinero.",
+          "english": "You (formal) have lived with your parents to save money.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "financial_strategy",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:ir",
@@ -2146,7 +2722,7 @@
         },
         {
           "spanish": "Vas a la escuela en bicicleta.",
-          "english": "You go to school by bicycle.",
+          "english": "You (informal) go to school by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -2178,14 +2754,46 @@
         },
         {
           "spanish": "Va a la oficina muy temprano cada día.",
-          "english": "He/She goes to the office very early every day.",
-          "subject": "él/ella/usted",
+          "english": "He goes to the office very early every day.",
+          "subject": "él",
           "region": "universal",
           "source": "work_schedule",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a la oficina muy temprano cada día.",
+          "english": "She goes to the office very early every day.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a la oficina muy temprano cada día.",
+          "english": "You (formal) go to the office very early every day.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:ir",
@@ -2260,7 +2868,7 @@
         },
         {
           "spanish": "Fuiste al concierto de rock anoche.",
-          "english": "You went to the rock concert last night.",
+          "english": "You (informal) went to the rock concert last night.",
           "subject": "tú",
           "region": "universal",
           "source": "entertainment_event",
@@ -2292,14 +2900,46 @@
         },
         {
           "spanish": "Fue al médico por el dolor de espalda.",
-          "english": "He/She went to the doctor for back pain.",
-          "subject": "él/ella/usted",
+          "english": "He went to the doctor for back pain.",
+          "subject": "él",
           "region": "universal",
           "source": "medical_visit",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Fue al médico por el dolor de espalda.",
+          "english": "She went to the doctor for back pain.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "medical_visit",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Fue al médico por el dolor de espalda.",
+          "english": "You (formal) went to the doctor for back pain.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "medical_visit",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:ir",
@@ -2374,7 +3014,7 @@
         },
         {
           "spanish": "Irás a la entrevista de trabajo mañana.",
-          "english": "You will go to the job interview tomorrow.",
+          "english": "You (informal) will go to the job interview tomorrow.",
           "subject": "tú",
           "region": "universal",
           "source": "career_opportunity",
@@ -2406,14 +3046,46 @@
         },
         {
           "spanish": "Irá a la conferencia internacional en mayo.",
-          "english": "He/She will go to the international conference in May.",
-          "subject": "él/ella/usted",
+          "english": "He will go to the international conference in May.",
+          "subject": "él",
           "region": "universal",
           "source": "professional_event",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Irá a la conferencia internacional en mayo.",
+          "english": "She will go to the international conference in May.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_event",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Irá a la conferencia internacional en mayo.",
+          "english": "You (formal) will go to the international conference in May.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_event",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:ir",
@@ -2488,7 +3160,7 @@
         },
         {
           "spanish": "Estás yendo a la universidad en bicicleta.",
-          "english": "You are going to university by bicycle.",
+          "english": "You (informal) are going to university by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -2520,14 +3192,46 @@
         },
         {
           "spanish": "Está yendo a la oficina muy temprano cada día.",
-          "english": "He/She is going to the office very early every day.",
-          "subject": "él/ella/usted",
+          "english": "He is going to the office very early every day.",
+          "subject": "él",
           "region": "universal",
           "source": "work_schedule",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está yendo a la oficina muy temprano cada día.",
+          "english": "She is going to the office very early every day.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está yendo a la oficina muy temprano cada día.",
+          "english": "You (formal) are going to the office very early every day.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:ir",
@@ -2602,7 +3306,7 @@
         },
         {
           "spanish": "Vas a ir a la universidad en bicicleta.",
-          "english": "You're going to go to university by bicycle.",
+          "english": "You (informal)'re going to go to university by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -2634,14 +3338,46 @@
         },
         {
           "spanish": "Va a ir a la oficina muy temprano cada día.",
-          "english": "He/She is going to go to the office very early every day.",
-          "subject": "él/ella/usted",
+          "english": "He is going to go to the office very early every day.",
+          "subject": "él",
           "region": "universal",
           "source": "work_schedule",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a ir a la oficina muy temprano cada día.",
+          "english": "She is going to go to the office very early every day.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a ir a la oficina muy temprano cada día.",
+          "english": "You (formal) are going to go to the office very early every day.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:ir",
@@ -2716,7 +3452,7 @@
         },
         {
           "spanish": "Has ido a la universidad en bicicleta.",
-          "english": "You have gone to university by bicycle.",
+          "english": "You (informal) have gone to university by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -2748,14 +3484,46 @@
         },
         {
           "spanish": "Ha ido a la oficina muy temprano cada día.",
-          "english": "He/She has gone to the office very early every day.",
-          "subject": "él/ella/usted",
+          "english": "He has gone to the office very early every day.",
+          "subject": "él",
           "region": "universal",
           "source": "work_schedule",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha ido a la oficina muy temprano cada día.",
+          "english": "She has gone to the office very early every day.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha ido a la oficina muy temprano cada día.",
+          "english": "You (formal) have gone to the office very early every day.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:ir",
@@ -2845,7 +3613,7 @@
         },
         {
           "spanish": "Puedes hacerlo mejor si te concentras más.",
-          "english": "You can do it better if you concentrate more.",
+          "english": "You (informal) can do it better if you (informal) concentrate more.",
           "subject": "tú",
           "region": "universal",
           "source": "encouragement",
@@ -2881,8 +3649,8 @@
         },
         {
           "spanish": "Puede hablar tres idiomas con fluidez.",
-          "english": "He/She can speak three languages fluently.",
-          "subject": "él/ella/usted",
+          "english": "He can speak three languages fluently.",
+          "subject": "él",
           "region": "universal",
           "source": "language_ability",
           "tags": [
@@ -2890,7 +3658,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Puede hablar tres idiomas con fluidez.",
+          "english": "She can speak three languages fluently.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Puede hablar tres idiomas con fluidez.",
+          "english": "You (formal) can speak three languages fluently.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:er",
@@ -2973,7 +3777,7 @@
         },
         {
           "spanish": "Pudiste convencer a todos con tu presentación.",
-          "english": "You were able to convince everyone with your presentation.",
+          "english": "You (informal) were able to convince everyone with your presentation.",
           "subject": "tú",
           "region": "universal",
           "source": "persuasion_success",
@@ -3009,8 +3813,8 @@
         },
         {
           "spanish": "Pudo escapar del edificio antes del incendio.",
-          "english": "He/She was able to escape from the building before the fire.",
-          "subject": "él/ella/usted",
+          "english": "He was able to escape from the building before the fire.",
+          "subject": "él",
           "region": "universal",
           "source": "emergency_escape",
           "tags": [
@@ -3018,7 +3822,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Pudo escapar del edificio antes del incendio.",
+          "english": "She was able to escape from the building before the fire.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "emergency_escape",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Pudo escapar del edificio antes del incendio.",
+          "english": "You (formal) was able to escape from the building before the fire.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "emergency_escape",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:er",
@@ -3101,7 +3941,7 @@
         },
         {
           "spanish": "Podrás estudiar en la universidad que elijas.",
-          "english": "You will be able to study at the university you choose.",
+          "english": "You (informal) will be able to study at the university you (informal) choose.",
           "subject": "tú",
           "region": "universal",
           "source": "educational_opportunity",
@@ -3137,8 +3977,8 @@
         },
         {
           "spanish": "Podrá trabajar desde casa tres días a la semana.",
-          "english": "He/She will be able to work from home three days a week.",
-          "subject": "él/ella/usted",
+          "english": "He will be able to work from home three days a week.",
+          "subject": "él",
           "region": "universal",
           "source": "flexible_work",
           "tags": [
@@ -3146,7 +3986,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Podrá trabajar desde casa tres días a la semana.",
+          "english": "She will be able to work from home three days a week.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "flexible_work",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Podrá trabajar desde casa tres días a la semana.",
+          "english": "You (formal) will be able to work from home three days a week.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "flexible_work",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:er",
@@ -3229,7 +4105,7 @@
         },
         {
           "spanish": "Estás pudiendo hacerlo mejor si te concentras más.",
-          "english": "You are able to do it better if you concentrate more.",
+          "english": "You (informal) are able to do it better if you (informal) concentrate more.",
           "subject": "tú",
           "region": "universal",
           "source": "encouragement",
@@ -3265,8 +4141,8 @@
         },
         {
           "spanish": "Está pudiendo hablar tres idiomas con fluidez.",
-          "english": "He/She is able to speak three languages fluently.",
-          "subject": "él/ella/usted",
+          "english": "He is able to speak three languages fluently.",
+          "subject": "él",
           "region": "universal",
           "source": "language_ability",
           "tags": [
@@ -3274,7 +4150,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está pudiendo hablar tres idiomas con fluidez.",
+          "english": "She is able to speak three languages fluently.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está pudiendo hablar tres idiomas con fluidez.",
+          "english": "You (formal) are able to speak three languages fluently.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -3357,7 +4269,7 @@
         },
         {
           "spanish": "Vas a poder hacerlo mejor si te concentras más.",
-          "english": "You're going to be able do it better if you concentrate more.",
+          "english": "You (informal)'re going to be able do it better if you (informal) concentrate more.",
           "subject": "tú",
           "region": "universal",
           "source": "encouragement",
@@ -3393,8 +4305,8 @@
         },
         {
           "spanish": "Va a poder hablar tres idiomas con fluidez.",
-          "english": "He/She is going to be able speak three languages fluently.",
-          "subject": "él/ella/usted",
+          "english": "He is going to be able speak three languages fluently.",
+          "subject": "él",
           "region": "universal",
           "source": "language_ability",
           "tags": [
@@ -3402,7 +4314,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a poder hablar tres idiomas con fluidez.",
+          "english": "She is going to be able speak three languages fluently.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a poder hablar tres idiomas con fluidez.",
+          "english": "You (formal) are going to be able speak three languages fluently.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:er",
@@ -3485,7 +4433,7 @@
         },
         {
           "spanish": "Has podido hacerlo mejor si te concentras más.",
-          "english": "You have been able to do it better if you concentrate more.",
+          "english": "You (informal) have been able to do it better if you (informal) concentrate more.",
           "subject": "tú",
           "region": "universal",
           "source": "encouragement",
@@ -3521,8 +4469,8 @@
         },
         {
           "spanish": "Ha podido hablar tres idiomas con fluidez.",
-          "english": "He/She has been able to speak three languages fluently.",
-          "subject": "él/ella/usted",
+          "english": "He has been able to speak three languages fluently.",
+          "subject": "él",
           "region": "universal",
           "source": "language_ability",
           "tags": [
@@ -3530,7 +4478,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha podido hablar tres idiomas con fluidez.",
+          "english": "She has been able to speak three languages fluently.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha podido hablar tres idiomas con fluidez.",
+          "english": "You (formal) have been able to speak three languages fluently.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "language_ability",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:er",
@@ -3626,7 +4610,7 @@
         },
         {
           "spanish": "Quieres viajar a Europa este verano.",
-          "english": "You want to travel to Europe this summer.",
+          "english": "You (informal) want to travel to Europe this summer.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_desires",
@@ -3662,8 +4646,8 @@
         },
         {
           "spanish": "Quiere estudiar medicina en la universidad.",
-          "english": "He/She wants to study medicine at university.",
-          "subject": "él/ella/usted",
+          "english": "He wants to study medicine in college.",
+          "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
           "tags": [
@@ -3671,7 +4655,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Quiere estudiar medicina en la universidad.",
+          "english": "She wants to study medicine in college.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Quiere estudiar medicina en la universidad.",
+          "english": "You (formal) want to study medicine in college.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:er",
@@ -3754,7 +4774,7 @@
         },
         {
           "spanish": "Quisiste ayudar pero ya era demasiado tarde.",
-          "english": "You wanted to help but it was already too late.",
+          "english": "You (informal) wanted to help but it was already too late.",
           "subject": "tú",
           "region": "universal",
           "source": "delayed_assistance",
@@ -3790,8 +4810,8 @@
         },
         {
           "spanish": "Quiso renunciar pero cambió de opinión.",
-          "english": "He/She wanted to resign but changed his/her mind.",
-          "subject": "él/ella/usted",
+          "english": "He wanted to resign but changed his mind.",
+          "subject": "él",
           "region": "universal",
           "source": "career_decision",
           "tags": [
@@ -3799,7 +4819,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Quiso renunciar pero cambió de opinión.",
+          "english": "She wanted to resign but changed her mind.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "career_decision",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Quiso renunciar pero cambió de opinión.",
+          "english": "You (formal) wanted to resign but changed your mind.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "career_decision",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:er",
@@ -3882,7 +4938,7 @@
         },
         {
           "spanish": "Querrás cambiar de trabajo después de graduarte.",
-          "english": "You will want to change jobs after you graduate.",
+          "english": "You (informal) will want to change jobs after you (informal) graduate.",
           "subject": "tú",
           "region": "universal",
           "source": "career_transition",
@@ -3918,8 +4974,8 @@
         },
         {
           "spanish": "Querrá jubilarse antes de los sesenta años.",
-          "english": "He/She will want to retire before sixty years old.",
-          "subject": "él/ella/usted",
+          "english": "He will want to retire before sixty years old.",
+          "subject": "él",
           "region": "universal",
           "source": "early_retirement",
           "tags": [
@@ -3927,7 +4983,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Querrá jubilarse antes de los sesenta años.",
+          "english": "She will want to retire before sixty years old.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "early_retirement",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Querrá jubilarse antes de los sesenta años.",
+          "english": "You (formal) will want to retire before sixty years old.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "early_retirement",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:er",
@@ -4010,7 +5102,7 @@
         },
         {
           "spanish": "Estás queriendo viajar a Europa este verano.",
-          "english": "You are wanting to travel to Europe this summer.",
+          "english": "You (informal) are wanting to travel to Europe this summer.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_desires",
@@ -4046,8 +5138,8 @@
         },
         {
           "spanish": "Está queriendo estudiar medicina en la universidad.",
-          "english": "He/She is wanting to study medicine at university.",
-          "subject": "él/ella/usted",
+          "english": "He is wanting to study medicine at university.",
+          "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
           "tags": [
@@ -4055,7 +5147,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está queriendo estudiar medicina en la universidad.",
+          "english": "She is wanting to study medicine at university.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está queriendo estudiar medicina en la universidad.",
+          "english": "You (formal) are wanting to study medicine at university.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -4138,7 +5266,7 @@
         },
         {
           "spanish": "Vas a querer viajar a Europa este verano.",
-          "english": "You're going to want to travel to Europe this summer.",
+          "english": "You (informal)'re going to want to travel to Europe this summer.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_desires",
@@ -4174,8 +5302,8 @@
         },
         {
           "spanish": "Va a querer estudiar medicina en la universidad.",
-          "english": "He/She is going to want to study medicine at university.",
-          "subject": "él/ella/usted",
+          "english": "He is going to want to study medicine at university.",
+          "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
           "tags": [
@@ -4183,7 +5311,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a querer estudiar medicina en la universidad.",
+          "english": "She is going to want to study medicine at university.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a querer estudiar medicina en la universidad.",
+          "english": "You (formal) are going to want to study medicine at university.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:er",
@@ -4266,7 +5430,7 @@
         },
         {
           "spanish": "Has querido viajar a Europa este verano.",
-          "english": "You have wanted to travel to Europe this summer.",
+          "english": "You (informal) have wanted to travel to Europe this summer.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_desires",
@@ -4302,8 +5466,8 @@
         },
         {
           "spanish": "Ha querido estudiar medicina en la universidad.",
-          "english": "He/She has wanted to study medicine at university.",
-          "subject": "él/ella/usted",
+          "english": "He has wanted to study medicine at university.",
+          "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
           "tags": [
@@ -4311,7 +5475,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha querido estudiar medicina en la universidad.",
+          "english": "She has wanted to study medicine at university.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha querido estudiar medicina en la universidad.",
+          "english": "You (formal) have wanted to study medicine at university.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "career_aspirations",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:er",
@@ -4407,7 +5607,7 @@
         },
         {
           "spanish": "Tienes mucho talento para la música.",
-          "english": "You have a lot of talent for music.",
+          "english": "You (informal) have a lot of talent for music.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -4443,8 +5643,8 @@
         },
         {
           "spanish": "Tiene tres hijos pequeños en casa.",
-          "english": "He/She has three small children at home.",
-          "subject": "él/ella/usted",
+          "english": "He has three small children at home.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
@@ -4452,7 +5652,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Tiene tres hijos pequeños en casa.",
+          "english": "She has three small children at home.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Tiene tres hijos pequeños en casa.",
+          "english": "You (formal) have three small children at home.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:er",
@@ -4535,7 +5771,7 @@
         },
         {
           "spanish": "Tuviste mucha paciencia con los niños.",
-          "english": "You had a lot of patience with the children.",
+          "english": "You (informal) had a lot of patience with the children.",
           "subject": "tú",
           "region": "universal",
           "source": "family_context",
@@ -4571,8 +5807,8 @@
         },
         {
           "spanish": "Tuvo que cancelar el viaje por la lluvia.",
-          "english": "He/She had to cancel the trip because of the rain.",
-          "subject": "él/ella/usted",
+          "english": "He had to cancel the trip because of the rain.",
+          "subject": "él",
           "region": "universal",
           "source": "travel_context",
           "tags": [
@@ -4580,7 +5816,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Tuvo que cancelar el viaje por la lluvia.",
+          "english": "She had to cancel the trip because of the rain.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "travel_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Tuvo que cancelar el viaje por la lluvia.",
+          "english": "You (formal) had to cancel the trip because of the rain.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "travel_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:er",
@@ -4663,7 +5935,7 @@
         },
         {
           "spanish": "Tendrás la oportunidad de viajar a Europa.",
-          "english": "You will have the opportunity to travel to Europe.",
+          "english": "You (informal) will have the opportunity to travel to Europe.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_planning",
@@ -4699,8 +5971,8 @@
         },
         {
           "spanish": "Tendrá una entrevista de trabajo mañana.",
-          "english": "He/She will have a job interview tomorrow.",
-          "subject": "él/ella/usted",
+          "english": "He will have a job interview tomorrow.",
+          "subject": "él",
           "region": "universal",
           "source": "job_context",
           "tags": [
@@ -4708,7 +5980,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Tendrá una entrevista de trabajo mañana.",
+          "english": "She will have a job interview tomorrow.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "job_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Tendrá una entrevista de trabajo mañana.",
+          "english": "You (formal) will have a job interview tomorrow.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "job_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:er",
@@ -4791,7 +6099,7 @@
         },
         {
           "spanish": "Estás teniendo mucho talento para la música.",
-          "english": "You are having a lot of talent for music.",
+          "english": "You (informal) are having a lot of talent for music.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -4827,8 +6135,8 @@
         },
         {
           "spanish": "Está teniendo tres hijos pequeños en casa.",
-          "english": "He/She is having three small children at home.",
-          "subject": "él/ella/usted",
+          "english": "He is having three small children at home.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
@@ -4836,7 +6144,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está teniendo tres hijos pequeños en casa.",
+          "english": "She is having three small children at home.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está teniendo tres hijos pequeños en casa.",
+          "english": "You (formal) are having three small children at home.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -4919,7 +6263,7 @@
         },
         {
           "spanish": "Vas a tener mucho talento para la música.",
-          "english": "You're going to have a lot of talent for music.",
+          "english": "You (informal)'re going to have a lot of talent for music.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -4955,8 +6299,8 @@
         },
         {
           "spanish": "Va a tener tres hijos pequeños en casa.",
-          "english": "He/She is going to have three small children at home.",
-          "subject": "él/ella/usted",
+          "english": "He is going to have three small children at home.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
@@ -4964,7 +6308,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a tener tres hijos pequeños en casa.",
+          "english": "She is going to have three small children at home.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a tener tres hijos pequeños en casa.",
+          "english": "You (formal) are going to have three small children at home.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:er",
@@ -5047,7 +6427,7 @@
         },
         {
           "spanish": "Has tenido mucho talento para la música.",
-          "english": "You have haded a lot of talent for music.",
+          "english": "You (informal) have haded a lot of talent for music.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -5083,8 +6463,8 @@
         },
         {
           "spanish": "Ha tenido tres hijos pequeños en casa.",
-          "english": "He/She has haded three small children at home.",
-          "subject": "él/ella/usted",
+          "english": "He has haded three small children at home.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
@@ -5092,7 +6472,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha tenido tres hijos pequeños en casa.",
+          "english": "She has haded three small children at home.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha tenido tres hijos pequeños en casa.",
+          "english": "You (formal) have haded three small children at home.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:er",
@@ -5187,7 +6603,7 @@
         },
         {
           "spanish": "Eres muy inteligente para tu edad.",
-          "english": "You are very intelligent for your age.",
+          "english": "You (informal) are very intelligent for your age.",
           "subject": "tú",
           "region": "universal",
           "source": "conversational",
@@ -5221,15 +6637,49 @@
         },
         {
           "spanish": "Es médico en el hospital central.",
-          "english": "He/She is a doctor at the central hospital.",
-          "subject": "él/ella/usted",
+          "english": "He is a doctor at the central hospital.",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Es médico en el hospital central.",
+          "english": "She is a doctor at the central hospital.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Es médico en el hospital central.",
+          "english": "You (formal) are a doctor at the central hospital.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:er",
@@ -5308,7 +6758,7 @@
         },
         {
           "spanish": "Fuiste muy valiente durante la emergencia.",
-          "english": "You were very brave during the emergency.",
+          "english": "You (informal) were very brave during the emergency.",
           "subject": "tú",
           "region": "universal",
           "source": "crisis_context",
@@ -5343,14 +6793,48 @@
         {
           "spanish": "Fue mi profesor favorito en el colegio.",
           "english": "He was my favorite teacher in school.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "educational_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Fue mi profesor favorito en el colegio.",
+          "english": "He was my favorite teacher in school.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "educational_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Fue mi profesor favorito en el colegio.",
+          "english": "He was my favorite teacher in school.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "educational_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:er",
@@ -5429,7 +6913,7 @@
         },
         {
           "spanish": "Serás un gran artista algún día.",
-          "english": "You will be a great artist someday.",
+          "english": "You (informal) will be a great artist someday.",
           "subject": "tú",
           "region": "universal",
           "source": "encouragement",
@@ -5464,14 +6948,48 @@
         {
           "spanish": "Será la nueva directora del departamento.",
           "english": "She will be the new department director.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Será la nueva directora del departamento.",
+          "english": "She will be the new department director.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Será la nueva directora del departamento.",
+          "english": "She will be the new department director.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:er",
@@ -5550,7 +7068,7 @@
         },
         {
           "spanish": "Estás siendo muy inteligente para tu edad.",
-          "english": "You are being very intelligent for your age.",
+          "english": "You (informal) are being very intelligent for your age.",
           "subject": "tú",
           "region": "universal",
           "source": "conversational",
@@ -5584,15 +7102,49 @@
         },
         {
           "spanish": "Está trabajando como médico en el hospital central.",
-          "english": "He/She is working as a doctor at the central hospital.",
-          "subject": "él/ella/usted",
+          "english": "He is working as a doctor at the central hospital.",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está trabajando como médico en el hospital central.",
+          "english": "She is working as a doctor at the central hospital.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está trabajando como médico en el hospital central.",
+          "english": "You (formal) are working as a doctor at the central hospital.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -5601,15 +7153,49 @@
         },
         {
           "spanish": "Está siendo muy amable conmigo.",
-          "english": "He/She is being very kind to me.",
-          "subject": "él/ella/usted",
+          "english": "He is being very kind to me.",
+          "subject": "él",
           "region": "universal",
           "source": "social_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está siendo muy amable conmigo.",
+          "english": "She is being very kind to me.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "social_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está siendo muy amable conmigo.",
+          "english": "You (formal) are being very kind to me.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "social_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -5618,15 +7204,49 @@
         },
         {
           "spanish": "Está siendo muy difícil conmigo.",
-          "english": "He/She is being very difficult with me.",
-          "subject": "él/ella/usted",
+          "english": "He is being very difficult with me.",
+          "subject": "él",
           "region": "universal",
           "source": "social_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está siendo muy difícil conmigo.",
+          "english": "She is being very difficult with me.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "social_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está siendo muy difícil conmigo.",
+          "english": "You (formal) are being very difficult with me.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "social_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -5705,7 +7325,7 @@
         },
         {
           "spanish": "Vas a ser muy inteligente para tu edad.",
-          "english": "You're going to be very intelligent for your age.",
+          "english": "You (informal)'re going to be very intelligent for your age.",
           "subject": "tú",
           "region": "universal",
           "source": "conversational",
@@ -5739,15 +7359,49 @@
         },
         {
           "spanish": "Va a ser médico en el hospital central.",
-          "english": "He/She is going to be a doctor at the central hospital.",
-          "subject": "él/ella/usted",
+          "english": "He is going to be a doctor at the central hospital.",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a ser médico en el hospital central.",
+          "english": "She is going to be a doctor at the central hospital.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a ser médico en el hospital central.",
+          "english": "You (formal) are going to be a doctor at the central hospital.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:er",
@@ -5826,7 +7480,7 @@
         },
         {
           "spanish": "Has sido muy inteligente para tu edad.",
-          "english": "You have been very intelligent for your age.",
+          "english": "You (informal) have been very intelligent for your age.",
           "subject": "tú",
           "region": "universal",
           "source": "conversational",
@@ -5860,15 +7514,49 @@
         },
         {
           "spanish": "Ha sido médico en el hospital central.",
-          "english": "He/She has been a doctor at the central hospital.",
-          "subject": "él/ella/usted",
+          "english": "He has been a doctor at the central hospital.",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha sido médico en el hospital central.",
+          "english": "She has been a doctor at the central hospital.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha sido médico en el hospital central.",
+          "english": "You (formal) have been a doctor at the central hospital.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:er",
@@ -5943,7 +7631,7 @@
       "present": [
         {
           "spanish": "Estás muy guapa con ese vestido.",
-          "english": "You look very pretty in that dress.",
+          "english": "You (informal) look very pretty in that dress.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -6030,7 +7718,7 @@
         },
         {
           "spanish": "Estuviste enfermo toda la semana pasada.",
-          "english": "You were sick all last week.",
+          "english": "You (informal) were sick all last week.",
           "subject": "tú",
           "region": "universal",
           "source": "health_context",
@@ -6065,14 +7753,48 @@
         {
           "spanish": "Estuvo muy ocupada con el proyecto.",
           "english": "She was very busy with the project.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "work_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estuvo muy ocupada con el proyecto.",
+          "english": "She was very busy with the project.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estuvo muy ocupada con el proyecto.",
+          "english": "She was very busy with the project.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:ar",
@@ -6151,7 +7873,7 @@
         },
         {
           "spanish": "Estarás mejor después del tratamiento.",
-          "english": "You will be better after the treatment.",
+          "english": "You (informal) will be better after the treatment.",
           "subject": "tú",
           "region": "universal",
           "source": "health_context",
@@ -6186,14 +7908,48 @@
         {
           "spanish": "Estará lista para la reunión mañana.",
           "english": "She will be ready for the meeting tomorrow.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "work_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estará lista para la reunión mañana.",
+          "english": "She will be ready for the meeting tomorrow.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Estará lista para la reunión mañana.",
+          "english": "She will be ready for the meeting tomorrow.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:ar",
@@ -6272,7 +8028,7 @@
         },
         {
           "spanish": "Estás estando muy guapa con ese vestido.",
-          "english": "You are being very pretty in that dress.",
+          "english": "You (informal) are being very pretty in that dress.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -6307,14 +8063,48 @@
         {
           "spanish": "Está estando lloviendo mucho esta tarde.",
           "english": "It is raining a lot this afternoon.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "weather_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está estando lloviendo mucho esta tarde.",
+          "english": "It is raining a lot this afternoon.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "weather_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está estando lloviendo mucho esta tarde.",
+          "english": "It are raining a lot this afternoon.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "weather_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:ar",
@@ -6393,7 +8183,7 @@
         },
         {
           "spanish": "Vas a estar muy guapa con ese vestido.",
-          "english": "You're going to be very pretty in that dress.",
+          "english": "You (informal)'re going to be very pretty in that dress.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -6428,14 +8218,48 @@
         {
           "spanish": "Va a estar lloviendo mucho esta tarde.",
           "english": "It is raining a lot this afternoon.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "weather_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a estar lloviendo mucho esta tarde.",
+          "english": "It is raining a lot this afternoon.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "weather_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a estar lloviendo mucho esta tarde.",
+          "english": "It are raining a lot this afternoon.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "weather_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:ar",
@@ -6514,7 +8338,7 @@
         },
         {
           "spanish": "Has estado muy guapa con ese vestido.",
-          "english": "You have been very pretty in that dress.",
+          "english": "You (informal) have been very pretty in that dress.",
           "subject": "tú",
           "region": "universal",
           "source": "compliment",
@@ -6549,14 +8373,48 @@
         {
           "spanish": "Ha estado lloviendo mucho esta tarde.",
           "english": "It is raining a lot this afternoon.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "weather_context",
           "tags": [
             "copula:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha estado lloviendo mucho esta tarde.",
+          "english": "It is raining a lot this afternoon.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "weather_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha estado lloviendo mucho esta tarde.",
+          "english": "It are raining a lot this afternoon.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "weather_context",
+          "tags": [
+            "copula:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:ar",
@@ -6647,7 +8505,7 @@
         },
         {
           "spanish": "Haces un trabajo excelente en la oficina.",
-          "english": "You do excellent work at the office.",
+          "english": "You (informal) do excellent work at the office.",
           "subject": "tú",
           "region": "universal",
           "source": "work_context",
@@ -6681,14 +8539,48 @@
         },
         {
           "spanish": "Hace la cena para toda la familia.",
-          "english": "He/She makes dinner for the whole family.",
-          "subject": "él/ella/usted",
+          "english": "He makes dinner for the whole family.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Hace la cena para toda la familia.",
+          "english": "She makes dinner for the whole family.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Hace la cena para toda la familia.",
+          "english": "You (formal) make dinner for the whole family.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present",
             "tier:1",
             "verb-type:er",
@@ -6768,7 +8660,7 @@
         },
         {
           "spanish": "Hiciste un gran esfuerzo para terminar a tiempo.",
-          "english": "You made a great effort to finish on time.",
+          "english": "You (informal) made a great effort to finish on time.",
           "subject": "tú",
           "region": "universal",
           "source": "effort_context",
@@ -6802,14 +8694,48 @@
         },
         {
           "spanish": "Hizo una donación generosa a la caridad.",
-          "english": "He/She made a generous donation to charity.",
-          "subject": "él/ella/usted",
+          "english": "He made a generous donation to charity.",
+          "subject": "él",
           "region": "universal",
           "source": "charity_context",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Hizo una donación generosa a la caridad.",
+          "english": "She made a generous donation to charity.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "charity_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Hizo una donación generosa a la caridad.",
+          "english": "You (formal) made a generous donation to charity.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "charity_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:1",
             "verb-type:er",
@@ -6889,7 +8815,7 @@
         },
         {
           "spanish": "Harás una diferencia importante en la comunidad.",
-          "english": "You will make an important difference in the community.",
+          "english": "You (informal) will make an important difference in the community.",
           "subject": "tú",
           "region": "universal",
           "source": "community_impact",
@@ -6923,14 +8849,48 @@
         },
         {
           "spanish": "Hará la presentación final mañana por la tarde.",
-          "english": "He/She will give the final presentation tomorrow afternoon.",
-          "subject": "él/ella/usted",
+          "english": "He will give the final presentation tomorrow afternoon.",
+          "subject": "él",
           "region": "universal",
           "source": "work_context",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Hará la presentación final mañana por la tarde.",
+          "english": "She will give the final presentation tomorrow afternoon.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Hará la presentación final mañana por la tarde.",
+          "english": "You (formal) will give the final presentation tomorrow afternoon.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:future",
             "tier:1",
             "verb-type:er",
@@ -7010,7 +8970,7 @@
         },
         {
           "spanish": "Estás haciendo un trabajo excelente en la oficina.",
-          "english": "You are doing excellent work at the office.",
+          "english": "You (informal) are doing excellent work at the office.",
           "subject": "tú",
           "region": "universal",
           "source": "work_context",
@@ -7044,14 +9004,48 @@
         },
         {
           "spanish": "Está haciendo la cena para toda la familia.",
-          "english": "He/She is doing dinner for the whole family.",
-          "subject": "él/ella/usted",
+          "english": "He is doing dinner for the whole family.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Está haciendo la cena para toda la familia.",
+          "english": "She is doing dinner for the whole family.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Está haciendo la cena para toda la familia.",
+          "english": "You (formal) are doing dinner for the whole family.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:1",
             "verb-type:er",
@@ -7131,7 +9125,7 @@
         },
         {
           "spanish": "Vas a hacer un trabajo excelente en la oficina.",
-          "english": "You're going to do excellent work at the office.",
+          "english": "You (informal)'re going to do excellent work at the office.",
           "subject": "tú",
           "region": "universal",
           "source": "work_context",
@@ -7165,14 +9159,48 @@
         },
         {
           "spanish": "Va a hacer la cena para toda la familia.",
-          "english": "He/She is going to do dinner for the whole family.",
-          "subject": "él/ella/usted",
+          "english": "He is going to do dinner for the whole family.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Va a hacer la cena para toda la familia.",
+          "english": "She is going to do dinner for the whole family.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Va a hacer la cena para toda la familia.",
+          "english": "You (formal) are going to do dinner for the whole family.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:going-to",
             "tier:1",
             "verb-type:er",
@@ -7252,7 +9280,7 @@
         },
         {
           "spanish": "Has hecho un trabajo excelente en la oficina.",
-          "english": "You have done excellent work at the office.",
+          "english": "You (informal) have done excellent work at the office.",
           "subject": "tú",
           "region": "universal",
           "source": "work_context",
@@ -7286,14 +9314,48 @@
         },
         {
           "spanish": "Ha hecho la cena para toda la familia.",
-          "english": "He/She has done dinner for the whole family.",
-          "subject": "él/ella/usted",
+          "english": "He has done dinner for the whole family.",
+          "subject": "él",
           "region": "universal",
           "source": "family_context",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Ha hecho la cena para toda la familia.",
+          "english": "She has done dinner for the whole family.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:1",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Ha hecho la cena para toda la familia.",
+          "english": "You (formal) have done dinner for the whole family.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:1",
             "verb-type:er",

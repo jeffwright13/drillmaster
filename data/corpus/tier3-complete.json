@@ -60,7 +60,7 @@
         },
         {
           "spanish": "Te lavas el pelo con champú especial.",
-          "english": "You wash your hair with special shampoo.",
+          "english": "You (informal) wash your hair with special shampoo.",
           "subject": "tú",
           "region": "universal",
           "source": "hair_care",
@@ -94,15 +94,49 @@
         },
         {
           "spanish": "Se lava la cara con agua fría cada mañana.",
-          "english": "He/She washes his/her face with cold water every morning.",
-          "subject": "él/ella/usted",
+          "english": "He washes his face with cold water every morning.",
+          "subject": "él",
           "region": "universal",
           "source": "morning_routine",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se lava la cara con agua fría cada mañana.",
+          "english": "She washes her face with cold water every morning.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "morning_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se lava la cara con agua fría cada mañana.",
+          "english": "You (formal) wash your face with cold water every morning.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "morning_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ar",
@@ -181,7 +215,7 @@
         },
         {
           "spanish": "Te lavaste el pelo con el nuevo champú.",
-          "english": "You washed your hair with the new shampoo.",
+          "english": "You (informal) washed your hair with the new shampoo.",
           "subject": "tú",
           "region": "universal",
           "source": "product_trial",
@@ -215,15 +249,49 @@
         },
         {
           "spanish": "Se lavó la cara con agua tibia antes de dormir.",
-          "english": "He/She washed his/her face with warm water before sleeping.",
-          "subject": "él/ella/usted",
+          "english": "He washed his face with warm water before sleeping.",
+          "subject": "él",
           "region": "universal",
           "source": "bedtime_routine",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se lavó la cara con agua tibia antes de dormir.",
+          "english": "She washed her face with warm water before sleeping.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "bedtime_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se lavó la cara con agua tibia antes de dormir.",
+          "english": "You (formal) washed your face with warm water before sleeping.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "bedtime_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ar",
@@ -302,7 +370,7 @@
         },
         {
           "spanish": "Te lavarás el pelo en la peluquería nueva.",
-          "english": "You will wash your hair at the new salon.",
+          "english": "You (informal) will wash your hair at the new salon.",
           "subject": "tú",
           "region": "universal",
           "source": "salon_visit",
@@ -336,15 +404,49 @@
         },
         {
           "spanish": "Se lavará las manos antes de la cirugía.",
-          "english": "He/She will wash his/her hands before surgery.",
-          "subject": "él/ella/usted",
+          "english": "He will wash his hands before surgery.",
+          "subject": "él",
           "region": "universal",
           "source": "medical_procedure",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se lavará las manos antes de la cirugía.",
+          "english": "She will wash her hands before surgery.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "medical_procedure",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se lavará las manos antes de la cirugía.",
+          "english": "You (formal) will wash your hands before surgery.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "medical_procedure",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ar",
@@ -439,7 +541,7 @@
         },
         {
           "spanish": "Te quedas siempre hasta muy tarde en la oficina.",
-          "english": "You always stay very late at the office.",
+          "english": "You (informal) always stay very late at the office.",
           "subject": "tú",
           "region": "universal",
           "source": "work_dedication",
@@ -473,15 +575,49 @@
         },
         {
           "spanish": "Se queda en el hospital para cuidar a su madre.",
-          "english": "He/She stays at the hospital to take care of his/her mother.",
-          "subject": "él/ella/usted",
+          "english": "He stays at the hospital to take care of his mother.",
+          "subject": "él",
           "region": "universal",
           "source": "family_care",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se queda en el hospital para cuidar a su madre.",
+          "english": "She stays at the hospital to take care of her mother.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_care",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se queda en el hospital para cuidar a su madre.",
+          "english": "You (formal) stays at the hospital to take care of your mother.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_care",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ar",
@@ -560,7 +696,7 @@
         },
         {
           "spanish": "Te quedaste sin palabras cuando viste la sorpresa.",
-          "english": "You were speechless when you saw the surprise.",
+          "english": "You (informal) were speechless when you (informal) saw the surprise.",
           "subject": "tú",
           "region": "universal",
           "source": "surprise_reaction",
@@ -594,15 +730,49 @@
         },
         {
           "spanish": "Se quedó en la biblioteca hasta que cerró.",
-          "english": "He/She stayed at the library until it closed.",
-          "subject": "él/ella/usted",
+          "english": "He stayed at the library until it closed.",
+          "subject": "él",
           "region": "universal",
           "source": "study_dedication",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se quedó en la biblioteca hasta que cerró.",
+          "english": "She stayed at the library until it closed.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "study_dedication",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se quedó en la biblioteca hasta que cerró.",
+          "english": "You (formal) stayed at the library until it closed.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "study_dedication",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ar",
@@ -681,7 +851,7 @@
         },
         {
           "spanish": "Te quedarás sorprendido con los resultados.",
-          "english": "You will be surprised with the results.",
+          "english": "You (informal) will be surprised with the results.",
           "subject": "tú",
           "region": "universal",
           "source": "result_anticipation",
@@ -715,15 +885,49 @@
         },
         {
           "spanish": "Se quedará trabajando hasta muy tarde hoy.",
-          "english": "He/She will stay working until very late today.",
-          "subject": "él/ella/usted",
+          "english": "He will stay working until very late today.",
+          "subject": "él",
           "region": "universal",
           "source": "work_commitment",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se quedará trabajando hasta muy tarde hoy.",
+          "english": "She will stay working until very late today.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_commitment",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se quedará trabajando hasta muy tarde hoy.",
+          "english": "You (formal) will stay working until very late today.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_commitment",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ar",
@@ -818,7 +1022,7 @@
         },
         {
           "spanish": "Te vas muy temprano de las fiestas.",
-          "english": "You leave parties very early.",
+          "english": "You (informal) leave parties very early.",
           "subject": "tú",
           "region": "universal",
           "source": "social_behavior",
@@ -852,15 +1056,49 @@
         },
         {
           "spanish": "Se va del país por motivos de trabajo.",
-          "english": "He/She is leaving the country for work reasons.",
-          "subject": "él/ella/usted",
+          "english": "He is leaving the country for work reasons.",
+          "subject": "él",
           "region": "universal",
           "source": "work_relocation",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se va del país por motivos de trabajo.",
+          "english": "She is leaving the country for work reasons.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se va del país por motivos de trabajo.",
+          "english": "You (formal) are leaving the country for work reasons.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ir",
@@ -939,7 +1177,7 @@
         },
         {
           "spanish": "Te fuiste sin despedirte de nadie.",
-          "english": "You left without saying goodbye to anyone.",
+          "english": "You (informal) left without saying goodbye to anyone.",
           "subject": "tú",
           "region": "universal",
           "source": "abrupt_departure",
@@ -973,15 +1211,49 @@
         },
         {
           "spanish": "Se fue de casa a los dieciocho años.",
-          "english": "He/She left home at eighteen years old.",
-          "subject": "él/ella/usted",
+          "english": "He left home at eighteen years old.",
+          "subject": "él",
           "region": "universal",
           "source": "independence_milestone",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se fue de casa a los dieciocho años.",
+          "english": "She left home at eighteen years old.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "independence_milestone",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se fue de casa a los dieciocho años.",
+          "english": "You (formal) left home at eighteen years old.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "independence_milestone",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ir",
@@ -1060,7 +1332,7 @@
         },
         {
           "spanish": "Te irás de viaje de luna de miel a Italia.",
-          "english": "You will go on your honeymoon trip to Italy.",
+          "english": "You (informal) will go on your honeymoon trip to Italy.",
           "subject": "tú",
           "region": "universal",
           "source": "honeymoon_planning",
@@ -1094,15 +1366,49 @@
         },
         {
           "spanish": "Se irá de la empresa después de veinte años.",
-          "english": "He/She will leave the company after twenty years.",
-          "subject": "él/ella/usted",
+          "english": "He will leave the company after twenty years.",
+          "subject": "él",
           "region": "universal",
           "source": "career_transition",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se irá de la empresa después de veinte años.",
+          "english": "She will leave the company after twenty years.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "career_transition",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se irá de la empresa después de veinte años.",
+          "english": "You (formal) will leave the company after twenty years.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "career_transition",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ir",
@@ -1181,7 +1487,7 @@
         },
         {
           "spanish": "Estás yéndose vas muy temprano de las fiestas.",
-          "english": "You are leaving parties very early.",
+          "english": "You (informal) are leaving parties very early.",
           "subject": "tú",
           "region": "universal",
           "source": "social_behavior",
@@ -1215,15 +1521,49 @@
         },
         {
           "spanish": "Está yéndose va del país por motivos de trabajo.",
-          "english": "He/She is leaving leaving the country for work reasons.",
-          "subject": "él/ella/usted",
+          "english": "He is leaving leaving the country for work reasons.",
+          "subject": "él",
           "region": "universal",
           "source": "work_relocation",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está yéndose va del país por motivos de trabajo.",
+          "english": "She is leaving leaving the country for work reasons.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está yéndose va del país por motivos de trabajo.",
+          "english": "You (formal) are leaving leaving the country for work reasons.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:3",
             "verb-type:ir",
@@ -1302,7 +1642,7 @@
         },
         {
           "spanish": "Vas a irse vas muy temprano de las fiestas.",
-          "english": "You're going to leave parties very early.",
+          "english": "You (informal)'re going to leave parties very early.",
           "subject": "tú",
           "region": "universal",
           "source": "social_behavior",
@@ -1336,15 +1676,49 @@
         },
         {
           "spanish": "Va a irse va del país por motivos de trabajo.",
-          "english": "He/She is going to leave leaving the country for work reasons.",
-          "subject": "él/ella/usted",
+          "english": "He is going to leave leaving the country for work reasons.",
+          "subject": "él",
           "region": "universal",
           "source": "work_relocation",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a irse va del país por motivos de trabajo.",
+          "english": "She is going to leave leaving the country for work reasons.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a irse va del país por motivos de trabajo.",
+          "english": "You (formal) are going to leave leaving the country for work reasons.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:going-to",
             "tier:3",
             "verb-type:ir",
@@ -1423,7 +1797,7 @@
         },
         {
           "spanish": "Has ido vas muy temprano de las fiestas.",
-          "english": "You have left parties very early.",
+          "english": "You (informal) have left parties very early.",
           "subject": "tú",
           "region": "universal",
           "source": "social_behavior",
@@ -1457,15 +1831,49 @@
         },
         {
           "spanish": "Ha ido va del país por motivos de trabajo.",
-          "english": "He/She has left leaving the country for work reasons.",
-          "subject": "él/ella/usted",
+          "english": "He has left leaving the country for work reasons.",
+          "subject": "él",
           "region": "universal",
           "source": "work_relocation",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:highly-irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha ido va del país por motivos de trabajo.",
+          "english": "She has left leaving the country for work reasons.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha ido va del país por motivos de trabajo.",
+          "english": "You (formal) have left leaving the country for work reasons.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_relocation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:3",
             "verb-type:ir",
@@ -1558,7 +1966,7 @@
         },
         {
           "spanish": "Te pones muy elegante para las citas.",
-          "english": "You dress very elegantly for dates.",
+          "english": "You (informal) dress very elegantly for dates.",
           "subject": "tú",
           "region": "universal",
           "source": "dating_attire",
@@ -1594,15 +2002,51 @@
         },
         {
           "spanish": "Se pone el abrigo cuando hace frío.",
-          "english": "He/She puts on the coat when it's cold.",
-          "subject": "él/ella/usted",
+          "english": "He puts on the coat when it's cold.",
+          "subject": "él",
           "region": "universal",
           "source": "weather_clothing",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Se pone el abrigo cuando hace frío.",
+          "english": "She puts on the coat when it's cold.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "weather_clothing",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Se pone el abrigo cuando hace frío.",
+          "english": "You (formal) put on the coat when it's cold.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "weather_clothing",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:er",
@@ -1686,7 +2130,7 @@
         },
         {
           "spanish": "Te pusiste el vestido azul para la boda.",
-          "english": "You put on the blue dress for the wedding.",
+          "english": "You (informal) put on the blue dress for the wedding.",
           "subject": "tú",
           "region": "universal",
           "source": "wedding_attire",
@@ -1722,15 +2166,51 @@
         },
         {
           "spanish": "Se puso enfermo después de comer mariscos.",
-          "english": "He/She got sick after eating seafood.",
-          "subject": "él/ella/usted",
+          "english": "He got sick after eating seafood.",
+          "subject": "él",
           "region": "universal",
           "source": "food_poisoning",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Se puso enfermo después de comer mariscos.",
+          "english": "She got sick after eating seafood.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "food_poisoning",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Se puso enfermo después de comer mariscos.",
+          "english": "You (formal) got sick after eating seafood.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "food_poisoning",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:er",
@@ -1814,7 +2294,7 @@
         },
         {
           "spanish": "Te pondrás muy feliz cuando veas el regalo.",
-          "english": "You will get very happy when you see the gift.",
+          "english": "You (informal) will get very happy when you (informal) see the gift.",
           "subject": "tú",
           "region": "universal",
           "source": "gift_anticipation",
@@ -1850,15 +2330,51 @@
         },
         {
           "spanish": "Se pondrá muy orgulloso de sus logros.",
-          "english": "He/She will become very proud of his/her achievements.",
-          "subject": "él/ella/usted",
+          "english": "He will become very proud of his achievements.",
+          "subject": "él",
           "region": "universal",
           "source": "achievement_pride",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Se pondrá muy orgulloso de sus logros.",
+          "english": "She will become very proud of her achievements.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "achievement_pride",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Se pondrá muy orgulloso de sus logros.",
+          "english": "You (formal) will become very proud of your achievements.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "achievement_pride",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:er",
@@ -1960,7 +2476,7 @@
         },
         {
           "spanish": "Te sientes mejor después de hacer ejercicio.",
-          "english": "You feel better after exercising.",
+          "english": "You (informal) feel better after exercising.",
           "subject": "tú",
           "region": "universal",
           "source": "exercise_benefits",
@@ -1998,8 +2514,8 @@
         },
         {
           "spanish": "Se siente agradecido por todo el apoyo recibido.",
-          "english": "He/She feels grateful for all the support received.",
-          "subject": "él/ella/usted",
+          "english": "He feels grateful for all the support received.",
+          "subject": "él",
           "region": "universal",
           "source": "gratitude_expression",
           "tags": [
@@ -2008,7 +2524,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se siente agradecido por todo el apoyo recibido.",
+          "english": "She feels grateful for all the support received.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "gratitude_expression",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se siente agradecido por todo el apoyo recibido.",
+          "english": "You (formal) feel grateful for all the support received.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "gratitude_expression",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ir",
@@ -2095,7 +2649,7 @@
         },
         {
           "spanish": "Te sentiste decepcionado con los resultados.",
-          "english": "You felt disappointed with the results.",
+          "english": "You (informal) felt disappointed with the results.",
           "subject": "tú",
           "region": "universal",
           "source": "result_disappointment",
@@ -2133,8 +2687,8 @@
         },
         {
           "spanish": "Se sintió aliviado cuando terminó el examen.",
-          "english": "He/She felt relieved when the exam ended.",
-          "subject": "él/ella/usted",
+          "english": "He felt relieved when the exam ended.",
+          "subject": "él",
           "region": "universal",
           "source": "exam_relief",
           "tags": [
@@ -2143,7 +2697,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sintió aliviado cuando terminó el examen.",
+          "english": "She felt relieved when the exam ended.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "exam_relief",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sintió aliviado cuando terminó el examen.",
+          "english": "You (formal) felt relieved when the exam ended.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "exam_relief",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ir",
@@ -2230,7 +2822,7 @@
         },
         {
           "spanish": "Te sentirás muy orgulloso cuando te gradúes.",
-          "english": "You will feel very proud when you graduate.",
+          "english": "You (informal) will feel very proud when you (informal) graduate.",
           "subject": "tú",
           "region": "universal",
           "source": "graduation_pride",
@@ -2268,8 +2860,8 @@
         },
         {
           "spanish": "Se sentirá aliviado cuando resuelva el problema.",
-          "english": "He/She will feel relieved when he/she solves the problem.",
-          "subject": "él/ella/usted",
+          "english": "He will feel relieved when he/she solves the problem.",
+          "subject": "él",
           "region": "universal",
           "source": "problem_resolution",
           "tags": [
@@ -2278,7 +2870,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sentirá aliviado cuando resuelva el problema.",
+          "english": "She will feel relieved when he/she solves the problem.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "problem_resolution",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sentirá aliviado cuando resuelva el problema.",
+          "english": "You (formal) will feel relieved when he/she solves the problem.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "problem_resolution",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ir",
@@ -2380,7 +3010,7 @@
         },
         {
           "spanish": "Piensas mucho antes de tomar decisiones.",
-          "english": "You think a lot before making decisions.",
+          "english": "You (informal) think a lot before making decisions.",
           "subject": "tú",
           "region": "universal",
           "source": "decision_making",
@@ -2416,8 +3046,8 @@
         },
         {
           "spanish": "Piensa que el proyecto va a funcionar.",
-          "english": "He/She thinks the project is going to work.",
-          "subject": "él/ella/usted",
+          "english": "He thinks the project is going to work.",
+          "subject": "él",
           "region": "universal",
           "source": "project_confidence",
           "tags": [
@@ -2425,7 +3055,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Piensa que el proyecto va a funcionar.",
+          "english": "She thinks the project is going to work.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "project_confidence",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Piensa que el proyecto va a funcionar.",
+          "english": "You (formal) think the project are going to work.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "project_confidence",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ar",
@@ -2508,7 +3174,7 @@
         },
         {
           "spanish": "Pensaste que era una broma pero era en serio.",
-          "english": "You thought it was a joke but it was serious.",
+          "english": "You (informal) thought it was a joke but it was serious.",
           "subject": "tú",
           "region": "universal",
           "source": "misunderstanding",
@@ -2544,8 +3210,8 @@
         },
         {
           "spanish": "Pensó en su familia durante todo el viaje.",
-          "english": "He/She thought about his/her family during the entire trip.",
-          "subject": "él/ella/usted",
+          "english": "He thought about his family during the entire trip.",
+          "subject": "él",
           "region": "universal",
           "source": "family_longing",
           "tags": [
@@ -2553,7 +3219,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Pensó en su familia durante todo el viaje.",
+          "english": "She thought about her family during the entire trip.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_longing",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Pensó en su familia durante todo el viaje.",
+          "english": "You (formal) thought about your family during the entire trip.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_longing",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ar",
@@ -2636,7 +3338,7 @@
         },
         {
           "spanish": "Pensarás diferente cuando tengas más experiencia.",
-          "english": "You will think differently when you have more experience.",
+          "english": "You (informal) will think differently when you (informal) have more experience.",
           "subject": "tú",
           "region": "universal",
           "source": "wisdom_development",
@@ -2672,8 +3374,8 @@
         },
         {
           "spanish": "Pensará en jubilarse después de los sesenta.",
-          "english": "He/She will think about retiring after sixty.",
-          "subject": "él/ella/usted",
+          "english": "He will think about retiring after sixty.",
+          "subject": "él",
           "region": "universal",
           "source": "retirement_planning",
           "tags": [
@@ -2681,7 +3383,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Pensará en jubilarse después de los sesenta.",
+          "english": "She will think about retiring after sixty.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "retirement_planning",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Pensará en jubilarse después de los sesenta.",
+          "english": "You (formal) will think about retiring after sixty.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "retirement_planning",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ar",
@@ -2780,7 +3518,7 @@
         },
         {
           "spanish": "Entiendes las matemáticas mejor que yo.",
-          "english": "You understand mathematics better than me.",
+          "english": "You (informal) understand mathematics better than me.",
           "subject": "tú",
           "region": "universal",
           "source": "academic_comparison",
@@ -2816,8 +3554,8 @@
         },
         {
           "spanish": "Entiende la situación mejor que nadie.",
-          "english": "He/She understands the situation better than anyone.",
-          "subject": "él/ella/usted",
+          "english": "He understands the situation better than anyone.",
+          "subject": "él",
           "region": "universal",
           "source": "situational_awareness",
           "tags": [
@@ -2825,7 +3563,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Entiende la situación mejor que nadie.",
+          "english": "She understands the situation better than anyone.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "situational_awareness",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Entiende la situación mejor que nadie.",
+          "english": "You (formal) understand the situation better than anyone.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "situational_awareness",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:er",
@@ -2908,7 +3682,7 @@
         },
         {
           "spanish": "Entendiste la lección mejor que todos.",
-          "english": "You understood the lesson better than everyone.",
+          "english": "You (informal) understood the lesson better than everyone.",
           "subject": "tú",
           "region": "universal",
           "source": "academic_excellence",
@@ -2944,8 +3718,8 @@
         },
         {
           "spanish": "Entendió las instrucciones sin necesidad de repetirlas.",
-          "english": "He/She understood the instructions without needing to repeat them.",
-          "subject": "él/ella/usted",
+          "english": "He understood the instructions without needing to repeat them.",
+          "subject": "él",
           "region": "universal",
           "source": "quick_comprehension",
           "tags": [
@@ -2953,7 +3727,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Entendió las instrucciones sin necesidad de repetirlas.",
+          "english": "She understood the instructions without needing to repeat them.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "quick_comprehension",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Entendió las instrucciones sin necesidad de repetirlas.",
+          "english": "You (formal) understood the instructions without needing to repeat them.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "quick_comprehension",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:er",
@@ -3036,7 +3846,7 @@
         },
         {
           "spanish": "Entenderás la situación cuando seas padre.",
-          "english": "You will understand the situation when you become a father.",
+          "english": "You (informal) will understand the situation when you (informal) become a father.",
           "subject": "tú",
           "region": "universal",
           "source": "parental_perspective",
@@ -3072,8 +3882,8 @@
         },
         {
           "spanish": "Entenderá la complejidad del problema mañana.",
-          "english": "He/She will understand the complexity of the problem tomorrow.",
-          "subject": "él/ella/usted",
+          "english": "He will understand the complexity of the problem tomorrow.",
+          "subject": "él",
           "region": "universal",
           "source": "problem_complexity",
           "tags": [
@@ -3081,7 +3891,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Entenderá la complejidad del problema mañana.",
+          "english": "She will understand the complexity of the problem tomorrow.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "problem_complexity",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Entenderá la complejidad del problema mañana.",
+          "english": "You (formal) will understand the complexity of the problem tomorrow.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "problem_complexity",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:er",
@@ -3180,7 +4026,7 @@
         },
         {
           "spanish": "Sientes la música en el alma.",
-          "english": "You feel the music in your soul.",
+          "english": "You (informal) feel the music in your soul.",
           "subject": "tú",
           "region": "universal",
           "source": "musical_emotion",
@@ -3216,8 +4062,8 @@
         },
         {
           "spanish": "Siente dolor en la espalda frecuentemente.",
-          "english": "He/She feels back pain frequently.",
-          "subject": "él/ella/usted",
+          "english": "He feels back pain frequently.",
+          "subject": "él",
           "region": "universal",
           "source": "physical_discomfort",
           "tags": [
@@ -3225,7 +4071,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Siente dolor en la espalda frecuentemente.",
+          "english": "She feels back pain frequently.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "physical_discomfort",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Siente dolor en la espalda frecuentemente.",
+          "english": "You (formal) feel back pain frequently.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "physical_discomfort",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ir",
@@ -3308,7 +4190,7 @@
         },
         {
           "spanish": "Sentiste el terremoto desde el quinto piso.",
-          "english": "You felt the earthquake from the fifth floor.",
+          "english": "You (informal) felt the earthquake from the fifth floor.",
           "subject": "tú",
           "region": "universal",
           "source": "natural_disaster",
@@ -3344,8 +4226,8 @@
         },
         {
           "spanish": "Sintió alivio cuando terminó el examen final.",
-          "english": "He/She felt relief when the final exam ended.",
-          "subject": "él/ella/usted",
+          "english": "He felt relief when the final exam ended.",
+          "subject": "él",
           "region": "universal",
           "source": "exam_completion",
           "tags": [
@@ -3353,7 +4235,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Sintió alivio cuando terminó el examen final.",
+          "english": "She felt relief when the final exam ended.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "exam_completion",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Sintió alivio cuando terminó el examen final.",
+          "english": "You (formal) felt relief when the final exam ended.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "exam_completion",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ir",
@@ -3436,7 +4354,7 @@
         },
         {
           "spanish": "Sentirás la diferencia después del tratamiento.",
-          "english": "You will feel the difference after treatment.",
+          "english": "You (informal) will feel the difference after treatment.",
           "subject": "tú",
           "region": "universal",
           "source": "medical_improvement",
@@ -3472,8 +4390,8 @@
         },
         {
           "spanish": "Sentirá nostalgia por su país natal.",
-          "english": "He/She will feel nostalgia for his/her homeland.",
-          "subject": "él/ella/usted",
+          "english": "He will feel nostalgia for his homeland.",
+          "subject": "él",
           "region": "universal",
           "source": "homesickness",
           "tags": [
@@ -3481,7 +4399,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Sentirá nostalgia por su país natal.",
+          "english": "She will feel nostalgia for her homeland.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "homesickness",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Sentirá nostalgia por su país natal.",
+          "english": "You (formal) will feel nostalgia for your homeland.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "homesickness",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ir",
@@ -3580,7 +4534,7 @@
         },
         {
           "spanish": "Vienes conmigo al concierto mañana.",
-          "english": "You come with me to the concert tomorrow.",
+          "english": "You (informal) come with me to the concert tomorrow.",
           "subject": "tú",
           "region": "universal",
           "source": "event_invitation",
@@ -3616,8 +4570,8 @@
         },
         {
           "spanish": "Viene a visitarnos cada domingo.",
-          "english": "He/She comes to visit us every Sunday.",
-          "subject": "él/ella/usted",
+          "english": "He comes to visit us every Sunday.",
+          "subject": "él",
           "region": "universal",
           "source": "family_visit",
           "tags": [
@@ -3625,7 +4579,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Viene a visitarnos cada domingo.",
+          "english": "She comes to visit us every Sunday.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "family_visit",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Viene a visitarnos cada domingo.",
+          "english": "You (formal) come to visit us every Sunday.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "family_visit",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ir",
@@ -3708,7 +4698,7 @@
         },
         {
           "spanish": "Viniste corriendo cuando escuchaste la noticia.",
-          "english": "You came running when you heard the news.",
+          "english": "You (informal) came running when you (informal) heard the news.",
           "subject": "tú",
           "region": "universal",
           "source": "urgent_response",
@@ -3744,8 +4734,8 @@
         },
         {
           "spanish": "Vino a la fiesta aunque estaba enfermo.",
-          "english": "He/She came to the party even though he/she was sick.",
-          "subject": "él/ella/usted",
+          "english": "He came to the party even though he/she was sick.",
+          "subject": "él",
           "region": "universal",
           "source": "dedication_despite_illness",
           "tags": [
@@ -3753,7 +4743,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vino a la fiesta aunque estaba enfermo.",
+          "english": "She came to the party even though he/she was sick.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "dedication_despite_illness",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vino a la fiesta aunque estaba enfermo.",
+          "english": "You (formal) came to the party even though he/she was sick.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "dedication_despite_illness",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ir",
@@ -3836,7 +4862,7 @@
         },
         {
           "spanish": "Vendrás conmigo al concierto el sábado.",
-          "english": "You will come with me to the concert on Saturday.",
+          "english": "You (informal) will come with me to the concert on Saturday.",
           "subject": "tú",
           "region": "universal",
           "source": "entertainment_plan",
@@ -3872,8 +4898,8 @@
         },
         {
           "spanish": "Vendrá a trabajar con nosotros el próximo mes.",
-          "english": "He/She will come work with us next month.",
-          "subject": "él/ella/usted",
+          "english": "He will come work with us next month.",
+          "subject": "él",
           "region": "universal",
           "source": "employment_start",
           "tags": [
@@ -3881,7 +4907,43 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vendrá a trabajar con nosotros el próximo mes.",
+          "english": "She will come work with us next month.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "employment_start",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vendrá a trabajar con nosotros el próximo mes.",
+          "english": "You (formal) will come work with us next month.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "employment_start",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ir",
@@ -3978,7 +5040,7 @@
         },
         {
           "spanish": "Pones música clásica para relajarte.",
-          "english": "You put on classical music to relax.",
+          "english": "You (informal) put on classical music to relax.",
           "subject": "tú",
           "region": "universal",
           "source": "relaxation_activity",
@@ -4012,14 +5074,48 @@
         },
         {
           "spanish": "Pone las llaves siempre en el mismo lugar.",
-          "english": "He/She always puts the keys in the same place.",
-          "subject": "él/ella/usted",
+          "english": "He always puts the keys in the same place.",
+          "subject": "él",
           "region": "universal",
           "source": "organization_habit",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Pone las llaves siempre en el mismo lugar.",
+          "english": "She always puts the keys in the same place.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "organization_habit",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Pone las llaves siempre en el mismo lugar.",
+          "english": "You (formal) always put the keys in the same place.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "organization_habit",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:er",
@@ -4099,7 +5195,7 @@
         },
         {
           "spanish": "Pusiste mucho esfuerzo en el proyecto final.",
-          "english": "You put a lot of effort into the final project.",
+          "english": "You (informal) put a lot of effort into the final project.",
           "subject": "tú",
           "region": "universal",
           "source": "academic_dedication",
@@ -4133,14 +5229,48 @@
         },
         {
           "spanish": "Puso toda su atención en el discurso.",
-          "english": "He/She put all his/her attention on the speech.",
-          "subject": "él/ella/usted",
+          "english": "He put all his attention on the speech.",
+          "subject": "él",
           "region": "universal",
           "source": "focused_listening",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Puso toda su atención en el discurso.",
+          "english": "She put all her attention on the speech.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "focused_listening",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Puso toda su atención en el discurso.",
+          "english": "You (formal) put all your attention on the speech.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "focused_listening",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:er",
@@ -4220,7 +5350,7 @@
         },
         {
           "spanish": "Pondrás las fotos en el álbum familiar.",
-          "english": "You will put the photos in the family album.",
+          "english": "You (informal) will put the photos in the family album.",
           "subject": "tú",
           "region": "universal",
           "source": "memory_preservation",
@@ -4254,14 +5384,48 @@
         },
         {
           "spanish": "Pondrá una oficina en el centro de la ciudad.",
-          "english": "He/She will set up an office in the city center.",
-          "subject": "él/ella/usted",
+          "english": "He will set up an office in the city center.",
+          "subject": "él",
           "region": "universal",
           "source": "business_expansion",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Pondrá una oficina en el centro de la ciudad.",
+          "english": "She will set up an office in the city center.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "business_expansion",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Pondrá una oficina en el centro de la ciudad.",
+          "english": "You (formal) will set up an office in the city center.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "business_expansion",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:er",
@@ -4356,7 +5520,7 @@
         },
         {
           "spanish": "Sales con tus amigos cada viernes.",
-          "english": "You go out with your friends every Friday.",
+          "english": "You (informal) go out with your friends every Friday.",
           "subject": "tú",
           "region": "universal",
           "source": "social_routine",
@@ -4390,14 +5554,48 @@
         },
         {
           "spanish": "Sale del trabajo muy tarde cada día.",
-          "english": "He/She leaves work very late every day.",
-          "subject": "él/ella/usted",
+          "english": "He leaves work very late every day.",
+          "subject": "él",
           "region": "universal",
           "source": "work_schedule",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Sale del trabajo muy tarde cada día.",
+          "english": "She leaves work very late every day.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Sale del trabajo muy tarde cada día.",
+          "english": "You (formal) leaves work very late every day.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ir",
@@ -4477,7 +5675,7 @@
         },
         {
           "spanish": "Saliste corriendo cuando viste la araña.",
-          "english": "You ran out when you saw the spider.",
+          "english": "You (informal) ran out when you (informal) saw the spider.",
           "subject": "tú",
           "region": "universal",
           "source": "fear_reaction",
@@ -4511,14 +5709,48 @@
         },
         {
           "spanish": "Salió del hospital completamente recuperado.",
-          "english": "He/She left the hospital completely recovered.",
-          "subject": "él/ella/usted",
+          "english": "He left the hospital completely recovered.",
+          "subject": "él",
           "region": "universal",
           "source": "medical_recovery",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Salió del hospital completamente recuperado.",
+          "english": "She left the hospital completely recovered.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "medical_recovery",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Salió del hospital completamente recuperado.",
+          "english": "You (formal) left the hospital completely recovered.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "medical_recovery",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ir",
@@ -4598,7 +5830,7 @@
         },
         {
           "spanish": "Saldrás en la televisión nacional mañana.",
-          "english": "You will appear on national television tomorrow.",
+          "english": "You (informal) will appear on national television tomorrow.",
           "subject": "tú",
           "region": "universal",
           "source": "media_appearance",
@@ -4632,14 +5864,48 @@
         },
         {
           "spanish": "Saldrá del trabajo más tarde hoy.",
-          "english": "He/She will leave work later today.",
-          "subject": "él/ella/usted",
+          "english": "He will leave work later today.",
+          "subject": "él",
           "region": "universal",
           "source": "work_schedule",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Saldrá del trabajo más tarde hoy.",
+          "english": "She will leave work later today.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Saldrá del trabajo más tarde hoy.",
+          "english": "You (formal) will leave work later today.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_schedule",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ir",
@@ -4735,7 +6001,7 @@
         },
         {
           "spanish": "Te duchas con agua muy caliente.",
-          "english": "You shower with very hot water.",
+          "english": "You (informal) shower with very hot water.",
           "subject": "tú",
           "region": "universal",
           "source": "shower_preference",
@@ -4769,15 +6035,49 @@
         },
         {
           "spanish": "Se ducha dos veces al día en verano.",
-          "english": "He/She showers twice a day in summer.",
-          "subject": "él/ella/usted",
+          "english": "He showers twice a day in summer.",
+          "subject": "él",
           "region": "universal",
           "source": "summer_hygiene",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se ducha dos veces al día en verano.",
+          "english": "She showers twice a day in summer.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "summer_hygiene",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se ducha dos veces al día en verano.",
+          "english": "You (formal) showers twice a day in summer.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "summer_hygiene",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:3",
             "verb-type:ar",
@@ -4856,7 +6156,7 @@
         },
         {
           "spanish": "Te duchaste con agua fría porque no había caliente.",
-          "english": "You showered with cold water because there was no hot water.",
+          "english": "You (informal) showered with cold water because there was no hot water.",
           "subject": "tú",
           "region": "universal",
           "source": "water_heater_problem",
@@ -4890,15 +6190,49 @@
         },
         {
           "spanish": "Se duchó durante una hora para relajarse.",
-          "english": "He/She showered for an hour to relax.",
-          "subject": "él/ella/usted",
+          "english": "He showered for an hour to relax.",
+          "subject": "él",
           "region": "universal",
           "source": "relaxation_ritual",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se duchó durante una hora para relajarse.",
+          "english": "She showered for an hour to relax.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "relaxation_ritual",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se duchó durante una hora para relajarse.",
+          "english": "You (formal) showered for an hour to relax.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "relaxation_ritual",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:3",
             "verb-type:ar",
@@ -4977,7 +6311,7 @@
         },
         {
           "spanish": "Te ducharás cuando llegues del viaje.",
-          "english": "You will shower when you arrive from the trip.",
+          "english": "You (informal) will shower when you (informal) arrive from the trip.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_return",
@@ -5011,15 +6345,49 @@
         },
         {
           "spanish": "Se duchará antes de la ceremonia de graduación.",
-          "english": "He/She will shower before the graduation ceremony.",
-          "subject": "él/ella/usted",
+          "english": "He will shower before the graduation ceremony.",
+          "subject": "él",
           "region": "universal",
           "source": "ceremony_preparation",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se duchará antes de la ceremonia de graduación.",
+          "english": "She will shower before the graduation ceremony.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "ceremony_preparation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:3",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se duchará antes de la ceremonia de graduación.",
+          "english": "You (formal) will shower before the graduation ceremony.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "ceremony_preparation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:3",
             "verb-type:ar",

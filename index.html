@@ -227,6 +227,18 @@
             </fieldset>
 
             <fieldset>
+              <legend>Spanish Variant</legend>
+              <select id="spanish-variant" style="width: 100%;">
+                <option value="mexico" selected>Mexico / Latin America</option>
+                <option value="argentina" disabled>Argentina (coming soon)</option>
+                <option value="spain" disabled>Spain (coming soon)</option>
+              </select>
+              <small style="display: block; margin-top: 0.5rem; opacity: 0.7;">
+                Mexico/LA uses: tú (informal), usted (formal), ustedes (plural)
+              </small>
+            </fieldset>
+
+            <fieldset>
               <legend>Subjects</legend>
               <label>
                 <input type="checkbox" id="subj-yo" name="subject" value="yo" checked />
@@ -237,8 +249,8 @@
                 tú
               </label>
               <label>
-                <input type="checkbox" id="subj-vos" name="subject" value="vos" />
-                vos <small>(Argentina/Uruguay)</small>
+                <input type="checkbox" id="subj-vos" name="subject" value="vos" disabled />
+                vos <small>(Argentina - not available)</small>
               </label>
               <label>
                 <input type="checkbox" id="subj-el" name="subject" value="él/ella/usted" checked />
@@ -249,8 +261,8 @@
                 nosotros
               </label>
               <label>
-                <input type="checkbox" id="subj-vosotros" name="subject" value="vosotros" />
-                vosotros <small>(Spain)</small>
+                <input type="checkbox" id="subj-vosotros" name="subject" value="vosotros" disabled />
+                vosotros <small>(Spain - not available)</small>
               </label>
               <label>
                 <input type="checkbox" id="subj-ellos" name="subject" value="ellos/ellas/ustedes" checked />

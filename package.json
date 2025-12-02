@@ -1,5 +1,24 @@
 {
+  "name": "drillmaster",
+  "version": "1.0.0",
+  "description": "Spanish verb conjugation flashcard generator for Anki",
+  "main": "index.js",
+  "scripts": {
+    "generate:mexico": "node scripts/generate-apkg.js --region mexico",
+    "generate:mexico:tier1": "node scripts/generate-apkg.js --region mexico --tier 1",
+    "generate:mexico:tier2": "node scripts/generate-apkg.js --region mexico --tier 2",
+    "generate:mexico:tier3": "node scripts/generate-apkg.js --region mexico --tier 3",
+    "generate:mexico:tier4": "node scripts/generate-apkg.js --region mexico --tier 4",
+    "generate:mexico:tier5": "node scripts/generate-apkg.js --region mexico --tier 5",
+    "generate:all": "node scripts/generate-apkg.js --region mexico",
+    "dev": "python3 -m http.server 8080"
+  },
   "dependencies": {
-    "verbo": "^0.0.9"
-  }
+    "verbo": "^0.0.9",
+    "sql.js": "^1.8.0",
+    "jszip": "^3.10.1"
+  },
+  "keywords": ["spanish", "verbs", "conjugation", "anki", "flashcards"],
+  "author": "DrillMaster",
+  "license": "MIT"
 }

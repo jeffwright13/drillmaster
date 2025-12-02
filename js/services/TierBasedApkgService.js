@@ -175,6 +175,7 @@ class TierBasedApkgService {
       // Set selected verbs for this tier and configure corpus tiers
       appController.state.selectedVerbs = new Set(tierVerbObjects.map(v => v.id));
       appController.state.cardSettings.corpusTiers = [tierNum];
+      appController.state.cardSettings.regions = ['universal']; // Mexico/LA only - exclude argentina/spain
       
       // Generate cards using the existing method (Mexico-focused: no vos/vosotros)
       const cardTypes = ['trans-en-es', 'trans-es-en', 'cloze', 'conjugation'];

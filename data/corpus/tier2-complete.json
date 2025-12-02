@@ -63,7 +63,7 @@
         },
         {
           "spanish": "Te sientas siempre en el mismo lugar del café.",
-          "english": "You always sit in the same spot at the café.",
+          "english": "You (informal) always sit in the same spot at the café.",
           "subject": "tú",
           "region": "universal",
           "source": "routine_behavior",
@@ -101,8 +101,8 @@
         },
         {
           "spanish": "Se sienta a trabajar muy temprano cada mañana.",
-          "english": "He/She sits down to work very early every morning.",
-          "subject": "él/ella/usted",
+          "english": "He sits down to work very early every morning.",
+          "subject": "él",
           "region": "universal",
           "source": "work_routine",
           "tags": [
@@ -111,7 +111,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sienta a trabajar muy temprano cada mañana.",
+          "english": "She sits down to work very early every morning.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sienta a trabajar muy temprano cada mañana.",
+          "english": "You (formal) sit down to work very early every morning.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -198,7 +236,7 @@
         },
         {
           "spanish": "Te sentaste al lado del director en la cena.",
-          "english": "You sat next to the director at dinner.",
+          "english": "You (informal) sat next to the director at dinner.",
           "subject": "tú",
           "region": "universal",
           "source": "formal_dinner",
@@ -236,8 +274,8 @@
         },
         {
           "spanish": "Se sentó a reflexionar sobre su futuro.",
-          "english": "He/She sat down to reflect on his/her future.",
-          "subject": "él/ella/usted",
+          "english": "He sat down to reflect on his future.",
+          "subject": "él",
           "region": "universal",
           "source": "life_contemplation",
           "tags": [
@@ -246,7 +284,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sentó a reflexionar sobre su futuro.",
+          "english": "She sat down to reflect on her future.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "life_contemplation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sentó a reflexionar sobre su futuro.",
+          "english": "You (formal) sat down to reflect on your future.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "life_contemplation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -333,7 +409,7 @@
         },
         {
           "spanish": "Te sentarás en la mesa principal en la boda.",
-          "english": "You will sit at the main table at the wedding.",
+          "english": "You (informal) will sit at the main table at the wedding.",
           "subject": "tú",
           "region": "universal",
           "source": "wedding_arrangement",
@@ -371,8 +447,8 @@
         },
         {
           "spanish": "Se sentará a escribir sus memorias.",
-          "english": "He/She will sit down to write his/her memoirs.",
-          "subject": "él/ella/usted",
+          "english": "He will sit down to write his memoirs.",
+          "subject": "él",
           "region": "universal",
           "source": "literary_project",
           "tags": [
@@ -381,7 +457,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sentará a escribir sus memorias.",
+          "english": "She will sit down to write her memoirs.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "literary_project",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se sentará a escribir sus memorias.",
+          "english": "You (formal) will sit down to write your memoirs.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "literary_project",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -485,7 +599,7 @@
         },
         {
           "spanish": "Te acuestas muy tarde los fines de semana.",
-          "english": "You go to bed very late on weekends.",
+          "english": "You (informal) go to bed very late on weekends.",
           "subject": "tú",
           "region": "universal",
           "source": "weekend_habits",
@@ -523,8 +637,8 @@
         },
         {
           "spanish": "Se acuesta siempre a la misma hora.",
-          "english": "He/She always goes to bed at the same time.",
-          "subject": "él/ella/usted",
+          "english": "He always goes to bed at the same time.",
+          "subject": "él",
           "region": "universal",
           "source": "consistent_schedule",
           "tags": [
@@ -533,7 +647,45 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se acuesta siempre a la misma hora.",
+          "english": "She always goes to bed at the same time.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "consistent_schedule",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se acuesta siempre a la misma hora.",
+          "english": "You (formal) always go to bed at the same time.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "consistent_schedule",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -620,7 +772,7 @@
         },
         {
           "spanish": "Te acostaste sin cenar porque estabas enfermo.",
-          "english": "You went to bed without dinner because you were sick.",
+          "english": "You (informal) went to bed without dinner because you (informal) were sick.",
           "subject": "tú",
           "region": "universal",
           "source": "illness_situation",
@@ -658,8 +810,8 @@
         },
         {
           "spanish": "Se acostó después de terminar la novela.",
-          "english": "He/She went to bed after finishing the novel.",
-          "subject": "él/ella/usted",
+          "english": "He went to bed after finishing the novel.",
+          "subject": "él",
           "region": "universal",
           "source": "reading_completion",
           "tags": [
@@ -668,7 +820,45 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se acostó después de terminar la novela.",
+          "english": "She went to bed after finishing the novel.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "reading_completion",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se acostó después de terminar la novela.",
+          "english": "You (formal) went to bed after finishing the novel.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "reading_completion",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -755,7 +945,7 @@
         },
         {
           "spanish": "Te acostarás cuando termines la tarea.",
-          "english": "You will go to bed when you finish your homework.",
+          "english": "You (informal) will go to bed when you (informal) finish your homework.",
           "subject": "tú",
           "region": "universal",
           "source": "parental_instruction",
@@ -793,8 +983,8 @@
         },
         {
           "spanish": "Se acostará después de revisar los emails.",
-          "english": "He/She will go to bed after checking emails.",
-          "subject": "él/ella/usted",
+          "english": "He will go to bed after checking emails.",
+          "subject": "él",
           "region": "universal",
           "source": "work_habit",
           "tags": [
@@ -803,7 +993,45 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se acostará después de revisar los emails.",
+          "english": "She will go to bed after checking emails.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "work_habit",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se acostará después de revisar los emails.",
+          "english": "You (formal) will go to bed after checking emails.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "work_habit",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -907,7 +1135,7 @@
         },
         {
           "spanish": "Te despiertas con el sonido de los pájaros.",
-          "english": "You wake up to the sound of birds.",
+          "english": "You (informal) wake up to the sound of birds.",
           "subject": "tú",
           "region": "universal",
           "source": "natural_alarm",
@@ -945,8 +1173,8 @@
         },
         {
           "spanish": "Se despierta antes que suene el despertador.",
-          "english": "He/She wakes up before the alarm goes off.",
-          "subject": "él/ella/usted",
+          "english": "He wakes up before the alarm goes off.",
+          "subject": "él",
           "region": "universal",
           "source": "internal_clock",
           "tags": [
@@ -955,7 +1183,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se despierta antes que suene el despertador.",
+          "english": "She wakes up before the alarm goes off.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "internal_clock",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se despierta antes que suene el despertador.",
+          "english": "You (formal) wakes up before the alarm go off.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "internal_clock",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -1042,7 +1308,7 @@
         },
         {
           "spanish": "Te despertaste muy temprano para el vuelo.",
-          "english": "You woke up very early for the flight.",
+          "english": "You (informal) woke up very early for the flight.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_preparation",
@@ -1080,8 +1346,8 @@
         },
         {
           "spanish": "Se despertó en el hospital sin recordar nada.",
-          "english": "He/She woke up in the hospital remembering nothing.",
-          "subject": "él/ella/usted",
+          "english": "He woke up in the hospital remembering nothing.",
+          "subject": "él",
           "region": "universal",
           "source": "medical_situation",
           "tags": [
@@ -1090,7 +1356,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se despertó en el hospital sin recordar nada.",
+          "english": "She woke up in the hospital remembering nothing.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "medical_situation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se despertó en el hospital sin recordar nada.",
+          "english": "You (formal) woke up in the hospital remembering nothing.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "medical_situation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -1177,7 +1481,7 @@
         },
         {
           "spanish": "Te despertarás con el sonido del mar.",
-          "english": "You will wake up to the sound of the sea.",
+          "english": "You (informal) will wake up to the sound of the sea.",
           "subject": "tú",
           "region": "universal",
           "source": "vacation_anticipation",
@@ -1215,8 +1519,8 @@
         },
         {
           "spanish": "Se despertará siendo una persona famosa.",
-          "english": "He/She will wake up being a famous person.",
-          "subject": "él/ella/usted",
+          "english": "He will wake up being a famous person.",
+          "subject": "él",
           "region": "universal",
           "source": "fame_prediction",
           "tags": [
@@ -1225,7 +1529,45 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se despertará siendo una persona famosa.",
+          "english": "She will wake up being a famous person.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "fame_prediction",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se despertará siendo una persona famosa.",
+          "english": "You (formal) will wake up being a famous person.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "fame_prediction",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -1329,7 +1671,7 @@
         },
         {
           "spanish": "Te vistes muy bien para tu edad.",
-          "english": "You dress very well for your age.",
+          "english": "You (informal) dress very well for your age.",
           "subject": "tú",
           "region": "universal",
           "source": "fashion_compliment",
@@ -1367,8 +1709,8 @@
         },
         {
           "spanish": "Se viste de acuerdo a la ocasión.",
-          "english": "He/She dresses according to the occasion.",
-          "subject": "él/ella/usted",
+          "english": "He dresses according to the occasion.",
+          "subject": "él",
           "region": "universal",
           "source": "appropriate_dressing",
           "tags": [
@@ -1377,7 +1719,45 @@
             "regularity:irregular",
             "stem-change:e-i",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se viste de acuerdo a la ocasión.",
+          "english": "She dresses according to the occasion.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "appropriate_dressing",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se viste de acuerdo a la ocasión.",
+          "english": "You (formal) dresses according to the occasion.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "appropriate_dressing",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ir",
@@ -1464,7 +1844,7 @@
         },
         {
           "spanish": "Te vestiste de gala para la ceremonia.",
-          "english": "You dressed formally for the ceremony.",
+          "english": "You (informal) dressed formally for the ceremony.",
           "subject": "tú",
           "region": "universal",
           "source": "formal_event",
@@ -1502,8 +1882,8 @@
         },
         {
           "spanish": "Se vistió de negro para el funeral.",
-          "english": "He/She dressed in black for the funeral.",
-          "subject": "él/ella/usted",
+          "english": "He dressed in black for the funeral.",
+          "subject": "él",
           "region": "universal",
           "source": "mourning_attire",
           "tags": [
@@ -1512,7 +1892,45 @@
             "regularity:irregular",
             "stem-change:e-i",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se vistió de negro para el funeral.",
+          "english": "She dressed in black for the funeral.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "mourning_attire",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se vistió de negro para el funeral.",
+          "english": "You (formal) dressed in black for the funeral.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "mourning_attire",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ir",
@@ -1599,7 +2017,7 @@
         },
         {
           "spanish": "Te vestirás como un profesional en tu nuevo trabajo.",
-          "english": "You will dress like a professional in your new job.",
+          "english": "You (informal) will dress like a professional in your new job.",
           "subject": "tú",
           "region": "universal",
           "source": "career_advancement",
@@ -1637,8 +2055,8 @@
         },
         {
           "spanish": "Se vestirá de blanco para su primera comunión.",
-          "english": "He/She will dress in white for his/her first communion.",
-          "subject": "él/ella/usted",
+          "english": "He will dress in white for his first communion.",
+          "subject": "él",
           "region": "universal",
           "source": "religious_ceremony",
           "tags": [
@@ -1647,7 +2065,45 @@
             "regularity:irregular",
             "stem-change:e-i",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se vestirá de blanco para su primera comunión.",
+          "english": "She will dress in white for her first communion.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "religious_ceremony",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se vestirá de blanco para su primera comunión.",
+          "english": "You (formal) will dress in white for your first communion.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "religious_ceremony",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ir",
@@ -1748,7 +2204,7 @@
         },
         {
           "spanish": "Te levantas muy temprano para correr.",
-          "english": "You get up very early to run.",
+          "english": "You (informal) get up very early to run.",
           "subject": "tú",
           "region": "universal",
           "source": "exercise_routine",
@@ -1782,15 +2238,49 @@
         },
         {
           "spanish": "Se levanta cuando suena el despertador.",
-          "english": "He/She gets up when the alarm goes off.",
-          "subject": "él/ella/usted",
+          "english": "He gets up when the alarm goes off.",
+          "subject": "él",
           "region": "universal",
           "source": "alarm_response",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se levanta cuando suena el despertador.",
+          "english": "She gets up when the alarm goes off.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "alarm_response",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se levanta cuando suena el despertador.",
+          "english": "You (formal) get up when the alarm go off.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "alarm_response",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -1869,7 +2359,7 @@
         },
         {
           "spanish": "Te levantaste con mucha energía después de las vacaciones.",
-          "english": "You got up with lots of energy after vacation.",
+          "english": "You (informal) got up with lots of energy after vacation.",
           "subject": "tú",
           "region": "universal",
           "source": "post_vacation_energy",
@@ -1903,15 +2393,49 @@
         },
         {
           "spanish": "Se levantó inmediatamente cuando sonó el teléfono.",
-          "english": "He/She got up immediately when the phone rang.",
-          "subject": "él/ella/usted",
+          "english": "He got up immediately when the phone rang.",
+          "subject": "él",
           "region": "universal",
           "source": "urgent_call",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se levantó inmediatamente cuando sonó el teléfono.",
+          "english": "She got up immediately when the phone rang.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "urgent_call",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se levantó inmediatamente cuando sonó el teléfono.",
+          "english": "You (formal) got up immediately when the phone rang.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "urgent_call",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -1990,7 +2514,7 @@
         },
         {
           "spanish": "Te levantarás con el canto de los gallos en el campo.",
-          "english": "You will get up with the rooster's crow in the countryside.",
+          "english": "You (informal) will get up with the rooster's crow in the countryside.",
           "subject": "tú",
           "region": "universal",
           "source": "rural_experience",
@@ -2024,15 +2548,49 @@
         },
         {
           "spanish": "Se levantará muy temprano para tomar el primer vuelo.",
-          "english": "He/She will get up very early to catch the first flight.",
-          "subject": "él/ella/usted",
+          "english": "He will get up very early to catch the first flight.",
+          "subject": "él",
           "region": "universal",
           "source": "travel_schedule",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se levantará muy temprano para tomar el primer vuelo.",
+          "english": "She will get up very early to catch the first flight.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "travel_schedule",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se levantará muy temprano para tomar el primer vuelo.",
+          "english": "You (formal) will get up very early to catch the first flight.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "travel_schedule",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -2128,7 +2686,7 @@
         },
         {
           "spanish": "Encuentras soluciones creativas a los problemas.",
-          "english": "You find creative solutions to problems.",
+          "english": "You (informal) find creative solutions to problems.",
           "subject": "tú",
           "region": "universal",
           "source": "problem_solving",
@@ -2164,8 +2722,8 @@
         },
         {
           "spanish": "Encuentra tiempo para leer todos los días.",
-          "english": "He/She finds time to read every day.",
-          "subject": "él/ella/usted",
+          "english": "He finds time to read every day.",
+          "subject": "él",
           "region": "universal",
           "source": "time_management",
           "tags": [
@@ -2173,7 +2731,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Encuentra tiempo para leer todos los días.",
+          "english": "She finds time to read every day.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "time_management",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Encuentra tiempo para leer todos los días.",
+          "english": "You (formal) find time to read every day.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "time_management",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -2256,7 +2850,7 @@
         },
         {
           "spanish": "Encontraste la respuesta después de mucho pensar.",
-          "english": "You found the answer after thinking a lot.",
+          "english": "You (informal) found the answer after thinking a lot.",
           "subject": "tú",
           "region": "universal",
           "source": "problem_resolution",
@@ -2292,8 +2886,8 @@
         },
         {
           "spanish": "Encontró trabajo en una empresa multinacional.",
-          "english": "He/She found work at a multinational company.",
-          "subject": "él/ella/usted",
+          "english": "He found work at a multinational company.",
+          "subject": "él",
           "region": "universal",
           "source": "job_success",
           "tags": [
@@ -2301,7 +2895,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Encontró trabajo en una empresa multinacional.",
+          "english": "She found work at a multinational company.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "job_success",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Encontró trabajo en una empresa multinacional.",
+          "english": "You (formal) found work at a multinational company.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "job_success",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -2384,7 +3014,7 @@
         },
         {
           "spanish": "Encontrarás el amor verdadero cuando menos lo esperes.",
-          "english": "You will find true love when you least expect it.",
+          "english": "You (informal) will find true love when you (informal) least expect it.",
           "subject": "tú",
           "region": "universal",
           "source": "romantic_prediction",
@@ -2420,8 +3050,8 @@
         },
         {
           "spanish": "Encontrará la paz interior a través de la meditación.",
-          "english": "He/She will find inner peace through meditation.",
-          "subject": "él/ella/usted",
+          "english": "He will find inner peace through meditation.",
+          "subject": "él",
           "region": "universal",
           "source": "spiritual_journey",
           "tags": [
@@ -2429,7 +3059,43 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Encontrará la paz interior a través de la meditación.",
+          "english": "She will find inner peace through meditation.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "spiritual_journey",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Encontrará la paz interior a través de la meditación.",
+          "english": "You (formal) will find inner peace through meditation.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "spiritual_journey",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -2525,7 +3191,7 @@
         },
         {
           "spanish": "Lavas la ropa los fines de semana.",
-          "english": "You wash clothes on weekends.",
+          "english": "You (informal) wash clothes on weekends.",
           "subject": "tú",
           "region": "universal",
           "source": "laundry_schedule",
@@ -2557,14 +3223,46 @@
         },
         {
           "spanish": "Lava las ventanas de la casa cada mes.",
-          "english": "He/She washes the house windows every month.",
-          "subject": "él/ella/usted",
+          "english": "He washes the house windows every month.",
+          "subject": "él",
           "region": "universal",
           "source": "home_maintenance",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Lava las ventanas de la casa cada mes.",
+          "english": "She washes the house windows every month.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "home_maintenance",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Lava las ventanas de la casa cada mes.",
+          "english": "You (formal) wash the house windows every month.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "home_maintenance",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -2639,7 +3337,7 @@
         },
         {
           "spanish": "Lavaste el coche antes de la cita importante.",
-          "english": "You washed the car before the important date.",
+          "english": "You (informal) washed the car before the important date.",
           "subject": "tú",
           "region": "universal",
           "source": "preparation_effort",
@@ -2671,14 +3369,46 @@
         },
         {
           "spanish": "Lavó la ropa de bebé con detergente especial.",
-          "english": "He/She washed the baby clothes with special detergent.",
-          "subject": "él/ella/usted",
+          "english": "He washed the baby clothes with special detergent.",
+          "subject": "él",
           "region": "universal",
           "source": "baby_care",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Lavó la ropa de bebé con detergente especial.",
+          "english": "She washed the baby clothes with special detergent.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "baby_care",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Lavó la ropa de bebé con detergente especial.",
+          "english": "You (formal) washed the baby clothes with special detergent.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "baby_care",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -2753,7 +3483,7 @@
         },
         {
           "spanish": "Lavarás la ropa cuando regreses del viaje.",
-          "english": "You will wash clothes when you return from the trip.",
+          "english": "You (informal) will wash clothes when you (informal) return from the trip.",
           "subject": "tú",
           "region": "universal",
           "source": "post_travel_chores",
@@ -2785,14 +3515,46 @@
         },
         {
           "spanish": "Lavará las sábanas antes de que lleguen los invitados.",
-          "english": "He/She will wash the sheets before the guests arrive.",
-          "subject": "él/ella/usted",
+          "english": "He will wash the sheets before the guests arrive.",
+          "subject": "él",
           "region": "universal",
           "source": "guest_preparation",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Lavará las sábanas antes de que lleguen los invitados.",
+          "english": "She will wash the sheets before the guests arrive.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "guest_preparation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Lavará las sábanas antes de que lleguen los invitados.",
+          "english": "You (formal) will wash the sheets before the guests arrive.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "guest_preparation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -2882,7 +3644,7 @@
         },
         {
           "spanish": "Ves películas de terror sin miedo.",
-          "english": "You watch horror movies without fear.",
+          "english": "You (informal) watch horror movies without fear.",
           "subject": "tú",
           "region": "universal",
           "source": "entertainment_preference",
@@ -2914,14 +3676,46 @@
         },
         {
           "spanish": "Ve a sus amigos cada fin de semana.",
-          "english": "He/She sees his/her friends every weekend.",
-          "subject": "él/ella/usted",
+          "english": "He sees his friends every weekend.",
+          "subject": "él",
           "region": "universal",
           "source": "social_routine",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ve a sus amigos cada fin de semana.",
+          "english": "She sees her friends every weekend.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "social_routine",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ve a sus amigos cada fin de semana.",
+          "english": "You (formal) see your friends every weekend.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "social_routine",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:er",
@@ -2996,7 +3790,7 @@
         },
         {
           "spanish": "Viste el accidente desde tu ventana.",
-          "english": "You saw the accident from your window.",
+          "english": "You (informal) saw the accident from your window.",
           "subject": "tú",
           "region": "universal",
           "source": "witness_situation",
@@ -3028,14 +3822,46 @@
         },
         {
           "spanish": "Vio las auroras boreales durante su viaje a Noruega.",
-          "english": "He/She saw the northern lights during his/her trip to Norway.",
-          "subject": "él/ella/usted",
+          "english": "He saw the northern lights during his trip to Norway.",
+          "subject": "él",
           "region": "universal",
           "source": "travel_wonder",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vio las auroras boreales durante su viaje a Noruega.",
+          "english": "She saw the northern lights during her trip to Norway.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "travel_wonder",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Vio las auroras boreales durante su viaje a Noruega.",
+          "english": "You (formal) saw the northern lights during your trip to Norway.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "travel_wonder",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:er",
@@ -3110,7 +3936,7 @@
         },
         {
           "spanish": "Verás cosas increíbles en tu viaje a Asia.",
-          "english": "You will see incredible things on your trip to Asia.",
+          "english": "You (informal) will see incredible things on your trip to Asia.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_anticipation",
@@ -3142,14 +3968,46 @@
         },
         {
           "spanish": "Verá los resultados del examen mañana.",
-          "english": "He/She will see the exam results tomorrow.",
-          "subject": "él/ella/usted",
+          "english": "He will see the exam results tomorrow.",
+          "subject": "él",
           "region": "universal",
           "source": "academic_results",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Verá los resultados del examen mañana.",
+          "english": "She will see the exam results tomorrow.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "academic_results",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Verá los resultados del examen mañana.",
+          "english": "You (formal) will see the exam results tomorrow.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "academic_results",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:er",
@@ -3240,7 +4098,7 @@
         },
         {
           "spanish": "Das muy buenos consejos a tus amigos.",
-          "english": "You give very good advice to your friends.",
+          "english": "You (informal) give very good advice to your friends.",
           "subject": "tú",
           "region": "universal",
           "source": "friendship_support",
@@ -3274,15 +4132,49 @@
         },
         {
           "spanish": "Da dinero a organizaciones benéficas.",
-          "english": "He/She gives money to charitable organizations.",
-          "subject": "él/ella/usted",
+          "english": "He gives money to charitable organizations.",
+          "subject": "él",
           "region": "universal",
           "source": "charity_context",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Da dinero a organizaciones benéficas.",
+          "english": "She gives money to charitable organizations.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "charity_context",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Da dinero a organizaciones benéficas.",
+          "english": "You (formal) gives money to charitable organizations.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "charity_context",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -3361,7 +4253,7 @@
         },
         {
           "spanish": "Diste una excelente presentación ayer.",
-          "english": "You gave an excellent presentation yesterday.",
+          "english": "You (informal) gave an excellent presentation yesterday.",
           "subject": "tú",
           "region": "universal",
           "source": "work_achievement",
@@ -3395,15 +4287,49 @@
         },
         {
           "spanish": "Dio una donación generosa a la caridad.",
-          "english": "He/She gave a generous donation to charity.",
-          "subject": "él/ella/usted",
+          "english": "He gave a generous donation to charity.",
+          "subject": "él",
           "region": "universal",
           "source": "charitable_giving",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Dio una donación generosa a la caridad.",
+          "english": "She gave a generous donation to charity.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "charitable_giving",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Dio una donación generosa a la caridad.",
+          "english": "You (formal) gave a generous donation to charity.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "charitable_giving",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -3482,7 +4408,7 @@
         },
         {
           "spanish": "Darás una conferencia sobre tu investigación.",
-          "english": "You will give a lecture about your research.",
+          "english": "You (informal) will give a lecture about your research.",
           "subject": "tú",
           "region": "universal",
           "source": "academic_presentation",
@@ -3516,15 +4442,49 @@
         },
         {
           "spanish": "Dará clases de piano a niños pequeños.",
-          "english": "He/She will give piano lessons to young children.",
-          "subject": "él/ella/usted",
+          "english": "He will give piano lessons to young children.",
+          "subject": "él",
           "region": "universal",
           "source": "music_teaching",
           "tags": [
             "region:universal",
             "regularity:highly-irregular",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Dará clases de piano a niños pequeños.",
+          "english": "She will give piano lessons to young children.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "music_teaching",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Dará clases de piano a niños pequeños.",
+          "english": "You (formal) will give piano lessons to young children.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "music_teaching",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -3621,7 +4581,7 @@
         },
         {
           "spanish": "Dices cosas muy inteligentes en las reuniones.",
-          "english": "You say very intelligent things in meetings.",
+          "english": "You (informal) say very intelligent things in meetings.",
           "subject": "tú",
           "region": "universal",
           "source": "professional_compliment",
@@ -3659,8 +4619,8 @@
         },
         {
           "spanish": "Dice que viene mañana por la tarde.",
-          "english": "He/She says he/she's coming tomorrow afternoon.",
-          "subject": "él/ella/usted",
+          "english": "He says he/she's coming tomorrow afternoon.",
+          "subject": "él",
           "region": "universal",
           "source": "future_plan_communication",
           "tags": [
@@ -3668,7 +4628,45 @@
             "regularity:irregular",
             "stem-change:e-i",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Dice que viene mañana por la tarde.",
+          "english": "She says he/she's coming tomorrow afternoon.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "future_plan_communication",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Dice que viene mañana por la tarde.",
+          "english": "You (formal) say he/she's coming tomorrow afternoon.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "future_plan_communication",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ir",
@@ -3756,7 +4754,7 @@
         },
         {
           "spanish": "Dijiste palabras muy sabias en la reunión.",
-          "english": "You said very wise words in the meeting.",
+          "english": "You (informal) said very wise words in the meeting.",
           "subject": "tú",
           "region": "universal",
           "source": "meeting_wisdom",
@@ -3794,8 +4792,8 @@
         },
         {
           "spanish": "Dijo que vendría pero nunca apareció.",
-          "english": "He/She said he/she would come but never showed up.",
-          "subject": "él/ella/usted",
+          "english": "He said he/she would come but never showed up.",
+          "subject": "él",
           "region": "universal",
           "source": "broken_promise",
           "tags": [
@@ -3803,7 +4801,45 @@
             "regularity:irregular",
             "stem-change:e-i",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Dijo que vendría pero nunca apareció.",
+          "english": "She said he/she would come but never showed up.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "broken_promise",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Dijo que vendría pero nunca apareció.",
+          "english": "You (formal) said he/she would come but never showed up.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "broken_promise",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ir",
@@ -3891,7 +4927,7 @@
         },
         {
           "spanish": "Dirás unas palabras en la ceremonia de graduación.",
-          "english": "You will say a few words at the graduation ceremony.",
+          "english": "You (informal) will say a few words at the graduation ceremony.",
           "subject": "tú",
           "region": "universal",
           "source": "graduation_speech",
@@ -3929,8 +4965,8 @@
         },
         {
           "spanish": "Dirá la verdad sobre lo que pasó esa noche.",
-          "english": "He/She will tell the truth about what happened that night.",
-          "subject": "él/ella/usted",
+          "english": "He will tell the truth about what happened that night.",
+          "subject": "él",
           "region": "universal",
           "source": "truth_revelation",
           "tags": [
@@ -3938,7 +4974,45 @@
             "regularity:irregular",
             "stem-change:e-i",
             "stem-changing",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Dirá la verdad sobre lo que pasó esa noche.",
+          "english": "She will tell the truth about what happened that night.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "truth_revelation",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ]
+        },
+        {
+          "spanish": "Dirá la verdad sobre lo que pasó esa noche.",
+          "english": "You (formal) will tell the truth about what happened that night.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "truth_revelation",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ir",
@@ -4039,7 +5113,7 @@
         },
         {
           "spanish": "Sabes cocinar platos muy deliciosos.",
-          "english": "You know how to cook very delicious dishes.",
+          "english": "You (informal) know how to cook very delicious dishes.",
           "subject": "tú",
           "region": "universal",
           "source": "cooking_skill",
@@ -4073,14 +5147,48 @@
         },
         {
           "spanish": "Sabe la respuesta a todas las preguntas.",
-          "english": "He/She knows the answer to all the questions.",
-          "subject": "él/ella/usted",
+          "english": "He knows the answer to all the questions.",
+          "subject": "él",
           "region": "universal",
           "source": "knowledge_expertise",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ]
+        },
+        {
+          "spanish": "Sabe la respuesta a todas las preguntas.",
+          "english": "She knows the answer to all the questions.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "knowledge_expertise",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ]
+        },
+        {
+          "spanish": "Sabe la respuesta a todas las preguntas.",
+          "english": "You (formal) know the answer to all the questions.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "knowledge_expertise",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:er",
@@ -4160,7 +5268,7 @@
         },
         {
           "spanish": "Supiste manejar la situación muy bien.",
-          "english": "You knew how to handle the situation very well.",
+          "english": "You (informal) knew how to handle the situation very well.",
           "subject": "tú",
           "region": "universal",
           "source": "crisis_management",
@@ -4194,14 +5302,48 @@
         },
         {
           "spanish": "Supo que había ganado la lotería por la radio.",
-          "english": "He/She found out he/she had won the lottery on the radio.",
-          "subject": "él/ella/usted",
+          "english": "He found out he/she had won the lottery on the radio.",
+          "subject": "él",
           "region": "universal",
           "source": "lottery_discovery",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ]
+        },
+        {
+          "spanish": "Supo que había ganado la lotería por la radio.",
+          "english": "She found out he/she had won the lottery on the radio.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "lottery_discovery",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ]
+        },
+        {
+          "spanish": "Supo que había ganado la lotería por la radio.",
+          "english": "You (formal) found out he/she had won the lottery on the radio.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "lottery_discovery",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:er",
@@ -4281,7 +5423,7 @@
         },
         {
           "spanish": "Sabrás tocar el piano como un profesional.",
-          "english": "You will know how to play piano like a professional.",
+          "english": "You (informal) will know how to play piano like a professional.",
           "subject": "tú",
           "region": "universal",
           "source": "skill_development",
@@ -4315,14 +5457,48 @@
         },
         {
           "spanish": "Sabrá hablar chino después del curso intensivo.",
-          "english": "He/She will know how to speak Chinese after the intensive course.",
-          "subject": "él/ella/usted",
+          "english": "He will know how to speak Chinese after the intensive course.",
+          "subject": "él",
           "region": "universal",
           "source": "language_learning",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ]
+        },
+        {
+          "spanish": "Sabrá hablar chino después del curso intensivo.",
+          "english": "She will know how to speak Chinese after the intensive course.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "language_learning",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ]
+        },
+        {
+          "spanish": "Sabrá hablar chino después del curso intensivo.",
+          "english": "You (formal) will know how to speak Chinese after the intensive course.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "language_learning",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:er",
@@ -4418,7 +5594,7 @@
         },
         {
           "spanish": "Te llamas igual que tu abuelo.",
-          "english": "You're named after your grandfather.",
+          "english": "You (informal)'re named after your grandfather.",
           "subject": "tú",
           "region": "universal",
           "source": "family_context",
@@ -4453,14 +5629,48 @@
         {
           "spanish": "Se llama Pedro y trabaja en el banco.",
           "english": "His name is Pedro and he works at the bank.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se llama Pedro y trabaja en el banco.",
+          "english": "His name is Pedro and he works at the bank.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se llama Pedro y trabaja en el banco.",
+          "english": "His name are Pedro and he work at the bank.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present",
             "tier:2",
             "verb-type:ar",
@@ -4539,7 +5749,7 @@
         },
         {
           "spanish": "Te llamaste valiente después de saltar.",
-          "english": "You called yourself brave after jumping.",
+          "english": "You (informal) called yourself brave after jumping.",
           "subject": "tú",
           "region": "universal",
           "source": "courage_context",
@@ -4574,14 +5784,48 @@
         {
           "spanish": "Se llamó María en honor a su abuela.",
           "english": "She was named María in honor of her grandmother.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "naming_tradition",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se llamó María en honor a su abuela.",
+          "english": "She was named María in honor of her grandmother.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "naming_tradition",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se llamó María en honor a su abuela.",
+          "english": "She was named María in honor of her grandmother.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "naming_tradition",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:preterite",
             "tier:2",
             "verb-type:ar",
@@ -4660,7 +5904,7 @@
         },
         {
           "spanish": "Te llamarás todos los días desde Europa.",
-          "english": "You will call every day from Europe.",
+          "english": "You (informal) will call every day from Europe.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_communication",
@@ -4695,14 +5939,48 @@
         {
           "spanish": "Se llamará la nueva directora mañana.",
           "english": "The new director will be announced tomorrow.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "announcement_context",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se llamará la nueva directora mañana.",
+          "english": "The new director will be announced tomorrow.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "announcement_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Se llamará la nueva directora mañana.",
+          "english": "The new director will be announced tomorrow.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "announcement_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -4781,7 +6059,7 @@
         },
         {
           "spanish": "Estás llamándose llamas igual que tu abuelo.",
-          "english": "You're named after your grandfather.",
+          "english": "You (informal)'re named after your grandfather.",
           "subject": "tú",
           "region": "universal",
           "source": "family_context",
@@ -4816,14 +6094,48 @@
         {
           "spanish": "Está llamándose llama Pedro y trabaja en el banco.",
           "english": "His name is Pedro and he works at the bank.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está llamándose llama Pedro y trabaja en el banco.",
+          "english": "His name is Pedro and he works at the bank.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Está llamándose llama Pedro y trabaja en el banco.",
+          "english": "His name are Pedro and he work at the bank.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-progressive",
             "tier:2",
             "verb-type:ar",
@@ -4902,7 +6214,7 @@
         },
         {
           "spanish": "Vas a llamarse llamas igual que tu abuelo.",
-          "english": "You're named after your grandfather.",
+          "english": "You (informal)'re named after your grandfather.",
           "subject": "tú",
           "region": "universal",
           "source": "family_context",
@@ -4937,14 +6249,48 @@
         {
           "spanish": "Va a llamarse llama Pedro y trabaja en el banco.",
           "english": "His name is Pedro and he works at the bank.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a llamarse llama Pedro y trabaja en el banco.",
+          "english": "His name is Pedro and he works at the bank.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Va a llamarse llama Pedro y trabaja en el banco.",
+          "english": "His name are Pedro and he work at the bank.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:going-to",
             "tier:2",
             "verb-type:ar",
@@ -5023,7 +6369,7 @@
         },
         {
           "spanish": "Has llamado llamas igual que tu abuelo.",
-          "english": "You're named after your grandfather.",
+          "english": "You (informal)'re named after your grandfather.",
           "subject": "tú",
           "region": "universal",
           "source": "family_context",
@@ -5058,14 +6404,48 @@
         {
           "spanish": "Ha llamado llama Pedro y trabaja en el banco.",
           "english": "His name is Pedro and he works at the bank.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": "professional_context",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:él/ella/usted",
+            "subject:él",
+            "tense:present-perfect",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha llamado llama Pedro y trabaja en el banco.",
+          "english": "His name is Pedro and he works at the bank.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:ella",
+            "tense:present-perfect",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Ha llamado llama Pedro y trabaja en el banco.",
+          "english": "His name are Pedro and he work at the bank.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "professional_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:usted",
             "tense:present-perfect",
             "tier:2",
             "verb-type:ar",
