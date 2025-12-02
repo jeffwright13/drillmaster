@@ -178,8 +178,8 @@
           ]
         },
         {
-          "spanish": "Se lavan las manos frecuentemente en el hospital.",
-          "english": "They wash their hands frequently at the hospital.",
+          "spanish": "Se lavan las manos frecuentemente en el casa.",
+          "english": "They wash their hands frequently at the house.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "medical_hygiene",
@@ -403,8 +403,8 @@
           ]
         },
         {
-          "spanish": "Se lavará las manos antes de la cirugía.",
-          "english": "He will wash his hands before surgery.",
+          "spanish": "Se lavará las manos antes de la trabajo.",
+          "english": "He will wash his hands before work.",
           "subject": "él",
           "region": "universal",
           "source": "medical_procedure",
@@ -420,8 +420,8 @@
           ]
         },
         {
-          "spanish": "Se lavará las manos antes de la cirugía.",
-          "english": "She will wash her hands before surgery.",
+          "spanish": "Se lavará las manos antes de la trabajo.",
+          "english": "She will wash her hands before work.",
           "subject": "ella",
           "region": "universal",
           "source": "medical_procedure",
@@ -437,8 +437,8 @@
           ]
         },
         {
-          "spanish": "Se lavará las manos antes de la cirugía.",
-          "english": "You (formal) will wash your hands before surgery.",
+          "spanish": "Se lavará las manos antes de la trabajo.",
+          "english": "You (formal) will wash your hands before work.",
           "subject": "usted",
           "region": "universal",
           "source": "medical_procedure",
@@ -540,8 +540,8 @@
           ]
         },
         {
-          "spanish": "Te quedas siempre hasta muy tarde en la oficina.",
-          "english": "You (informal) always stay very late at the office.",
+          "spanish": "Te quedas siempre hasta muy tarde en la casa.",
+          "english": "You (informal) always stay very late at the house.",
           "subject": "tú",
           "region": "universal",
           "source": "work_dedication",
@@ -574,8 +574,8 @@
           ]
         },
         {
-          "spanish": "Se queda en el hospital para cuidar a su madre.",
-          "english": "He stays at the hospital to take care of his mother.",
+          "spanish": "Se queda en el casa para cuidar a su madre.",
+          "english": "He stays at the house to take care of his mother.",
           "subject": "él",
           "region": "universal",
           "source": "family_care",
@@ -591,8 +591,8 @@
           ]
         },
         {
-          "spanish": "Se queda en el hospital para cuidar a su madre.",
-          "english": "She stays at the hospital to take care of her mother.",
+          "spanish": "Se queda en el casa para cuidar a su madre.",
+          "english": "She stays at the house to take care of her mother.",
           "subject": "ella",
           "region": "universal",
           "source": "family_care",
@@ -608,8 +608,8 @@
           ]
         },
         {
-          "spanish": "Se queda en el hospital para cuidar a su madre.",
-          "english": "You (formal) stays at the hospital to take care of your mother.",
+          "spanish": "Se queda en el casa para cuidar a su madre.",
+          "english": "You (formal) stays at the house to take care of your mother.",
           "subject": "usted",
           "region": "universal",
           "source": "family_care",
@@ -814,8 +814,8 @@
           ]
         },
         {
-          "spanish": "Se quedaron impresionados con la presentación.",
-          "english": "They were impressed with the presentation.",
+          "spanish": "Se quedaron impresionados con la clase.",
+          "english": "They were impressed with the class.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "presentation_impact",
@@ -1159,8 +1159,8 @@
       ],
       "preterite": [
         {
-          "spanish": "Me fui de la reunión porque era muy aburrida.",
-          "english": "I left the meeting because it was very boring.",
+          "spanish": "Me fui de la clase porque era muy aburrida.",
+          "english": "I left the class because it was very boring.",
           "subject": "yo",
           "region": "universal",
           "source": "meeting_escape",
@@ -2237,8 +2237,8 @@
           ]
         },
         {
-          "spanish": "Os pusisteis muy serios durante la reunión.",
-          "english": "You all became very serious during the meeting.",
+          "spanish": "Os pusisteis muy serios durante la clase.",
+          "english": "You all became very serious during the class.",
           "subject": "vosotros",
           "region": "spain",
           "source": "meeting_demeanor",
@@ -3045,8 +3045,8 @@
           ]
         },
         {
-          "spanish": "Piensa que el proyecto va a funcionar.",
-          "english": "He thinks the project is going to work.",
+          "spanish": "Piensa que el trabajo va a funcionar.",
+          "english": "He thinks the work is going to work.",
           "subject": "él",
           "region": "universal",
           "source": "project_confidence",
@@ -3063,8 +3063,8 @@
           ]
         },
         {
-          "spanish": "Piensa que el proyecto va a funcionar.",
-          "english": "She thinks the project is going to work.",
+          "spanish": "Piensa que el trabajo va a funcionar.",
+          "english": "She thinks the work is going to work.",
           "subject": "ella",
           "region": "universal",
           "source": "project_confidence",
@@ -3081,8 +3081,8 @@
           ]
         },
         {
-          "spanish": "Piensa que el proyecto va a funcionar.",
-          "english": "You (formal) think the project are going to work.",
+          "spanish": "Piensa que el trabajo va a funcionar.",
+          "english": "You (formal) think the work are going to work.",
           "subject": "usted",
           "region": "universal",
           "source": "project_confidence",
@@ -3337,8 +3337,8 @@
           ]
         },
         {
-          "spanish": "Pensarás diferente cuando tengas más experiencia.",
-          "english": "You (informal) will think differently when you (informal) have more experience.",
+          "spanish": "Pensarás diferente cuando tengas más tiempo.",
+          "english": "You (informal) will think differently when you (informal) have more time.",
           "subject": "tú",
           "region": "universal",
           "source": "wisdom_development",
@@ -3463,8 +3463,8 @@
           ]
         },
         {
-          "spanish": "Pensarán que estamos locos por este proyecto.",
-          "english": "They will think we're crazy for this project.",
+          "spanish": "Pensarán que estamos locos por este trabajo.",
+          "english": "They will think we're crazy for this work.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "project_skepticism",
@@ -3517,8 +3517,8 @@
           ]
         },
         {
-          "spanish": "Entiendes las matemáticas mejor que yo.",
-          "english": "You (informal) understand mathematics better than me.",
+          "spanish": "Entiendes las español mejor que yo.",
+          "english": "You (informal) understand Spanish better than me.",
           "subject": "tú",
           "region": "universal",
           "source": "academic_comparison",
@@ -3789,8 +3789,8 @@
           ]
         },
         {
-          "spanish": "Entendisteis la importancia del proyecto.",
-          "english": "You all understood the importance of the project.",
+          "spanish": "Entendisteis la importancia del trabajo.",
+          "english": "You all understood the importance of the work.",
           "subject": "vosotros",
           "region": "spain",
           "source": "project_significance",
@@ -4353,8 +4353,8 @@
           ]
         },
         {
-          "spanish": "Sentirás la diferencia después del tratamiento.",
-          "english": "You (informal) will feel the difference after treatment.",
+          "spanish": "Sentirás la diferencia después del ayuda.",
+          "english": "You (informal) will feel the difference after help.",
           "subject": "tú",
           "region": "universal",
           "source": "medical_improvement",
@@ -4461,8 +4461,8 @@
           ]
         },
         {
-          "spanish": "Sentiréis satisfacción al completar el proyecto.",
-          "english": "You all will feel satisfaction when completing the project.",
+          "spanish": "Sentiréis satisfacción al completar el trabajo.",
+          "english": "You all will feel satisfaction when completing the work.",
           "subject": "vosotros",
           "region": "spain",
           "source": "project_completion",
@@ -4515,8 +4515,8 @@
       },
       "present": [
         {
-          "spanish": "Vengo de la universidad en autobús.",
-          "english": "I come from the university by bus.",
+          "spanish": "Vengo de la escuela en autobús.",
+          "english": "I come from the school by bus.",
           "subject": "yo",
           "region": "universal",
           "source": "commute_context",
@@ -5158,7 +5158,7 @@
           ]
         },
         {
-          "spanish": "Ponen atención especial a los clientes.",
+          "spanish": "Ponen atención especial a los amigos.",
           "english": "They pay special attention to customers.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
@@ -5194,8 +5194,8 @@
           ]
         },
         {
-          "spanish": "Pusiste mucho esfuerzo en el proyecto final.",
-          "english": "You (informal) put a lot of effort into the final project.",
+          "spanish": "Pusiste mucho esfuerzo en el trabajo final.",
+          "english": "You (informal) put a lot of effort into the final work.",
           "subject": "tú",
           "region": "universal",
           "source": "academic_dedication",
@@ -5383,8 +5383,8 @@
           ]
         },
         {
-          "spanish": "Pondrá una oficina en el centro de la ciudad.",
-          "english": "He will set up an office in the city center.",
+          "spanish": "Pondrá una casa en el centro de la ciudad.",
+          "english": "He will set up an house in the city center.",
           "subject": "él",
           "region": "universal",
           "source": "business_expansion",
@@ -5400,8 +5400,8 @@
           ]
         },
         {
-          "spanish": "Pondrá una oficina en el centro de la ciudad.",
-          "english": "She will set up an office in the city center.",
+          "spanish": "Pondrá una casa en el centro de la ciudad.",
+          "english": "She will set up an house in the city center.",
           "subject": "ella",
           "region": "universal",
           "source": "business_expansion",
@@ -5417,8 +5417,8 @@
           ]
         },
         {
-          "spanish": "Pondrá una oficina en el centro de la ciudad.",
-          "english": "You (formal) will set up an office in the city center.",
+          "spanish": "Pondrá una casa en el centro de la ciudad.",
+          "english": "You (formal) will set up an house in the city center.",
           "subject": "usted",
           "region": "universal",
           "source": "business_expansion",
@@ -5708,8 +5708,8 @@
           ]
         },
         {
-          "spanish": "Salió del hospital completamente recuperado.",
-          "english": "He left the hospital completely recovered.",
+          "spanish": "Salió del casa completamente recuperado.",
+          "english": "He left the house completely recovered.",
           "subject": "él",
           "region": "universal",
           "source": "medical_recovery",
@@ -5725,8 +5725,8 @@
           ]
         },
         {
-          "spanish": "Salió del hospital completamente recuperado.",
-          "english": "She left the hospital completely recovered.",
+          "spanish": "Salió del casa completamente recuperado.",
+          "english": "She left the house completely recovered.",
           "subject": "ella",
           "region": "universal",
           "source": "medical_recovery",
@@ -5742,8 +5742,8 @@
           ]
         },
         {
-          "spanish": "Salió del hospital completamente recuperado.",
-          "english": "You (formal) left the hospital completely recovered.",
+          "spanish": "Salió del casa completamente recuperado.",
+          "english": "You (formal) left the house completely recovered.",
           "subject": "usted",
           "region": "universal",
           "source": "medical_recovery",
@@ -5793,8 +5793,8 @@
           ]
         },
         {
-          "spanish": "Salieron de la reunión muy contentos con los resultados.",
-          "english": "They left the meeting very happy with the results.",
+          "spanish": "Salieron de la clase muy contentos con los resultados.",
+          "english": "They left the class very happy with the results.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "successful_meeting",
@@ -5846,8 +5846,8 @@
           ]
         },
         {
-          "spanish": "Saldrás de la universidad con honores.",
-          "english": "You will graduate from university with honors.",
+          "spanish": "Saldrás de la escuela con honores.",
+          "english": "You will graduate from school with honors.",
           "subject": "vos",
           "region": "argentina",
           "source": "academic_achievement",

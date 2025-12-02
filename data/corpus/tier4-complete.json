@@ -316,8 +316,8 @@
           ]
         },
         {
-          "spanish": "Os preocupasteis por los resultados del proyecto.",
-          "english": "You all worried about the project results.",
+          "spanish": "Os preocupasteis por los resultados del trabajo.",
+          "english": "You all worried about the work results.",
           "subject": "vosotros",
           "region": "spain",
           "source": "project_anxiety",
@@ -1117,8 +1117,8 @@
           ]
         },
         {
-          "spanish": "Se encuentra trabajando en un proyecto importante.",
-          "english": "He finds himself/herself working on an important project.",
+          "spanish": "Se encuentra trabajando en un trabajo importante.",
+          "english": "He finds himself/herself working on an important work.",
           "subject": "él",
           "region": "universal",
           "source": "work_engagement",
@@ -1136,8 +1136,8 @@
           ]
         },
         {
-          "spanish": "Se encuentra trabajando en un proyecto importante.",
-          "english": "She finds himself/herself working on an important project.",
+          "spanish": "Se encuentra trabajando en un trabajo importante.",
+          "english": "She finds himself/herself working on an important work.",
           "subject": "ella",
           "region": "universal",
           "source": "work_engagement",
@@ -1155,8 +1155,8 @@
           ]
         },
         {
-          "spanish": "Se encuentra trabajando en un proyecto importante.",
-          "english": "You (formal) find himself/herself working on an important project.",
+          "spanish": "Se encuentra trabajando en un trabajo importante.",
+          "english": "You (formal) find himself/herself working on an important work.",
           "subject": "usted",
           "region": "universal",
           "source": "work_engagement",
@@ -1233,7 +1233,7 @@
       ],
       "preterite": [
         {
-          "spanish": "Me encontré con mi profesor de la escuela primaria.",
+          "spanish": "Me encontré con mi maestro de la escuela primaria.",
           "english": "I ran into my elementary school teacher.",
           "subject": "yo",
           "region": "universal",
@@ -1385,8 +1385,8 @@
           ]
         },
         {
-          "spanish": "Se encontraron con dificultades inesperadas en el proyecto.",
-          "english": "They encountered unexpected difficulties in the project.",
+          "spanish": "Se encontraron con dificultades inesperadas en el trabajo.",
+          "english": "They encountered unexpected difficulties in the work.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "project_obstacles",
@@ -1406,8 +1406,8 @@
       ],
       "future": [
         {
-          "spanish": "Me encontraré mejor después del tratamiento médico.",
-          "english": "I will feel better after medical treatment.",
+          "spanish": "Me encontraré mejor después del ayuda médico.",
+          "english": "I will feel better after medical help.",
           "subject": "yo",
           "region": "universal",
           "source": "medical_recovery",
@@ -1444,7 +1444,7 @@
           ]
         },
         {
-          "spanish": "Te encontrarás con viejos amigos en la reunión.",
+          "spanish": "Te encontrarás con viejos amigos en la clase.",
           "english": "You will meet old friends at the reunion.",
           "subject": "vos",
           "region": "argentina",
@@ -1800,8 +1800,8 @@
           ]
         },
         {
-          "spanish": "Creyó en el proyecto desde el primer momento.",
-          "english": "He believed in the project from the first moment.",
+          "spanish": "Creyó en el trabajo desde el primer momento.",
+          "english": "He believed in the work from the first moment.",
           "subject": "él",
           "region": "universal",
           "source": "project_faith",
@@ -1817,8 +1817,8 @@
           ]
         },
         {
-          "spanish": "Creyó en el proyecto desde el primer momento.",
-          "english": "She believed in the project from the first moment.",
+          "spanish": "Creyó en el trabajo desde el primer momento.",
+          "english": "She believed in the work from the first moment.",
           "subject": "ella",
           "region": "universal",
           "source": "project_faith",
@@ -1834,8 +1834,8 @@
           ]
         },
         {
-          "spanish": "Creyó en el proyecto desde el primer momento.",
-          "english": "You (formal) believed in the project from the first moment.",
+          "spanish": "Creyó en el trabajo desde el primer momento.",
+          "english": "You (formal) believed in the work from the first moment.",
           "subject": "usted",
           "region": "universal",
           "source": "project_faith",
@@ -2122,8 +2122,8 @@
           ]
         },
         {
-          "spanish": "Oye conversaciones desde su oficina.",
-          "english": "He hears conversations from his office.",
+          "spanish": "Oye conversaciones desde su casa.",
+          "english": "He hears conversations from his house.",
           "subject": "él",
           "region": "universal",
           "source": "office_environment",
@@ -2138,8 +2138,8 @@
           ]
         },
         {
-          "spanish": "Oye conversaciones desde su oficina.",
-          "english": "She hears conversations from her office.",
+          "spanish": "Oye conversaciones desde su casa.",
+          "english": "She hears conversations from her house.",
           "subject": "ella",
           "region": "universal",
           "source": "office_environment",
@@ -2154,8 +2154,8 @@
           ]
         },
         {
-          "spanish": "Oye conversaciones desde su oficina.",
-          "english": "You (formal) hear conversations from your office.",
+          "spanish": "Oye conversaciones desde su casa.",
+          "english": "You (formal) hear conversations from your house.",
           "subject": "usted",
           "region": "universal",
           "source": "office_environment",
@@ -2366,8 +2366,8 @@
       ],
       "future": [
         {
-          "spanish": "Oiré noticias importantes en la reunión de mañana.",
-          "english": "I will hear important news at tomorrow's meeting.",
+          "spanish": "Oiré noticias importantes en la clase de mañana.",
+          "english": "I will hear important news at tomorrow's class.",
           "subject": "yo",
           "region": "universal",
           "source": "meeting_anticipation",
@@ -2462,8 +2462,8 @@
           ]
         },
         {
-          "spanish": "Oiremos buenas noticias sobre el proyecto.",
-          "english": "We will hear good news about the project.",
+          "spanish": "Oiremos buenas noticias sobre el trabajo.",
+          "english": "We will hear good news about the work.",
           "subject": "nosotros",
           "region": "universal",
           "source": "project_optimism",
@@ -2629,8 +2629,8 @@
           ]
         },
         {
-          "spanish": "Traemos comida para compartir en la oficina.",
-          "english": "We bring food to share at the office.",
+          "spanish": "Traemos comida para compartir en la casa.",
+          "english": "We bring food to share at the house.",
           "subject": "nosotros",
           "region": "universal",
           "source": "office_sharing",
@@ -2646,8 +2646,8 @@
           ]
         },
         {
-          "spanish": "Traéis energía positiva a cada reunión.",
-          "english": "You all bring positive energy to every meeting.",
+          "spanish": "Traéis energía positiva a cada clase.",
+          "english": "You all bring positive energy to every class.",
           "subject": "vosotros",
           "region": "spain",
           "source": "meeting_atmosphere",
@@ -2716,8 +2716,8 @@
           ]
         },
         {
-          "spanish": "Trajiste buenas noticias de la reunión.",
-          "english": "You brought good news from the meeting.",
+          "spanish": "Trajiste buenas noticias de la clase.",
+          "english": "You brought good news from the class.",
           "subject": "vos",
           "region": "argentina",
           "source": "positive_update",
@@ -2784,8 +2784,8 @@
           ]
         },
         {
-          "spanish": "Trajimos comida casera para compartir en la oficina.",
-          "english": "We brought homemade food to share at the office.",
+          "spanish": "Trajimos comida casera para compartir en la casa.",
+          "english": "We brought homemade food to share at the house.",
           "subject": "nosotros",
           "region": "universal",
           "source": "office_sharing",
@@ -2818,8 +2818,8 @@
           ]
         },
         {
-          "spanish": "Trajeron nuevas ideas para mejorar el proyecto.",
-          "english": "They brought new ideas to improve the project.",
+          "spanish": "Trajeron nuevas ideas para mejorar el trabajo.",
+          "english": "They brought new ideas to improve the work.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "project_innovation",
@@ -3162,8 +3162,8 @@
       ],
       "preterite": [
         {
-          "spanish": "Conocí a mi mejor amigo en la universidad.",
-          "english": "I met my best friend at university.",
+          "spanish": "Conocí a mi mejor amigo en la escuela.",
+          "english": "I met my best friend at school.",
           "subject": "yo",
           "region": "universal",
           "source": "friendship_origin",
@@ -3281,8 +3281,8 @@
           ]
         },
         {
-          "spanish": "Conocisteis la verdad sobre el proyecto secreto.",
-          "english": "You all found out the truth about the secret project.",
+          "spanish": "Conocisteis la verdad sobre el trabajo secreto.",
+          "english": "You all found out the truth about the secret work.",
           "subject": "vosotros",
           "region": "spain",
           "source": "secret_revelation",
@@ -3419,7 +3419,7 @@
           ]
         },
         {
-          "spanish": "Conoceremos la respuesta después de la investigación.",
+          "spanish": "Conoceremos la respuesta después de la estudio.",
           "english": "We will know the answer after the investigation.",
           "subject": "nosotros",
           "region": "universal",
@@ -3649,8 +3649,8 @@
           ]
         },
         {
-          "spanish": "Llevaste una vida muy activa durante la universidad.",
-          "english": "You (informal) led a very active life during university.",
+          "spanish": "Llevaste una vida muy activa durante la escuela.",
+          "english": "You (informal) led a very active life during school.",
           "subject": "tú",
           "region": "universal",
           "source": "lifestyle_description",
@@ -3665,8 +3665,8 @@
           ]
         },
         {
-          "spanish": "Llevaste el proyecto al éxito con tu dedicación.",
-          "english": "You led the project to success with your dedication.",
+          "spanish": "Llevaste el trabajo al éxito con tu dedicación.",
+          "english": "You led the work to success with your dedication.",
           "subject": "vos",
           "region": "argentina",
           "source": "project_leadership",
@@ -3681,8 +3681,8 @@
           ]
         },
         {
-          "spanish": "Llevó flores a su madre en el hospital.",
-          "english": "He brought flowers to his mother in the hospital.",
+          "spanish": "Llevó flores a su madre en el casa.",
+          "english": "He brought flowers to his mother in the house.",
           "subject": "él",
           "region": "universal",
           "source": "hospital_visit",
@@ -3697,8 +3697,8 @@
           ]
         },
         {
-          "spanish": "Llevó flores a su madre en el hospital.",
-          "english": "She brought flowers to her mother in the hospital.",
+          "spanish": "Llevó flores a su madre en el casa.",
+          "english": "She brought flowers to her mother in the house.",
           "subject": "ella",
           "region": "universal",
           "source": "hospital_visit",
@@ -3713,8 +3713,8 @@
           ]
         },
         {
-          "spanish": "Llevó flores a su madre en el hospital.",
-          "english": "You (formal) brought flowers to your mother in the hospital.",
+          "spanish": "Llevó flores a su madre en el casa.",
+          "english": "You (formal) brought flowers to your mother in the house.",
           "subject": "usted",
           "region": "universal",
           "source": "hospital_visit",
@@ -4375,8 +4375,8 @@
       },
       "present": [
         {
-          "spanish": "Necesito más tiempo para terminar el proyecto.",
-          "english": "I need more time to finish the project.",
+          "spanish": "Necesito más tiempo para terminar el trabajo.",
+          "english": "I need more time to finish the work.",
           "subject": "yo",
           "region": "universal",
           "source": "work_deadline",
@@ -4521,8 +4521,8 @@
       ],
       "preterite": [
         {
-          "spanish": "Necesité ayuda para terminar el proyecto a tiempo.",
-          "english": "I needed help to finish the project on time.",
+          "spanish": "Necesité ayuda para terminar el trabajo a tiempo.",
+          "english": "I needed help to finish the work on time.",
           "subject": "yo",
           "region": "universal",
           "source": "project_assistance",
@@ -4569,8 +4569,8 @@
           ]
         },
         {
-          "spanish": "Necesitó cirugía después del accidente.",
-          "english": "He needed surgery after the accident.",
+          "spanish": "Necesitó trabajo después del accidente.",
+          "english": "He needed work after the accident.",
           "subject": "él",
           "region": "universal",
           "source": "medical_emergency",
@@ -4585,8 +4585,8 @@
           ]
         },
         {
-          "spanish": "Necesitó cirugía después del accidente.",
-          "english": "She needed surgery after the accident.",
+          "spanish": "Necesitó trabajo después del accidente.",
+          "english": "She needed work after the accident.",
           "subject": "ella",
           "region": "universal",
           "source": "medical_emergency",
@@ -4601,8 +4601,8 @@
           ]
         },
         {
-          "spanish": "Necesitó cirugía después del accidente.",
-          "english": "You (formal) needed surgery after the accident.",
+          "spanish": "Necesitó trabajo después del accidente.",
+          "english": "You (formal) needed work after the accident.",
           "subject": "usted",
           "region": "universal",
           "source": "medical_emergency",
@@ -4763,8 +4763,8 @@
           ]
         },
         {
-          "spanish": "Necesitaremos más tiempo para completar la investigación.",
-          "english": "We will need more time to complete the research.",
+          "spanish": "Necesitaremos más tiempo para completar la estudio.",
+          "english": "We will need more time to complete the study.",
           "subject": "nosotros",
           "region": "universal",
           "source": "research_timeline",
@@ -4813,8 +4813,8 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Estoy necesitando más tiempo para terminar el proyecto.",
-          "english": "I am needing more time to finish the project.",
+          "spanish": "Estoy necesitando más tiempo para terminar el trabajo.",
+          "english": "I am needing more time to finish the work.",
           "subject": "yo",
           "region": "universal",
           "source": "work_deadline",
@@ -4959,8 +4959,8 @@
       ],
       "going-to": [
         {
-          "spanish": "Voy a necesitar más tiempo para terminar el proyecto.",
-          "english": "I'm going to need more time to finish the project.",
+          "spanish": "Voy a necesitar más tiempo para terminar el trabajo.",
+          "english": "I'm going to need more time to finish the work.",
           "subject": "yo",
           "region": "universal",
           "source": "work_deadline",
@@ -5105,8 +5105,8 @@
       ],
       "present-perfect": [
         {
-          "spanish": "He necesitado más tiempo para terminar el proyecto.",
-          "english": "I have needed more time to finish the project.",
+          "spanish": "He necesitado más tiempo para terminar el trabajo.",
+          "english": "I have needed more time to finish the work.",
           "subject": "yo",
           "region": "universal",
           "source": "work_deadline",

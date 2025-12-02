@@ -41,8 +41,8 @@
       },
       "present": [
         {
-          "spanish": "Hablo español con mis compañeros de trabajo.",
-          "english": "I speak Spanish with my coworkers.",
+          "spanish": "Hablo español con mis amigos.",
+          "english": "I speak Spanish with my friends.",
           "subject": "yo",
           "region": "universal",
           "source": "workplace_communication",
@@ -57,8 +57,8 @@
           ]
         },
         {
-          "spanish": "Hablas muy bien inglés para ser principiante.",
-          "english": "You (informal) speak English very well for a beginner.",
+          "spanish": "Hablas muy bien inglés para ser estudiante.",
+          "english": "You (informal) speak English very well for a student.",
           "subject": "tú",
           "region": "universal",
           "source": "language_compliment",
@@ -203,8 +203,8 @@
           ]
         },
         {
-          "spanish": "Hablaste muy bien en la presentación.",
-          "english": "You (informal) spoke very well in the presentation.",
+          "spanish": "Hablaste muy bien en la clase.",
+          "english": "You (informal) spoke very well in the class.",
           "subject": "tú",
           "region": "universal",
           "source": "presentation_feedback",
@@ -349,8 +349,8 @@
           ]
         },
         {
-          "spanish": "Hablarás con fluidez después de practicar más.",
-          "english": "You (informal) will speak fluently after practicing more.",
+          "spanish": "Hablarás muy bien después de estudiar más.",
+          "english": "You (informal) will speak very well after studying more.",
           "subject": "tú",
           "region": "universal",
           "source": "language_progress",
@@ -787,8 +787,8 @@
           ]
         },
         {
-          "spanish": "Has hablado muy bien en la presentación.",
-          "english": "You (informal) have spoken very well in the presentation.",
+          "spanish": "Has hablado muy bien en la clase.",
+          "english": "You (informal) have spoken very well in the class.",
           "subject": "tú",
           "region": "universal",
           "source": "presentation_feedback",
@@ -1107,8 +1107,8 @@
           ]
         },
         {
-          "spanish": "Comiste un asado increíble en lo de tu tío.",
-          "english": "You ate an incredible barbecue at your uncle's place.",
+          "spanish": "Comiste un asado muy bueno en lo de tu tío.",
+          "english": "You ate an very good barbecue at your uncle's place.",
           "subject": "vos",
           "region": "argentina",
           "source": "family_gathering",
@@ -1865,8 +1865,8 @@
           ]
         },
         {
-          "spanish": "Vive con sus padres para ahorrar dinero.",
-          "english": "He lives with his parents to save money.",
+          "spanish": "Vive con sus padres porque es barato.",
+          "english": "He lives with his parents because it's cheap.",
           "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
@@ -1881,8 +1881,8 @@
           ]
         },
         {
-          "spanish": "Vive con sus padres para ahorrar dinero.",
-          "english": "She lives with her parents to save money.",
+          "spanish": "Vive con sus padres porque es barato.",
+          "english": "She lives with her parents because it's cheap.",
           "subject": "ella",
           "region": "universal",
           "source": "financial_strategy",
@@ -1897,8 +1897,8 @@
           ]
         },
         {
-          "spanish": "Vive con sus padres para ahorrar dinero.",
-          "english": "You (formal) live with your parents to save money.",
+          "spanish": "Vive con sus padres porque es barato.",
+          "english": "You (formal) live with your parents because it's cheap.",
           "subject": "usted",
           "region": "universal",
           "source": "financial_strategy",
@@ -1964,7 +1964,7 @@
       "preterite": [
         {
           "spanish": "Viví en París durante mis estudios universitarios.",
-          "english": "I lived in Paris during my university studies.",
+          "english": "I lived in Paris during my school studies.",
           "subject": "yo",
           "region": "universal",
           "source": "study_abroad",
@@ -1979,8 +1979,8 @@
           ]
         },
         {
-          "spanish": "Viviste una experiencia increíble en Japón.",
-          "english": "You (informal) lived an incredible experience in Japan.",
+          "spanish": "Viviste una tiempo muy bueno en Japón.",
+          "english": "You (informal) lived an very good time in Japan.",
           "subject": "tú",
           "region": "universal",
           "source": "cultural_immersion",
@@ -2125,8 +2125,8 @@
           ]
         },
         {
-          "spanish": "Vivirás experiencias únicas en tu nuevo trabajo.",
-          "english": "You (informal) will live unique experiences in your new job.",
+          "spanish": "Vivirás tiempos únicas en tu nuevo trabajo.",
+          "english": "You (informal) will live unique times in your new job.",
           "subject": "tú",
           "region": "universal",
           "source": "career_opportunity",
@@ -2303,8 +2303,8 @@
           ]
         },
         {
-          "spanish": "Está viviendo con sus padres para ahorrar dinero.",
-          "english": "He is living with his parents to save money.",
+          "spanish": "Está viviendo con sus padres porque es barato.",
+          "english": "He is living with his parents because it's cheap.",
           "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
@@ -2319,8 +2319,8 @@
           ]
         },
         {
-          "spanish": "Está viviendo con sus padres para ahorrar dinero.",
-          "english": "She is living with her parents to save money.",
+          "spanish": "Está viviendo con sus padres porque es barato.",
+          "english": "She is living with her parents because it's cheap.",
           "subject": "ella",
           "region": "universal",
           "source": "financial_strategy",
@@ -2335,8 +2335,8 @@
           ]
         },
         {
-          "spanish": "Está viviendo con sus padres para ahorrar dinero.",
-          "english": "You (formal) are living with your parents to save money.",
+          "spanish": "Está viviendo con sus padres porque es barato.",
+          "english": "You (formal) are living with your parents because it's cheap.",
           "subject": "usted",
           "region": "universal",
           "source": "financial_strategy",
@@ -2449,8 +2449,8 @@
           ]
         },
         {
-          "spanish": "Va a vivir con sus padres para ahorrar dinero.",
-          "english": "He is going to live with his parents to save money.",
+          "spanish": "Va a vivir con sus padres porque es barato.",
+          "english": "He is going to live with his parents because it's cheap.",
           "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
@@ -2465,8 +2465,8 @@
           ]
         },
         {
-          "spanish": "Va a vivir con sus padres para ahorrar dinero.",
-          "english": "She is going to live with her parents to save money.",
+          "spanish": "Va a vivir con sus padres porque es barato.",
+          "english": "She is going to live with her parents because it's cheap.",
           "subject": "ella",
           "region": "universal",
           "source": "financial_strategy",
@@ -2481,8 +2481,8 @@
           ]
         },
         {
-          "spanish": "Va a vivir con sus padres para ahorrar dinero.",
-          "english": "You (formal) are going to live with your parents to save money.",
+          "spanish": "Va a vivir con sus padres porque es barato.",
+          "english": "You (formal) are going to live with your parents because it's cheap.",
           "subject": "usted",
           "region": "universal",
           "source": "financial_strategy",
@@ -2595,8 +2595,8 @@
           ]
         },
         {
-          "spanish": "Ha vivido con sus padres para ahorrar dinero.",
-          "english": "He has lived with his parents to save money.",
+          "spanish": "Ha vivido con sus padres porque es barato.",
+          "english": "He has lived with his parents because it's cheap.",
           "subject": "él",
           "region": "universal",
           "source": "financial_strategy",
@@ -2611,8 +2611,8 @@
           ]
         },
         {
-          "spanish": "Ha vivido con sus padres para ahorrar dinero.",
-          "english": "She has lived with her parents to save money.",
+          "spanish": "Ha vivido con sus padres porque es barato.",
+          "english": "She has lived with her parents because it's cheap.",
           "subject": "ella",
           "region": "universal",
           "source": "financial_strategy",
@@ -2627,8 +2627,8 @@
           ]
         },
         {
-          "spanish": "Ha vivido con sus padres para ahorrar dinero.",
-          "english": "You (formal) have lived with your parents to save money.",
+          "spanish": "Ha vivido con sus padres porque es barato.",
+          "english": "You (formal) have lived with your parents because it's cheap.",
           "subject": "usted",
           "region": "universal",
           "source": "financial_strategy",
@@ -3029,8 +3029,8 @@
           ]
         },
         {
-          "spanish": "Irás a conocer lugares increíbles en tu viaje.",
-          "english": "You will go see incredible places on your trip.",
+          "spanish": "Irás a conocer lugares muy buenos en tu viaje.",
+          "english": "You will go see very good places on your trip.",
           "subject": "vos",
           "region": "argentina",
           "source": "travel_anticipation",
@@ -3159,8 +3159,8 @@
           ]
         },
         {
-          "spanish": "Estás yendo a la universidad en bicicleta.",
-          "english": "You (informal) are going to university by bicycle.",
+          "spanish": "Estás yendo a la escuela en bicicleta.",
+          "english": "You (informal) are going to school by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -3305,8 +3305,8 @@
           ]
         },
         {
-          "spanish": "Vas a ir a la universidad en bicicleta.",
-          "english": "You (informal)'re going to go to university by bicycle.",
+          "spanish": "Vas a ir a la escuela en bicicleta.",
+          "english": "You (informal)'re going to go to school by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -3451,8 +3451,8 @@
           ]
         },
         {
-          "spanish": "Has ido a la universidad en bicicleta.",
-          "english": "You (informal) have gone to university by bicycle.",
+          "spanish": "Has ido a la escuela en bicicleta.",
+          "english": "You (informal) have gone to school by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -3648,8 +3648,8 @@
           ]
         },
         {
-          "spanish": "Puede hablar tres idiomas con fluidez.",
-          "english": "He can speak three languages fluently.",
+          "spanish": "Puede hablar tres idiomas muy bien.",
+          "english": "He can speak three languages very well.",
           "subject": "él",
           "region": "universal",
           "source": "language_ability",
@@ -3666,8 +3666,8 @@
           ]
         },
         {
-          "spanish": "Puede hablar tres idiomas con fluidez.",
-          "english": "She can speak three languages fluently.",
+          "spanish": "Puede hablar tres idiomas muy bien.",
+          "english": "She can speak three languages very well.",
           "subject": "ella",
           "region": "universal",
           "source": "language_ability",
@@ -3684,8 +3684,8 @@
           ]
         },
         {
-          "spanish": "Puede hablar tres idiomas con fluidez.",
-          "english": "You (formal) can speak three languages fluently.",
+          "spanish": "Puede hablar tres idiomas muy bien.",
+          "english": "You (formal) can speak three languages very well.",
           "subject": "usted",
           "region": "universal",
           "source": "language_ability",
@@ -3776,8 +3776,8 @@
           ]
         },
         {
-          "spanish": "Pudiste convencer a todos con tu presentación.",
-          "english": "You (informal) were able to convince everyone with your presentation.",
+          "spanish": "Pudiste convencer a todos con tu clase.",
+          "english": "You (informal) were able to convince everyone with your class.",
           "subject": "tú",
           "region": "universal",
           "source": "persuasion_success",
@@ -3940,8 +3940,8 @@
           ]
         },
         {
-          "spanish": "Podrás estudiar en la universidad que elijas.",
-          "english": "You (informal) will be able to study at the university you (informal) choose.",
+          "spanish": "Podrás estudiar en la escuela que elijas.",
+          "english": "You (informal) will be able to study at the school you (informal) choose.",
           "subject": "tú",
           "region": "universal",
           "source": "educational_opportunity",
@@ -4140,8 +4140,8 @@
           ]
         },
         {
-          "spanish": "Está pudiendo hablar tres idiomas con fluidez.",
-          "english": "He is able to speak three languages fluently.",
+          "spanish": "Está pudiendo hablar tres idiomas muy bien.",
+          "english": "He is able to speak three languages very well.",
           "subject": "él",
           "region": "universal",
           "source": "language_ability",
@@ -4158,8 +4158,8 @@
           ]
         },
         {
-          "spanish": "Está pudiendo hablar tres idiomas con fluidez.",
-          "english": "She is able to speak three languages fluently.",
+          "spanish": "Está pudiendo hablar tres idiomas muy bien.",
+          "english": "She is able to speak three languages very well.",
           "subject": "ella",
           "region": "universal",
           "source": "language_ability",
@@ -4176,8 +4176,8 @@
           ]
         },
         {
-          "spanish": "Está pudiendo hablar tres idiomas con fluidez.",
-          "english": "You (formal) are able to speak three languages fluently.",
+          "spanish": "Está pudiendo hablar tres idiomas muy bien.",
+          "english": "You (formal) are able to speak three languages very well.",
           "subject": "usted",
           "region": "universal",
           "source": "language_ability",
@@ -4304,8 +4304,8 @@
           ]
         },
         {
-          "spanish": "Va a poder hablar tres idiomas con fluidez.",
-          "english": "He is going to be able speak three languages fluently.",
+          "spanish": "Va a poder hablar tres idiomas muy bien.",
+          "english": "He is going to be able speak three languages very well.",
           "subject": "él",
           "region": "universal",
           "source": "language_ability",
@@ -4322,8 +4322,8 @@
           ]
         },
         {
-          "spanish": "Va a poder hablar tres idiomas con fluidez.",
-          "english": "She is going to be able speak three languages fluently.",
+          "spanish": "Va a poder hablar tres idiomas muy bien.",
+          "english": "She is going to be able speak three languages very well.",
           "subject": "ella",
           "region": "universal",
           "source": "language_ability",
@@ -4340,8 +4340,8 @@
           ]
         },
         {
-          "spanish": "Va a poder hablar tres idiomas con fluidez.",
-          "english": "You (formal) are going to be able speak three languages fluently.",
+          "spanish": "Va a poder hablar tres idiomas muy bien.",
+          "english": "You (formal) are going to be able speak three languages very well.",
           "subject": "usted",
           "region": "universal",
           "source": "language_ability",
@@ -4468,8 +4468,8 @@
           ]
         },
         {
-          "spanish": "Ha podido hablar tres idiomas con fluidez.",
-          "english": "He has been able to speak three languages fluently.",
+          "spanish": "Ha podido hablar tres idiomas muy bien.",
+          "english": "He has been able to speak three languages very well.",
           "subject": "él",
           "region": "universal",
           "source": "language_ability",
@@ -4486,8 +4486,8 @@
           ]
         },
         {
-          "spanish": "Ha podido hablar tres idiomas con fluidez.",
-          "english": "She has been able to speak three languages fluently.",
+          "spanish": "Ha podido hablar tres idiomas muy bien.",
+          "english": "She has been able to speak three languages very well.",
           "subject": "ella",
           "region": "universal",
           "source": "language_ability",
@@ -4504,8 +4504,8 @@
           ]
         },
         {
-          "spanish": "Ha podido hablar tres idiomas con fluidez.",
-          "english": "You (formal) have been able to speak three languages fluently.",
+          "spanish": "Ha podido hablar tres idiomas muy bien.",
+          "english": "You (formal) have been able to speak three languages very well.",
           "subject": "usted",
           "region": "universal",
           "source": "language_ability",
@@ -4645,8 +4645,8 @@
           ]
         },
         {
-          "spanish": "Quiere estudiar medicina en la universidad.",
-          "english": "He wants to study medicine in college.",
+          "spanish": "Quiere estudiar español en la escuela.",
+          "english": "He wants to study Spanish in college.",
           "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
@@ -4663,8 +4663,8 @@
           ]
         },
         {
-          "spanish": "Quiere estudiar medicina en la universidad.",
-          "english": "She wants to study medicine in college.",
+          "spanish": "Quiere estudiar español en la escuela.",
+          "english": "She wants to study Spanish in college.",
           "subject": "ella",
           "region": "universal",
           "source": "career_aspirations",
@@ -4681,8 +4681,8 @@
           ]
         },
         {
-          "spanish": "Quiere estudiar medicina en la universidad.",
-          "english": "You (formal) want to study medicine in college.",
+          "spanish": "Quiere estudiar español en la escuela.",
+          "english": "You (formal) want to study Spanish in college.",
           "subject": "usted",
           "region": "universal",
           "source": "career_aspirations",
@@ -5137,8 +5137,8 @@
           ]
         },
         {
-          "spanish": "Está queriendo estudiar medicina en la universidad.",
-          "english": "He is wanting to study medicine at university.",
+          "spanish": "Está queriendo estudiar español en la escuela.",
+          "english": "He is wanting to study Spanish at school.",
           "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
@@ -5155,8 +5155,8 @@
           ]
         },
         {
-          "spanish": "Está queriendo estudiar medicina en la universidad.",
-          "english": "She is wanting to study medicine at university.",
+          "spanish": "Está queriendo estudiar español en la escuela.",
+          "english": "She is wanting to study Spanish at school.",
           "subject": "ella",
           "region": "universal",
           "source": "career_aspirations",
@@ -5173,8 +5173,8 @@
           ]
         },
         {
-          "spanish": "Está queriendo estudiar medicina en la universidad.",
-          "english": "You (formal) are wanting to study medicine at university.",
+          "spanish": "Está queriendo estudiar español en la escuela.",
+          "english": "You (formal) are wanting to study Spanish at school.",
           "subject": "usted",
           "region": "universal",
           "source": "career_aspirations",
@@ -5301,8 +5301,8 @@
           ]
         },
         {
-          "spanish": "Va a querer estudiar medicina en la universidad.",
-          "english": "He is going to want to study medicine at university.",
+          "spanish": "Va a querer estudiar español en la escuela.",
+          "english": "He is going to want to study Spanish at school.",
           "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
@@ -5319,8 +5319,8 @@
           ]
         },
         {
-          "spanish": "Va a querer estudiar medicina en la universidad.",
-          "english": "She is going to want to study medicine at university.",
+          "spanish": "Va a querer estudiar español en la escuela.",
+          "english": "She is going to want to study Spanish at school.",
           "subject": "ella",
           "region": "universal",
           "source": "career_aspirations",
@@ -5337,8 +5337,8 @@
           ]
         },
         {
-          "spanish": "Va a querer estudiar medicina en la universidad.",
-          "english": "You (formal) are going to want to study medicine at university.",
+          "spanish": "Va a querer estudiar español en la escuela.",
+          "english": "You (formal) are going to want to study Spanish at school.",
           "subject": "usted",
           "region": "universal",
           "source": "career_aspirations",
@@ -5465,8 +5465,8 @@
           ]
         },
         {
-          "spanish": "Ha querido estudiar medicina en la universidad.",
-          "english": "He has wanted to study medicine at university.",
+          "spanish": "Ha querido estudiar español en la escuela.",
+          "english": "He has wanted to study Spanish at school.",
           "subject": "él",
           "region": "universal",
           "source": "career_aspirations",
@@ -5483,8 +5483,8 @@
           ]
         },
         {
-          "spanish": "Ha querido estudiar medicina en la universidad.",
-          "english": "She has wanted to study medicine at university.",
+          "spanish": "Ha querido estudiar español en la escuela.",
+          "english": "She has wanted to study Spanish at school.",
           "subject": "ella",
           "region": "universal",
           "source": "career_aspirations",
@@ -5501,8 +5501,8 @@
           ]
         },
         {
-          "spanish": "Ha querido estudiar medicina en la universidad.",
-          "english": "You (formal) have wanted to study medicine at university.",
+          "spanish": "Ha querido estudiar español en la escuela.",
+          "english": "You (formal) have wanted to study Spanish at school.",
           "subject": "usted",
           "region": "universal",
           "source": "career_aspirations",
@@ -5732,8 +5732,8 @@
           ]
         },
         {
-          "spanish": "Tienen experiencia en marketing digital.",
-          "english": "They have experience in digital marketing.",
+          "spanish": "Tienen tiempo en marketing digital.",
+          "english": "They have time in digital marketing.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "professional_context",
@@ -6224,8 +6224,8 @@
           ]
         },
         {
-          "spanish": "Están teniendo experiencia en marketing digital.",
-          "english": "They are having experience in digital marketing.",
+          "spanish": "Están teniendo tiempo en marketing digital.",
+          "english": "They are having time in digital marketing.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "professional_context",
@@ -6388,8 +6388,8 @@
           ]
         },
         {
-          "spanish": "Van a tener experiencia en marketing digital.",
-          "english": "They're going to have experience in digital marketing.",
+          "spanish": "Van a tener tiempo en marketing digital.",
+          "english": "They're going to have time in digital marketing.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "professional_context",
@@ -6552,8 +6552,8 @@
           ]
         },
         {
-          "spanish": "Han tenido experiencia en marketing digital.",
-          "english": "They have haded experience in digital marketing.",
+          "spanish": "Han tenido tiempo en marketing digital.",
+          "english": "They have haded time in digital marketing.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "professional_context",
@@ -6585,8 +6585,8 @@
       },
       "present": [
         {
-          "spanish": "Soy profesora de matemáticas en la universidad.",
-          "english": "I am a mathematics professor at the university.",
+          "spanish": "Soy profesora de matemáticas en la escuela.",
+          "english": "I am a mathematics professor at the school.",
           "subject": "yo",
           "region": "universal",
           "source": "educational_context",
@@ -6842,7 +6842,7 @@
           ]
         },
         {
-          "spanish": "Fuimos compañeros de cuarto en la universidad.",
+          "spanish": "Fuimos compañeros de cuarto en la escuela.",
           "english": "We were roommates in college.",
           "subject": "nosotros",
           "region": "universal",
@@ -7050,8 +7050,8 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Estoy siendo profesora de matemáticas en la universidad.",
-          "english": "I am being a mathematics professor at the university.",
+          "spanish": "Estoy siendo profesora de matemáticas en la escuela.",
+          "english": "I am being a mathematics professor at the school.",
           "subject": "yo",
           "region": "universal",
           "source": "educational_context",
@@ -7307,8 +7307,8 @@
       ],
       "going-to": [
         {
-          "spanish": "Voy a ser profesora de matemáticas en la universidad.",
-          "english": "I'm going to be a mathematics professor at the university.",
+          "spanish": "Voy a ser profesora de matemáticas en la escuela.",
+          "english": "I'm going to be a mathematics professor at the school.",
           "subject": "yo",
           "region": "universal",
           "source": "educational_context",
@@ -7462,8 +7462,8 @@
       ],
       "present-perfect": [
         {
-          "spanish": "He sido profesora de matemáticas en la universidad.",
-          "english": "I have been a mathematics professor at the university.",
+          "spanish": "He sido profesora de matemáticas en la escuela.",
+          "english": "I have been a mathematics professor at the school.",
           "subject": "yo",
           "region": "universal",
           "source": "educational_context",
@@ -7734,8 +7734,8 @@
           ]
         },
         {
-          "spanish": "Estuviste increíble en la presentación.",
-          "english": "You were incredible in the presentation.",
+          "spanish": "Estuviste muy bueno en la clase.",
+          "english": "You were very good in the class.",
           "subject": "vos",
           "region": "argentina",
           "source": "work_context",
@@ -8642,8 +8642,8 @@
       ],
       "preterite": [
         {
-          "spanish": "Hice la presentación para el cliente ayer.",
-          "english": "I gave the presentation to the client yesterday.",
+          "spanish": "Hice la clase para el cliente ayer.",
+          "english": "I gave the class to the client yesterday.",
           "subject": "yo",
           "region": "universal",
           "source": "work_context",
@@ -8761,8 +8761,8 @@
           ]
         },
         {
-          "spanish": "Hicisteis un viaje increíble por Europa.",
-          "english": "You all took an incredible trip through Europe.",
+          "spanish": "Hicisteis un viaje muy bueno por Europa.",
+          "english": "You all took an very good trip through Europe.",
           "subject": "vosotros",
           "region": "spain",
           "source": "travel_context",
@@ -8848,8 +8848,8 @@
           ]
         },
         {
-          "spanish": "Hará la presentación final mañana por la tarde.",
-          "english": "He will give the final presentation tomorrow afternoon.",
+          "spanish": "Hará la clase final mañana por la tarde.",
+          "english": "He will give the final class tomorrow afternoon.",
           "subject": "él",
           "region": "universal",
           "source": "work_context",
@@ -8865,8 +8865,8 @@
           ]
         },
         {
-          "spanish": "Hará la presentación final mañana por la tarde.",
-          "english": "She will give the final presentation tomorrow afternoon.",
+          "spanish": "Hará la clase final mañana por la tarde.",
+          "english": "She will give the final class tomorrow afternoon.",
           "subject": "ella",
           "region": "universal",
           "source": "work_context",
@@ -8882,8 +8882,8 @@
           ]
         },
         {
-          "spanish": "Hará la presentación final mañana por la tarde.",
-          "english": "You (formal) will give the final presentation tomorrow afternoon.",
+          "spanish": "Hará la clase final mañana por la tarde.",
+          "english": "You (formal) will give the final class tomorrow afternoon.",
           "subject": "usted",
           "region": "universal",
           "source": "work_context",

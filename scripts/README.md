@@ -128,3 +128,29 @@ English sentences include formality hints:
 - "You all" → ustedes
 
 This ensures students know exactly which Spanish conjugation to use.
+
+## Development Scripts
+
+### Vocabulary Level Fixing
+<div style="position: relative;">
+  <button onclick="navigator.clipboard.writeText('node scripts/fix-tier-vocabulary.js')" style="position: absolute; top: 5px; right: 5px; padding: 2px 8px; font-size: 12px; background: #f0f0f0; border: 1px solid #ccc; border-radius: 3px; cursor: pointer;">📋 Copy</button>
+
+```bash
+node scripts/fix-tier-vocabulary.js
+```
+</div>
+
+Audits and fixes vocabulary that's too advanced for a given tier level. 
+
+**Usage:**
+1. Edit `TIER_NUMBER` in the script (1-5)
+2. Update `replacements` array with tier-appropriate substitutions  
+3. Run the script to apply fixes
+
+**Example fixes applied to Tier 1:**
+- "ahorrar dinero" → "porque es barato" 
+- "universidad" → "escuela"
+- "medicina" → "español"
+- "experiencia" → "tiempo"
+
+See `docs/VOCABULARY_GUIDELINES.md` for tier-appropriate vocabulary standards.

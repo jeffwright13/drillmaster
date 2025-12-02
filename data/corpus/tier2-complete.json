@@ -157,8 +157,8 @@
           ]
         },
         {
-          "spanish": "Nos sentamos en círculo para la reunión.",
-          "english": "We sit in a circle for the meeting.",
+          "spanish": "Nos sentamos en círculo para la clase.",
+          "english": "We sit in a circle for the class.",
           "subject": "nosotros",
           "region": "universal",
           "source": "meeting_arrangement",
@@ -503,8 +503,8 @@
           ]
         },
         {
-          "spanish": "Nos sentaremos a discutir el proyecto mañana.",
-          "english": "We will sit down to discuss the project tomorrow.",
+          "spanish": "Nos sentaremos a discutir el trabajo mañana.",
+          "english": "We will sit down to discuss the work tomorrow.",
           "subject": "nosotros",
           "region": "universal",
           "source": "work_meeting",
@@ -2016,8 +2016,8 @@
           ]
         },
         {
-          "spanish": "Te vestirás como un profesional en tu nuevo trabajo.",
-          "english": "You (informal) will dress like a professional in your new job.",
+          "spanish": "Te vestirás como un trabajador en tu nuevo trabajo.",
+          "english": "You (informal) will dress like a worker in your new job.",
           "subject": "tú",
           "region": "universal",
           "source": "career_advancement",
@@ -2703,8 +2703,8 @@
           ]
         },
         {
-          "spanish": "Encontrás trabajo fácilmente con tu experiencia.",
-          "english": "You find work easily with your experience.",
+          "spanish": "Encontrás trabajo fácilmente con tu tiempo.",
+          "english": "You find work easily with your time.",
           "subject": "vos",
           "region": "argentina",
           "source": "job_search",
@@ -2811,8 +2811,8 @@
           ]
         },
         {
-          "spanish": "Encuentran dificultades en el nuevo proyecto.",
-          "english": "They find difficulties in the new project.",
+          "spanish": "Encuentran dificultades en el nuevo trabajo.",
+          "english": "They find difficulties in the new work.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "project_challenges",
@@ -2975,7 +2975,7 @@
           ]
         },
         {
-          "spanish": "Encontraron evidencia importante en la investigación.",
+          "spanish": "Encontraron evidencia importante en la estudio.",
           "english": "They found important evidence in the investigation.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
@@ -3121,8 +3121,8 @@
           ]
         },
         {
-          "spanish": "Encontraréis nuevos amigos en la universidad.",
-          "english": "You all will find new friends at university.",
+          "spanish": "Encontraréis nuevos amigos en la escuela.",
+          "english": "You all will find new friends at school.",
           "subject": "vosotros",
           "region": "spain",
           "source": "university_social_life",
@@ -3951,8 +3951,8 @@
           ]
         },
         {
-          "spanish": "Verás que tenía razón sobre el proyecto.",
-          "english": "You will see that I was right about the project.",
+          "spanish": "Verás que tenía razón sobre el trabajo.",
+          "english": "You will see that I was right about the work.",
           "subject": "vos",
           "region": "argentina",
           "source": "future_vindication",
@@ -4114,8 +4114,8 @@
           ]
         },
         {
-          "spanish": "Das lo mejor de vos en cada proyecto.",
-          "english": "You give your best in every project.",
+          "spanish": "Das lo mejor de vos en cada trabajo.",
+          "english": "You give your best in every work.",
           "subject": "vos",
           "region": "argentina",
           "source": "work_dedication",
@@ -4235,8 +4235,8 @@
       ],
       "preterite": [
         {
-          "spanish": "Di mi opinión honesta sobre el proyecto.",
-          "english": "I gave my honest opinion about the project.",
+          "spanish": "Di mi opinión honesta sobre el trabajo.",
+          "english": "I gave my honest opinion about the work.",
           "subject": "yo",
           "region": "universal",
           "source": "professional_feedback",
@@ -4407,8 +4407,8 @@
           ]
         },
         {
-          "spanish": "Darás una conferencia sobre tu investigación.",
-          "english": "You (informal) will give a lecture about your research.",
+          "spanish": "Darás una conferencia sobre tu estudio.",
+          "english": "You (informal) will give a lecture about your study.",
           "subject": "tú",
           "region": "universal",
           "source": "academic_presentation",
@@ -4581,7 +4581,7 @@
         },
         {
           "spanish": "Dices cosas muy inteligentes en las reuniones.",
-          "english": "You (informal) say very intelligent things in meetings.",
+          "english": "You (informal) say very intelligent things in classs.",
           "subject": "tú",
           "region": "universal",
           "source": "professional_compliment",
@@ -4753,8 +4753,8 @@
           ]
         },
         {
-          "spanish": "Dijiste palabras muy sabias en la reunión.",
-          "english": "You (informal) said very wise words in the meeting.",
+          "spanish": "Dijiste palabras muy sabias en la clase.",
+          "english": "You (informal) said very wise words in the class.",
           "subject": "tú",
           "region": "universal",
           "source": "meeting_wisdom",
@@ -4886,8 +4886,8 @@
           ]
         },
         {
-          "spanish": "Dijeron que el proyecto era imposible.",
-          "english": "They said the project was impossible.",
+          "spanish": "Dijeron que el trabajo era imposible.",
+          "english": "They said the work was impossible.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "project_skepticism",
@@ -4907,8 +4907,8 @@
       ],
       "future": [
         {
-          "spanish": "Diré mi opinión en la próxima reunión.",
-          "english": "I will say my opinion in the next meeting.",
+          "spanish": "Diré mi opinión en la próxima clase.",
+          "english": "I will say my opinion in the next class.",
           "subject": "yo",
           "region": "universal",
           "source": "future_participation",
@@ -5095,8 +5095,8 @@
       },
       "present": [
         {
-          "spanish": "Sé hablar cuatro idiomas con fluidez.",
-          "english": "I know how to speak four languages fluently.",
+          "spanish": "Sé hablar cuatro idiomas muy bien.",
+          "english": "I know how to speak four languages very well.",
           "subject": "yo",
           "region": "universal",
           "source": "language_skill",
@@ -5129,8 +5129,8 @@
           ]
         },
         {
-          "spanish": "Sabés tocar la guitarra como un profesional.",
-          "english": "You know how to play guitar like a professional.",
+          "spanish": "Sabés tocar la guitarra como un trabajador.",
+          "english": "You know how to play guitar like a worker.",
           "subject": "vos",
           "region": "argentina",
           "source": "musical_skill",
@@ -5406,7 +5406,7 @@
       "future": [
         {
           "spanish": "Sabré la respuesta después de investigar más.",
-          "english": "I will know the answer after researching more.",
+          "english": "I will know the answer after studying more.",
           "subject": "yo",
           "region": "universal",
           "source": "research_commitment",
@@ -5422,8 +5422,8 @@
           ]
         },
         {
-          "spanish": "Sabrás tocar el piano como un profesional.",
-          "english": "You (informal) will know how to play piano like a professional.",
+          "spanish": "Sabrás tocar el piano como un trabajador.",
+          "english": "You (informal) will know how to play piano like a worker.",
           "subject": "tú",
           "region": "universal",
           "source": "skill_development",
@@ -5541,8 +5541,8 @@
           ]
         },
         {
-          "spanish": "Sabrán la verdad cuando lean el informe completo.",
-          "english": "They will know the truth when they read the complete report.",
+          "spanish": "Sabrán la verdad cuando lean el papel completo.",
+          "english": "They will know the truth when they read the complete paper.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "truth_revelation",
@@ -5867,8 +5867,8 @@
           ]
         },
         {
-          "spanish": "Se llamaron para coordinar la reunión.",
-          "english": "They called each other to coordinate the meeting.",
+          "spanish": "Se llamaron para coordinar la clase.",
+          "english": "They called each other to coordinate the class.",
           "subject": "ellos/ellas/ustedes",
           "region": "universal",
           "source": "coordination_context",
