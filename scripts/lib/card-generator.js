@@ -55,7 +55,22 @@ class CardGenerator {
     }
   }
 
-  // Randomization no longer needed - subjects are pre-expanded in corpus
+  // Clean English text for ES→EN cards by removing disambiguation hints
+  cleanEnglishForEStoEN(english) {
+    return english
+      .replace(/\s*\(informal\)/gi, '')
+      .replace(/\s*\(formal\)/gi, '')
+      .replace(/\s*\(vos\)/gi, '')
+      .replace(/\s*\(Spain\)/gi, '')
+      .replace(/\s*\(feminine\)/gi, '')
+      .replace(/\s*\(masculine\)/gi, '')
+      .replace(/\s*\(mixed\)/gi, '')
+      .replace(/\s*\(men\)/gi, '')
+      .replace(/\s*\(women\)/gi, '')
+      .replace(/You all/g, 'You')
+      .replace(/you all/g, 'you')
+      .trim();
+  }
 
   // Create flexible regex for matching conjugated forms
   createFlexibleRegex(conjugatedForm) {
@@ -108,14 +123,15 @@ class CardGenerator {
     const conjugatedForm = conjugation[tense][conjugationKey];
     let highlightedSpanish = spanish;
     
-    const BACKWARDS_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
-    if (!BACKWARDS_VERBS.includes(verbName)) {
-      const regex = this.createFlexibleRegex(conjugatedForm);
-      const match = spanish.match(regex);
-      if (match) {
-        highlightedSpanish = spanish.replace(regex, `$1<strong>$2</strong>$3`);
-      }
-    }
+    // Remove verb highlighting for cleaner card appearance
+    // const BACKWARDS_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
+    // if (!BACKWARDS_VERBS.includes(verbName)) {
+    //   const regex = this.createFlexibleRegex(conjugatedForm);
+    //   const match = spanish.match(regex);
+    //   if (match) {
+    //     highlightedSpanish = spanish.replace(regex, `$1<strong>$2</strong>$3`);
+    //   }
+    // }
     
     // Add Spanish pronoun to eliminate ambiguity naturally
     const spanishPronouns = {
@@ -137,14 +153,17 @@ class CardGenerator {
     // Handle questions correctly - pronoun goes after ¿, not before
     let spanishWithPronoun;
     if (highlightedSpanish.startsWith('¿')) {
-      spanishWithPronoun = highlightedSpanish.replace(/^¿/, `¿${pronoun} `).toLowerCase();
-      // Capitalize the first letter after ¿
-      spanishWithPronoun = spanishWithPronoun.replace(/^¿([a-z])/, (match, letter) => `¿${letter.toUpperCase()}`);
+      spanishWithPronoun = highlightedSpanish.replace(/^¿/, `¿${pronoun} `);
+      // Lowercase only the first letter after the pronoun, preserve proper nouns
+      spanishWithPronoun = spanishWithPronoun.replace(/^(¿[A-Z][a-z]*\s+)([A-Z])/, (match, prefix, firstLetter) => prefix + firstLetter.toLowerCase());
     } else {
-      spanishWithPronoun = `${pronoun} ${highlightedSpanish.toLowerCase()}`;
+      // Lowercase only the first letter, preserve proper nouns
+      const firstChar = highlightedSpanish.charAt(0).toLowerCase();
+      const restOfSentence = highlightedSpanish.slice(1);
+      spanishWithPronoun = `${pronoun} ${firstChar}${restOfSentence}`;
     }
     
-    const englishWithHints = english;
+    const cleanEnglish = this.cleanEnglishForEStoEN(english);
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
     
     cards.push({
@@ -155,7 +174,7 @@ class CardGenerator {
       subject: currentSubject,
       region: sentence.region,
       front: spanishWithPronoun,
-      back: `<div style="font-size: 1.1em; margin-bottom: 0.5em;">${englishWithHints}</div><div style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><em>${verbName.toLowerCase()} (${verb.english}) - ${tense}</em></div>`,
+      back: `<div style="font-size: 1.1em;">${cleanEnglish}</div>`,
       tags: tags.join(';')
     });
   }
@@ -183,14 +202,15 @@ class CardGenerator {
     const conjugatedForm = conjugation[tense][conjugationKey];
     let highlightedSpanish = spanish;
     
-    const BACKWARDS_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
-    if (!BACKWARDS_VERBS.includes(verbName)) {
-      const regex = this.createFlexibleRegex(conjugatedForm);
-      const match = spanish.match(regex);
-      if (match) {
-        highlightedSpanish = spanish.replace(regex, `$1<strong>$2</strong>$3`);
-      }
-    }
+    // Remove verb highlighting for cleaner card appearance
+    // const BACKWARDS_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
+    // if (!BACKWARDS_VERBS.includes(verbName)) {
+    //   const regex = this.createFlexibleRegex(conjugatedForm);
+    //   const match = spanish.match(regex);
+    //   if (match) {
+    //     highlightedSpanish = spanish.replace(regex, `$1<strong>$2</strong>$3`);
+    //   }
+    // }
     
     // English already has disambiguation hints in the corpus (e.g., "You (informal)")
     // No need to add headers - keep the existing English sentence as-is
@@ -228,8 +248,11 @@ class CardGenerator {
       if (!corpusVerb) return;
       
       tierConfig.tenseOrder.forEach(tense => {
-        const sentences = corpusVerb[tense];
-        if (!sentences) return;
+        const tenseData = corpusVerb[tense];
+        if (!tenseData) return;
+        
+        // Handle both array format and object format with sentences property
+        const sentences = Array.isArray(tenseData) ? tenseData : tenseData.sentences || [];
         
         sentences.forEach(sentence => {
           // Filter by region config

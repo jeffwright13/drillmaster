@@ -144,7 +144,7 @@
       "present-progressive": [
         {
           "spanish": "Estás hablando muy rápido, no te entiendo.",
-          "english": "You (informal) are speaking very fast, I don't understand you (informal).",
+          "english": "You (informal) are speaking very fast; I don't understand you (informal).",
           "subject": "tú",
           "region": "universal",
           "source": "communication_difficulty",
@@ -349,8 +349,8 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Estamos comiendo juntos en familia los domingos.",
-          "english": "We are eating together as a family on Sundays.",
+          "spanish": "Estamos comiendo juntos en familia el domingo próximo.",
+          "english": "We are eating together as a family this coming Sunday.",
           "subject": "nosotros",
           "region": "universal",
           "source": "family_tradition",
@@ -362,11 +362,18 @@
             "tier:1",
             "verb-type:er",
             "word-type:verb"
-          ]
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Improved idiomaticity: habitual 'los domingos' → specific 'el domingo próximo'",
+            "improvement_reason": "Progressive tense more natural for planned future events"
+          }
         },
         {
-          "spanish": "Estás comiendo muy saludable desde que empezaste la dieta.",
-          "english": "You (informal) are eating very healthy since you (informal) started the diet.",
+          "spanish": "Estás comiendo muy saludable esta semana.",
+          "english": "You (informal) are eating very healthy this week.",
           "subject": "tú",
           "region": "universal",
           "source": "diet_lifestyle",
@@ -614,11 +621,34 @@
           ]
         },
         {
-          "spanish": "Estoy viviendo en el centro de la ciudad desde hace años.",
-          "english": "I have been living in the city center for years.",
-          "subject": "yo",
+          "spanish": "Estamos viviendo en el centro de la ciudad ahora.",
+          "english": "We are living in the city center now.",
+          "subject": "nosotros",
           "region": "universal",
           "source": "residential_context",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:present-progressive",
+            "tier:1",
+            "verb-type:ir",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Replaced present-perfect meaning with proper present-progressive",
+            "replacement_reason": "Original was present-perfect continuous, not simple progressive"
+          }
+        },
+        {
+          "spanish": "Estoy viviendo en la Avenida Central estos días.",
+          "english": "I am living on Central Avenue these days.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "temporary_residence",
           "tags": [
             "region:universal",
             "regularity:regular",
@@ -632,7 +662,8 @@
             "chatgpt_reviewed": true,
             "chatgpt_fixed": true,
             "fix_date": "2025-12-02",
-            "fix_issue": "English translation unnatural"
+            "fix_issue": "Added proper present-progressive sentence for subject variety",
+            "addition_reason": "Provides yo subject for VIVIR present-progressive"
           }
         }
       ],
@@ -1107,58 +1138,10 @@
           ]
         }
       ],
-      "present-progressive": [
-        {
-          "spanish": "Puedes venir a casa cuando quieras.",
-          "english": "You can come home whenever you want.",
-          "subject": "vos",
-          "region": "argentina",
-          "source": "open_invitation",
-          "tags": [
-            "region:argentina",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:vos",
-            "tense:present-progressive",
-            "tier:1",
-            "verb-type:er",
-            "word-type:verb"
-          ],
-          "quality": {
-            "chatgpt_reviewed": true,
-            "chatgpt_fixed": true,
-            "fix_date": "2025-12-02",
-            "fix_issue": "'Estás pudiendo' is unnatural in MX; use 'puedes'",
-            "chunk": 2
-          }
-        },
-        {
-          "spanish": "Podemos terminar el trabajo antes del viernes.",
-          "english": "We can finish the work before Friday.",
-          "subject": "nosotros",
-          "region": "universal",
-          "source": "work_planning",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "stem-change:o-ue",
-            "stem-changing",
-            "subject:nosotros",
-            "tense:present-progressive",
-            "tier:1",
-            "verb-type:er",
-            "word-type:verb"
-          ],
-          "quality": {
-            "chatgpt_reviewed": true,
-            "chatgpt_fixed": true,
-            "fix_date": "2025-12-02",
-            "fix_issue": "'Estamos pudiendo' is unnatural in MX; use 'podemos'",
-            "chunk": 2
-          }
-        }
-      ],
+      "present-progressive": {
+        "_comment": "PODER is a modal verb that does not have natural present-progressive forms. 'Estar pudiendo' is grammatically possible but extremely unnatural in Spanish. Modal verbs express states of ability/possibility rather than ongoing actions. For learning purposes, this section is intentionally left empty.",
+        "sentences": []
+      },
       "going-to": [
         {
           "spanish": "Vas a poder venir a casa cuando quieras.",
@@ -1572,11 +1555,11 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Tiene tres hijos pequeños en casa.",
-          "english": "He has three small children at home.",
+          "spanish": "Está tomando pizza napolitana para el almuerzo.",
+          "english": "He is having Neapolitan pizza for lunch.",
           "subject": "él",
           "region": "universal",
-          "source": "family_context",
+          "source": "food_context",
           "tags": [
             "region:universal",
             "regularity:irregular",
@@ -1592,13 +1575,13 @@
             "chatgpt_reviewed": true,
             "chatgpt_fixed": true,
             "fix_date": "2025-12-02",
-            "fix_issue": "Sentence starts lowercase",
+            "fix_issue": "Fixed to proper gerund form",
             "chunk": 2
           }
         },
         {
-          "spanish": "Tiene tres hijos pequeños en casa.",
-          "english": "She has three small children at home.",
+          "spanish": "Está teniendo un bebé pronto.",
+          "english": "She is having a baby soon.",
           "subject": "ella",
           "region": "universal",
           "source": "family_context",
@@ -1825,56 +1808,10 @@
           ]
         }
       ],
-      "present-progressive": [
-        {
-          "spanish": "Soy profesora de matemáticas en la escuela.",
-          "english": "I am a mathematics professor at the school.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "educational_context",
-          "tags": [
-            "copula:true",
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:1",
-            "verb-type:er",
-            "word-type:verb"
-          ],
-          "quality": {
-            "chatgpt_reviewed": true,
-            "chatgpt_fixed": true,
-            "fix_date": "2025-12-02",
-            "fix_issue": "Wrong context label; should be 'present' not 'present-progressive'",
-            "chunk": 2
-          }
-        },
-        {
-          "spanish": "Eres muy inteligente para tu edad.",
-          "english": "You are very intelligent for your age.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "conversational",
-          "tags": [
-            "copula:true",
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:present-progressive",
-            "tier:1",
-            "verb-type:er",
-            "word-type:verb"
-          ],
-          "quality": {
-            "chatgpt_reviewed": true,
-            "chatgpt_fixed": true,
-            "fix_date": "2025-12-02",
-            "fix_issue": "Wrong context label; should be 'present' not 'present-progressive'",
-            "chunk": 2
-          }
-        }
-      ],
+      "present-progressive": {
+        "_comment": "SER verb does not have natural present-progressive forms. 'Estar siendo' is grammatically possible but extremely unnatural in Spanish. SER expresses permanent/essential characteristics that don't work well in progressive aspect. For learning purposes, this section is intentionally left empty.",
+        "sentences": []
+      },
       "going-to": [
         {
           "spanish": "Voy a ser profesora de matemáticas en la escuela.",
@@ -2077,49 +2014,10 @@
           ]
         }
       ],
-      "present-progressive": [
-        {
-          "spanish": "Estoy trabajando desde casa hoy.",
-          "english": "I am working from home today.",
-          "subject": "yo",
-          "region": "universal",
-          "source": "work_context",
-          "tags": [
-            "copula:true",
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:1",
-            "verb-type:ar",
-            "word-type:verb"
-          ],
-          "quality": {
-            "chatgpt_reviewed": true,
-            "chatgpt_fixed": true,
-            "fix_date": "2025-12-02",
-            "fix_issue": "'Estoy estando' is never grammatical; double progressive impossible",
-            "chunk": 2
-          }
-        },
-        {
-          "spanish": "Estás muy guapa con ese vestido.",
-          "english": "You (informal) are very pretty in that dress.",
-          "subject": "tú",
-          "region": "universal",
-          "source": "compliment",
-          "tags": [
-            "copula:true",
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:present-progressive",
-            "tier:1",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        }
-      ],
+      "present-progressive": {
+        "_comment": "ESTAR verb does not have natural present-progressive forms. 'Estar estando' is grammatically impossible (double progressive). ESTAR is typically used as an auxiliary verb for progressive constructions with other verbs, not as the main verb in progressive form. For learning purposes, this section is intentionally left empty.",
+        "sentences": []
+      },
       "going-to": [
         {
           "spanish": "Voy a estar trabajando desde casa hoy.",
@@ -2387,8 +2285,8 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Estás haciendo un trabajo excelente en la oficina.",
-          "english": "You (informal) are doing excellent work at the office.",
+          "spanish": "Estás haciendo un trabajo excelente.",
+          "english": "You (informal) are doing an excellent job.",
           "subject": "tú",
           "region": "universal",
           "source": "work_context",

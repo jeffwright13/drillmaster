@@ -10,9 +10,6 @@ HACER	to do/make	tier:1;word-type:verb;verb-type:er;regularity:irregular;yo-form
 PODER	to be able/can	tier:1;word-type:verb;verb-type:er;regularity:irregular;stem-change:o-ue;verb-tense:future:irregular	Modal verb
 QUERER	to want/love	tier:1;word-type:verb;verb-type:er;regularity:irregular;stem-change:e-ie;verb-tense:future:irregular	Essential desire verb
 LLAMARSE	to be called/named	tier:2;word-type:verb;verb-type:ar;regularity:regular;reflexive:true	Essential identity (¿Cómo te llamas?)
-IRSE	to leave/go away	tier:3;word-type:verb;verb-type:ir;regularity:highly-irregular;reflexive:true	From IR (highly irregular)
-NECESITAR	to need	tier:4;word-type:verb;verb-type:ar;regularity:regular	Essential necessity verb
-LLEVAR	to take/carry/wear	tier:4;word-type:verb;verb-type:ar;regularity:regular	Essential transfer/possession verb
 LEVANTARSE	to get up/stand up	tier:2;word-type:verb;verb-type:ar;regularity:regular;reflexive:true	Morning routine essential
 SENTARSE	to sit down	tier:2;word-type:verb;verb-type:ar;regularity:irregular;stem-change:e-ie;reflexive:true	Very common action
 ACOSTARSE	to go to bed	tier:2;word-type:verb;verb-type:ar;regularity:irregular;stem-change:o-ue;reflexive:true	Evening routine essential
@@ -23,6 +20,7 @@ LAVAR	to wash	tier:2;word-type:verb;verb-type:ar;regularity:regular	Essential cl
 PONERSE	to put on/become	tier:2;word-type:verb;verb-type:er;regularity:irregular;yo-form:irregular;verb-tense:preterite:irregular;verb-tense:future:irregular;reflexive:true	From PONER (clothing/state change)
 VESTIRSE	to get dressed	tier:2;word-type:verb;verb-type:ir;regularity:irregular;stem-change:e-i;verb-tense:preterite:stem-change:e-i;reflexive:true	Morning routine essential
 QUEDARSE	to stay/remain	tier:2;word-type:verb;verb-type:ar;regularity:regular;reflexive:true	Very versatile verb
+IRSE	to leave/go away	tier:3;word-type:verb;verb-type:ir;regularity:highly-irregular;reflexive:true	From IR (highly irregular)
 VENIR	to come	tier:3;word-type:verb;verb-type:ir;regularity:irregular;stem-change:e-ie;verb-tense:preterite:irregular;verb-tense:future:irregular	Essential motion verb (pairs with IR)
 PONER	to put/place	tier:3;word-type:verb;verb-type:er;regularity:irregular;yo-form:irregular;verb-tense:preterite:irregular;verb-tense:future:irregular	Essential placement verb
 SALIR	to leave/go out	tier:3;word-type:verb;verb-type:ir;regularity:irregular;yo-form:irregular;verb-tense:future:irregular	Essential motion verb
@@ -33,6 +31,8 @@ SABER	to know	tier:3;word-type:verb;verb-type:er;regularity:irregular;yo-form:ir
 OÍR	to hear	tier:3;word-type:verb;verb-type:ir;regularity:highly-irregular;spelling-change:true	Essential perception verb
 TRAER	to bring	tier:3;word-type:verb;verb-type:er;regularity:irregular;yo-form:irregular;verb-tense:preterite:irregular	Essential transfer verb (pairs with LLEVAR)
 CREER	to believe	tier:3;word-type:verb;verb-type:er;regularity:regular;spelling-change:preterite	Vowel change in preterite
+NECESITAR	to need	tier:4;word-type:verb;verb-type:ar;regularity:regular	Essential necessity verb
+LLEVAR	to take/carry/wear	tier:4;word-type:verb;verb-type:ar;regularity:regular	Essential transfer/possession verb
 PENSAR	to think	tier:4;word-type:verb;verb-type:ar;regularity:irregular;stem-change:e-ie	Essential cognition verb
 ENTENDER	to understand	tier:4;word-type:verb;verb-type:er;regularity:irregular;stem-change:e-ie	Essential comprehension verb
 SENTIR	to feel	tier:4;word-type:verb;verb-type:ir;regularity:irregular;stem-change:e-ie;verb-tense:preterite:stem-change:e-i	Essential emotion verb
