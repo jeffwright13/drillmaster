@@ -21,9 +21,9 @@ npm install
 ✅ **Perfect Grammar**: All sentences have correct subject-verb agreement  
 ✅ **Clear Disambiguation**: "You (informal)" vs "You (formal)" hints  
 ✅ **Mexico/Latin America Spanish**: No vos (Argentina) or vosotros (Spain)  
-✅ **4 Card Types**: Translation EN→ES, ES→EN, Cloze, Conjugation Practice  
+✅ **2 Card Types**: Translation EN→ES, ES→EN (focused, essential practice)  
 ✅ **Pedagogical Structure**: 5 tiers with progressive difficulty  
-✅ **1,834 Total Cards**: Comprehensive coverage across all tiers
+✅ **~1,200 Total Cards**: Ultra-streamlined, focused coverage across all tiers
 
 ### Generate all tiers for Mexico/Latin America:
 <div style="position: relative;">
@@ -70,13 +70,13 @@ node scripts/generate-apkg.js --help
 
 Generated `.apkg` files will be saved in the `./output` directory:
 
-- `DrillMaster-Tier1-Foundations-mexico.apkg` (1,078 cards)
-- `DrillMaster-Tier2-DailyRoutines-mexico.apkg` (252 cards)
-- `DrillMaster-Tier3-IrregularEssentials-mexico.apkg` (198 cards)
-- `DrillMaster-Tier4-Emotional&Cognitive-mexico.apkg` (216 cards)
-- `DrillMaster-Tier5-Gustar-TypeVerbs-mexico.apkg` (90 cards)
+- `DrillMaster-Tier1-Foundations-mexico.apkg` (722 cards)
+- `DrillMaster-Tier2-DailyRoutines-mexico.apkg` (~168 cards)
+- `DrillMaster-Tier3-IrregularEssentials-mexico.apkg` (~132 cards)
+- `DrillMaster-Tier4-Emotional&Cognitive-mexico.apkg` (~144 cards)
+- `DrillMaster-Tier5-Gustar-TypeVerbs-mexico.apkg` (~60 cards)
 
-**Total: 1,834 cards across all tiers**
+**Total: ~1,226 cards across all tiers**
 
 ## Anki Import Instructions
 
@@ -101,11 +101,9 @@ Future regions planned:
 
 ## Card Types
 
-Each tier generates 4 card types:
+Each tier generates 2 essential card types:
 1. **Recognition (ES→EN)** - Spanish to English translation
 2. **Production (EN→ES)** - English to Spanish translation
-3. **Cloze** - Fill-in-the-blank exercises
-4. **Conjugation Practice** - Verb conjugation drills
 
 ## Deck Structure
 
@@ -114,8 +112,7 @@ Decks are organized pedagogically:
 Tier 1: Foundations/
 ├── 01 Present/
 │   ├── A Recognition (ES→EN)
-│   ├── B Production (EN→ES)
-│   └── C Grammar (Cloze & Conjugation)
+│   └── B Production (EN→ES)
 ├── 02 Gerund/
 └── ...
 ```
