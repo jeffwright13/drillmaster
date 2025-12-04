@@ -14,12 +14,13 @@ const path = require('path');
 // Parse command line arguments
 function parseArgs() {
   const args = process.argv.slice(2);
-  const options = { region: 'mexico', tier: null, output: './output' };
+  const options = { region: 'mexico', tier: null, output: './output', all: false };
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--region' && args[i + 1]) { options.region = args[i + 1]; i++; }
     else if (args[i] === '--tier' && args[i + 1]) { options.tier = parseInt(args[i + 1]); i++; }
     else if (args[i] === '--output' && args[i + 1]) { options.output = args[i + 1]; i++; }
+    else if (args[i] === '--all') { options.all = true; }
     else if (args[i] === '--help' || args[i] === '-h') {
       console.log(`
 DrillMaster APKG Generator
@@ -29,6 +30,7 @@ Usage: node scripts/generate-apkg.js [options]
 Options:
   --region <region>   Spanish variant: mexico (default)
   --tier <number>     Generate only specific tier (1-5)
+  --all               Generate single uber-deck with all 5 tiers as subdecks
   --output <path>     Output directory (default: ./output)
   --help, -h          Show this help
       `);
@@ -124,7 +126,7 @@ async function main() {
   
   console.log('\n🎯 DrillMaster APKG Generator\n');
   console.log(`Region: ${options.region}`);
-  console.log(`Tier: ${options.tier || 'all'}`);
+  console.log(`Tier: ${options.all ? 'all (uber-deck)' : (options.tier || 'all (individual)')}`);
   console.log(`Output: ${options.output}\n`);
   
   const regionConfig = regionConfigs[options.region];
@@ -140,21 +142,60 @@ async function main() {
   const outputDir = path.resolve(baseDir, options.output);
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
   
-  const tiersToGenerate = options.tier ? [options.tier] : [1, 2, 3, 4, 5];
-  
-  for (const tierNum of tiersToGenerate) {
-    console.log(`🚀 Generating Tier ${tierNum}: ${TIER_CONFIGS[tierNum].name}...`);
+  if (options.all) {
+    // Generate single uber-deck with all tiers as subdecks
+    console.log('🚀 Generating Complete DrillMaster Collection (All Tiers)...');
     
     const generator = new CardGenerator(conjugations, regionConfig, TIER_CONFIGS, TENSE_MAPPING);
-    const cards = generator.generateTierCards(tierNum, verbs, corpus);
-    console.log(`   Generated ${cards.length} cards`);
+    const allCards = [];
+    let totalCards = 0;
     
-    if (cards.length === 0) { console.log(`   ⚠ Skipping empty tier`); continue; }
+    // Generate cards for all tiers
+    for (let tierNum = 1; tierNum <= 5; tierNum++) {
+      const tierCards = generator.generateTierCards(tierNum, verbs, corpus);
+      console.log(`   Tier ${tierNum}: ${tierCards.length} cards`);
+      
+      // Add tier information to each card for subdeck organization
+      tierCards.forEach(card => {
+        card.tier = tierNum;
+        card.tierName = TIER_CONFIGS[tierNum].name;
+      });
+      
+      allCards.push(...tierCards);
+      totalCards += tierCards.length;
+    }
     
-    const apkgBuffer = await generator.createApkg(tierNum, cards);
-    const filename = `DrillMaster-Tier${tierNum}-${TIER_CONFIGS[tierNum].name.replace(/\s+/g, '')}-${regionConfig.filePrefix}.apkg`;
+    console.log(`   Total: ${totalCards} cards across 5 tiers`);
+    
+    if (totalCards === 0) {
+      console.log('   ⚠ No cards generated');
+      return;
+    }
+    
+    // Create uber-deck APKG
+    const apkgBuffer = await generator.createUberApkg(allCards, regionConfig);
+    const filename = `DrillMaster-Complete-${regionConfig.filePrefix}.apkg`;
     fs.writeFileSync(path.join(outputDir, filename), apkgBuffer);
     console.log(`   ✅ Saved: ${filename}`);
+    
+  } else {
+    // Generate individual tier decks (existing behavior)
+    const tiersToGenerate = options.tier ? [options.tier] : [1, 2, 3, 4, 5];
+    
+    for (const tierNum of tiersToGenerate) {
+      console.log(`🚀 Generating Tier ${tierNum}: ${TIER_CONFIGS[tierNum].name}...`);
+      
+      const generator = new CardGenerator(conjugations, regionConfig, TIER_CONFIGS, TENSE_MAPPING);
+      const cards = generator.generateTierCards(tierNum, verbs, corpus);
+      console.log(`   Generated ${cards.length} cards`);
+      
+      if (cards.length === 0) { console.log(`   ⚠ Skipping empty tier`); continue; }
+      
+      const apkgBuffer = await generator.createApkg(tierNum, cards);
+      const filename = `DrillMaster-Tier${tierNum}-${TIER_CONFIGS[tierNum].name.replace(/\s+/g, '')}-${regionConfig.filePrefix}.apkg`;
+      fs.writeFileSync(path.join(outputDir, filename), apkgBuffer);
+      console.log(`   ✅ Saved: ${filename}`);
+    }
   }
   
   console.log('\n✨ Done!\n');
