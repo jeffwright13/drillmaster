@@ -3,8 +3,20 @@
  * CLI script to generate DrillMaster .apkg files
  * 
  * Usage:
+ *   # Generate all 5 tiers as separate .apkg files:
  *   node scripts/generate-apkg.js --region mexico
+ * 
+ *   # Generate a single tier:
  *   node scripts/generate-apkg.js --region mexico --tier 1
+ *   node scripts/generate-apkg.js --region mexico --tier 2
+ *   node scripts/generate-apkg.js --region mexico --tier 3
+ *   node scripts/generate-apkg.js --region mexico --tier 4
+ *   node scripts/generate-apkg.js --region mexico --tier 5
+ * 
+ *   # Generate uber-deck (all 5 tiers as subdecks in one .apkg):
+ *   node scripts/generate-apkg.js --region mexico --tier all
+ * 
+ *   # Custom output directory:
  *   node scripts/generate-apkg.js --region mexico --output ./dist
  */
 
@@ -14,14 +26,17 @@ const path = require('path');
 // Parse command line arguments
 function parseArgs() {
   const args = process.argv.slice(2);
-  const options = { region: 'mexico', tier: null, output: './output', all: false };
+  const options = { region: 'mexico', tier: null, output: './output' };
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--region' && args[i + 1]) { options.region = args[i + 1]; i++; }
-    else if (args[i] === '--tier' && args[i + 1]) { options.tier = parseInt(args[i + 1]); i++; }
+    else if (args[i] === '--tier' && args[i + 1]) {
+      const tierArg = args[i + 1];
+      options.tier = tierArg === 'all' ? 'all' : parseInt(tierArg);
+      i++;
+    }
     else if (args[i] === '--output' && args[i + 1]) { options.output = args[i + 1]; i++; }
-    else if (args[i] === '--all') { options.all = true; }
-    else if (args[i] === '--help' || args[i] === '-h') {
+        else if (args[i] === '--help' || args[i] === '-h') {
       console.log(`
 DrillMaster APKG Generator
 
@@ -29,8 +44,7 @@ Usage: node scripts/generate-apkg.js [options]
 
 Options:
   --region <region>   Spanish variant: mexico (default)
-  --tier <number>     Generate only specific tier (1-5)
-  --all               Generate single uber-deck with all 5 tiers as subdecks
+  --tier <1-5|all>    Generate specific tier, or 'all' for uber-deck with all tiers as subdecks
   --output <path>     Output directory (default: ./output)
   --help, -h          Show this help
       `);
@@ -126,7 +140,7 @@ async function main() {
   
   console.log('\n🎯 DrillMaster APKG Generator\n');
   console.log(`Region: ${options.region}`);
-  console.log(`Tier: ${options.all ? 'all (uber-deck)' : (options.tier || 'all (individual)')}`);
+  console.log(`Tier: ${options.tier === 'all' ? 'all (uber-deck)' : (options.tier || 'all (individual)')}`);
   console.log(`Output: ${options.output}\n`);
   
   const regionConfig = regionConfigs[options.region];
@@ -142,7 +156,7 @@ async function main() {
   const outputDir = path.resolve(baseDir, options.output);
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
   
-  if (options.all) {
+  if (options.tier === 'all') {
     // Generate single uber-deck with all tiers as subdecks
     console.log('🚀 Generating Complete DrillMaster Collection (All Tiers)...');
     
@@ -180,7 +194,7 @@ async function main() {
     
   } else {
     // Generate individual tier decks (existing behavior)
-    const tiersToGenerate = options.tier ? [options.tier] : [1, 2, 3, 4, 5];
+    const tiersToGenerate = options.tier && options.tier !== 'all' ? [options.tier] : [1, 2, 3, 4, 5];
     
     for (const tierNum of tiersToGenerate) {
       console.log(`🚀 Generating Tier ${tierNum}: ${TIER_CONFIGS[tierNum].name}...`);
