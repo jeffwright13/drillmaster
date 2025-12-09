@@ -1,6 +1,6 @@
 {
   "name": "drillmaster",
-  "version": "1.0.0",
+  "version": "3.3.0",
   "description": "Spanish verb conjugation flashcard generator for Anki",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "generate:mexico:tier3": "node scripts/generate-apkg.js --region mexico --tier 3",
     "generate:mexico:tier4": "node scripts/generate-apkg.js --region mexico --tier 4",
     "generate:mexico:tier5": "node scripts/generate-apkg.js --region mexico --tier 5",
-    "generate:all": "node scripts/generate-apkg.js --region mexico --tier all",
+    "generate:all": "node scripts/generate-apkg.js --tier 1-5,all",
     "dev": "python3 -m http.server 8080"
   },
   "dependencies": {

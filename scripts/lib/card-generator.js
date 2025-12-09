@@ -453,8 +453,9 @@ class CardGenerator {
         const fields = [card.front || '', card.back || ''];
         const fieldsText = fields.join('\x1f');
         const checksum = this.generateChecksum(fieldsText);
+        const ankiTags = card.tags ? ` ${card.tags.replace(/;/g, ' ')} ` : '';
         
-        db.exec(`INSERT INTO notes (id, guid, mid, mod, usn, tags, flds, sfld, csum, flags, data) VALUES (${noteId}, '${guid}', ${noteTypeId}, ${Math.floor(now / 1000)}, 0, '', '${fieldsText.replace(/'/g, "''")}', '${(fields[0] || '').replace(/'/g, "''")}', ${checksum}, 0, '')`);
+        db.exec(`INSERT INTO notes (id, guid, mid, mod, usn, tags, flds, sfld, csum, flags, data) VALUES (${noteId}, '${guid}', ${noteTypeId}, ${Math.floor(now / 1000)}, 0, '${ankiTags}', '${fieldsText.replace(/'/g, "''")}', '${(fields[0] || '').replace(/'/g, "''")}', ${checksum}, 0, '')`);
         db.exec(`INSERT INTO cards (id, nid, did, ord, mod, usn, type, queue, due, ivl, factor, reps, lapses, left, odue, odid, flags, data) VALUES (${cardId}, ${noteId}, ${subdeck.id}, 0, ${Math.floor(now / 1000)}, 0, 0, 0, ${cardId}, 0, 2500, 0, 0, 0, 0, 0, 0, '')`);
         
         noteId++;
@@ -620,8 +621,9 @@ class CardGenerator {
         const fields = [card.front || '', card.back || ''];
         const fieldsText = fields.join('\x1f');
         const checksum = this.generateChecksum(fieldsText);
+        const ankiTags = card.tags ? ` ${card.tags.replace(/;/g, ' ')} ` : '';
         
-        db.exec(`INSERT INTO notes (id, guid, mid, mod, usn, tags, flds, sfld, csum, flags, data) VALUES (${noteId}, '${guid}', ${noteTypeId}, ${Math.floor(now / 1000)}, 0, '', '${fieldsText.replace(/'/g, "''")}', '${(fields[0] || '').replace(/'/g, "''")}', ${checksum}, 0, '')`);
+        db.exec(`INSERT INTO notes (id, guid, mid, mod, usn, tags, flds, sfld, csum, flags, data) VALUES (${noteId}, '${guid}', ${noteTypeId}, ${Math.floor(now / 1000)}, 0, '${ankiTags}', '${fieldsText.replace(/'/g, "''")}', '${(fields[0] || '').replace(/'/g, "''")}', ${checksum}, 0, '')`);
         db.exec(`INSERT INTO cards (id, nid, did, ord, mod, usn, type, queue, due, ivl, factor, reps, lapses, left, odue, odid, flags, data) VALUES (${cardId}, ${noteId}, ${subdeck.id}, 0, ${Math.floor(now / 1000)}, 0, 0, 0, ${cardId}, 0, 2500, 0, 0, 0, 0, 0, 0, '')`);
         
         noteId++;
