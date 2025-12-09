@@ -3140,7 +3140,7 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Estoy conociendo gente nueva.",
+          "spanish": "conozco gente nueva.",
           "english": "I am meeting new people.",
           "subject": "yo",
           "source": "social_networking",
@@ -3156,7 +3156,7 @@
           ]
         },
         {
-          "spanish": "Está conociendo la cultura.",
+          "spanish": "conoce la cultura.",
           "english": "He/She is getting to know the culture.",
           "subject": "él",
           "source": "cultural_learning",
@@ -3172,7 +3172,7 @@
           ]
         },
         {
-          "spanish": "Estoy conociendo gente nueva.",
+          "spanish": "conozco gente nueva.",
           "english": "I am meeting new people.",
           "subject": "yo",
           "source": "social_networking",
@@ -3188,7 +3188,7 @@
           ]
         },
         {
-          "spanish": "Está conociendo la cultura.",
+          "spanish": "conoce la cultura.",
           "english": "He/She is getting to know the culture.",
           "subject": "él",
           "source": "cultural_learning",
@@ -4027,7 +4027,7 @@
       "future": [],
       "present-progressive": [
         {
-          "spanish": "Estoy necesitando apoyo.",
+          "spanish": "necesito apoyo.",
           "english": "I am needing support.",
           "subject": "yo",
           "source": "support_need",
@@ -4043,7 +4043,7 @@
           ]
         },
         {
-          "spanish": "Está necesitando atención.",
+          "spanish": "necesita atención.",
           "english": "He/She is needing attention.",
           "subject": "él",
           "source": "attention_need",
@@ -4059,7 +4059,7 @@
           ]
         },
         {
-          "spanish": "Estoy necesitando apoyo.",
+          "spanish": "necesito apoyo.",
           "english": "I am needing support.",
           "subject": "yo",
           "source": "support_need",
@@ -4075,7 +4075,7 @@
           ]
         },
         {
-          "spanish": "Está necesitando atención.",
+          "spanish": "necesita atención.",
           "english": "He/She is needing attention.",
           "subject": "él",
           "source": "attention_need",

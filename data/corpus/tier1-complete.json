@@ -2,7 +2,7 @@
   "metadata": {
     "tier": 1,
     "description": "Most essential Spanish verbs - fundamental for basic communication",
-    "verb_count": 10,
+    "verb_count": 11,
     "sentence_count": 550,
     "tenses": [
       "present",
@@ -25,7 +25,9 @@
       "universal",
       "argentina",
       "spain"
-    ]
+    ],
+    "last_updated": "2025-12-06T05:53:19.566Z",
+    "total_sentences": 593
   },
   "verbs": {
     "HABLAR": {
@@ -105,7 +107,7 @@
           ]
         },
         {
-          "spanish": "Ellos hablan en la clase.",
+          "spanish": "Ellos hablan en clase.",
           "english": "They speak in class.",
           "subject": "ellos",
           "source": "classroom_activity",
@@ -121,7 +123,7 @@
           ]
         },
         {
-          "spanish": "Usted habla muy claro.",
+          "spanish": "Usted habla muy claramente.",
           "english": "You (formal) speak very clearly.",
           "subject": "usted",
           "source": "clear_communication",
@@ -299,7 +301,7 @@
           ]
         },
         {
-          "spanish": "Usted habló muy claro.",
+          "spanish": "Usted habló muy claramente.",
           "english": "You (formal) spoke very clearly.",
           "subject": "usted",
           "source": "clear_communication",
@@ -2635,8 +2637,8 @@
           ]
         },
         {
-          "spanish": "Estamos viviendo una experiencia increíble.",
-          "english": "We are living an incredible experience.",
+          "spanish": "Estamos viviendo en tiempos locos.",
+          "english": "We are living in crazy times.",
           "subject": "nosotros",
           "source": "life_experience",
           "region": "universal",
@@ -6227,7 +6229,7 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Está tomando pizza napolitana para el almuerzo.",
+          "spanish": "está comiendo pizza napolitana para el almuerzo.",
           "english": "He is having Neapolitan pizza for lunch.",
           "subject": "él",
           "region": "universal",
@@ -6252,7 +6254,7 @@
           }
         },
         {
-          "spanish": "Está teniendo un bebé pronto.",
+          "spanish": "tiene un bebé pronto.",
           "english": "She is having a baby soon.",
           "subject": "ella",
           "region": "universal",
@@ -6277,7 +6279,7 @@
           }
         },
         {
-          "spanish": "Estoy teniendo un buen día.",
+          "spanish": "tengo un buen día.",
           "english": "I am having a good day.",
           "subject": "yo",
           "source": "positive_experience",
@@ -6293,7 +6295,7 @@
           ]
         },
         {
-          "spanish": "Estás teniendo problemas.",
+          "spanish": "tienes problemas.",
           "english": "You (informal) are having problems.",
           "subject": "tú",
           "source": "difficulty_situation",
@@ -6309,15 +6311,15 @@
           ]
         },
         {
-          "spanish": "Ella está teniendo una reunión.",
-          "english": "She is having a meeting.",
-          "subject": "ella",
-          "source": "business_meeting",
+          "spanish": "Él está teniendo un buen día.",
+          "english": "He is having a good day.",
+          "subject": "él",
+          "source": "daily_experience",
           "region": "universal",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:ella",
+            "subject:él",
             "tense:present-progressive",
             "tier:1",
             "verb-type:ar",
@@ -6325,7 +6327,7 @@
           ]
         },
         {
-          "spanish": "Él está teniendo suerte.",
+          "spanish": "Él tiene suerte.",
           "english": "He is having luck.",
           "subject": "él",
           "source": "fortunate_situation",
@@ -6341,10 +6343,10 @@
           ]
         },
         {
-          "spanish": "Estamos teniendo una fiesta.",
-          "english": "We are having a party.",
+          "spanish": "Estamos teniendo problemas ahora mismo.",
+          "english": "We are having problems right now.",
           "subject": "nosotros",
-          "source": "celebration",
+          "source": "current_difficulties",
           "region": "universal",
           "tags": [
             "region:universal",
@@ -6357,15 +6359,15 @@
           ]
         },
         {
-          "spanish": "Usted está teniendo éxito.",
-          "english": "You (formal) are having success.",
-          "subject": "usted",
-          "source": "achievement",
+          "spanish": "¿Estás teniendo algún éxito?",
+          "english": "Are you having any success?",
+          "subject": "tú",
+          "source": "progress_inquiry",
           "region": "universal",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:usted",
+            "subject:tú",
             "tense:present-progressive",
             "tier:1",
             "verb-type:ar",
@@ -6373,7 +6375,7 @@
           ]
         },
         {
-          "spanish": "Estáis teniendo una conversación.",
+          "spanish": "tenéis una conversación.",
           "english": "You all are having a conversation.",
           "subject": "vosotros",
           "source": "group_discussion",
@@ -6389,7 +6391,7 @@
           ]
         },
         {
-          "spanish": "Ellos están teniendo dificultades.",
+          "spanish": "Ellos tienen dificultades.",
           "english": "They are having difficulties.",
           "subject": "ellos",
           "source": "challenging_time",
@@ -6405,7 +6407,7 @@
           ]
         },
         {
-          "spanish": "Ustedes están teniendo una experiencia única.",
+          "spanish": "Ustedes tienen una experiencia única.",
           "english": "You all are having a unique experience.",
           "subject": "ustedes",
           "source": "special_moment",
@@ -8551,7 +8553,7 @@
           ]
         },
         {
-          "spanish": "Haces deporte.",
+          "spanish": "Haces deportes.",
           "english": "You (informal) do sports.",
           "subject": "tú",
           "source": "physical_activity",
@@ -8811,7 +8813,7 @@
           ]
         },
         {
-          "spanish": "Ellos hicieron deporte.",
+          "spanish": "Ellos hicieron deportes.",
           "english": "They did sports.",
           "subject": "ellos",
           "source": "sports_activity",
@@ -8973,7 +8975,7 @@
           ]
         },
         {
-          "spanish": "Haréis deporte.",
+          "spanish": "Haréis deportes.",
           "english": "You all will do sports.",
           "subject": "vosotros",
           "source": "sports_plan",
@@ -9153,7 +9155,7 @@
           ]
         },
         {
-          "spanish": "Ellos están haciendo deporte.",
+          "spanish": "Ellos están haciendo deportes.",
           "english": "They are doing sports.",
           "subject": "ellos",
           "source": "sports_activity",
@@ -9364,7 +9366,7 @@
           ]
         },
         {
-          "spanish": "Vais a hacer deporte.",
+          "spanish": "Vais a hacer deportes.",
           "english": "You all are going to do sports.",
           "subject": "vosotros",
           "source": "sports_plan",
@@ -9535,7 +9537,7 @@
           ]
         },
         {
-          "spanish": "Ellos han hecho deporte.",
+          "spanish": "Ellos han hecho deportes.",
           "english": "They have done sports.",
           "subject": "ellos",
           "source": "sports_participation",
@@ -9548,6 +9550,493 @@
             "tier:1",
             "verb-type:ar",
             "word-type:verb"
+          ]
+        }
+      ]
+    },
+    "TOMAR": {
+      "present": [
+        {
+          "spanish": "Yo tomo café todas las mañanas.",
+          "english": "I drink coffee every morning.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "routine"
+          ]
+        },
+        {
+          "spanish": "Tú tomas agua durante el ejercicio.",
+          "english": "You (informal) drink water during exercise.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "health"
+          ]
+        },
+        {
+          "spanish": "Él toma vino tinto con la cena.",
+          "english": "He drinks red wine with dinner.",
+          "subject": "él",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "meals"
+          ]
+        },
+        {
+          "spanish": "Ella toma té verde por la tarde.",
+          "english": "She drinks green tea in the afternoon.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "routine"
+          ]
+        },
+        {
+          "spanish": "Usted toma jugo de naranja en el desayuno.",
+          "english": "You (formal) drink orange juice at breakfast.",
+          "subject": "usted",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "meals"
+          ]
+        },
+        {
+          "spanish": "Nosotros tomamos cerveza los viernes.",
+          "english": "We drink beer on Fridays.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "social"
+          ]
+        },
+        {
+          "spanish": "Ellos toman refrescos en la fiesta.",
+          "english": "They drink sodas at the party.",
+          "subject": "ellos",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "social"
+          ]
+        },
+        {
+          "spanish": "Ustedes toman leche con las galletas.",
+          "english": "You all drink milk with the cookies.",
+          "subject": "ustedes",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "snacks"
+          ]
+        },
+        {
+          "spanish": "Yo tomo el autobús para ir al trabajo.",
+          "english": "I take the bus to go to work.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "work"
+          ]
+        },
+        {
+          "spanish": "Tú tomas el metro todos los días.",
+          "english": "You (informal) take the subway every day.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "routine"
+          ]
+        },
+        {
+          "spanish": "Él toma un taxi cuando llueve.",
+          "english": "He takes a taxi when it rains.",
+          "subject": "él",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "weather"
+          ]
+        },
+        {
+          "spanish": "Nosotros tomamos el tren a la ciudad.",
+          "english": "We take the train to the city.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "travel"
+          ]
+        },
+        {
+          "spanish": "Yo tomo clases de español los lunes.",
+          "english": "I take Spanish classes on Mondays.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "education",
+            "schedule"
+          ]
+        },
+        {
+          "spanish": "Ella toma un curso de cocina.",
+          "english": "She takes a cooking course.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "education",
+            "hobbies"
+          ]
+        },
+        {
+          "spanish": "Ellos toman lecciones de piano.",
+          "english": "They take piano lessons.",
+          "subject": "ellos",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "education",
+            "music"
+          ]
+        },
+        {
+          "spanish": "Yo tomo vitaminas cada mañana.",
+          "english": "I take vitamins every morning.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "health",
+            "routine"
+          ]
+        },
+        {
+          "spanish": "Él toma medicina para el dolor de cabeza.",
+          "english": "He takes medicine for the headache.",
+          "subject": "él",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "health",
+            "medicine"
+          ]
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Yo estoy tomando café ahora.",
+          "english": "I am drinking coffee now.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "current"
+          ]
+        },
+        {
+          "spanish": "Tú estás tomando agua fría.",
+          "english": "You (informal) are drinking cold water.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "temperature"
+          ]
+        },
+        {
+          "spanish": "Ella está tomando té caliente.",
+          "english": "She is drinking hot tea.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "temperature"
+          ]
+        },
+        {
+          "spanish": "Nosotros estamos tomando vino en la cena.",
+          "english": "We are drinking wine at dinner.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "meals"
+          ]
+        },
+        {
+          "spanish": "Yo estoy tomando el autobús a casa.",
+          "english": "I am taking the bus home.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "home"
+          ]
+        },
+        {
+          "spanish": "Ellos están tomando un taxi al aeropuerto.",
+          "english": "They are taking a taxi to the airport.",
+          "subject": "ellos",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "travel"
+          ]
+        },
+        {
+          "spanish": "Ella está tomando clases de baile.",
+          "english": "She is taking dance classes.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "education",
+            "dance"
+          ]
+        },
+        {
+          "spanish": "Nosotros estamos tomando el sol en la playa.",
+          "english": "We are sunbathing at the beach.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "leisure",
+            "beach"
+          ]
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Yo voy a tomar café después del almuerzo.",
+          "english": "I am going to drink coffee after lunch.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "future"
+          ]
+        },
+        {
+          "spanish": "Tú vas a tomar agua antes del ejercicio.",
+          "english": "You (informal) are going to drink water before exercise.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "health"
+          ]
+        },
+        {
+          "spanish": "Ella va a tomar té con sus amigas.",
+          "english": "She is going to drink tea with her friends.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "social"
+          ]
+        },
+        {
+          "spanish": "Nosotros vamos a tomar el tren mañana.",
+          "english": "We are going to take the train tomorrow.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "future"
+          ]
+        },
+        {
+          "spanish": "Ellos van a tomar un taxi al hotel.",
+          "english": "They are going to take a taxi to the hotel.",
+          "subject": "ellos",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "travel"
+          ]
+        },
+        {
+          "spanish": "Yo voy a tomar clases de guitarra.",
+          "english": "I am going to take guitar classes.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "education",
+            "music"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Yo tomé café esta mañana.",
+          "english": "I drank coffee this morning.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "past"
+          ]
+        },
+        {
+          "spanish": "Tú tomaste agua después del ejercicio.",
+          "english": "You (informal) drank water after exercise.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "health"
+          ]
+        },
+        {
+          "spanish": "Él tomó vino en la cena de ayer.",
+          "english": "He drank wine at yesterday's dinner.",
+          "subject": "él",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "past"
+          ]
+        },
+        {
+          "spanish": "Nosotros tomamos el autobús ayer.",
+          "english": "We took the bus yesterday.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "past"
+          ]
+        },
+        {
+          "spanish": "Ellas tomaron un taxi al aeropuerto.",
+          "english": "They (women) took a taxi to the airport.",
+          "subject": "ellas",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "travel"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Yo he tomado mucho café hoy.",
+          "english": "I have drunk a lot of coffee today.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "quantity"
+          ]
+        },
+        {
+          "spanish": "Tú has tomado suficiente agua.",
+          "english": "You (informal) have drunk enough water.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "health"
+          ]
+        },
+        {
+          "spanish": "Nosotros hemos tomado el metro muchas veces.",
+          "english": "We have taken the subway many times.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "experience"
+          ]
+        },
+        {
+          "spanish": "Ella ha tomado clases de francés.",
+          "english": "She has taken French classes.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "education",
+            "languages"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Yo tomaré café después de la reunión.",
+          "english": "I will drink coffee after the meeting.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "future"
+          ]
+        },
+        {
+          "spanish": "Tú tomarás agua durante el viaje.",
+          "english": "You (informal) will drink water during the trip.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "beverages",
+            "travel"
+          ]
+        },
+        {
+          "spanish": "Nosotros tomaremos el tren la próxima semana.",
+          "english": "We will take the train next week.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "pedagogical",
+          "tags": [
+            "transportation",
+            "future"
           ]
         }
       ]

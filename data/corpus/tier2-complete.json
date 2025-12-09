@@ -5174,7 +5174,7 @@
       ],
       "present-progressive": [
         {
-          "spanish": "Estoy sabiendo más.",
+          "spanish": "sé más.",
           "english": "I am learning more.",
           "subject": "yo",
           "source": "learning_process",
@@ -5190,7 +5190,7 @@
           ]
         },
         {
-          "spanish": "Está sabiendo la verdad.",
+          "spanish": "sabe la verdad.",
           "english": "He/She is finding out the truth.",
           "subject": "él",
           "source": "truth_discovery",

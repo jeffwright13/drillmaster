@@ -72,6 +72,23 @@ const SPANISH_CORRECTIONS = [
     description: 'Fix "estoy teniendo" → "tengo" (stative verbs)'
   },
   {
+    // "Está tomando pizza" → "Está comiendo pizza" (food items)
+    pattern: /\b(estoy|estás|está|estamos|estáis|están)\s+tomando\s+(pizza|hamburguesa|sándwich|sandwich|tacos?|burrito|quesadilla|comida|almuerzo|cena|desayuno)\b/gi,
+    replacement: (match, estar, food) => {
+      const comerForms = {
+        'estoy': 'estoy comiendo',
+        'estás': 'estás comiendo',
+        'está': 'está comiendo',
+        'estamos': 'estamos comiendo',
+        'estáis': 'estáis comiendo',
+        'están': 'están comiendo'
+      };
+      const comerForm = comerForms[estar.toLowerCase()];
+      return `${comerForm} ${food}`;
+    },
+    description: 'Fix "está tomando pizza" → "está comiendo pizza" (food items)'
+  },
+  {
     // Keep natural progressive forms (actions in progress)
     pattern: /\b(estoy|estás|está|estamos|estáis|están)\s+(hablando|comiendo|trabajando|estudiando|leyendo|escribiendo|corriendo|caminando|durmiendo)\b/gi,
     replacement: '$1 $2',

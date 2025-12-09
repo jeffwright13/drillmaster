@@ -53,10 +53,8 @@ All design and planning documents are in [`docs/phase1/`](docs/phase1/)
 ## Key Features (Phase 1)
 
 ### Card Types
-- ✅ **Cloze Deletion**: Spanish sentence with verb blanked out
 - ✅ **Translation (ES→EN)**: Spanish sentence → English translation
 - ✅ **Translation (EN→ES)**: English sentence → Spanish translation
-- ✅ **Conjugation Drill**: Infinitive + tense/subject → conjugated form
 
 ### Verb Selection
 - ✅ Filter by tier (1-4)

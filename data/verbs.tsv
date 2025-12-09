@@ -9,6 +9,7 @@ IR	to go	tier:1;word-type:verb;verb-type:ir;regularity:highly-irregular	Essentia
 HACER	to do/make	tier:1;word-type:verb;verb-type:er;regularity:irregular;yo-form:irregular;verb-tense:preterite:irregular;verb-tense:future:irregular	Very common action verb
 PODER	to be able/can	tier:1;word-type:verb;verb-type:er;regularity:irregular;stem-change:o-ue;verb-tense:future:irregular	Modal verb
 QUERER	to want/love	tier:1;word-type:verb;verb-type:er;regularity:irregular;stem-change:e-ie;verb-tense:future:irregular	Essential desire verb
+TOMAR	to take/drink	tier:1;word-type:verb;verb-type:ar;regularity:regular	Essential verb: beverages, transportation, classes, medicine
 LLAMARSE	to be called/named	tier:2;word-type:verb;verb-type:ar;regularity:regular;reflexive:true	Essential identity (¿Cómo te llamas?)
 LEVANTARSE	to get up/stand up	tier:2;word-type:verb;verb-type:ar;regularity:regular;reflexive:true	Morning routine essential
 SENTARSE	to sit down	tier:2;word-type:verb;verb-type:ar;regularity:irregular;stem-change:e-ie;reflexive:true	Very common action

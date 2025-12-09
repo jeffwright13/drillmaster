@@ -14,11 +14,17 @@
     "dev": "python3 -m http.server 8080"
   },
   "dependencies": {
-    "verbo": "^0.0.9",
-    "sql.js": "^1.8.0",
-    "jszip": "^3.10.1"
+    "jszip": "^3.10.1",
+    "sql.js": "^1.13.0",
+    "verbo": "^0.0.9"
   },
-  "keywords": ["spanish", "verbs", "conjugation", "anki", "flashcards"],
+  "keywords": [
+    "spanish",
+    "verbs",
+    "conjugation",
+    "anki",
+    "flashcards"
+  ],
   "author": "DrillMaster",
   "license": "MIT"
 }
