@@ -11,10 +11,16 @@
     "generate:mexico:tier4": "node scripts/generate-apkg.js --region mexico --tier 4",
     "generate:mexico:tier5": "node scripts/generate-apkg.js --region mexico --tier 5",
     "generate:all": "node scripts/generate-apkg.js --tier 1-5,all",
+    "audio:tier1": "node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier1-complete.json",
+    "audio:tier2": "node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier2-complete.json",
+    "audio:tier3": "node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier3-complete.json",
+    "audio:tier4": "node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier4-complete.json",
+    "audio:tier5": "node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier5-complete.json",
     "dev": "python3 -m http.server 8080"
   },
   "dependencies": {
     "jszip": "^3.10.1",
+    "openai": "^4.73.0",
     "sql.js": "^1.13.0",
     "verbo": "^0.0.9"
   },

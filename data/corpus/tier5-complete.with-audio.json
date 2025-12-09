@@ -1,0 +1,2199 @@
+{
+  "metadata": {
+    "tier": 5,
+    "description": "Gustar-type verbs with special indirect object construction",
+    "verb_count": 7,
+    "sentence_count": 97,
+    "tenses": [
+      "present",
+      "present-progressive",
+      "going-to",
+      "preterite",
+      "present-perfect",
+      "future"
+    ],
+    "subjects": [
+      "yo",
+      "tú",
+      "vos",
+      "él/ella/usted",
+      "nosotros",
+      "vosotros",
+      "ellos/ellas/ustedes"
+    ],
+    "regions": [
+      "universal",
+      "argentina",
+      "spain"
+    ]
+  },
+  "verbs": {
+    "GUSTAR": {
+      "metadata": {
+        "english": "to like/please",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Te gusta la música clásica más que el rock.",
+          "english": "You (informal) like classical music more than rock.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "music_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier5_GUSTAR_present_0001.mp3"
+        },
+        {
+          "spanish": "Te gustan los deportes acuáticos en verano.",
+          "english": "You like water sports in summer.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "summer_activities",
+          "tags": [
+            "region:argentina",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:vos",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier5_GUSTAR_present_0002.mp3"
+        },
+        {
+          "spanish": "Nos gusta viajar a lugares exóticos.",
+          "english": "We like traveling to exotic places.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "travel_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:nosotros",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier5_GUSTAR_present_0003.mp3"
+        },
+        {
+          "spanish": "Me gusta el chocolate.",
+          "english": "I like chocolate.",
+          "subject": "me",
+          "source": "chocolate_preference",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ],
+          "audio": "tier5_GUSTAR_present_0004.mp3"
+        },
+        {
+          "spanish": "Te gustan los deportes.",
+          "english": "You (informal) like sports.",
+          "subject": "te",
+          "source": "sports_preference",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ],
+          "audio": "tier5_GUSTAR_present_0005.mp3"
+        },
+        {
+          "spanish": "Le gusta viajar.",
+          "english": "He/She likes to travel.",
+          "subject": "le",
+          "source": "travel_preference",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Te gustó la comida del restaurante italiano.",
+          "english": "You (informal) liked the food at the Italian restaurant.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "dining_experience",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Me gustó mucho la película que vimos anoche.",
+          "english": "I really liked the movie we saw last night.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "entertainment_review",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustó el regalo que le dimos.",
+          "english": "He liked the gift we gave him/her.",
+          "subject": "él",
+          "region": "universal",
+          "source": "gift_appreciation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:él",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te gustará la nueva casa cuando la veas.",
+          "english": "You (informal) will like the new house when you (informal) see it.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "house_preview",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustará el nuevo trabajo en la empresa.",
+          "english": "He will like the new job at the company.",
+          "subject": "él",
+          "region": "universal",
+          "source": "job_satisfaction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:él",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le gustará el nuevo trabajo en la empresa.",
+          "english": "She will like the new job at the company.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "job_satisfaction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:ella",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [
+        {
+          "spanish": "Te va a gustar mucho.",
+          "english": "You're going to like it a lot.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "va",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "preference",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:preference",
+            "roi:high"
+          ]
+        },
+        {
+          "spanish": "Me va a gustar la película.",
+          "english": "I am going to like the movie.",
+          "subject": "me",
+          "source": "movie_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te van a gustar mis amigos.",
+          "english": "You (informal) are going to like my friends.",
+          "subject": "te",
+          "source": "friend_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Me ha gustado mucho el libro.",
+          "english": "I have really liked the book.",
+          "subject": "me",
+          "source": "book_enjoyment",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le han gustado las clases.",
+          "english": "He/She has liked the classes.",
+          "subject": "le",
+          "source": "class_enjoyment",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ]
+    },
+    "DOLER": {
+      "metadata": {
+        "english": "to hurt/ache",
+        "verb_type": "er",
+        "regularity": "irregular",
+        "stem_change": "o-ue",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me duele la cabeza después de trabajar.",
+          "english": "My head hurts after working.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "health_complaint",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te duelen los pies después de caminar.",
+          "english": "Your feet hurt after walking.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "physical_discomfort",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le duele el estómago por comer mucho.",
+          "english": "His stomach hurts from eating too much.",
+          "subject": "él",
+          "region": "universal",
+          "source": "digestive_issue",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:él",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Me duele la cabeza.",
+          "english": "My head hurts.",
+          "subject": "me",
+          "source": "headache",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:me",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te duelen los pies.",
+          "english": "Your feet hurt.",
+          "subject": "te",
+          "source": "foot_pain",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:te",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le duele el estómago.",
+          "english": "His/Her stomach hurts.",
+          "subject": "le",
+          "source": "stomach_pain",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:le",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me dolió mucho la espalda ayer.",
+          "english": "My back hurt a lot yesterday.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "past_pain",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te dolerá la garganta si gritas mucho.",
+          "english": "Your throat will hurt if you (informal) shout a lot.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "future_consequence",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "stem-change:o-ue",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [
+        {
+          "spanish": "Me va a doler la espalda.",
+          "english": "My back is going to hurt.",
+          "subject": "me",
+          "source": "back_pain_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:me",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te van a doler las piernas.",
+          "english": "Your legs are going to hurt.",
+          "subject": "te",
+          "source": "leg_pain_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:te",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Me ha dolido todo el día.",
+          "english": "It has hurt me all day.",
+          "subject": "me",
+          "source": "all_day_pain",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:me",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le han dolido los ojos.",
+          "english": "His/Her eyes have hurt.",
+          "subject": "le",
+          "source": "eye_pain",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:le",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ]
+    },
+    "ENCANTAR": {
+      "metadata": {
+        "english": "to love/enchant",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me encanta la música clásica.",
+          "english": "I love classical music.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "music_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te encantan los libros de aventuras.",
+          "english": "You (informal) love adventure books.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "reading_preference",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Me encanta la música.",
+          "english": "I love music.",
+          "subject": "me",
+          "source": "music_love",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te encantan las flores.",
+          "english": "You (informal) love flowers.",
+          "subject": "te",
+          "source": "flower_love",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le encanta cocinar.",
+          "english": "He/She loves to cook.",
+          "subject": "le",
+          "source": "cooking_love",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me encantó la película que vimos anoche.",
+          "english": "I loved the movie we saw last night.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "entertainment_review",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te encantará el nuevo restaurante italiano.",
+          "english": "You (informal) will love the new Italian restaurant.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "dining_prediction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [
+        {
+          "spanish": "Le va a encantar el regalo.",
+          "english": "He/She is going to love the gift.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "va",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "appreciation",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:appreciation",
+            "roi:high"
+          ]
+        },
+        {
+          "spanish": "Me va a encantar París.",
+          "english": "I am going to love Paris.",
+          "subject": "me",
+          "source": "paris_love_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te van a encantar mis padres.",
+          "english": "You (informal) are going to love my parents.",
+          "subject": "te",
+          "source": "parent_love_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Me ha encantado conocerte.",
+          "english": "I have loved meeting you.",
+          "subject": "me",
+          "source": "meeting_joy",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le han encantado los regalos.",
+          "english": "He/She has loved the gifts.",
+          "subject": "le",
+          "source": "gift_love",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ]
+    },
+    "MOLESTAR": {
+      "metadata": {
+        "english": "to bother/annoy",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me molesta el ruido de la construcción.",
+          "english": "The construction noise bothers me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "noise_complaint",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te molestan las interrupciones durante el trabajo.",
+          "english": "Interruptions during work bother you (informal).",
+          "subject": "tú",
+          "region": "universal",
+          "source": "work_irritation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Me molesta cuando hacen ruido tan temprano.",
+          "english": "It bothers me when they make noise so early.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "emotions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:molestar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "¿Te molesta si prendo la tele?",
+          "english": "Does it bother you if I turn on the TV?",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "emotions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:molestar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "A ella le molesta que no la escuches.",
+          "english": "It annoys her that you don't listen to her.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "emotions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:molestar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "Me molesta el ruido.",
+          "english": "The noise bothers me.",
+          "subject": "me",
+          "source": "noise_annoyance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te molestan las interrupciones.",
+          "english": "Interruptions bother you (informal).",
+          "subject": "te",
+          "source": "interruption_annoyance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le molesta esperar.",
+          "english": "Waiting bothers him/her.",
+          "subject": "le",
+          "source": "waiting_annoyance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me molestó mucho su actitud ayer.",
+          "english": "His/Her attitude really bothered me yesterday.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "social_conflict",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te molestará el calor en el verano.",
+          "english": "The heat will bother you (informal) in summer.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "weather_prediction",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [
+        {
+          "spanish": "Me va a molestar el calor.",
+          "english": "The heat is going to bother me.",
+          "subject": "me",
+          "source": "heat_annoyance_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te van a molestar los mosquitos.",
+          "english": "The mosquitoes are going to bother you (informal).",
+          "subject": "te",
+          "source": "mosquito_annoyance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Me ha molestado su actitud.",
+          "english": "His/Her attitude has bothered me.",
+          "subject": "me",
+          "source": "attitude_annoyance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le han molestado los comentarios.",
+          "english": "The comments have bothered him/her.",
+          "subject": "le",
+          "source": "comment_annoyance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ]
+    },
+    "IMPORTAR": {
+      "metadata": {
+        "english": "to matter/care",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "No me importa el dinero.",
+          "english": "Money doesn't matter to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "value_statement",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te importan mucho tus amigos.",
+          "english": "Your friends matter a lot to you (informal).",
+          "subject": "tú",
+          "region": "universal",
+          "source": "relationship_priority",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "No me importa lo que digan los demás.",
+          "english": "I don't care what other people say.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "opinions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:importar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "¿Te importa si me siento aquí?",
+          "english": "Do you mind if I sit here?",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "opinions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:importar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "A nosotros nos importa mucho la familia.",
+          "english": "Family matters a lot to us.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "opinions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:importar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "Me importa tu opinión.",
+          "english": "Your opinion matters to me.",
+          "subject": "me",
+          "source": "opinion_importance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te importan los resultados.",
+          "english": "The results matter to you (informal).",
+          "subject": "te",
+          "source": "result_importance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le importa la familia.",
+          "english": "Family matters to him/her.",
+          "subject": "le",
+          "source": "family_importance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "No me importó su opinión sobre mi decisión.",
+          "english": "His/Her opinion about my decision didn't matter to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "independence_statement",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te importará más la salud cuando seas mayor.",
+          "english": "Health will matter more to you (informal) when you (informal)'re older.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "life_wisdom",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [
+        {
+          "spanish": "Me va a importar el precio.",
+          "english": "The price is going to matter to me.",
+          "subject": "me",
+          "source": "price_importance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te van a importar las consecuencias.",
+          "english": "The consequences are going to matter to you (informal).",
+          "subject": "te",
+          "source": "consequence_importance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Me ha importado siempre la verdad.",
+          "english": "The truth has always mattered to me.",
+          "subject": "me",
+          "source": "truth_importance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le han importado los detalles.",
+          "english": "The details have mattered to him/her.",
+          "subject": "le",
+          "source": "detail_importance",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ]
+    },
+    "FALTAR": {
+      "metadata": {
+        "english": "to lack/be missing",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me faltan cinco euros para comprar el libro.",
+          "english": "I'm missing five euros to buy the book.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "money_shortage",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te falta experiencia en este trabajo.",
+          "english": "You (informal) lack experience in this job.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "skill_assessment",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Me falta dinero para pagar la cuenta.",
+          "english": "I'm missing money to pay the bill.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "necessity"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:faltar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "¿Cuánto te falta para terminar?",
+          "english": "How much do you have left to finish?",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "necessity"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:faltar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "A él le falta una semana para las vacaciones.",
+          "english": "He has one week left until vacation.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "necessity"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:faltar",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "Me falta dinero.",
+          "english": "I lack money.",
+          "subject": "me",
+          "source": "money_lack",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te faltan cinco minutos.",
+          "english": "You (informal) need five more minutes.",
+          "subject": "te",
+          "source": "time_shortage",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le falta experiencia.",
+          "english": "He/She lacks experience.",
+          "subject": "le",
+          "source": "experience_lack",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me faltó tiempo para terminar el examen.",
+          "english": "I lacked time to finish the exam.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "time_pressure",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te faltarán ingredientes para la receta.",
+          "english": "You (informal) will be missing ingredients for the recipe.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "cooking_preparation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:ar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [
+        {
+          "spanish": "Me va a faltar tiempo.",
+          "english": "I am going to lack time.",
+          "subject": "me",
+          "source": "time_shortage_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te van a faltar ingredientes.",
+          "english": "You (informal) are going to lack ingredients.",
+          "subject": "te",
+          "source": "ingredient_shortage",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:te",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Me ha faltado valor.",
+          "english": "I have lacked courage.",
+          "subject": "me",
+          "source": "courage_lack",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:me",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le han faltado oportunidades.",
+          "english": "He/She has lacked opportunities.",
+          "subject": "le",
+          "source": "opportunity_lack",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:le",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ]
+    },
+    "PARECER": {
+      "metadata": {
+        "english": "to seem/appear",
+        "verb_type": "er",
+        "regularity": "irregular",
+        "yo_form": "zco",
+        "special_construction": "indirect-object",
+        "tags": [
+          "backwards-verb",
+          "tier:5"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me parece una buena idea.",
+          "english": "It seems like a good idea to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "opinion_expression",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        },
+        {
+          "spanish": "Te parecen interesantes estos libros.",
+          "english": "These books seem interesting to you (informal).",
+          "subject": "tú",
+          "region": "universal",
+          "source": "book_evaluation",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:present",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        },
+        {
+          "spanish": "Me parece que va a llover hoy.",
+          "english": "It seems to me that it's going to rain today.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "opinions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:parecer",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "¿Qué te parece este restaurante?",
+          "english": "What do you think of this restaurant?",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "opinions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:parecer",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "A ellos les parece buena idea salir temprano.",
+          "english": "It seems like a good idea to them to leave early.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "gustar_type",
+              "opinions"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:parecer",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ]
+        },
+        {
+          "spanish": "Me parece interesante.",
+          "english": "It seems interesting to me.",
+          "subject": "me",
+          "source": "interesting_opinion",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:me",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te parece difícil.",
+          "english": "It seems difficult to you (informal).",
+          "subject": "te",
+          "source": "difficulty_opinion",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:te",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le parece buena idea.",
+          "english": "It seems like a good idea to him/her.",
+          "subject": "le",
+          "source": "good_idea_opinion",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:le",
+            "tense:present",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me pareció extraño su comportamiento.",
+          "english": "His/Her behavior seemed strange to me.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "behavior_observation",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:yo",
+            "tense:preterite",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te parecerá difícil al principio.",
+          "english": "It will seem difficult to you (informal) at first.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "learning_prediction",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "special-construction:indirect-object",
+            "subject:tú",
+            "tense:future",
+            "tier:5",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:zco"
+          ]
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [
+        {
+          "spanish": "Me va a parecer extraño.",
+          "english": "It is going to seem strange to me.",
+          "subject": "me",
+          "source": "strangeness_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:me",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Te van a parecer caros.",
+          "english": "They are going to seem expensive to you (informal).",
+          "subject": "te",
+          "source": "expense_prediction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:te",
+            "tense:going-to",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ],
+      "present-perfect": [
+        {
+          "spanish": "Me ha parecido muy amable.",
+          "english": "He/She has seemed very kind to me.",
+          "subject": "me",
+          "source": "kindness_impression",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:me",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        },
+        {
+          "spanish": "Le han parecido correctas.",
+          "english": "They have seemed correct to him/her.",
+          "subject": "le",
+          "source": "correctness_impression",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:le",
+            "tense:present-perfect",
+            "tier:5",
+            "verb-type:gustar",
+            "word-type:verb"
+          ]
+        }
+      ]
+    }
+  }
+}

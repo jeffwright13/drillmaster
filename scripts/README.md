@@ -151,3 +151,91 @@ Audits and fixes vocabulary that's too advanced for a given tier level.
 - "experiencia" → "tiempo"
 
 See `docs/VOCABULARY_GUIDELINES.md` for tier-appropriate vocabulary standards.
+
+## Audio Generation (TTS)
+
+Generate MP3 audio files for Spanish sentences using OpenAI's Text-to-Speech API.
+
+### Prerequisites
+
+Set your OpenAI API key as an environment variable:
+
+```bash
+export OPENAI_API_KEY="sk-your-key-here"
+```
+
+Tip: Add this to `~/.zshrc_secrets` and source it from `~/.zshrc` to keep it persistent and secure.
+
+### Quick Start
+
+```bash
+# Generate audio for all sentences in a tier
+npm run audio:tier5
+
+# Or use the script directly with options
+node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier5-complete.json
+```
+
+### CLI Options
+
+| Option | Description |
+|--------|-------------|
+| `--corpus <path>` | Path to corpus JSON file (required) |
+| `--out <path>` | Output JSON path (default: `<corpus>.with-audio.json`) |
+| `--limit <n>` | Max number of sentences to process (for testing) |
+| `--dry-run` | Preview what would happen without calling API |
+| `--skip-existing` | Skip sentences that already have an `audio` field |
+| `--voice <voice>` | TTS voice (default: `coral`) |
+| `--speed <speed>` | Speech speed 0.25-4.0 (default: 1.0) |
+| `--verbose` | Show detailed per-sentence logging |
+| `--help` | Show help message |
+
+### Available Voices
+
+`alloy`, `ash`, `coral`, `echo`, `fable`, `onyx`, `nova`, `sage`, `shimmer`
+
+### Examples
+
+```bash
+# Test with 5 sentences (dry run, no API calls)
+node scripts/generate-audio-from-corpus.mjs \
+  --corpus data/corpus/tier5-complete.json \
+  --limit 5 \
+  --dry-run \
+  --verbose
+
+# Generate audio for first 10 sentences
+node scripts/generate-audio-from-corpus.mjs \
+  --corpus data/corpus/tier1-complete.json \
+  --limit 10
+
+# Resume processing (skip already-processed sentences)
+node scripts/generate-audio-from-corpus.mjs \
+  --corpus data/corpus/tier1-complete.json \
+  --skip-existing
+
+# Use a different voice at slower speed
+node scripts/generate-audio-from-corpus.mjs \
+  --corpus data/corpus/tier5-complete.json \
+  --voice nova \
+  --speed 0.85
+```
+
+### Output
+
+- **Audio files**: Saved to `data/audio/` with deterministic names like `tier5_GUSTAR_present_0001.mp3`
+- **Updated corpus**: Written to `<corpus>.with-audio.json` with an `audio` field added to each sentence
+
+### Cost Estimate
+
+OpenAI TTS costs ~$0.015 per 1K characters. The full corpus (~1,500 sentences, ~75K characters) costs approximately **$1.13**.
+
+### NPM Scripts
+
+```bash
+npm run audio:tier1   # Process tier 1 (593 sentences)
+npm run audio:tier2   # Process tier 2 (283 sentences)
+npm run audio:tier3   # Process tier 3 (297 sentences)
+npm run audio:tier4   # Process tier 4 (231 sentences)
+npm run audio:tier5   # Process tier 5 (97 sentences)
+```
