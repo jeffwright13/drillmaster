@@ -3506,7 +3506,7 @@
       "present-progressive": [
         {
           "spanish": "Estás yendo a la escuela en bicicleta.",
-          "english": "You (informal) are going to school by bicycle.",
+          "english": "You (informal) are on your way to school by bicycle.",
           "subject": "tú",
           "region": "universal",
           "source": "transportation_method",
@@ -3522,7 +3522,7 @@
         },
         {
           "spanish": "Estás yendo al gimnasio después del trabajo.",
-          "english": "You are going to the gym after work.",
+          "english": "You are heading to the gym after work right now.",
           "subject": "vos",
           "region": "argentina",
           "source": "fitness_routine",
@@ -3538,7 +3538,7 @@
         },
         {
           "spanish": "Estoy yendo al supermercado.",
-          "english": "I am going to the supermarket.",
+          "english": "I'm on my way to the supermarket.",
           "subject": "yo",
           "source": "shopping_trip",
           "region": "universal",
@@ -3570,7 +3570,7 @@
         },
         {
           "spanish": "Ella está yendo a casa.",
-          "english": "She is going home.",
+          "english": "She is heading home right now.",
           "subject": "ella",
           "source": "return_journey",
           "region": "universal",
@@ -3586,7 +3586,7 @@
         },
         {
           "spanish": "Él está yendo en bicicleta.",
-          "english": "He is going by bicycle.",
+          "english": "He is going by bicycle right now.",
           "subject": "él",
           "source": "bike_transport",
           "region": "universal",
@@ -3602,7 +3602,7 @@
         },
         {
           "spanish": "Estamos yendo al cine.",
-          "english": "We are going to the movies.",
+          "english": "We are on our way to the movies.",
           "subject": "nosotros",
           "source": "entertainment_outing",
           "region": "universal",
@@ -3634,7 +3634,7 @@
         },
         {
           "spanish": "Estáis yendo a la playa.",
-          "english": "You all are going to the beach.",
+          "english": "You all are heading to the beach right now.",
           "subject": "vosotros",
           "source": "beach_trip",
           "region": "universal",
@@ -3650,7 +3650,7 @@
         },
         {
           "spanish": "Ellos están yendo juntos.",
-          "english": "They are going together.",
+          "english": "They are going together right now.",
           "subject": "ellos",
           "source": "group_travel",
           "region": "universal",
@@ -3666,7 +3666,7 @@
         },
         {
           "spanish": "Ustedes están yendo temprano.",
-          "english": "You all are going early.",
+          "english": "You all are leaving early right now.",
           "subject": "ustedes",
           "source": "early_departure",
           "region": "universal",
