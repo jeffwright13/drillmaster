@@ -1,0 +1,6323 @@
+{
+  "metadata": {
+    "tier": 2,
+    "description": "Essential daily life verbs - reflexive verbs and common actions",
+    "verb_count": 12,
+    "sentence_count": 283,
+    "tenses": [
+      "present",
+      "preterite",
+      "future",
+      "present-progressive",
+      "going-to",
+      "present-perfect"
+    ],
+    "subjects": [
+      "yo",
+      "tú",
+      "vos",
+      "él/ella/usted",
+      "nosotros",
+      "vosotros",
+      "ellos/ellas/ustedes"
+    ],
+    "regions": [
+      "universal",
+      "argentina",
+      "spain"
+    ]
+  },
+  "verbs": {
+    "SENTARSE": {
+      "metadata": {
+        "english": "to sit down",
+        "verb_type": "ar",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "ar-verb",
+          "reflexive",
+          "stem-changing"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Te sientas en el sillón más cómodo de la casa.",
+          "english": "You sit in the most comfortable chair in the house.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "home_comfort",
+          "tags": [
+            "reflexive:true",
+            "region:argentina",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:vos",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "'Te sentás' is Rioplatense, not Mexican",
+            "chunk": 3
+          },
+          "audio": "tier2_SENTARSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Te sientas siempre en el mismo lugar del café.",
+          "english": "You (informal) always sit in the same spot at the café.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "routine_behavior",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present_0002.mp3"
+        },
+        {
+          "spanish": "Te sientas en la sala para tomar tu café.",
+          "english": "You sit in the living room to drink your coffee.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:sentarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_SENTARSE_present_0003.mp3"
+        },
+        {
+          "spanish": "Siempre te sientas en la misma mesa para estudiar.",
+          "english": "You always sit at the same table to study.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:sentarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_SENTARSE_present_0004.mp3"
+        },
+        {
+          "spanish": "Te sientas un rato después de llegar a casa.",
+          "english": "You sit down for a bit after getting home.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:sentarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_SENTARSE_present_0005.mp3"
+        },
+        {
+          "spanish": "Me siento en la silla.",
+          "english": "I sit in the chair.",
+          "subject": "yo",
+          "source": "furniture_use",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present_0006.mp3"
+        },
+        {
+          "spanish": "Te sientas cerca de la ventana.",
+          "english": "You (informal) sit near the window.",
+          "subject": "tú",
+          "source": "seating_preference",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present_0007.mp3"
+        },
+        {
+          "spanish": "Nos sentamos juntos.",
+          "english": "We sit together.",
+          "subject": "nosotros",
+          "source": "group_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:nosotros",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present_0008.mp3"
+        },
+        {
+          "spanish": "Me siento en la silla.",
+          "english": "I sit in the chair.",
+          "subject": "yo",
+          "source": "furniture_use",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present_0009.mp3"
+        },
+        {
+          "spanish": "Te sientas cerca de la ventana.",
+          "english": "You (informal) sit near the window.",
+          "subject": "tú",
+          "source": "seating_preference",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present_0010.mp3"
+        },
+        {
+          "spanish": "Nos sentamos juntos.",
+          "english": "We sit together.",
+          "subject": "nosotros",
+          "source": "group_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:nosotros",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present_0011.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me senté en la sala de espera durante dos horas.",
+          "english": "I sat in the waiting room for two hours.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "medical_appointment",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Se sentó a reflexionar sobre su futuro.",
+          "english": "He sat down to reflect on his future.",
+          "subject": "él",
+          "region": "universal",
+          "source": "life_contemplation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Me senté en el sofá.",
+          "english": "I sat on the sofa.",
+          "subject": "yo",
+          "source": "past_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Te sentaste al lado mío.",
+          "english": "You (informal) sat next to me.",
+          "subject": "tú",
+          "source": "close_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Me senté en el sofá.",
+          "english": "I sat on the sofa.",
+          "subject": "yo",
+          "source": "past_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Te sentaste al lado mío.",
+          "english": "You (informal) sat next to me.",
+          "subject": "tú",
+          "source": "close_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Nos sentaremos a discutir el trabajo mañana.",
+          "english": "We will sit down to discuss the work tomorrow.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "work_meeting",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:nosotros",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_future_0001.mp3"
+        },
+        {
+          "spanish": "Me sentaré a estudiar después de cenar.",
+          "english": "I will sit down to study after dinner.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "study_schedule",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Me estoy sentando.",
+          "english": "I am sitting down.",
+          "subject": "yo",
+          "source": "sitting_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Te estás sentando muy despacio.",
+          "english": "You (informal) are sitting down very slowly.",
+          "subject": "tú",
+          "source": "slow_sitting",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Me estoy sentando.",
+          "english": "I am sitting down.",
+          "subject": "yo",
+          "source": "sitting_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Te estás sentando muy despacio.",
+          "english": "You (informal) are sitting down very slowly.",
+          "subject": "tú",
+          "source": "slow_sitting",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Me voy a sentar aquí.",
+          "english": "I am going to sit here.",
+          "subject": "yo",
+          "source": "seating_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Te vas a sentar conmigo.",
+          "english": "You (informal) are going to sit with me.",
+          "subject": "tú",
+          "source": "companion_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Me voy a sentar aquí.",
+          "english": "I am going to sit here.",
+          "subject": "yo",
+          "source": "seating_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Te vas a sentar conmigo.",
+          "english": "You (informal) are going to sit with me.",
+          "subject": "tú",
+          "source": "companion_seating",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SENTARSE_going-to_0004.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "ACOSTARSE": {
+      "metadata": {
+        "english": "to go to bed",
+        "verb_type": "ar",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "ar-verb",
+          "reflexive",
+          "stem-changing"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Te acuestas después de ver las noticias.",
+          "english": "You go to bed after watching the news.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "evening_routine",
+          "tags": [
+            "reflexive:true",
+            "region:argentina",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:vos",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "'Te acostás' is Rioplatense, not Mexican",
+            "chunk": 3
+          },
+          "audio": "tier2_ACOSTARSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Nos acostamos después de leer un rato.",
+          "english": "We go to bed after reading for a while.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "bedtime_ritual",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:nosotros",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0002.mp3"
+        },
+        {
+          "spanish": "Te acuestas temprano los lunes porque trabajas temprano.",
+          "english": "You go to bed early on Mondays because you work early.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:acostarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0003.mp3"
+        },
+        {
+          "spanish": "Normalmente te acuestas viendo videos en tu teléfono.",
+          "english": "You usually go to bed watching videos on your phone.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:acostarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0004.mp3"
+        },
+        {
+          "spanish": "Te acuestas tarde cuando hace mucho calor.",
+          "english": "You go to bed late when it's really hot.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:acostarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0005.mp3"
+        },
+        {
+          "spanish": "Me acuesto temprano.",
+          "english": "I go to bed early.",
+          "subject": "yo",
+          "source": "bedtime_routine",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0006.mp3"
+        },
+        {
+          "spanish": "Te acuestas tarde.",
+          "english": "You (informal) go to bed late.",
+          "subject": "tú",
+          "source": "late_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0007.mp3"
+        },
+        {
+          "spanish": "Se acuesta a las diez.",
+          "english": "He/She goes to bed at ten.",
+          "subject": "él",
+          "source": "specific_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0008.mp3"
+        },
+        {
+          "spanish": "Me acuesto temprano.",
+          "english": "I go to bed early.",
+          "subject": "yo",
+          "source": "bedtime_routine",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0009.mp3"
+        },
+        {
+          "spanish": "Te acuestas tarde.",
+          "english": "You (informal) go to bed late.",
+          "subject": "tú",
+          "source": "late_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0010.mp3"
+        },
+        {
+          "spanish": "Se acuesta a las diez.",
+          "english": "He/She goes to bed at ten.",
+          "subject": "él",
+          "source": "specific_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present_0011.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me acosté muy tarde porque tenía mucho trabajo.",
+          "english": "I went to bed very late because I had a lot of work.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "work_pressure",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Te acostaste temprano para estar fresco mañana.",
+          "english": "You went to bed early to feel rested tomorrow.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "preparation_strategy",
+          "tags": [
+            "reflexive:true",
+            "region:argentina",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:vos",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "English translation slightly unnatural ('to be fresh tomorrow')",
+            "chunk": 3
+          },
+          "audio": "tier2_ACOSTARSE_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Me acosté a medianoche.",
+          "english": "I went to bed at midnight.",
+          "subject": "yo",
+          "source": "late_bedtime_past",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Se acostó muy cansado.",
+          "english": "He went to bed very tired.",
+          "subject": "él",
+          "source": "tired_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Me acosté a medianoche.",
+          "english": "I went to bed at midnight.",
+          "subject": "yo",
+          "source": "late_bedtime_past",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Se acostó muy cansado.",
+          "english": "He went to bed very tired.",
+          "subject": "él",
+          "source": "tired_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Me acostaré más temprano a partir de mañana.",
+          "english": "I will go to bed earlier starting tomorrow.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "health_resolution",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_future_0001.mp3"
+        },
+        {
+          "spanish": "Te acostarás cuando termines la tarea.",
+          "english": "You (informal) will go to bed when you (informal) finish your homework.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "parental_instruction",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:tú",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Me estoy acostando.",
+          "english": "I am going to bed.",
+          "subject": "yo",
+          "source": "bedtime_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Se está acostando ahora.",
+          "english": "He/She is going to bed now.",
+          "subject": "él",
+          "source": "current_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Me estoy acostando.",
+          "english": "I am going to bed.",
+          "subject": "yo",
+          "source": "bedtime_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Se está acostando ahora.",
+          "english": "He/She is going to bed now.",
+          "subject": "él",
+          "source": "current_bedtime",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Los niños se van a acostar temprano.",
+          "english": "The children are going to go to bed early.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "van",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "bedtime",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:ellos/ellas/ustedes",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:bedtime",
+            "roi:high"
+          ],
+          "audio": "tier2_ACOSTARSE_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Me voy a acostar pronto.",
+          "english": "I am going to go to bed soon.",
+          "subject": "yo",
+          "source": "bedtime_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Te vas a acostar temprano.",
+          "english": "You (informal) are going to go to bed early.",
+          "subject": "tú",
+          "source": "early_bedtime_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Me voy a acostar pronto.",
+          "english": "I am going to go to bed soon.",
+          "subject": "yo",
+          "source": "bedtime_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_going-to_0004.mp3"
+        },
+        {
+          "spanish": "Te vas a acostar temprano.",
+          "english": "You (informal) are going to go to bed early.",
+          "subject": "tú",
+          "source": "early_bedtime_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ACOSTARSE_going-to_0005.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "DESPERTARSE": {
+      "metadata": {
+        "english": "to wake up",
+        "verb_type": "ar",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "ar-verb",
+          "reflexive",
+          "stem-changing"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "La jefa despierta a los estudiantes temprano.",
+          "english": "The boss wakes the students up early.",
+          "region": "universal",
+          "verb": "DESPERTARSE",
+          "tense": "present",
+          "file": "tier2-complete.json",
+          "source": {
+            "type": "transformed",
+            "origin": "copyright_safe_transformation",
+            "method": "family_to_work_transformation",
+            "date_created": "2025-12-02",
+            "original_source": "textbook_transformed"
+          },
+          "quality": {
+            "score": 35,
+            "authenticity": "transformed",
+            "linguistic_review": "needs_review",
+            "copyright_status": "safe_transformation",
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Wrong verb (not reflexive) + needs translation",
+            "chunk": 3
+          },
+          "linguistic": {
+            "construction": "reflexive",
+            "difficulty": "beginner",
+            "register": "neutral"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "present",
+              "vocabulary"
+            ],
+            "cultural_context": "general",
+            "tier_appropriate": true,
+            "transformation_method": "family_to_work_transformation"
+          },
+          "tags": [
+            "region:universal",
+            "subject:undefined",
+            "tense:present",
+            "word-type:verb",
+            "source:transformed",
+            "copyright:safe",
+            "method:family_to_work_transformation"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Me despierto a las seis de la mañana todos los días.",
+          "english": "I wake up at six in the morning every day.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "daily_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0002.mp3"
+        },
+        {
+          "spanish": "Te despiertas a las seis todos los días.",
+          "english": "You wake up at six every day.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:despertarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0003.mp3"
+        },
+        {
+          "spanish": "Te despiertas con el sonido de tu alarma, aunque no quieras.",
+          "english": "You wake up with your alarm, even if you don't want to.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:despertarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0004.mp3"
+        },
+        {
+          "spanish": "Te despiertas temprano incluso los fines de semana.",
+          "english": "You wake up early even on weekends.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:despertarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0005.mp3"
+        },
+        {
+          "spanish": "Me despierto a las siete.",
+          "english": "I wake up at seven.",
+          "subject": "yo",
+          "source": "morning_routine",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0006.mp3"
+        },
+        {
+          "spanish": "Te despiertas con el sol.",
+          "english": "You (informal) wake up with the sun.",
+          "subject": "tú",
+          "source": "natural_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0007.mp3"
+        },
+        {
+          "spanish": "Se despierta muy temprano.",
+          "english": "He/She wakes up very early.",
+          "subject": "él",
+          "source": "early_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0008.mp3"
+        },
+        {
+          "spanish": "Me despierto a las siete.",
+          "english": "I wake up at seven.",
+          "subject": "yo",
+          "source": "morning_routine",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0009.mp3"
+        },
+        {
+          "spanish": "Te despiertas con el sol.",
+          "english": "You (informal) wake up with the sun.",
+          "subject": "tú",
+          "source": "natural_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0010.mp3"
+        },
+        {
+          "spanish": "Se despierta muy temprano.",
+          "english": "He/She wakes up very early.",
+          "subject": "él",
+          "source": "early_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present_0011.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me desperté sobresaltado por el ruido.",
+          "english": "I woke up startled by the noise.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "sudden_awakening",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Se despertó en el hospital sin recordar nada.",
+          "english": "He woke up in the hospital remembering nothing.",
+          "subject": "él",
+          "region": "universal",
+          "source": "medical_situation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Me desperté a las seis.",
+          "english": "I woke up at six.",
+          "subject": "yo",
+          "source": "past_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Se despertó con ruido.",
+          "english": "He/She woke up from noise.",
+          "subject": "él",
+          "source": "noise_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Me desperté a las seis.",
+          "english": "I woke up at six.",
+          "subject": "yo",
+          "source": "past_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Se despertó con ruido.",
+          "english": "He/She woke up from noise.",
+          "subject": "él",
+          "source": "noise_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te despertarás en tu nueva casa mañana.",
+          "english": "You will wake up in your new house tomorrow.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "moving_day",
+          "tags": [
+            "reflexive:true",
+            "region:argentina",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:vos",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_future_0001.mp3"
+        },
+        {
+          "spanish": "Me despertaré más temprano para hacer ejercicio.",
+          "english": "I will wake up earlier to exercise.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "fitness_goal",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-ie",
+            "stem-changing",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Me estoy despertando.",
+          "english": "I am waking up.",
+          "subject": "yo",
+          "source": "waking_process",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Se está despertando lentamente.",
+          "english": "He/She is waking up slowly.",
+          "subject": "él",
+          "source": "gradual_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Me estoy despertando.",
+          "english": "I am waking up.",
+          "subject": "yo",
+          "source": "waking_process",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Se está despertando lentamente.",
+          "english": "He/She is waking up slowly.",
+          "subject": "él",
+          "source": "gradual_waking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Me voy a despertar temprano.",
+          "english": "I am going to wake up early.",
+          "subject": "yo",
+          "source": "early_wake_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Te vas a despertar tarde.",
+          "english": "You (informal) are going to wake up late.",
+          "subject": "tú",
+          "source": "late_wake_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Me voy a despertar temprano.",
+          "english": "I am going to wake up early.",
+          "subject": "yo",
+          "source": "early_wake_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Te vas a despertar tarde.",
+          "english": "You (informal) are going to wake up late.",
+          "subject": "tú",
+          "source": "late_wake_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DESPERTARSE_going-to_0004.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "VESTIRSE": {
+      "metadata": {
+        "english": "to get dressed",
+        "verb_type": "ir",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "ir-verb",
+          "reflexive",
+          "stem-changing"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me visto elegante para ir al trabajo.",
+          "english": "I dress elegantly to go to work.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "professional_attire",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Te vistes siempre con colores alegres.",
+          "english": "You always dress in cheerful colors.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "style_preference",
+          "tags": [
+            "reflexive:true",
+            "region:argentina",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:vos",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "'Te vestís' is Rioplatense, not Mexican",
+            "chunk": 3
+          },
+          "audio": "tier2_VESTIRSE_present_0002.mp3"
+        },
+        {
+          "spanish": "Me visto rápido.",
+          "english": "I get dressed quickly.",
+          "subject": "yo",
+          "source": "quick_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present_0003.mp3"
+        },
+        {
+          "spanish": "Te vistes muy bien.",
+          "english": "You (informal) dress very well.",
+          "subject": "tú",
+          "source": "good_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present_0004.mp3"
+        },
+        {
+          "spanish": "Se viste de negro.",
+          "english": "He/She dresses in black.",
+          "subject": "él",
+          "source": "color_preference",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present_0005.mp3"
+        },
+        {
+          "spanish": "Me visto rápido.",
+          "english": "I get dressed quickly.",
+          "subject": "yo",
+          "source": "quick_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present_0006.mp3"
+        },
+        {
+          "spanish": "Te vistes muy bien.",
+          "english": "You (informal) dress very well.",
+          "subject": "tú",
+          "source": "good_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present_0007.mp3"
+        },
+        {
+          "spanish": "Se viste de negro.",
+          "english": "He/She dresses in black.",
+          "subject": "él",
+          "source": "color_preference",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present_0008.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me vestí rápidamente para no llegar tarde.",
+          "english": "I got dressed quickly so as not to be late.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "time_pressure",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Se vistió de negro para el funeral.",
+          "english": "He dressed in black for the funeral.",
+          "subject": "él",
+          "region": "universal",
+          "source": "mourning_attire",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Me vestí con prisa.",
+          "english": "I got dressed in a hurry.",
+          "subject": "yo",
+          "source": "rushed_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Se vistió muy elegante.",
+          "english": "He/She dressed very elegantly.",
+          "subject": "él",
+          "source": "elegant_past_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Me vestí con prisa.",
+          "english": "I got dressed in a hurry.",
+          "subject": "yo",
+          "source": "rushed_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Se vistió muy elegante.",
+          "english": "He/She dressed very elegantly.",
+          "subject": "él",
+          "source": "elegant_past_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Te vestirás como un trabajador en tu nuevo trabajo.",
+          "english": "You (informal) will dress like a worker in your new job.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "career_advancement",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:tú",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_future_0001.mp3"
+        },
+        {
+          "spanish": "Me vestiré de azul para la boda.",
+          "english": "I will dress in blue for the wedding.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "wedding_attire",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Me estoy vistiendo.",
+          "english": "I am getting dressed.",
+          "subject": "yo",
+          "source": "dressing_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Se está vistiendo para la fiesta.",
+          "english": "He/She is getting dressed for the party.",
+          "subject": "él",
+          "source": "party_preparation",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Me estoy vistiendo.",
+          "english": "I am getting dressed.",
+          "subject": "yo",
+          "source": "dressing_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Se está vistiendo para la fiesta.",
+          "english": "He/She is getting dressed for the party.",
+          "subject": "él",
+          "source": "party_preparation",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Me voy a vestir elegante.",
+          "english": "I am going to dress elegantly.",
+          "subject": "yo",
+          "source": "elegant_dressing_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Te vas a vestir cómodo.",
+          "english": "You (informal) are going to dress comfortably.",
+          "subject": "tú",
+          "source": "comfortable_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Me voy a vestir elegante.",
+          "english": "I am going to dress elegantly.",
+          "subject": "yo",
+          "source": "elegant_dressing_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Te vas a vestir cómodo.",
+          "english": "You (informal) are going to dress comfortably.",
+          "subject": "tú",
+          "source": "comfortable_dressing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VESTIRSE_going-to_0004.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "LEVANTARSE": {
+      "metadata": {
+        "english": "to get up/stand up",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "tags": [
+          "tier:2",
+          "regular",
+          "ar-verb",
+          "reflexive"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Me levanto a las seis de la mañana.",
+          "english": "I get up at six in the morning.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "morning_routine",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Te levantas con mucha energía cada día.",
+          "english": "You wake up with lots of energy every day.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "energy_description",
+          "tags": [
+            "reflexive:true",
+            "region:argentina",
+            "regularity:regular",
+            "subject:vos",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "'Te levantás' is Rioplatense",
+            "chunk": 3
+          },
+          "audio": "tier2_LEVANTARSE_present_0002.mp3"
+        },
+        {
+          "spanish": "Me levanto temprano.",
+          "english": "I get up early.",
+          "subject": "yo",
+          "source": "early_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present_0003.mp3"
+        },
+        {
+          "spanish": "Te levantas de la cama.",
+          "english": "You (informal) get up from bed.",
+          "subject": "tú",
+          "source": "bed_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present_0004.mp3"
+        },
+        {
+          "spanish": "Se levanta con energía.",
+          "english": "He/She gets up with energy.",
+          "subject": "él",
+          "source": "energetic_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present_0005.mp3"
+        },
+        {
+          "spanish": "Me levanto temprano.",
+          "english": "I get up early.",
+          "subject": "yo",
+          "source": "early_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present_0006.mp3"
+        },
+        {
+          "spanish": "Te levantas de la cama.",
+          "english": "You (informal) get up from bed.",
+          "subject": "tú",
+          "source": "bed_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present_0007.mp3"
+        },
+        {
+          "spanish": "Se levanta con energía.",
+          "english": "He/She gets up with energy.",
+          "subject": "él",
+          "source": "energetic_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present_0008.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me levanté muy temprano para ver el amanecer.",
+          "english": "I got up very early to see the sunrise.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "nature_appreciation",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Te levantaste con mucha energía después de las vacaciones.",
+          "english": "You (informal) got up with lots of energy after vacation.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "post_vacation_energy",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Me levanté a las cinco.",
+          "english": "I got up at five.",
+          "subject": "yo",
+          "source": "very_early_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Se levantó con dolor.",
+          "english": "He/She got up with pain.",
+          "subject": "él",
+          "source": "painful_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Me levanté a las cinco.",
+          "english": "I got up at five.",
+          "subject": "yo",
+          "source": "very_early_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Se levantó con dolor.",
+          "english": "He/She got up with pain.",
+          "subject": "él",
+          "source": "painful_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Me levantaré más temprano a partir de mañana.",
+          "english": "I will get up earlier starting tomorrow.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "schedule_change",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_future_0001.mp3"
+        },
+        {
+          "spanish": "Te levantarás con el canto de los gallos en el campo.",
+          "english": "You (informal) will get up with the rooster's crow in the countryside.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "rural_experience",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Me estoy levantando.",
+          "english": "I am getting up.",
+          "subject": "yo",
+          "source": "rising_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Se está levantando despacio.",
+          "english": "He/She is getting up slowly.",
+          "subject": "él",
+          "source": "slow_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Me estoy levantando.",
+          "english": "I am getting up.",
+          "subject": "yo",
+          "source": "rising_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Se está levantando despacio.",
+          "english": "He/She is getting up slowly.",
+          "subject": "él",
+          "source": "slow_rising",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Me voy a levantar temprano mañana.",
+          "english": "I'm going to get up early tomorrow.",
+          "subject": "yo",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "voy",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "routine",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:yo",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:routine",
+            "roi:high"
+          ],
+          "audio": "tier2_LEVANTARSE_going-to_0001.mp3"
+        },
+        {
+          "spanish": "¿Te vas a levantar tarde?",
+          "english": "Are you going to get up late?",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vas",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "schedule",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:schedule",
+            "roi:high"
+          ],
+          "audio": "tier2_LEVANTARSE_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Me voy a levantar pronto.",
+          "english": "I am going to get up soon.",
+          "subject": "yo",
+          "source": "rising_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Te vas a levantar tarde.",
+          "english": "You (informal) are going to get up late.",
+          "subject": "tú",
+          "source": "late_rising_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_going-to_0004.mp3"
+        },
+        {
+          "spanish": "Me voy a levantar pronto.",
+          "english": "I am going to get up soon.",
+          "subject": "yo",
+          "source": "rising_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_going-to_0005.mp3"
+        },
+        {
+          "spanish": "Te vas a levantar tarde.",
+          "english": "You (informal) are going to get up late.",
+          "subject": "tú",
+          "source": "late_rising_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LEVANTARSE_going-to_0006.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "ENCONTRAR": {
+      "metadata": {
+        "english": "to find",
+        "verb_type": "ar",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "ar-verb",
+          "stem-changing"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Encuentras trabajo fácilmente con tu experiencia.",
+          "english": "You find work easily with your experience.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "job_search",
+          "tags": [
+            "region:argentina",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:vos",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "'Encontrás' is Rioplatense; translation unnatural",
+            "chunk": 4
+          },
+          "audio": "tier2_ENCONTRAR_present_0001.mp3"
+        },
+        {
+          "spanish": "Encuentra tiempo para leer todos los días.",
+          "english": "He finds time to read every day.",
+          "subject": "él",
+          "region": "universal",
+          "source": "time_management",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present_0002.mp3"
+        },
+        {
+          "spanish": "Encuentro mis llaves.",
+          "english": "I find my keys.",
+          "subject": "yo",
+          "source": "key_finding",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present_0003.mp3"
+        },
+        {
+          "spanish": "Encuentras buenas ofertas.",
+          "english": "You (informal) find good deals.",
+          "subject": "tú",
+          "source": "deal_finding",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present_0004.mp3"
+        },
+        {
+          "spanish": "Encuentra tiempo libre.",
+          "english": "He/She finds free time.",
+          "subject": "él",
+          "source": "time_finding",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present_0005.mp3"
+        },
+        {
+          "spanish": "Encuentro mis llaves.",
+          "english": "I find my keys.",
+          "subject": "yo",
+          "source": "key_finding",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present_0006.mp3"
+        },
+        {
+          "spanish": "Encuentras buenas ofertas.",
+          "english": "You (informal) find good deals.",
+          "subject": "tú",
+          "source": "deal_finding",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present_0007.mp3"
+        },
+        {
+          "spanish": "Encuentra tiempo libre.",
+          "english": "He/She finds free time.",
+          "subject": "él",
+          "source": "time_finding",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present_0008.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Encontró trabajo en una empresa multinacional.",
+          "english": "He found work at a multinational company.",
+          "subject": "él",
+          "region": "universal",
+          "source": "job_success",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Encontró trabajo en una empresa multinacional.",
+          "english": "She found work at a multinational company.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "job_success",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:ella",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Encontré dinero.",
+          "english": "I found money.",
+          "subject": "yo",
+          "source": "money_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Encontró una solución.",
+          "english": "He/She found a solution.",
+          "subject": "él",
+          "source": "solution_discovery_past",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Encontré dinero.",
+          "english": "I found money.",
+          "subject": "yo",
+          "source": "money_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Encontró una solución.",
+          "english": "He/She found a solution.",
+          "subject": "él",
+          "source": "solution_discovery_past",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Encontrarán nuevos amigos en la escuela.",
+          "english": "You all will find new friends at school.",
+          "subject": "vosotros",
+          "region": "spain",
+          "source": "university_social_life",
+          "tags": [
+            "region:spain",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:vosotros",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "'Encontraréis' is Spain-only (vosotros)",
+            "chunk": 4
+          },
+          "audio": "tier2_ENCONTRAR_future_0001.mp3"
+        },
+        {
+          "spanish": "Encontraremos una casa perfecta para la familia.",
+          "english": "We will find a perfect house for the family.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "house_hunting",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:o-ue",
+            "stem-changing",
+            "subject:nosotros",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Estoy encontrando problemas.",
+          "english": "I am finding problems.",
+          "subject": "yo",
+          "source": "problem_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Está encontrando soluciones.",
+          "english": "He/She is finding solutions.",
+          "subject": "él",
+          "source": "solution_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Estoy encontrando problemas.",
+          "english": "I am finding problems.",
+          "subject": "yo",
+          "source": "problem_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Está encontrando soluciones.",
+          "english": "He/She is finding solutions.",
+          "subject": "él",
+          "source": "solution_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Vamos a encontrar una solución.",
+          "english": "We're going to find a solution.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vamos",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "problem_solving",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:nosotros",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:problem_solving",
+            "roi:high"
+          ],
+          "audio": "tier2_ENCONTRAR_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Voy a encontrar trabajo.",
+          "english": "I am going to find work.",
+          "subject": "yo",
+          "source": "job_search_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Vas a encontrar amor.",
+          "english": "You (informal) are going to find love.",
+          "subject": "tú",
+          "source": "love_finding_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Voy a encontrar trabajo.",
+          "english": "I am going to find work.",
+          "subject": "yo",
+          "source": "job_search_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_going-to_0004.mp3"
+        },
+        {
+          "spanish": "Vas a encontrar amor.",
+          "english": "You (informal) are going to find love.",
+          "subject": "tú",
+          "source": "love_finding_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_ENCONTRAR_going-to_0005.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "LAVAR": {
+      "metadata": {
+        "english": "to wash",
+        "verb_type": "ar",
+        "regularity": "regular",
+        "tags": [
+          "tier:2",
+          "regular",
+          "ar-verb"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Lavo los platos después de cada comida.",
+          "english": "I wash the dishes after every meal.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "household_routine",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LAVAR_present_0001.mp3"
+        },
+        {
+          "spanish": "Lava las ventanas de la casa cada mes.",
+          "english": "He washes the house windows every month.",
+          "subject": "él",
+          "region": "universal",
+          "source": "home_maintenance",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LAVAR_present_0002.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Lavé toda la ropa sucia el domingo pasado.",
+          "english": "I washed all the dirty clothes last Sunday.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "laundry_completion",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LAVAR_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Lavó la ropa de bebé con detergente especial.",
+          "english": "He washed the baby clothes with special detergent.",
+          "subject": "él",
+          "region": "universal",
+          "source": "baby_care",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LAVAR_preterite_0002.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Lavarán las herramientas después de terminar el trabajo.",
+          "english": "They will wash the tools after finishing the work.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "work_cleanup",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:ellos/ellas/ustedes",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LAVAR_future_0001.mp3"
+        },
+        {
+          "spanish": "Lavaremos toda la casa antes de la mudanza.",
+          "english": "We will wash the entire house before moving.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": "moving_preparation",
+          "tags": [
+            "region:universal",
+            "regularity:regular",
+            "subject:nosotros",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LAVAR_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [],
+      "going-to": [],
+      "present-perfect": []
+    },
+    "VER": {
+      "metadata": {
+        "english": "to see",
+        "verb_type": "er",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "er-verb"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Ve a sus amigos cada fin de semana.",
+          "english": "He sees his friends every weekend.",
+          "subject": "él",
+          "region": "universal",
+          "source": "social_routine",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0001.mp3"
+        },
+        {
+          "spanish": "Ve a sus amigos cada fin de semana.",
+          "english": "She sees her friends every weekend.",
+          "subject": "ella",
+          "region": "universal",
+          "source": "social_routine",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ella",
+            "tense:present",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0002.mp3"
+        },
+        {
+          "spanish": "Veo la televisión.",
+          "english": "I watch television.",
+          "subject": "yo",
+          "source": "tv_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0003.mp3"
+        },
+        {
+          "spanish": "Ves películas.",
+          "english": "You (informal) watch movies.",
+          "subject": "tú",
+          "source": "movie_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0004.mp3"
+        },
+        {
+          "spanish": "Ve a sus amigos.",
+          "english": "He/She sees his/her friends.",
+          "subject": "él",
+          "source": "friend_meeting",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0005.mp3"
+        },
+        {
+          "spanish": "Veo la televisión.",
+          "english": "I watch television.",
+          "subject": "yo",
+          "source": "tv_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0006.mp3"
+        },
+        {
+          "spanish": "Ves películas.",
+          "english": "You (informal) watch movies.",
+          "subject": "tú",
+          "source": "movie_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0007.mp3"
+        },
+        {
+          "spanish": "Ve a sus amigos.",
+          "english": "He/She sees his/her friends.",
+          "subject": "él",
+          "source": "friend_meeting",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present_0008.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Vi una película increíble anoche en el cine.",
+          "english": "I saw an incredible movie last night at the cinema.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "entertainment_experience",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Vieron fuegos artificiales desde el balcón.",
+          "english": "They saw fireworks from the balcony.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "celebration_viewing",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:ellos/ellas/ustedes",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Vi un documental.",
+          "english": "I watched a documentary.",
+          "subject": "yo",
+          "source": "documentary_viewing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Vio el partido.",
+          "english": "He/She watched the game.",
+          "subject": "él",
+          "source": "game_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Vi un documental.",
+          "english": "I watched a documentary.",
+          "subject": "yo",
+          "source": "documentary_viewing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Vio el partido.",
+          "english": "He/She watched the game.",
+          "subject": "él",
+          "source": "game_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Verás que tenía razón sobre el trabajo.",
+          "english": "You will see that I was right about the work.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "future_vindication",
+          "tags": [
+            "region:argentina",
+            "regularity:irregular",
+            "subject:vos",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_future_0001.mp3"
+        },
+        {
+          "spanish": "Veré a mis padres el próximo fin de semana.",
+          "english": "I will see my parents next weekend.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "family_visit",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Estoy viendo las noticias.",
+          "english": "I am watching the news.",
+          "subject": "yo",
+          "source": "news_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Está viendo un programa.",
+          "english": "He/She is watching a program.",
+          "subject": "él",
+          "source": "program_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Estoy viendo las noticias.",
+          "english": "I am watching the news.",
+          "subject": "yo",
+          "source": "news_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Está viendo un programa.",
+          "english": "He/She is watching a program.",
+          "subject": "él",
+          "source": "program_watching",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Vamos a ver una película.",
+          "english": "We're going to watch a movie.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vamos",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "entertainment",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:nosotros",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:entertainment",
+            "roi:high"
+          ],
+          "audio": "tier2_VER_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Vas a ver que todo sale bien.",
+          "english": "You're going to see that everything turns out fine.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vas",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "reassurance",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:reassurance",
+            "roi:high"
+          ],
+          "audio": "tier2_VER_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Voy a ver una película.",
+          "english": "I am going to watch a movie.",
+          "subject": "yo",
+          "source": "movie_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Vas a ver a tu familia.",
+          "english": "You (informal) are going to see your family.",
+          "subject": "tú",
+          "source": "family_visit_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_going-to_0004.mp3"
+        },
+        {
+          "spanish": "Voy a ver una película.",
+          "english": "I am going to watch a movie.",
+          "subject": "yo",
+          "source": "movie_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_going-to_0005.mp3"
+        },
+        {
+          "spanish": "Vas a ver a tu familia.",
+          "english": "You (informal) are going to see your family.",
+          "subject": "tú",
+          "source": "family_visit_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_VER_going-to_0006.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "DAR": {
+      "metadata": {
+        "english": "to give",
+        "verb_type": "ar",
+        "regularity": "highly-irregular",
+        "tags": [
+          "tier:2",
+          "highly-irregular",
+          "ar-verb"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Das muy buenos consejos a tus amigos.",
+          "english": "You (informal) give very good advice to your friends.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "friendship_support",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present_0001.mp3"
+        },
+        {
+          "spanish": "Das lo mejor de ti en cada trabajo.",
+          "english": "You give your best in every job.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "work_dedication",
+          "tags": [
+            "region:argentina",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:vos",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "'vos' form is Rioplatense; English translation slightly off",
+            "chunk": 4
+          },
+          "audio": "tier2_DAR_present_0002.mp3"
+        },
+        {
+          "spanish": "Doy regalos.",
+          "english": "I give gifts.",
+          "subject": "yo",
+          "source": "gift_giving",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present_0003.mp3"
+        },
+        {
+          "spanish": "Das consejos.",
+          "english": "You (informal) give advice.",
+          "subject": "tú",
+          "source": "advice_giving",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present_0004.mp3"
+        },
+        {
+          "spanish": "Da las gracias.",
+          "english": "He/She gives thanks.",
+          "subject": "él",
+          "source": "gratitude_expression",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present_0005.mp3"
+        },
+        {
+          "spanish": "Doy regalos.",
+          "english": "I give gifts.",
+          "subject": "yo",
+          "source": "gift_giving",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present_0006.mp3"
+        },
+        {
+          "spanish": "Das consejos.",
+          "english": "You (informal) give advice.",
+          "subject": "tú",
+          "source": "advice_giving",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present_0007.mp3"
+        },
+        {
+          "spanish": "Da las gracias.",
+          "english": "He/She gives thanks.",
+          "subject": "él",
+          "source": "gratitude_expression",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present_0008.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Di mi opinión honesta sobre el trabajo.",
+          "english": "I gave my honest opinion about the work.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "professional_feedback",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Diste una excelente presentación ayer.",
+          "english": "You (informal) gave an excellent presentation yesterday.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "work_achievement",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Di mi opinión.",
+          "english": "I gave my opinion.",
+          "subject": "yo",
+          "source": "opinion_sharing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Dio una sorpresa.",
+          "english": "He/She gave a surprise.",
+          "subject": "él",
+          "source": "surprise_giving",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Di mi opinión.",
+          "english": "I gave my opinion.",
+          "subject": "yo",
+          "source": "opinion_sharing",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Dio una sorpresa.",
+          "english": "He/She gave a surprise.",
+          "subject": "él",
+          "source": "surprise_giving",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Daré lo mejor de mí en el nuevo trabajo.",
+          "english": "I will give my best in the new job.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "work_commitment",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_future_0001.mp3"
+        },
+        {
+          "spanish": "Darás una conferencia sobre tu estudio.",
+          "english": "You (informal) will give a lecture about your study.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "academic_presentation",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Estoy dando una clase.",
+          "english": "I am giving a class.",
+          "subject": "yo",
+          "source": "teaching_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Está dando un paseo.",
+          "english": "He/She is taking a walk.",
+          "subject": "él",
+          "source": "walking_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Estoy dando una clase.",
+          "english": "I am giving a class.",
+          "subject": "yo",
+          "source": "teaching_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Está dando un paseo.",
+          "english": "He/She is taking a walk.",
+          "subject": "él",
+          "source": "walking_action",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Voy a dar una presentación.",
+          "english": "I'm going to give a presentation.",
+          "subject": "yo",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "voy",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "work",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:yo",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:work",
+            "roi:high"
+          ],
+          "audio": "tier2_DAR_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Van a dar una fiesta.",
+          "english": "They're going to throw a party.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "van",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "celebration",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:ellos/ellas/ustedes",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:celebration",
+            "roi:high"
+          ],
+          "audio": "tier2_DAR_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Voy a dar un regalo.",
+          "english": "I am going to give a gift.",
+          "subject": "yo",
+          "source": "gift_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Vas a dar una fiesta.",
+          "english": "You (informal) are going to throw a party.",
+          "subject": "tú",
+          "source": "party_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_going-to_0004.mp3"
+        },
+        {
+          "spanish": "Voy a dar un regalo.",
+          "english": "I am going to give a gift.",
+          "subject": "yo",
+          "source": "gift_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_going-to_0005.mp3"
+        },
+        {
+          "spanish": "Vas a dar una fiesta.",
+          "english": "You (informal) are going to throw a party.",
+          "subject": "tú",
+          "source": "party_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:highly-irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DAR_going-to_0006.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "DECIR": {
+      "metadata": {
+        "english": "to say/tell",
+        "verb_type": "ir",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "ir-verb",
+          "stem-changing"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Dices exactamente lo que piensas.",
+          "english": "You say exactly what you think.",
+          "subject": "vos",
+          "region": "argentina",
+          "source": "directness_trait",
+          "tags": [
+            "region:argentina",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:vos",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Rioplatense 'decís / pensás'",
+            "chunk": 4
+          },
+          "audio": "tier2_DECIR_present_0001.mp3"
+        },
+        {
+          "spanish": "Dice que viene mañana por la tarde.",
+          "english": "He says he/she's coming tomorrow afternoon.",
+          "subject": "él",
+          "region": "universal",
+          "source": "future_plan_communication",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ],
+          "audio": "tier2_DECIR_present_0002.mp3"
+        },
+        {
+          "spanish": "Digo la verdad.",
+          "english": "I tell the truth.",
+          "subject": "yo",
+          "source": "truth_telling",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present_0003.mp3"
+        },
+        {
+          "spanish": "Dices cosas interesantes.",
+          "english": "You (informal) say interesting things.",
+          "subject": "tú",
+          "source": "interesting_speech",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present_0004.mp3"
+        },
+        {
+          "spanish": "Dice buenos chistes.",
+          "english": "He/She tells good jokes.",
+          "subject": "él",
+          "source": "joke_telling",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present_0005.mp3"
+        },
+        {
+          "spanish": "Digo la verdad.",
+          "english": "I tell the truth.",
+          "subject": "yo",
+          "source": "truth_telling",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present_0006.mp3"
+        },
+        {
+          "spanish": "Dices cosas interesantes.",
+          "english": "You (informal) say interesting things.",
+          "subject": "tú",
+          "source": "interesting_speech",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present_0007.mp3"
+        },
+        {
+          "spanish": "Dice buenos chistes.",
+          "english": "He/She tells good jokes.",
+          "subject": "él",
+          "source": "joke_telling",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present_0008.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Dijeron que el trabajo era imposible.",
+          "english": "They said the work was impossible.",
+          "subject": "ellos/ellas/ustedes",
+          "region": "universal",
+          "source": "project_skepticism",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:ellos/ellas/ustedes",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ],
+          "audio": "tier2_DECIR_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Dije exactamente lo que pensaba sobre la situación.",
+          "english": "I said exactly what I thought about the situation.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "honest_opinion",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ],
+          "audio": "tier2_DECIR_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Dije hola.",
+          "english": "I said hello.",
+          "subject": "yo",
+          "source": "greeting",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Dijo adiós.",
+          "english": "He/She said goodbye.",
+          "subject": "él",
+          "source": "farewell",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Dije hola.",
+          "english": "I said hello.",
+          "subject": "yo",
+          "source": "greeting",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Dijo adiós.",
+          "english": "He/She said goodbye.",
+          "subject": "él",
+          "source": "farewell",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Diré mi opinión en la próxima clase.",
+          "english": "I will say my opinion in the next class.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "future_participation",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ],
+          "audio": "tier2_DECIR_future_0001.mp3"
+        },
+        {
+          "spanish": "Dirás unas palabras en la ceremonia de graduación.",
+          "english": "You (informal) will say a few words at the graduation ceremony.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "graduation_speech",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "stem-change:e-i",
+            "stem-changing",
+            "subject:tú",
+            "tense:future",
+            "tier:2",
+            "verb-type:ir",
+            "word-type:verb",
+            "yo-form:go"
+          ],
+          "audio": "tier2_DECIR_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Estoy diciendo algo importante.",
+          "english": "I am saying something important.",
+          "subject": "yo",
+          "source": "important_speech",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Está diciendo la verdad.",
+          "english": "He/She is telling the truth.",
+          "subject": "él",
+          "source": "truth_speaking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Estoy diciendo algo importante.",
+          "english": "I am saying something important.",
+          "subject": "yo",
+          "source": "important_speech",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Está diciendo la verdad.",
+          "english": "He/She is telling the truth.",
+          "subject": "él",
+          "source": "truth_speaking",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "¿Qué le vas a decir?",
+          "english": "What are you going to tell him/her?",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vas",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "communication",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:communication",
+            "roi:high"
+          ],
+          "audio": "tier2_DECIR_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Voy a decir la verdad.",
+          "english": "I'm going to tell the truth.",
+          "subject": "yo",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "voy",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "honesty",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:yo",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:honesty",
+            "roi:high"
+          ],
+          "audio": "tier2_DECIR_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Voy a decir mi nombre.",
+          "english": "I am going to say my name.",
+          "subject": "yo",
+          "source": "name_introduction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Vas a decir que sí.",
+          "english": "You (informal) are going to say yes.",
+          "subject": "tú",
+          "source": "affirmative_response",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_going-to_0004.mp3"
+        },
+        {
+          "spanish": "Voy a decir mi nombre.",
+          "english": "I am going to say my name.",
+          "subject": "yo",
+          "source": "name_introduction",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_going-to_0005.mp3"
+        },
+        {
+          "spanish": "Vas a decir que sí.",
+          "english": "You (informal) are going to say yes.",
+          "subject": "tú",
+          "source": "affirmative_response",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_DECIR_going-to_0006.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "SABER": {
+      "metadata": {
+        "english": "to know",
+        "verb_type": "er",
+        "regularity": "irregular",
+        "tags": [
+          "tier:2",
+          "irregular",
+          "er-verb"
+        ]
+      },
+      "present": [
+        {
+          "spanish": "Mis jefes saben que en ese restaurante preparan pizza muy buena.",
+          "english": "My bosses know that they make very good pizza at that restaurant.",
+          "region": "universal",
+          "verb": "SABER",
+          "tense": "present",
+          "file": "tier2-complete.json",
+          "source": {
+            "type": "transformed",
+            "origin": "copyright_safe_transformation",
+            "method": "family_to_work_transformation",
+            "date_created": "2025-12-02",
+            "original_source": "textbook_transformed"
+          },
+          "quality": {
+            "score": 35,
+            "authenticity": "transformed",
+            "linguistic_review": "needs_review",
+            "copyright_status": "safe_transformation",
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Wrong possessive ('Mi jefes'), 'saber/conocer' confusion; needs translation",
+            "chunk": 4
+          },
+          "linguistic": {
+            "construction": "standard",
+            "difficulty": "beginner",
+            "register": "neutral"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "present",
+              "vocabulary"
+            ],
+            "cultural_context": "general",
+            "tier_appropriate": true,
+            "transformation_method": "family_to_work_transformation"
+          },
+          "tags": [
+            "region:universal",
+            "subject:undefined",
+            "tense:present",
+            "word-type:verb",
+            "source:transformed",
+            "copyright:safe",
+            "method:family_to_work_transformation"
+          ],
+          "audio": "tier2_SABER_present_0001.mp3"
+        },
+        {
+          "spanish": "Sé español.",
+          "english": "I know Spanish.",
+          "subject": "yo",
+          "source": "language_knowledge",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present_0002.mp3"
+        },
+        {
+          "spanish": "Sabes cocinar.",
+          "english": "You (informal) know how to cook.",
+          "subject": "tú",
+          "source": "cooking_skill",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present_0003.mp3"
+        },
+        {
+          "spanish": "Sabe la respuesta.",
+          "english": "He/She knows the answer.",
+          "subject": "él",
+          "source": "answer_knowledge",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present_0004.mp3"
+        },
+        {
+          "spanish": "Sé español.",
+          "english": "I know Spanish.",
+          "subject": "yo",
+          "source": "language_knowledge",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present_0005.mp3"
+        },
+        {
+          "spanish": "Sabes cocinar.",
+          "english": "You (informal) know how to cook.",
+          "subject": "tú",
+          "source": "cooking_skill",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present_0006.mp3"
+        },
+        {
+          "spanish": "Sabe la respuesta.",
+          "english": "He/She knows the answer.",
+          "subject": "él",
+          "source": "answer_knowledge",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present_0007.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Supe la noticia por casualidad en el café.",
+          "english": "I found out the news by chance at the café.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "accidental_discovery",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ],
+          "audio": "tier2_SABER_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Supiste manejar la situación muy bien.",
+          "english": "You (informal) knew how to handle the situation very well.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "crisis_management",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ],
+          "audio": "tier2_SABER_preterite_0002.mp3"
+        },
+        {
+          "spanish": "Supe la noticia.",
+          "english": "I found out the news.",
+          "subject": "yo",
+          "source": "news_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_preterite_0003.mp3"
+        },
+        {
+          "spanish": "Supo la verdad.",
+          "english": "He/She found out the truth.",
+          "subject": "él",
+          "source": "truth_discovery_past",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_preterite_0004.mp3"
+        },
+        {
+          "spanish": "Supe la noticia.",
+          "english": "I found out the news.",
+          "subject": "yo",
+          "source": "news_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_preterite_0005.mp3"
+        },
+        {
+          "spanish": "Supo la verdad.",
+          "english": "He/She found out the truth.",
+          "subject": "él",
+          "source": "truth_discovery_past",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_preterite_0006.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Sabré la respuesta después de investigar más.",
+          "english": "I will know the answer after studying more.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "research_commitment",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ],
+          "audio": "tier2_SABER_future_0001.mp3"
+        },
+        {
+          "spanish": "Sabrás tocar el piano como un profesional.",
+          "english": "You will know how to play the piano like a professional.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "skill_development",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:future",
+            "tier:2",
+            "verb-type:er",
+            "word-type:verb",
+            "yo-form:irregular"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Meaning unnatural ('play piano like a worker')",
+            "chunk": 4
+          },
+          "audio": "tier2_SABER_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "sé más.",
+          "english": "I am learning more.",
+          "subject": "yo",
+          "source": "learning_process",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "sabe la verdad.",
+          "english": "He/She is finding out the truth.",
+          "subject": "él",
+          "source": "truth_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present-progressive_0002.mp3"
+        },
+        {
+          "spanish": "Estoy aprendiendo más.",
+          "english": "I am learning more.",
+          "subject": "yo",
+          "source": "learning_process",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present-progressive_0003.mp3"
+        },
+        {
+          "spanish": "Está descubriendo la verdad.",
+          "english": "He/She is discovering the truth.",
+          "subject": "él",
+          "source": "truth_discovery",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:él",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_present-progressive_0004.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "Vas a saber la respuesta pronto.",
+          "english": "You're going to know the answer soon.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vas",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "knowledge",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:knowledge",
+            "roi:high"
+          ],
+          "audio": "tier2_SABER_going-to_0001.mp3"
+        },
+        {
+          "spanish": "Vamos a saber los resultados mañana.",
+          "english": "We're going to know the results tomorrow.",
+          "subject": "nosotros",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "vamos",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "information",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:nosotros",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:information",
+            "roi:high"
+          ],
+          "audio": "tier2_SABER_going-to_0002.mp3"
+        },
+        {
+          "spanish": "Voy a saber manejar.",
+          "english": "I am going to know how to drive.",
+          "subject": "yo",
+          "source": "driving_skill_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_going-to_0003.mp3"
+        },
+        {
+          "spanish": "Vas a saber nadar.",
+          "english": "You (informal) are going to know how to swim.",
+          "subject": "tú",
+          "source": "swimming_skill_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_going-to_0004.mp3"
+        },
+        {
+          "spanish": "Voy a saber manejar.",
+          "english": "I am going to know how to drive.",
+          "subject": "yo",
+          "source": "driving_skill_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:yo",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_going-to_0005.mp3"
+        },
+        {
+          "spanish": "Vas a saber nadar.",
+          "english": "You (informal) are going to know how to swim.",
+          "subject": "tú",
+          "source": "swimming_skill_plan",
+          "region": "universal",
+          "tags": [
+            "region:universal",
+            "regularity:irregular",
+            "subject:tú",
+            "tense:going-to",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_SABER_going-to_0006.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "LLAMARSE": {
+      "metadata": [],
+      "present": [
+        {
+          "spanish": "¿Cómo se llama el profesor? ¿Jorge?",
+          "english": "What is the professor's name? Jorge?",
+          "region": "universal",
+          "verb": "LLAMARSE",
+          "tense": "present",
+          "file": "tier2-complete.json",
+          "source": {
+            "type": "transformed",
+            "origin": "copyright_safe_transformation",
+            "method": "reflexive_transformation",
+            "date_created": "2025-12-02",
+            "original_source": "textbook_transformed"
+          },
+          "quality": {
+            "score": 35,
+            "authenticity": "transformed",
+            "linguistic_review": "needs_review",
+            "copyright_status": "safe_transformation",
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Word order incorrect; missing translation",
+            "chunk": 4
+          },
+          "linguistic": {
+            "construction": "reflexive",
+            "difficulty": "beginner",
+            "register": "neutral"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "present",
+              "vocabulary"
+            ],
+            "cultural_context": "general",
+            "tier_appropriate": true,
+            "transformation_method": "reflexive_transformation"
+          },
+          "tags": [
+            "region:universal",
+            "subject:undefined",
+            "tense:present",
+            "word-type:verb",
+            "source:transformed",
+            "copyright:safe",
+            "method:reflexive_transformation"
+          ],
+          "audio": "tier2_LLAMARSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Me llamo Ana y soy de México.",
+          "english": "My name is Ana and I'm from Mexico.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "introduction_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "audio": "tier2_LLAMARSE_present_0002.mp3"
+        }
+      ],
+      "preterite": [
+        {
+          "spanish": "Me reporté enfermo y no fui a trabajar.",
+          "english": "I called in sick and didn't go to work.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "work_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Wrong verb meaning; 'llamarse' ≠ 'call in sick'",
+            "chunk": 4
+          },
+          "audio": "tier2_LLAMARSE_preterite_0001.mp3"
+        },
+        {
+          "spanish": "Te dijiste valiente después de saltar.",
+          "english": "You called yourself brave after jumping.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "courage_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:preterite",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "llamarse does NOT mean 'call yourself' in this sense",
+            "chunk": 5
+          },
+          "audio": "tier2_LLAMARSE_preterite_0002.mp3"
+        }
+      ],
+      "future": [
+        {
+          "spanish": "Seré doctora cuando termine la carrera.",
+          "english": "I will call myself doctor when I finish my degree.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "career_aspiration",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "llamarse ≠ call yourself a title",
+            "chunk": 5
+          },
+          "audio": "tier2_LLAMARSE_future_0001.mp3"
+        },
+        {
+          "spanish": "Llamarás todos los días desde Europa.",
+          "english": "You will call every day from Europe.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "travel_communication",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:future",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Using llamarse instead of llamar ('to call')",
+            "chunk": 5
+          },
+          "audio": "tier2_LLAMARSE_future_0002.mp3"
+        }
+      ],
+      "present-progressive": [
+        {
+          "spanish": "Me llamo Ana y soy de México.",
+          "english": "My name is Ana and I'm from Mexico.",
+          "subject": "yo",
+          "region": "universal",
+          "source": "introduction_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:yo",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Ungrammatical; malformed progressive + reflexive",
+            "chunk": 5
+          },
+          "audio": "tier2_LLAMARSE_present-progressive_0001.mp3"
+        },
+        {
+          "spanish": "Te llamas igual que tu abuelo.",
+          "english": "You're named after your grandfather.",
+          "subject": "tú",
+          "region": "universal",
+          "source": "family_context",
+          "tags": [
+            "reflexive:true",
+            "region:universal",
+            "regularity:regular",
+            "subject:tú",
+            "tense:present-progressive",
+            "tier:2",
+            "verb-type:ar",
+            "word-type:verb"
+          ],
+          "quality": {
+            "chatgpt_reviewed": true,
+            "chatgpt_fixed": true,
+            "fix_date": "2025-12-02",
+            "fix_issue": "Malformed structure",
+            "chunk": 5
+          },
+          "audio": "tier2_LLAMARSE_present-progressive_0002.mp3"
+        }
+      ],
+      "going-to": [
+        {
+          "spanish": "El bebé se va a llamar Diego.",
+          "english": "The baby is going to be named Diego.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_inspired",
+            "origin": "high_roi_ir_a_patterns",
+            "method": "existing_verb_enhancement",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 42,
+            "authenticity": "pedagogical",
+            "linguistic_review": "approved"
+          },
+          "linguistic": {
+            "verb_form": "va",
+            "construction": "ir_a_infinitive",
+            "difficulty": "beginner",
+            "register": "neutral",
+            "frequency": "very_high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "going-to",
+              "future_expression"
+            ],
+            "cultural_context": "naming",
+            "tier_appropriate": true,
+            "complexity_score": 2,
+            "high_roi": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:going-to",
+            "word-type:verb",
+            "source:enhanced",
+            "construction:ir_a",
+            "context:naming",
+            "roi:high"
+          ],
+          "audio": "tier2_LLAMARSE_going-to_0001.mp3"
+        }
+      ],
+      "present-perfect": []
+    },
+    "DUCHARSE": {
+      "present": [
+        {
+          "spanish": "Te duchas antes de ir al trabajo, ¿verdad?",
+          "english": "You shower before going to work, right?",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:ducharse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_DUCHARSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Siempre te duchas rápido cuando tienes prisa.",
+          "english": "You always shower quickly when you're in a hurry.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:ducharse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_DUCHARSE_present_0002.mp3"
+        },
+        {
+          "spanish": "Te duchas en la noche para relajarte.",
+          "english": "You shower at night to relax.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:ducharse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_DUCHARSE_present_0003.mp3"
+        }
+      ]
+    },
+    "LAVARSE": {
+      "present": [
+        {
+          "spanish": "Te lavas las manos antes de comer.",
+          "english": "You wash your hands before eating.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:lavarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_LAVARSE_present_0001.mp3"
+        },
+        {
+          "spanish": "Siempre te lavas la cara al levantarte.",
+          "english": "You always wash your face when you get up.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:lavarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_LAVARSE_present_0002.mp3"
+        },
+        {
+          "spanish": "Te lavas los dientes después del desayuno.",
+          "english": "You brush your teeth after breakfast.",
+          "subject": "tú",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "chatgpt_gap_filling",
+            "method": "natural_conversation_examples",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 48,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved",
+            "reviewer": "chatgpt_mexican_spanish"
+          },
+          "linguistic": {
+            "difficulty": "beginner_intermediate",
+            "register": "conversational",
+            "frequency": "high",
+            "mexican_spanish": true
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "reflexive",
+              "daily_routine"
+            ],
+            "cultural_context": "daily_life",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "chatgpt_generated": true
+          },
+          "tags": [
+            "region:universal",
+            "subject:tú",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "quality:very_high",
+            "verb:lavarse",
+            "mexican_spanish:true",
+            "natural_conversation:true"
+          ],
+          "audio": "tier2_LAVARSE_present_0003.mp3"
+        }
+      ]
+    },
+    "SALIR": {
+      "present": [
+        {
+          "spanish": "El vuelo sale a las tres y media.",
+          "english": "The flight leaves at three-thirty.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "present_for_future_patterns",
+            "method": "scheduled_events",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 46,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved"
+          },
+          "linguistic": {
+            "construction": "present_for_future",
+            "difficulty": "intermediate",
+            "register": "neutral",
+            "frequency": "high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "present_tense",
+              "future_meaning",
+              "schedules"
+            ],
+            "cultural_context": "transportation",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "special_construction": "present_for_future"
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "construction:present_for_future",
+            "context:transportation",
+            "high_roi:true"
+          ],
+          "audio": "tier2_SALIR_present_0001.mp3"
+        }
+      ]
+    },
+    "EMPEZAR": {
+      "present": [
+        {
+          "spanish": "La reunión empieza a las ocho en punto.",
+          "english": "The meeting starts at eight sharp.",
+          "subject": "él/ella/usted",
+          "region": "universal",
+          "source": {
+            "type": "chatgpt_generated",
+            "origin": "present_for_future_patterns",
+            "method": "scheduled_events",
+            "date_collected": "2025-12-02"
+          },
+          "quality": {
+            "score": 46,
+            "authenticity": "natural_conversation",
+            "linguistic_review": "chatgpt_approved"
+          },
+          "linguistic": {
+            "construction": "present_for_future",
+            "difficulty": "intermediate",
+            "register": "neutral",
+            "frequency": "high"
+          },
+          "pedagogy": {
+            "learning_focus": [
+              "present_tense",
+              "future_meaning",
+              "schedules"
+            ],
+            "cultural_context": "work",
+            "tier_appropriate": true,
+            "complexity_score": 3,
+            "special_construction": "present_for_future"
+          },
+          "tags": [
+            "region:universal",
+            "subject:él/ella/usted",
+            "tense:present",
+            "word-type:verb",
+            "source:chatgpt",
+            "construction:present_for_future",
+            "context:work",
+            "high_roi:true"
+          ],
+          "audio": "tier2_EMPEZAR_present_0001.mp3"
+        }
+      ]
+    }
+  }
+}

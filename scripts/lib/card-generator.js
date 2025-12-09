@@ -4,11 +4,14 @@
  */
 
 class CardGenerator {
-  constructor(conjugations, regionConfig, tierConfigs, tenseMapping) {
+  constructor(conjugations, regionConfig, tierConfigs, tenseMapping, options = {}) {
     this.conjugations = conjugations;
     this.regionConfig = regionConfig;
     this.tierConfigs = tierConfigs;
     this.tenseMapping = tenseMapping;
+    this.withAudio = options.withAudio || false;
+    this.audioDir = options.audioDir || null;
+    this.mediaFiles = new Map(); // Track media files to bundle: filename -> filepath
   }
 
   // Get conjugation for a verb
@@ -186,6 +189,21 @@ class CardGenerator {
     const englishWithHints = english;
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
     
+    // Build front content - add audio if available and withAudio is enabled
+    let frontContent = spanishWithPronoun;
+    let backContent = `<div style="font-size: 1.1em;">${englishWithHints}</div>`;
+    if (this.withAudio && sentence.audio) {
+      // ES→EN: Audio plays on front (hear Spanish, produce English)
+      // Back shows only English - user can replay from front if needed
+      frontContent = `[sound:${sentence.audio}]<br><br>${spanishWithPronoun}`;
+      // Track media file for bundling
+      if (this.audioDir) {
+        const path = require('path');
+        const audioPath = path.join(this.audioDir, sentence.audio);
+        this.mediaFiles.set(sentence.audio, audioPath);
+      }
+    }
+    
     cards.push({
       type: 'trans-es-en',
       verb: verbName,
@@ -193,9 +211,10 @@ class CardGenerator {
       tense: tense,
       subject: currentSubject,
       region: sentence.region,
-      front: spanishWithPronoun,
-      back: `<div style="font-size: 1.1em;">${englishWithHints}</div>`,
-      tags: tags.join(';')
+      front: frontContent,
+      back: backContent,
+      tags: tags.join(';'),
+      audio: sentence.audio || null
     });
   }
 
@@ -237,6 +256,19 @@ class CardGenerator {
     
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
     
+    // Build back content - add audio if available and withAudio is enabled
+    let backContent = `<div style="font-size: 1.1em;">${highlightedSpanish}</div>`;
+    if (this.withAudio && sentence.audio) {
+      // EN→ES: Audio plays on back (hear correct pronunciation after answering)
+      backContent = `<div style="font-size: 1.1em;">${highlightedSpanish}</div><br>[sound:${sentence.audio}]`;
+      // Track media file for bundling
+      if (this.audioDir) {
+        const path = require('path');
+        const audioPath = path.join(this.audioDir, sentence.audio);
+        this.mediaFiles.set(sentence.audio, audioPath);
+      }
+    }
+    
     cards.push({
       type: 'trans-en-es',
       verb: verbName,
@@ -245,8 +277,9 @@ class CardGenerator {
       subject: currentSubject,
       region: sentence.region,
       front: english,
-      back: `<div style="font-size: 1.1em;">${highlightedSpanish}</div>`,
-      tags: tags.join(';')
+      back: backContent,
+      tags: tags.join(';'),
+      audio: sentence.audio || null
     });
   }
 
@@ -467,7 +500,33 @@ class CardGenerator {
     const zip = new JSZip();
     const dbData = db.export();
     zip.file('collection.anki2', Buffer.from(dbData));
-    zip.file('media', '{}');
+    
+    // Bundle media files if withAudio is enabled
+    if (this.withAudio && this.mediaFiles.size > 0) {
+      const fs = require('fs');
+      const mediaMapping = {};
+      let mediaIndex = 0;
+      
+      for (const [filename, filepath] of this.mediaFiles) {
+        try {
+          if (fs.existsSync(filepath)) {
+            const audioData = fs.readFileSync(filepath);
+            zip.file(String(mediaIndex), audioData);
+            mediaMapping[String(mediaIndex)] = filename;
+            mediaIndex++;
+          } else {
+            console.warn(`  ⚠ Audio file not found: ${filepath}`);
+          }
+        } catch (err) {
+          console.warn(`  ⚠ Error reading audio file ${filepath}: ${err.message}`);
+        }
+      }
+      
+      zip.file('media', JSON.stringify(mediaMapping));
+      console.log(`  📢 Bundled ${mediaIndex} audio files`);
+    } else {
+      zip.file('media', '{}');
+    }
     
     return await zip.generateAsync({ type: 'nodebuffer' });
   }
@@ -635,7 +694,33 @@ class CardGenerator {
     const zip = new JSZip();
     const dbData = db.export();
     zip.file('collection.anki2', Buffer.from(dbData));
-    zip.file('media', '{}');
+    
+    // Bundle media files if withAudio is enabled
+    if (this.withAudio && this.mediaFiles.size > 0) {
+      const fs = require('fs');
+      const mediaMapping = {};
+      let mediaIndex = 0;
+      
+      for (const [filename, filepath] of this.mediaFiles) {
+        try {
+          if (fs.existsSync(filepath)) {
+            const audioData = fs.readFileSync(filepath);
+            zip.file(String(mediaIndex), audioData);
+            mediaMapping[String(mediaIndex)] = filename;
+            mediaIndex++;
+          } else {
+            console.warn(`  ⚠ Audio file not found: ${filepath}`);
+          }
+        } catch (err) {
+          console.warn(`  ⚠ Error reading audio file ${filepath}: ${err.message}`);
+        }
+      }
+      
+      zip.file('media', JSON.stringify(mediaMapping));
+      console.log(`  📢 Bundled ${mediaIndex} audio files`);
+    } else {
+      zip.file('media', '{}');
+    }
     
     return await zip.generateAsync({ type: 'nodebuffer' });
   }

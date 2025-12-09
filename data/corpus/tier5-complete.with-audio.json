@@ -142,7 +142,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_present_0006.mp3"
         }
       ],
       "preterite": [
@@ -161,7 +162,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_preterite_0001.mp3"
         },
         {
           "spanish": "Me gustó mucho la película que vimos anoche.",
@@ -178,7 +180,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_preterite_0002.mp3"
         },
         {
           "spanish": "Le gustó el regalo que le dimos.",
@@ -195,7 +198,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_preterite_0003.mp3"
         }
       ],
       "future": [
@@ -214,7 +218,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_future_0001.mp3"
         },
         {
           "spanish": "Le gustará el nuevo trabajo en la empresa.",
@@ -231,7 +236,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_future_0002.mp3"
         },
         {
           "spanish": "Le gustará el nuevo trabajo en la empresa.",
@@ -248,7 +254,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_future_0003.mp3"
         }
       ],
       "present-progressive": [],
@@ -295,7 +302,8 @@
             "construction:ir_a",
             "context:preference",
             "roi:high"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_going-to_0001.mp3"
         },
         {
           "spanish": "Me va a gustar la película.",
@@ -311,7 +319,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_going-to_0002.mp3"
         },
         {
           "spanish": "Te van a gustar mis amigos.",
@@ -327,7 +336,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_going-to_0003.mp3"
         }
       ],
       "present-perfect": [
@@ -345,7 +355,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_present-perfect_0001.mp3"
         },
         {
           "spanish": "Le han gustado las clases.",
@@ -361,7 +372,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_GUSTAR_present-perfect_0002.mp3"
         }
       ]
     },
@@ -394,7 +406,8 @@
             "tier:5",
             "verb-type:er",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present_0001.mp3"
         },
         {
           "spanish": "Te duelen los pies después de caminar.",
@@ -412,7 +425,8 @@
             "tier:5",
             "verb-type:er",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present_0002.mp3"
         },
         {
           "spanish": "Le duele el estómago por comer mucho.",
@@ -430,7 +444,8 @@
             "tier:5",
             "verb-type:er",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present_0003.mp3"
         },
         {
           "spanish": "Me duele la cabeza.",
@@ -446,7 +461,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present_0004.mp3"
         },
         {
           "spanish": "Te duelen los pies.",
@@ -462,7 +478,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present_0005.mp3"
         },
         {
           "spanish": "Le duele el estómago.",
@@ -478,7 +495,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present_0006.mp3"
         }
       ],
       "preterite": [
@@ -498,7 +516,8 @@
             "tier:5",
             "verb-type:er",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_preterite_0001.mp3"
         }
       ],
       "future": [
@@ -518,7 +537,8 @@
             "tier:5",
             "verb-type:er",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_future_0001.mp3"
         }
       ],
       "present-progressive": [],
@@ -537,7 +557,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_going-to_0001.mp3"
         },
         {
           "spanish": "Te van a doler las piernas.",
@@ -553,7 +574,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_going-to_0002.mp3"
         }
       ],
       "present-perfect": [
@@ -571,7 +593,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present-perfect_0001.mp3"
         },
         {
           "spanish": "Le han dolido los ojos.",
@@ -587,7 +610,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_DOLER_present-perfect_0002.mp3"
         }
       ]
     },
@@ -618,7 +642,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_present_0001.mp3"
         },
         {
           "spanish": "Te encantan los libros de aventuras.",
@@ -635,7 +660,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_present_0002.mp3"
         },
         {
           "spanish": "Me encanta la música.",
@@ -651,7 +677,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_present_0003.mp3"
         },
         {
           "spanish": "Te encantan las flores.",
@@ -667,7 +694,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_present_0004.mp3"
         },
         {
           "spanish": "Le encanta cocinar.",
@@ -683,7 +711,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_present_0005.mp3"
         }
       ],
       "preterite": [
@@ -702,7 +731,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_preterite_0001.mp3"
         }
       ],
       "future": [
@@ -721,7 +751,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_future_0001.mp3"
         }
       ],
       "present-progressive": [],
@@ -768,7 +799,8 @@
             "construction:ir_a",
             "context:appreciation",
             "roi:high"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_going-to_0001.mp3"
         },
         {
           "spanish": "Me va a encantar París.",
@@ -784,7 +816,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_going-to_0002.mp3"
         },
         {
           "spanish": "Te van a encantar mis padres.",
@@ -800,7 +833,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_going-to_0003.mp3"
         }
       ],
       "present-perfect": [
@@ -818,7 +852,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_present-perfect_0001.mp3"
         },
         {
           "spanish": "Le han encantado los regalos.",
@@ -834,7 +869,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_ENCANTAR_present-perfect_0002.mp3"
         }
       ]
     },
@@ -865,7 +901,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0001.mp3"
         },
         {
           "spanish": "Te molestan las interrupciones durante el trabajo.",
@@ -882,7 +919,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0002.mp3"
         },
         {
           "spanish": "Me molesta cuando hacen ruido tan temprano.",
@@ -927,7 +965,8 @@
             "verb:molestar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0003.mp3"
         },
         {
           "spanish": "¿Te molesta si prendo la tele?",
@@ -972,7 +1011,8 @@
             "verb:molestar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0004.mp3"
         },
         {
           "spanish": "A ella le molesta que no la escuches.",
@@ -1017,7 +1057,8 @@
             "verb:molestar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0005.mp3"
         },
         {
           "spanish": "Me molesta el ruido.",
@@ -1033,7 +1074,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0006.mp3"
         },
         {
           "spanish": "Te molestan las interrupciones.",
@@ -1049,7 +1091,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0007.mp3"
         },
         {
           "spanish": "Le molesta esperar.",
@@ -1065,7 +1108,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present_0008.mp3"
         }
       ],
       "preterite": [
@@ -1084,7 +1128,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_preterite_0001.mp3"
         }
       ],
       "future": [
@@ -1103,7 +1148,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_future_0001.mp3"
         }
       ],
       "present-progressive": [],
@@ -1122,7 +1168,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_going-to_0001.mp3"
         },
         {
           "spanish": "Te van a molestar los mosquitos.",
@@ -1138,7 +1185,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_going-to_0002.mp3"
         }
       ],
       "present-perfect": [
@@ -1156,7 +1204,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present-perfect_0001.mp3"
         },
         {
           "spanish": "Le han molestado los comentarios.",
@@ -1172,7 +1221,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_MOLESTAR_present-perfect_0002.mp3"
         }
       ]
     },
@@ -1203,7 +1253,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0001.mp3"
         },
         {
           "spanish": "Te importan mucho tus amigos.",
@@ -1220,7 +1271,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0002.mp3"
         },
         {
           "spanish": "No me importa lo que digan los demás.",
@@ -1265,7 +1317,8 @@
             "verb:importar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0003.mp3"
         },
         {
           "spanish": "¿Te importa si me siento aquí?",
@@ -1310,7 +1363,8 @@
             "verb:importar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0004.mp3"
         },
         {
           "spanish": "A nosotros nos importa mucho la familia.",
@@ -1355,7 +1409,8 @@
             "verb:importar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0005.mp3"
         },
         {
           "spanish": "Me importa tu opinión.",
@@ -1371,7 +1426,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0006.mp3"
         },
         {
           "spanish": "Te importan los resultados.",
@@ -1387,7 +1443,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0007.mp3"
         },
         {
           "spanish": "Le importa la familia.",
@@ -1403,7 +1460,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present_0008.mp3"
         }
       ],
       "preterite": [
@@ -1422,7 +1480,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_preterite_0001.mp3"
         }
       ],
       "future": [
@@ -1441,7 +1500,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_future_0001.mp3"
         }
       ],
       "present-progressive": [],
@@ -1460,7 +1520,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_going-to_0001.mp3"
         },
         {
           "spanish": "Te van a importar las consecuencias.",
@@ -1476,7 +1537,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_going-to_0002.mp3"
         }
       ],
       "present-perfect": [
@@ -1494,7 +1556,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present-perfect_0001.mp3"
         },
         {
           "spanish": "Le han importado los detalles.",
@@ -1510,7 +1573,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_IMPORTAR_present-perfect_0002.mp3"
         }
       ]
     },
@@ -1541,7 +1605,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0001.mp3"
         },
         {
           "spanish": "Te falta experiencia en este trabajo.",
@@ -1558,7 +1623,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0002.mp3"
         },
         {
           "spanish": "Me falta dinero para pagar la cuenta.",
@@ -1603,7 +1669,8 @@
             "verb:faltar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0003.mp3"
         },
         {
           "spanish": "¿Cuánto te falta para terminar?",
@@ -1648,7 +1715,8 @@
             "verb:faltar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0004.mp3"
         },
         {
           "spanish": "A él le falta una semana para las vacaciones.",
@@ -1693,7 +1761,8 @@
             "verb:faltar",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0005.mp3"
         },
         {
           "spanish": "Me falta dinero.",
@@ -1709,7 +1778,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0006.mp3"
         },
         {
           "spanish": "Te faltan cinco minutos.",
@@ -1725,7 +1795,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0007.mp3"
         },
         {
           "spanish": "Le falta experiencia.",
@@ -1741,7 +1812,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present_0008.mp3"
         }
       ],
       "preterite": [
@@ -1760,7 +1832,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_preterite_0001.mp3"
         }
       ],
       "future": [
@@ -1779,7 +1852,8 @@
             "tier:5",
             "verb-type:ar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_future_0001.mp3"
         }
       ],
       "present-progressive": [],
@@ -1798,7 +1872,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_going-to_0001.mp3"
         },
         {
           "spanish": "Te van a faltar ingredientes.",
@@ -1814,7 +1889,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_going-to_0002.mp3"
         }
       ],
       "present-perfect": [
@@ -1832,7 +1908,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present-perfect_0001.mp3"
         },
         {
           "spanish": "Le han faltado oportunidades.",
@@ -1848,7 +1925,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_FALTAR_present-perfect_0002.mp3"
         }
       ]
     },
@@ -1881,7 +1959,8 @@
             "verb-type:er",
             "word-type:verb",
             "yo-form:zco"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0001.mp3"
         },
         {
           "spanish": "Te parecen interesantes estos libros.",
@@ -1899,7 +1978,8 @@
             "verb-type:er",
             "word-type:verb",
             "yo-form:zco"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0002.mp3"
         },
         {
           "spanish": "Me parece que va a llover hoy.",
@@ -1944,7 +2024,8 @@
             "verb:parecer",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0003.mp3"
         },
         {
           "spanish": "¿Qué te parece este restaurante?",
@@ -1989,7 +2070,8 @@
             "verb:parecer",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0004.mp3"
         },
         {
           "spanish": "A ellos les parece buena idea salir temprano.",
@@ -2034,7 +2116,8 @@
             "verb:parecer",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0005.mp3"
         },
         {
           "spanish": "Me parece interesante.",
@@ -2050,7 +2133,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0006.mp3"
         },
         {
           "spanish": "Te parece difícil.",
@@ -2066,7 +2150,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0007.mp3"
         },
         {
           "spanish": "Le parece buena idea.",
@@ -2082,7 +2167,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_PARECER_present_0008.mp3"
         }
       ],
       "preterite": [
@@ -2102,7 +2188,8 @@
             "verb-type:er",
             "word-type:verb",
             "yo-form:zco"
-          ]
+          ],
+          "audio": "tier5_PARECER_preterite_0001.mp3"
         }
       ],
       "future": [
@@ -2122,7 +2209,8 @@
             "verb-type:er",
             "word-type:verb",
             "yo-form:zco"
-          ]
+          ],
+          "audio": "tier5_PARECER_future_0001.mp3"
         }
       ],
       "present-progressive": [],
@@ -2141,7 +2229,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_PARECER_going-to_0001.mp3"
         },
         {
           "spanish": "Te van a parecer caros.",
@@ -2157,7 +2246,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_PARECER_going-to_0002.mp3"
         }
       ],
       "present-perfect": [
@@ -2175,7 +2265,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_PARECER_present-perfect_0001.mp3"
         },
         {
           "spanish": "Le han parecido correctas.",
@@ -2191,7 +2282,8 @@
             "tier:5",
             "verb-type:gustar",
             "word-type:verb"
-          ]
+          ],
+          "audio": "tier5_PARECER_present-perfect_0002.mp3"
         }
       ]
     }

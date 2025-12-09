@@ -174,7 +174,12 @@ npm run audio:tier5
 
 # Or use the script directly with options
 node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier5-complete.json
+
+# View help (use node directly, not npm run)
+node scripts/generate-audio-from-corpus.mjs --help
 ```
+
+> **Note:** To pass flags like `--help` or `--dry-run`, run the script directly with `node` rather than using `npm run`. The npm script approach may not reliably pass additional arguments.
 
 ### CLI Options
 
@@ -239,3 +244,69 @@ npm run audio:tier3   # Process tier 3 (297 sentences)
 npm run audio:tier4   # Process tier 4 (231 sentences)
 npm run audio:tier5   # Process tier 5 (97 sentences)
 ```
+
+---
+
+## Generate All Deck Variants
+
+Generate all combinations of decks (text-only and audio versions) for distribution.
+
+### Quick Start
+
+```bash
+# Generate all variants (text + audio for all tiers and uber-deck)
+npm run generate:all-variants
+
+# Generate only text versions (no audio)
+npm run generate:text-only
+
+# Preview what would be generated
+node scripts/generate-all-decks.js --dry-run
+```
+
+### CLI Options
+
+```bash
+node scripts/generate-all-decks.js [options]
+```
+
+| Option | Description |
+|--------|-------------|
+| `--region <region>` | Generate only for specific region (default: all) |
+| `--tier <tier>` | Generate only specific tier 1-5 (default: all) |
+| `--audio-only` | Generate only audio versions |
+| `--text-only` | Generate only text versions |
+| `--no-uber` | Skip uber-deck (complete collection) generation |
+| `--dry-run` | Preview what would be generated |
+| `--help` | Show help |
+
+### Output Files
+
+The script generates decks in `./output/` with this naming convention:
+
+**Text-only:**
+- `DrillMaster-Tier1-Foundations-mexico.apkg` (~50 KB)
+- `DrillMaster-Tier2-EssentialActions-mexico.apkg` (~50 KB)
+- `DrillMaster-Complete-mexico.apkg` (~200 KB)
+
+**With Audio:**
+- `DrillMaster-Tier1-Foundations-Audio-mexico.apkg` (~14 MB)
+- `DrillMaster-Tier2-EssentialActions-Audio-mexico.apkg` (~21 MB)
+- `DrillMaster-Complete-Audio-mexico.apkg` (~80 MB)
+
+### Storage Estimates
+
+| Tier | Text-Only | With Audio |
+|------|-----------|------------|
+| 1 | ~50 KB | ~14 MB |
+| 2 | ~50 KB | ~21 MB |
+| 3 | ~50 KB | ~21 MB |
+| 4 | ~50 KB | ~17 MB |
+| 5 | ~30 KB | ~8 MB |
+| **Complete** | **~200 KB** | **~80 MB** |
+
+### Future Regions
+
+Currently supports `mexico` (Latin American Spanish). Future versions will add:
+- `argentina` - Argentine Spanish (vos)
+- `spain` - Castilian Spanish (vosotros)

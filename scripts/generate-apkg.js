@@ -67,12 +67,13 @@ function parseTierArg(tierArg) {
 // Parse command line arguments
 function parseArgs() {
   const args = process.argv.slice(2);
-  const options = { region: 'mexico', tierArg: null, output: './output' };
+  const options = { region: 'mexico', tierArg: null, output: './output', withAudio: false };
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--region' && args[i + 1]) { options.region = args[i + 1]; i++; }
     else if (args[i] === '--tier' && args[i + 1]) { options.tierArg = args[i + 1]; i++; }
     else if (args[i] === '--output' && args[i + 1]) { options.output = args[i + 1]; i++; }
+    else if (args[i] === '--with-audio') { options.withAudio = true; }
     else if (args[i] === '--version' || args[i] === '-v') {
       console.log(`DrillMaster v${VERSION}`);
       process.exit(0);
@@ -93,6 +94,7 @@ Options:
                       Default: 1-5 (all tiers as separate files)
   --region <region>   Spanish variant: mexico (default)
   --output <path>     Output directory (default: ./output)
+  --with-audio        Include audio files in deck (requires *.with-audio.json corpus)
   --version, -v       Show version
   --help, -h          Show this help
       `);
@@ -133,7 +135,7 @@ const TENSE_MAPPING = {
 };
 
 // Load data files
-async function loadData(baseDir) {
+async function loadData(baseDir, withAudio = false) {
   console.log('📂 Loading data files...');
   const verbsText = fs.readFileSync(path.join(baseDir, 'data', 'verbs.tsv'), 'utf-8');
   const conjugations = JSON.parse(fs.readFileSync(path.join(baseDir, 'data', 'conjugations.json'), 'utf-8'));
@@ -141,8 +143,20 @@ async function loadData(baseDir) {
   const corpus = {};
   for (let tier = 1; tier <= 5; tier++) {
     try {
-      corpus[tier] = JSON.parse(fs.readFileSync(path.join(baseDir, 'data', 'corpus', `tier${tier}-complete.json`), 'utf-8'));
-      console.log(`  ✓ Tier ${tier}: ${corpus[tier].metadata.verb_count} verbs`);
+      // Use .with-audio.json if withAudio is enabled and file exists
+      const audioCorpusPath = path.join(baseDir, 'data', 'corpus', `tier${tier}-complete.with-audio.json`);
+      const standardCorpusPath = path.join(baseDir, 'data', 'corpus', `tier${tier}-complete.json`);
+      
+      let corpusPath = standardCorpusPath;
+      if (withAudio && fs.existsSync(audioCorpusPath)) {
+        corpusPath = audioCorpusPath;
+        console.log(`  ✓ Tier ${tier}: Using audio corpus`);
+      }
+      
+      corpus[tier] = JSON.parse(fs.readFileSync(corpusPath, 'utf-8'));
+      if (!withAudio || !fs.existsSync(audioCorpusPath)) {
+        console.log(`  ✓ Tier ${tier}: ${corpus[tier].metadata.verb_count} verbs`);
+      }
     } catch (e) {
       corpus[tier] = { metadata: {}, verbs: {} };
     }
@@ -200,7 +214,9 @@ async function main() {
   console.log('\n🎯 DrillMaster APKG Generator\n');
   console.log(`Region: ${options.region}`);
   console.log(`Generate: ${genDesc}`);
-  console.log(`Output: ${options.output}\n`);
+  console.log(`Output: ${options.output}`);
+  if (options.withAudio) console.log(`Audio: Enabled 🔊`);
+  console.log('');
   
   const regionConfig = regionConfigs[options.region];
   if (!regionConfig) {
@@ -208,7 +224,8 @@ async function main() {
     process.exit(1);
   }
   
-  const { verbsText, conjugations, corpus } = await loadData(baseDir);
+  const { verbsText, conjugations, corpus } = await loadData(baseDir, options.withAudio);
+  const audioDir = path.join(baseDir, 'data', 'audio');
   const verbs = parseVerbs(verbsText);
   console.log(`\n📚 Loaded ${verbs.length} verbs\n`);
   
@@ -220,14 +237,19 @@ async function main() {
     for (const tierNum of options.tiers) {
       console.log(`🚀 Generating Tier ${tierNum}: ${TIER_CONFIGS[tierNum].name}...`);
       
-      const generator = new CardGenerator(conjugations, regionConfig, TIER_CONFIGS, TENSE_MAPPING);
+      const generatorOptions = {
+        withAudio: options.withAudio,
+        audioDir: audioDir
+      };
+      const generator = new CardGenerator(conjugations, regionConfig, TIER_CONFIGS, TENSE_MAPPING, generatorOptions);
       const cards = generator.generateTierCards(tierNum, verbs, corpus);
       console.log(`   Generated ${cards.length} cards`);
       
       if (cards.length === 0) { console.log(`   ⚠ Skipping empty tier`); continue; }
       
       const apkgBuffer = await generator.createApkg(tierNum, cards);
-      const filename = `DrillMaster-Tier${tierNum}-${TIER_CONFIGS[tierNum].name.replace(/\s+/g, '')}-${regionConfig.filePrefix}.apkg`;
+      const audioSuffix = options.withAudio ? '-Audio' : '';
+      const filename = `DrillMaster-Tier${tierNum}-${TIER_CONFIGS[tierNum].name.replace(/\s+/g, '')}${audioSuffix}-${regionConfig.filePrefix}.apkg`;
       fs.writeFileSync(path.join(outputDir, filename), apkgBuffer);
       console.log(`   ✅ Saved: ${filename}`);
     }
@@ -237,7 +259,11 @@ async function main() {
   if (options.includeUber) {
     console.log('🚀 Generating Complete DrillMaster Collection (Uber-deck)...');
     
-    const generator = new CardGenerator(conjugations, regionConfig, TIER_CONFIGS, TENSE_MAPPING);
+    const uberGeneratorOptions = {
+      withAudio: options.withAudio,
+      audioDir: audioDir
+    };
+    const generator = new CardGenerator(conjugations, regionConfig, TIER_CONFIGS, TENSE_MAPPING, uberGeneratorOptions);
     const allCards = [];
     let totalCards = 0;
     
@@ -260,7 +286,8 @@ async function main() {
     
     if (totalCards > 0) {
       const apkgBuffer = await generator.createUberApkg(allCards, regionConfig);
-      const filename = `DrillMaster-Complete-${regionConfig.filePrefix}.apkg`;
+      const audioSuffix = options.withAudio ? '-Audio' : '';
+      const filename = `DrillMaster-Complete${audioSuffix}-${regionConfig.filePrefix}.apkg`;
       fs.writeFileSync(path.join(outputDir, filename), apkgBuffer);
       console.log(`   ✅ Saved: ${filename}`);
     } else {
