@@ -16,6 +16,7 @@
  *   --limit <n>           Max number of sentences to process
  *   --dry-run             Log what would happen without calling API or writing files
  *   --skip-existing       Skip sentences that already have an audio field
+ *   --fix-pronouns        Regenerate audio with subject pronouns prepended
  *   --voice <voice>       OpenAI TTS voice (default: coral)
  *   --speed <speed>       Speech speed 0.25-4.0 (default: 1.0)
  *   --verbose             Show detailed logging for each sentence
@@ -38,6 +39,7 @@ function parseArgs() {
     limit: null,
     dryRun: false,
     skipExisting: false,
+    fixPronouns: false,
     voice: 'coral',
     speed: 1.0,
     verbose: false,
@@ -61,6 +63,9 @@ function parseArgs() {
         break;
       case '--skip-existing':
         options.skipExisting = true;
+        break;
+      case '--fix-pronouns':
+        options.fixPronouns = true;
         break;
       case '--voice':
         options.voice = args[++i];
@@ -95,6 +100,7 @@ Options:
   --limit <n>           Max number of sentences to process
   --dry-run             Log what would happen without calling API or writing files
   --skip-existing       Skip sentences that already have an audio field
+  --fix-pronouns        Regenerate audio with subject pronouns prepended (deletes old files)
   --voice <voice>       OpenAI TTS voice (default: coral)
                         Available: ${AVAILABLE_VOICES.join(', ')}
   --speed <speed>       Speech speed 0.25-4.0 (default: 1.0)
@@ -110,6 +116,9 @@ Examples:
 
   # Resume processing, skip already processed sentences
   node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier5-complete.json --skip-existing
+
+  # Fix audio files to include subject pronouns
+  node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier1-complete.json --fix-pronouns
 
   # Use different voice and speed
   node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier1-complete.json --voice nova --speed 0.9
@@ -128,6 +137,82 @@ function getTierPrefix(corpusPath) {
 function generateAudioFilename(tierPrefix, verbKey, tenseKey, index) {
   const paddedIndex = String(index).padStart(4, '0');
   return `${tierPrefix}_${verbKey}_${tenseKey}_${paddedIndex}.mp3`;
+}
+
+// Prepend subject pronoun to Spanish text (matches card-generator.js logic)
+function prependPronoun(spanishText, subject, verbKey) {
+  const spanishPronouns = {
+    'yo': 'Yo',
+    'tú': 'Tú',
+    'él': 'Él',
+    'ella': 'Ella', 
+    'usted': 'Usted',
+    'nosotros': 'Nosotros',
+    'ellos': 'Ellos',
+    'ellas': 'Ellas',
+    'ustedes': 'Ustedes',
+    'vos': 'Vos',
+    'vosotros': 'Vosotros',
+    // Handle compound subjects
+    'él/ella/usted': 'Usted',
+    'ellos/ellas/ustedes': 'Ustedes'
+  };
+
+  // Gustar-type verbs don't need subject pronouns prepended
+  const GUSTAR_TYPE_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
+  if (GUSTAR_TYPE_VERBS.includes(verbKey.toUpperCase())) {
+    return spanishText;
+  }
+
+  const pronoun = spanishPronouns[subject] || subject;
+  if (!pronoun) {
+    return spanishText;
+  }
+
+  // Check if sentence already starts with the pronoun
+  if (spanishText.startsWith('¿')) {
+    // For questions, check if pronoun already exists after ¿
+    const afterQuestion = spanishText.substring(1).trim();
+    if (afterQuestion.toLowerCase().startsWith(pronoun.toLowerCase() + ' ')) {
+      return spanishText; // Already has pronoun
+    }
+    // Insert pronoun after ¿ and lowercase the next letter
+    const rest = spanishText.substring(1);
+    const firstChar = rest.charAt(0).toLowerCase();
+    const restOfSentence = rest.slice(1);
+    return `¿${pronoun} ${firstChar}${restOfSentence}`;
+  } else {
+    // Check if sentence already starts with the pronoun
+    if (spanishText.toLowerCase().startsWith(pronoun.toLowerCase() + ' ')) {
+      return spanishText; // Already has pronoun
+    }
+    // Prepend pronoun and lowercase the first letter
+    const firstChar = spanishText.charAt(0).toLowerCase();
+    const restOfSentence = spanishText.slice(1);
+    return `${pronoun} ${firstChar}${restOfSentence}`;
+  }
+}
+
+// Check if a sentence needs pronoun fix (doesn't already have pronoun)
+function needsPronounFix(spanishText, subject, verbKey) {
+  const GUSTAR_TYPE_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
+  if (GUSTAR_TYPE_VERBS.includes(verbKey.toUpperCase())) {
+    return false; // Gustar-type verbs don't need fixing
+  }
+
+  const spanishPronouns = {
+    'yo': 'Yo', 'tú': 'Tú', 'él': 'Él', 'ella': 'Ella', 'usted': 'Usted',
+    'nosotros': 'Nosotros', 'ellos': 'Ellos', 'ellas': 'Ellas', 'ustedes': 'Ustedes',
+    'vos': 'Vos', 'vosotros': 'Vosotros',
+    'él/ella/usted': 'Usted', 'ellos/ellas/ustedes': 'Ustedes'
+  };
+
+  const pronoun = spanishPronouns[subject];
+  if (!pronoun) return false;
+
+  // Check if already has pronoun
+  const textToCheck = spanishText.startsWith('¿') ? spanishText.substring(1).trim() : spanishText;
+  return !textToCheck.toLowerCase().startsWith(pronoun.toLowerCase() + ' ');
 }
 
 // Collect all sentences from corpus with their location info
@@ -245,6 +330,7 @@ async function main() {
   console.log(`Speed:          ${options.speed}`);
   console.log(`Dry run:        ${options.dryRun}`);
   console.log(`Skip existing:  ${options.skipExisting}`);
+  console.log(`Fix pronouns:   ${options.fixPronouns}`);
   if (options.limit) {
     console.log(`Limit:          ${options.limit}`);
   }
@@ -286,35 +372,65 @@ async function main() {
   let skipped = 0;
   let errors = 0;
 
+  let deleted = 0;
+
   for (const item of sentencesToProcess) {
     const { verbKey, tenseKey, arrayIndex, tenseIndex, sentence } = item;
     const audioFilename = generateAudioFilename(tierPrefix, verbKey, tenseKey, tenseIndex);
     const audioPath = path.join(audioDir, audioFilename);
 
-    // Truncate spanish text for logging
-    const truncatedSpanish = sentence.spanish.length > 50 
-      ? sentence.spanish.substring(0, 47) + '...'
+    // Determine the text to use for TTS
+    const spanishTextForTTS = options.fixPronouns 
+      ? prependPronoun(sentence.spanish, sentence.subject, verbKey)
       : sentence.spanish;
+
+    // Truncate spanish text for logging
+    const truncatedSpanish = spanishTextForTTS.length > 50 
+      ? spanishTextForTTS.substring(0, 47) + '...'
+      : spanishTextForTTS;
 
     if (options.verbose) {
       console.log(`\n[${verbKey}/${tenseKey}] ${truncatedSpanish}`);
       console.log(`  -> ${audioFilename}`);
     }
 
-    // Check if audio file already exists
-    if (!options.dryRun && fs.existsSync(audioPath)) {
-      if (options.verbose) {
-        console.log(`  SKIP: Audio file already exists`);
+    // Handle --fix-pronouns mode
+    if (options.fixPronouns) {
+      const needsFix = needsPronounFix(sentence.spanish, sentence.subject, verbKey);
+      
+      if (!needsFix) {
+        if (options.verbose) {
+          console.log(`  SKIP: No pronoun fix needed`);
+        }
+        corpus.verbs[verbKey][tenseKey][arrayIndex].audio = audioFilename;
+        skipped++;
+        continue;
       }
-      // Still update the sentence object with the audio field
-      corpus.verbs[verbKey][tenseKey][arrayIndex].audio = audioFilename;
-      skipped++;
-      continue;
+
+      // Delete existing audio file if it exists (needs regeneration)
+      if (!options.dryRun && fs.existsSync(audioPath)) {
+        fs.unlinkSync(audioPath);
+        deleted++;
+        if (options.verbose) {
+          console.log(`  DELETED: Old audio file (will regenerate with pronoun)`);
+        }
+      }
+    } else {
+      // Normal mode: skip if audio file already exists
+      if (!options.dryRun && fs.existsSync(audioPath)) {
+        if (options.verbose) {
+          console.log(`  SKIP: Audio file already exists`);
+        }
+        corpus.verbs[verbKey][tenseKey][arrayIndex].audio = audioFilename;
+        skipped++;
+        continue;
+      }
     }
 
     if (options.dryRun) {
       if (options.verbose) {
-        console.log(`  DRY RUN: Would generate audio`);
+        const action = options.fixPronouns ? 'Would regenerate with pronoun' : 'Would generate audio';
+        console.log(`  DRY RUN: ${action}`);
       }
       processed++;
       continue;
@@ -322,7 +438,7 @@ async function main() {
 
     // Generate audio
     try {
-      const audioBuffer = await generateAudio(openai, sentence.spanish, options);
+      const audioBuffer = await generateAudio(openai, spanishTextForTTS, options);
       fs.writeFileSync(audioPath, audioBuffer);
       
       // Update sentence object with audio field
@@ -351,6 +467,9 @@ async function main() {
   console.log(`Total sentences found:  ${allSentences.length}`);
   console.log(`Sentences processed:    ${processed}`);
   console.log(`Sentences skipped:      ${skipped}`);
+  if (options.fixPronouns && deleted > 0) {
+    console.log(`Old files deleted:      ${deleted}`);
+  }
   console.log(`Errors:                 ${errors}`);
 
   // Write updated corpus

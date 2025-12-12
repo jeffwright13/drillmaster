@@ -1,0 +1,275 @@
+{
+  "total_sentences_checked": 1458,
+  "total_fixes_made": 21,
+  "by_tier": {
+    "1": {
+      "sentences_checked": 550,
+      "fixes_made": 11,
+      "patterns_fixed": {
+        "Fix \"está tomando pizza\" → \"está comiendo pizza\" (food items)": 1,
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)": 10
+      }
+    },
+    "2": {
+      "sentences_checked": 283,
+      "fixes_made": 2,
+      "patterns_fixed": {
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)": 2
+      }
+    },
+    "3": {
+      "sentences_checked": 297,
+      "fixes_made": 0,
+      "patterns_fixed": {}
+    },
+    "4": {
+      "sentences_checked": 231,
+      "fixes_made": 8,
+      "patterns_fixed": {
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)": 8
+      }
+    },
+    "5": {
+      "sentences_checked": 97,
+      "fixes_made": 0,
+      "patterns_fixed": {}
+    }
+  },
+  "by_pattern": {
+    "Fix \"está tomando pizza\" → \"está comiendo pizza\" (food items)": 1,
+    "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)": 20
+  },
+  "examples": [
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "He is having Neapolitan pizza for lunch.",
+      "before": "Está tomando pizza napolitana para el almuerzo.",
+      "after": "está comiendo pizza napolitana para el almuerzo.",
+      "fixes_applied": [
+        "Fix \"está tomando pizza\" → \"está comiendo pizza\" (food items)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "She is having a baby soon.",
+      "before": "Está teniendo un bebé pronto.",
+      "after": "tiene un bebé pronto.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "I am having a good day.",
+      "before": "Estoy teniendo un buen día.",
+      "after": "tengo un buen día.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "You (informal) are having problems.",
+      "before": "Estás teniendo problemas.",
+      "after": "tienes problemas.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "She is having a meeting.",
+      "before": "Ella está teniendo una reunión.",
+      "after": "Ella tiene una reunión.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "He is having luck.",
+      "before": "Él está teniendo suerte.",
+      "after": "Él tiene suerte.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "We are having a party.",
+      "before": "Estamos teniendo una fiesta.",
+      "after": "tenemos una fiesta.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "You (formal) are having success.",
+      "before": "Usted está teniendo éxito.",
+      "after": "Usted tiene éxito.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "You all are having a conversation.",
+      "before": "Estáis teniendo una conversación.",
+      "after": "tenéis una conversación.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "They are having difficulties.",
+      "before": "Ellos están teniendo dificultades.",
+      "after": "Ellos tienen dificultades.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "1",
+      "verb": "TENER",
+      "tense": "present-progressive",
+      "english": "You all are having a unique experience.",
+      "before": "Ustedes están teniendo una experiencia única.",
+      "after": "Ustedes tienen una experiencia única.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "2",
+      "verb": "SABER",
+      "tense": "present-progressive",
+      "english": "I am learning more.",
+      "before": "Estoy sabiendo más.",
+      "after": "sé más.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "2",
+      "verb": "SABER",
+      "tense": "present-progressive",
+      "english": "He/She is finding out the truth.",
+      "before": "Está sabiendo la verdad.",
+      "after": "sabe la verdad.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "CONOCER",
+      "tense": "present-progressive",
+      "english": "I am meeting new people.",
+      "before": "Estoy conociendo gente nueva.",
+      "after": "conozco gente nueva.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "CONOCER",
+      "tense": "present-progressive",
+      "english": "He/She is getting to know the culture.",
+      "before": "Está conociendo la cultura.",
+      "after": "conoce la cultura.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "CONOCER",
+      "tense": "present-progressive",
+      "english": "I am meeting new people.",
+      "before": "Estoy conociendo gente nueva.",
+      "after": "conozco gente nueva.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "CONOCER",
+      "tense": "present-progressive",
+      "english": "He/She is getting to know the culture.",
+      "before": "Está conociendo la cultura.",
+      "after": "conoce la cultura.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "NECESITAR",
+      "tense": "present-progressive",
+      "english": "I am needing support.",
+      "before": "Estoy necesitando apoyo.",
+      "after": "necesito apoyo.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "NECESITAR",
+      "tense": "present-progressive",
+      "english": "He/She is needing attention.",
+      "before": "Está necesitando atención.",
+      "after": "necesita atención.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "NECESITAR",
+      "tense": "present-progressive",
+      "english": "I am needing support.",
+      "before": "Estoy necesitando apoyo.",
+      "after": "necesito apoyo.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    },
+    {
+      "tier": "4",
+      "verb": "NECESITAR",
+      "tense": "present-progressive",
+      "english": "He/She is needing attention.",
+      "before": "Está necesitando atención.",
+      "after": "necesita atención.",
+      "fixes_applied": [
+        "Fix \"estoy teniendo\" → \"tengo\" (stative verbs)"
+      ]
+    }
+  ]
+}
