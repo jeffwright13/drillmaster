@@ -40,6 +40,8 @@ function parseArgs() {
     dryRun: false,
     skipExisting: false,
     fixPronouns: false,
+    regenFile: null,
+    ttsText: null,
     voice: 'coral',
     speed: 1.0,
     verbose: false,
@@ -66,6 +68,12 @@ function parseArgs() {
         break;
       case '--fix-pronouns':
         options.fixPronouns = true;
+        break;
+      case '--regen-file':
+        options.regenFile = args[++i];
+        break;
+      case '--tts-text':
+        options.ttsText = args[++i];
         break;
       case '--voice':
         options.voice = args[++i];
@@ -96,11 +104,13 @@ Usage: node scripts/generate-audio-from-corpus.mjs [options]
 
 Options:
   --corpus <path>       Path to corpus JSON file (required)
-  --out <path>          Output JSON path (default: <corpus-basename>.with-audio.json)
+  --out <path>          Output JSON path (default: <corpus>.with-audio.json)
   --limit <n>           Max number of sentences to process
   --dry-run             Log what would happen without calling API or writing files
   --skip-existing       Skip sentences that already have an audio field
-  --fix-pronouns        Regenerate audio with subject pronouns prepended (deletes old files)
+  --fix-pronouns        Regenerate audio with subject pronouns prepended
+  --regen-file <name>   Regenerate a single audio file by filename (overwrites existing)
+  --tts-text <text>     Override the exact text sent to TTS (use with --regen-file)
   --voice <voice>       OpenAI TTS voice (default: coral)
                         Available: ${AVAILABLE_VOICES.join(', ')}
   --speed <speed>       Speech speed 0.25-4.0 (default: 1.0)
@@ -119,6 +129,12 @@ Examples:
 
   # Fix audio files to include subject pronouns
   node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier1-complete.json --fix-pronouns
+
+  # Regenerate just one audio file (example)
+  node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier2-complete.with-audio.json --out data/corpus/tier2-complete.with-audio.json --regen-file tier2_ACOSTARSE_present_0004.mp3 --fix-pronouns
+
+  # Regenerate one file with custom TTS text to enforce a pause
+  node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier2-complete.with-audio.json --out data/corpus/tier2-complete.with-audio.json --regen-file tier2_ACOSTARSE_present_0004.mp3 --tts-text "Tú, normalmente te acuestas viendo videos en tu teléfono."
 
   # Use different voice and speed
   node scripts/generate-audio-from-corpus.mjs --corpus data/corpus/tier1-complete.json --voice nova --speed 0.9
@@ -331,6 +347,9 @@ async function main() {
   console.log(`Dry run:        ${options.dryRun}`);
   console.log(`Skip existing:  ${options.skipExisting}`);
   console.log(`Fix pronouns:   ${options.fixPronouns}`);
+  if (options.regenFile) {
+    console.log(`Regen file:     ${options.regenFile}`);
+  }
   if (options.limit) {
     console.log(`Limit:          ${options.limit}`);
   }
@@ -349,10 +368,31 @@ async function main() {
   const allSentences = collectSentences(corpus, options);
   console.log(`Found ${allSentences.length} sentences to process`);
 
+  // If we're regenerating a single file, filter down to exactly that sentence
+  let filteredSentences = allSentences;
+  if (options.regenFile) {
+    filteredSentences = allSentences.filter(({ verbKey, tenseKey, tenseIndex, sentence }) => {
+      if (sentence?.audio === options.regenFile) {
+        return true;
+      }
+      const expected = generateAudioFilename(tierPrefix, verbKey, tenseKey, tenseIndex);
+      return expected === options.regenFile;
+    });
+
+    if (filteredSentences.length === 0) {
+      console.error(`Error: Could not find any sentence in corpus matching --regen-file ${options.regenFile}`);
+      process.exit(1);
+    }
+    if (filteredSentences.length > 1) {
+      console.error(`Error: Found multiple sentences matching --regen-file ${options.regenFile}. Aborting to avoid overwriting the wrong file.`);
+      process.exit(1);
+    }
+  }
+
   // Apply limit
   const sentencesToProcess = options.limit 
-    ? allSentences.slice(0, options.limit)
-    : allSentences;
+    ? filteredSentences.slice(0, options.limit)
+    : filteredSentences;
 
   if (options.limit) {
     console.log(`Processing ${sentencesToProcess.length} sentences (limited)`);
@@ -380,9 +420,21 @@ async function main() {
     const audioPath = path.join(audioDir, audioFilename);
 
     // Determine the text to use for TTS
-    const spanishTextForTTS = options.fixPronouns 
+    let spanishTextForTTS = options.fixPronouns 
       ? prependPronoun(sentence.spanish, sentence.subject, verbKey)
       : sentence.spanish;
+
+    // Allow overriding the exact TTS text (useful for punctuation-based pauses)
+    if (options.ttsText) {
+      if (!options.regenFile) {
+        console.error('Error: --tts-text is only supported when used with --regen-file');
+        process.exit(1);
+      }
+      spanishTextForTTS = options.ttsText;
+      if (options.verbose) {
+        console.log(`  TTS OVERRIDE: ${spanishTextForTTS}`);
+      }
+    }
 
     // Truncate spanish text for logging
     const truncatedSpanish = spanishTextForTTS.length > 50 
@@ -394,36 +446,47 @@ async function main() {
       console.log(`  -> ${audioFilename}`);
     }
 
-    // Handle --fix-pronouns mode
-    if (options.fixPronouns) {
-      const needsFix = needsPronounFix(sentence.spanish, sentence.subject, verbKey);
-      
-      if (!needsFix) {
-        if (options.verbose) {
-          console.log(`  SKIP: No pronoun fix needed`);
-        }
-        corpus.verbs[verbKey][tenseKey][arrayIndex].audio = audioFilename;
-        skipped++;
-        continue;
-      }
-
-      // Delete existing audio file if it exists (needs regeneration)
+    // --regen-file forces regeneration of this one file (overwrite existing)
+    if (options.regenFile) {
       if (!options.dryRun && fs.existsSync(audioPath)) {
         fs.unlinkSync(audioPath);
         deleted++;
         if (options.verbose) {
-          console.log(`  DELETED: Old audio file (will regenerate with pronoun)`);
+          console.log(`  DELETED: Existing audio file (forced regen)`);
         }
       }
     } else {
-      // Normal mode: skip if audio file already exists
-      if (!options.dryRun && fs.existsSync(audioPath)) {
-        if (options.verbose) {
-          console.log(`  SKIP: Audio file already exists`);
+      // Handle --fix-pronouns mode
+      if (options.fixPronouns) {
+        const needsFix = needsPronounFix(sentence.spanish, sentence.subject, verbKey);
+
+        if (!needsFix) {
+          if (options.verbose) {
+            console.log(`  SKIP: No pronoun fix needed`);
+          }
+          corpus.verbs[verbKey][tenseKey][arrayIndex].audio = audioFilename;
+          skipped++;
+          continue;
         }
-        corpus.verbs[verbKey][tenseKey][arrayIndex].audio = audioFilename;
-        skipped++;
-        continue;
+
+        // Delete existing audio file if it exists (needs regeneration)
+        if (!options.dryRun && fs.existsSync(audioPath)) {
+          fs.unlinkSync(audioPath);
+          deleted++;
+          if (options.verbose) {
+            console.log(`  DELETED: Old audio file (will regenerate with pronoun)`);
+          }
+        }
+      } else {
+        // Normal mode: skip if audio file already exists
+        if (!options.dryRun && fs.existsSync(audioPath)) {
+          if (options.verbose) {
+            console.log(`  SKIP: Audio file already exists`);
+          }
+          corpus.verbs[verbKey][tenseKey][arrayIndex].audio = audioFilename;
+          skipped++;
+          continue;
+        }
       }
     }
 
