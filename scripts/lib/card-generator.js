@@ -102,6 +102,47 @@ class CardGenerator {
     return tags;
   }
 
+  prependPronoun(spanishText, subject, verbName) {
+    const spanishPronouns = {
+      'yo': 'Yo',
+      'tú': 'Tú',
+      'él': 'Él',
+      'ella': 'Ella', 
+      'usted': 'Usted',
+      'nosotros': 'Nosotros',
+      'ellos': 'Ellos',
+      'ellas': 'Ellas',
+      'ustedes': 'Ustedes',
+      'vos': 'Vos',
+      'vosotros': 'Vosotros'
+    };
+
+    const GUSTAR_TYPE_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
+    if (GUSTAR_TYPE_VERBS.includes(verbName)) {
+      return spanishText;
+    }
+
+    const pronoun = spanishPronouns[subject] || subject;
+
+    if (spanishText.startsWith('¿')) {
+      const afterQuestion = spanishText.substring(1).trim();
+      if (afterQuestion.toLowerCase().startsWith(pronoun.toLowerCase() + ' ')) {
+        return spanishText;
+      }
+
+      let withPronoun = spanishText.replace(/^¿/, `¿${pronoun} `);
+      withPronoun = withPronoun.replace(/^(¿[A-Z][a-z]*\s+)([A-Z])/, (match, prefix, firstLetter) => prefix + firstLetter.toLowerCase());
+      return withPronoun;
+    }
+
+    if (spanishText.toLowerCase().startsWith(pronoun.toLowerCase() + ' ')) {
+      return spanishText;
+    }
+
+    const firstChar = spanishText.charAt(0).toLowerCase();
+    const restOfSentence = spanishText.slice(1);
+    return `${pronoun} ${firstChar}${restOfSentence}`;
+  }
 
   // Generate ES→EN translation card
   generateTranslationEStoEN(cards, verb, sentence, tense, corpusVerb) {
@@ -137,53 +178,7 @@ class CardGenerator {
     // }
     
     // Add Spanish pronoun to eliminate ambiguity naturally
-    const spanishPronouns = {
-      'yo': 'Yo',
-      'tú': 'Tú',
-      'él': 'Él',
-      'ella': 'Ella', 
-      'usted': 'Usted',
-      'nosotros': 'Nosotros',
-      'ellos': 'Ellos',
-      'ellas': 'Ellas',
-      'ustedes': 'Ustedes',
-      'vos': 'Vos',
-      'vosotros': 'Vosotros'
-    };
-    
-    // Special handling for gustar-type verbs - they don't need subject pronouns
-    const GUSTAR_TYPE_VERBS = ['GUSTAR', 'DOLER', 'ENCANTAR', 'MOLESTAR', 'IMPORTAR', 'FALTAR', 'PARECER'];
-    
-    let spanishWithPronoun;
-    if (GUSTAR_TYPE_VERBS.includes(verbName)) {
-      // Gustar-type verbs already have correct pronoun structure, don't add subject pronouns
-      spanishWithPronoun = highlightedSpanish;
-    } else {
-      const pronoun = spanishPronouns[currentSubject] || currentSubject;
-      
-      // Check if sentence already starts with the pronoun to avoid duplication
-      if (highlightedSpanish.startsWith('¿')) {
-        // For questions, check if pronoun already exists after ¿
-        const afterQuestion = highlightedSpanish.substring(1).trim();
-        if (afterQuestion.toLowerCase().startsWith(pronoun.toLowerCase() + ' ')) {
-          spanishWithPronoun = highlightedSpanish; // Already has pronoun
-        } else {
-          spanishWithPronoun = highlightedSpanish.replace(/^¿/, `¿${pronoun} `);
-          // Lowercase only the first letter after the pronoun, preserve proper nouns
-          spanishWithPronoun = spanishWithPronoun.replace(/^(¿[A-Z][a-z]*\s+)([A-Z])/, (match, prefix, firstLetter) => prefix + firstLetter.toLowerCase());
-        }
-      } else {
-        // Check if sentence already starts with the pronoun
-        if (highlightedSpanish.toLowerCase().startsWith(pronoun.toLowerCase() + ' ')) {
-          spanishWithPronoun = highlightedSpanish; // Already has pronoun
-        } else {
-          // Lowercase only the first letter, preserve proper nouns
-          const firstChar = highlightedSpanish.charAt(0).toLowerCase();
-          const restOfSentence = highlightedSpanish.slice(1);
-          spanishWithPronoun = `${pronoun} ${firstChar}${restOfSentence}`;
-        }
-      }
-    }
+    const spanishWithPronoun = this.prependPronoun(highlightedSpanish, currentSubject, verbName);
     
     // For ES→EN cards, keep disambiguation hints so students know how to translate
     const englishWithHints = english;
@@ -255,12 +250,14 @@ class CardGenerator {
     // No need to add headers - keep the existing English sentence as-is
     
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
+
+    const spanishWithPronoun = this.prependPronoun(highlightedSpanish, currentSubject, verbName);
     
     // Build back content - add audio if available and withAudio is enabled
-    let backContent = `<div style="font-size: 1.1em;">${highlightedSpanish}</div>`;
+    let backContent = `<div style="font-size: 1.1em;">${spanishWithPronoun}</div>`;
     if (this.withAudio && sentence.audio) {
       // EN→ES: Audio plays on back (hear correct pronunciation after answering)
-      backContent = `<div style="font-size: 1.1em;">${highlightedSpanish}</div><br>[sound:${sentence.audio}]`;
+      backContent = `<div style="font-size: 1.1em;">${spanishWithPronoun}</div><br>[sound:${sentence.audio}]`;
       // Track media file for bundling
       if (this.audioDir) {
         const path = require('path');
