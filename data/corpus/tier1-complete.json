@@ -16,10 +16,14 @@
       "yo",
       "tú",
       "vos",
-      "él/ella/usted",
+      "él",
+      "ella",
+      "usted",
       "nosotros",
       "vosotros",
-      "ellos/ellas/ustedes"
+      "ellos",
+      "ellas",
+      "ustedes"
     ],
     "regions": [
       "universal",
@@ -140,7 +144,7 @@
         },
         {
           "spanish": "Habláis mucho en la mesa.",
-          "english": "You all talk a lot at the table.",
+          "english": "You all (vosotros) talk a lot at the table.",
           "subject": "vosotros",
           "source": "family_dinner",
           "region": "universal",
@@ -206,7 +210,7 @@
         },
         {
           "spanish": "Hablaste con mucha pasión sobre el tema.",
-          "english": "You spoke with great passion about the topic.",
+          "english": "You (vos) spoke with great passion about the topic.",
           "subject": "vos",
           "region": "argentina",
           "source": "passionate_discussion",
@@ -318,7 +322,7 @@
         },
         {
           "spanish": "Hablasteis de vuestros planes.",
-          "english": "You all talked about your plans.",
+          "english": "You all (vosotros) talked about your plans.",
           "subject": "vosotros",
           "source": "planning_discussion",
           "region": "universal",
@@ -480,7 +484,7 @@
         },
         {
           "spanish": "Hablaréis en público.",
-          "english": "You all will speak in public.",
+          "english": "You all (vosotros) will speak in public.",
           "subject": "vosotros",
           "source": "public_speaking",
           "region": "universal",
@@ -530,7 +534,7 @@
         },
         {
           "spanish": "Estás hablando como un verdadero argentino.",
-          "english": "You are speaking like a true Argentine.",
+          "english": "You (vos) are speaking like a true Argentine.",
           "subject": "vos",
           "region": "argentina",
           "source": "regional_identity",
@@ -642,7 +646,7 @@
         },
         {
           "spanish": "Estáis hablando en la cocina.",
-          "english": "You all are talking in the kitchen.",
+          "english": "You all (vosotros) are talking in the kitchen.",
           "subject": "vosotros",
           "source": "kitchen_chat",
           "region": "universal",
@@ -820,7 +824,7 @@
         },
         {
           "spanish": "Vais a hablar en español.",
-          "english": "You all are going to speak in Spanish.",
+          "english": "You all (vosotros) are going to speak in Spanish.",
           "subject": "vosotros",
           "source": "language_practice",
           "region": "universal",
@@ -838,7 +842,7 @@
       "present-perfect": [
         {
           "spanish": "Has hablado con tu familia sobre el trabajo.",
-          "english": "You have talked with your family about work.",
+          "english": "You (vos) have talked with your family about work.",
           "subject": "vos",
           "region": "argentina",
           "source": "family_work_discussion",
@@ -966,7 +970,7 @@
         },
         {
           "spanish": "Habéis hablado mucho.",
-          "english": "You all have talked a lot.",
+          "english": "You all (vosotros) have talked a lot.",
           "subject": "vosotros",
           "source": "extensive_conversation",
           "region": "universal",
@@ -1108,7 +1112,7 @@
         },
         {
           "spanish": "Coméis en el jardín.",
-          "english": "You all eat in the garden.",
+          "english": "You all (vosotros) eat in the garden.",
           "subject": "vosotros",
           "source": "outdoor_eating",
           "region": "universal",
@@ -1174,7 +1178,7 @@
         },
         {
           "spanish": "Comiste un asado muy bueno en casa de tu tío.",
-          "english": "You ate a very good barbecue at your uncle's place.",
+          "english": "You (vos) ate a very good barbecue at your uncle's place.",
           "subject": "vos",
           "region": "argentina",
           "source": "family_gathering",
@@ -1292,7 +1296,7 @@
         },
         {
           "spanish": "Comisteis paella en Valencia.",
-          "english": "You all ate paella in Valencia.",
+          "english": "You all (vosotros) ate paella in Valencia.",
           "subject": "vosotros",
           "source": "spanish_cuisine",
           "region": "universal",
@@ -1326,7 +1330,7 @@
       "future": [
         {
           "spanish": "Comerás empanadas caseras en casa de la abuela.",
-          "english": "You will eat homemade empanadas at grandma's house.",
+          "english": "You (vos) will eat homemade empanadas at grandma's house.",
           "subject": "vos",
           "region": "argentina",
           "source": "family_visit",
@@ -1343,13 +1347,13 @@
         {
           "spanish": "Comerán comida orgánica en el nuevo restaurante.",
           "english": "They will eat organic food at the new restaurant.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": "healthy_dining",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:future",
             "tier:1",
             "verb-type:er",
@@ -1454,7 +1458,7 @@
         },
         {
           "spanish": "Comeréis paella.",
-          "english": "You all will eat paella.",
+          "english": "You all (vosotros) will eat paella.",
           "subject": "vosotros",
           "source": "spanish_cuisine",
           "region": "universal",
@@ -1623,7 +1627,7 @@
         },
         {
           "spanish": "Estáis comiendo en casa.",
-          "english": "You all are eating at home.",
+          "english": "You all (vosotros) are eating at home.",
           "subject": "vosotros",
           "source": "home_dining",
           "region": "universal",
@@ -1689,7 +1693,7 @@
         },
         {
           "spanish": "¿Vas a comer ahora?",
-          "english": "Are you going to eat now?",
+          "english": "Are you (informal) going to eat now?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -1832,7 +1836,7 @@
         },
         {
           "spanish": "Vais a comer paella.",
-          "english": "You all are going to eat paella.",
+          "english": "You all (vosotros) are going to eat paella.",
           "subject": "vosotros",
           "source": "spanish_cuisine",
           "region": "universal",
@@ -1978,7 +1982,7 @@
         },
         {
           "spanish": "Habéis comido paella.",
-          "english": "You all have eaten paella.",
+          "english": "You all (vosotros) have eaten paella.",
           "subject": "vosotros",
           "source": "spanish_dish",
           "region": "universal",
@@ -2120,7 +2124,7 @@
         },
         {
           "spanish": "Vivís en el campo.",
-          "english": "You all live in the countryside.",
+          "english": "You all (vosotros) live in the countryside.",
           "subject": "vosotros",
           "source": "rural_living",
           "region": "universal",
@@ -2170,7 +2174,7 @@
       "preterite": [
         {
           "spanish": "Viviste un tiempo muy bueno en Japón.",
-          "english": "You had a very good time in Japan.",
+          "english": "You (informal) had a very good time in Japan.",
           "subject": "tú",
           "region": "universal",
           "source": "cultural_immersion",
@@ -2310,7 +2314,7 @@
         },
         {
           "spanish": "Vivisteis cerca de la playa.",
-          "english": "You all lived near the beach.",
+          "english": "You all (vosotros) lived near the beach.",
           "subject": "vosotros",
           "source": "coastal_living",
           "region": "universal",
@@ -2344,7 +2348,7 @@
       "future": [
         {
           "spanish": "Vivirás experiencias únicas en tu nuevo trabajo.",
-          "english": "You will have unique experiences in your new job.",
+          "english": "You (informal) will have unique experiences in your new job.",
           "subject": "tú",
           "region": "universal",
           "source": "career_opportunity",
@@ -2478,7 +2482,7 @@
         },
         {
           "spanish": "Viviréis una aventura.",
-          "english": "You all will live an adventure.",
+          "english": "You all (vosotros) will live an adventure.",
           "subject": "vosotros",
           "source": "adventure_prediction",
           "region": "universal",
@@ -2670,7 +2674,7 @@
         },
         {
           "spanish": "Estáis viviendo momentos difíciles.",
-          "english": "You all are living through difficult times.",
+          "english": "You all (vosotros) are living through difficult times.",
           "subject": "vosotros",
           "source": "challenging_period",
           "region": "universal",
@@ -2854,7 +2858,7 @@
         },
         {
           "spanish": "Vais a vivir una aventura.",
-          "english": "You all are going to live an adventure.",
+          "english": "You all (vosotros) are going to live an adventure.",
           "subject": "vosotros",
           "source": "exciting_experience",
           "region": "universal",
@@ -3006,7 +3010,7 @@
         },
         {
           "spanish": "Habéis vivido en el campo.",
-          "english": "You all have lived in the countryside.",
+          "english": "You all (vosotros) have lived in the countryside.",
           "subject": "vosotros",
           "source": "rural_experience",
           "region": "universal",
@@ -3148,7 +3152,7 @@
         },
         {
           "spanish": "Vais a casa.",
-          "english": "You all go home.",
+          "english": "You all (vosotros) go home.",
           "subject": "vosotros",
           "source": "return_home",
           "region": "universal",
@@ -3310,7 +3314,7 @@
         },
         {
           "spanish": "Fuisteis a la playa.",
-          "english": "You all went to the beach.",
+          "english": "You all (vosotros) went to the beach.",
           "subject": "vosotros",
           "source": "beach_trip",
           "region": "universal",
@@ -3472,7 +3476,7 @@
         },
         {
           "spanish": "Iréis juntos.",
-          "english": "You all will go together.",
+          "english": "You all (vosotros) will go together.",
           "subject": "vosotros",
           "source": "group_travel",
           "region": "universal",
@@ -3522,7 +3526,7 @@
         },
         {
           "spanish": "Estás yendo al gimnasio después del trabajo.",
-          "english": "You are heading to the gym after work right now.",
+          "english": "You (vos) are heading to the gym after work right now.",
           "subject": "vos",
           "region": "argentina",
           "source": "fitness_routine",
@@ -3634,7 +3638,7 @@
         },
         {
           "spanish": "Estáis yendo a la playa.",
-          "english": "You all are heading to the beach right now.",
+          "english": "You all (vosotros) are heading to the beach right now.",
           "subject": "vosotros",
           "source": "beach_trip",
           "region": "universal",
@@ -3700,7 +3704,7 @@
         },
         {
           "spanish": "Vas a ir al gimnasio después del trabajo.",
-          "english": "You're going to go to the gym after work.",
+          "english": "You (vos)'re going to go to the gym after work.",
           "subject": "vos",
           "region": "argentina",
           "source": "fitness_routine",
@@ -3856,7 +3860,7 @@
         },
         {
           "spanish": "Vais a ir juntos.",
-          "english": "You all are going to go together.",
+          "english": "You all (vosotros) are going to go together.",
           "subject": "vosotros",
           "source": "group_travel_plan",
           "region": "universal",
@@ -3890,7 +3894,7 @@
         },
         {
           "spanish": "Has ido al gimnasio después del trabajo.",
-          "english": "You have gone to the gym after work.",
+          "english": "You (vos) have gone to the gym after work.",
           "subject": "vos",
           "region": "argentina",
           "source": "fitness_routine",
@@ -4002,7 +4006,7 @@
         },
         {
           "spanish": "Habéis ido juntos.",
-          "english": "You all have gone together.",
+          "english": "You all (vosotros) have gone together.",
           "subject": "vosotros",
           "source": "group_travel",
           "region": "universal",
@@ -4097,7 +4101,7 @@
         },
         {
           "spanish": "Puedes venir a casa cuando quieras.",
-          "english": "You can come home whenever you want.",
+          "english": "You (vos) can come home whenever you (vos) want.",
           "subject": "vos",
           "region": "argentina",
           "source": "open_invitation",
@@ -4217,7 +4221,7 @@
         },
         {
           "spanish": "Podéis jugar.",
-          "english": "You all can play.",
+          "english": "You all (vosotros) can play.",
           "subject": "vosotros",
           "source": "play_permission",
           "region": "universal",
@@ -4383,7 +4387,7 @@
         },
         {
           "spanish": "Pudisteis ver la película.",
-          "english": "You all were able to see the movie.",
+          "english": "You all (vosotros) were able to see the movie.",
           "subject": "vosotros",
           "source": "movie_viewing",
           "region": "universal",
@@ -4549,7 +4553,7 @@
         },
         {
           "spanish": "Podréis jugar.",
-          "english": "You all will be able to play.",
+          "english": "You all (vosotros) will be able to play.",
           "subject": "vosotros",
           "source": "play_opportunity",
           "region": "universal",
@@ -4587,7 +4591,7 @@
       "going-to": [
         {
           "spanish": "Vas a poder venir a casa cuando quieras.",
-          "english": "You're going to be able come home whenever you want.",
+          "english": "You (vos)'re going to be able come home whenever you (vos) want.",
           "subject": "vos",
           "region": "argentina",
           "source": "open_invitation",
@@ -4765,7 +4769,7 @@
       "present-perfect": [
         {
           "spanish": "Puedes venir a casa cuando quieras.",
-          "english": "You can come home whenever you want.",
+          "english": "You (vos) can come home whenever you (vos) want.",
           "subject": "vos",
           "region": "argentina",
           "source": "open_invitation",
@@ -4904,7 +4908,7 @@
         },
         {
           "spanish": "Habéis podido salir.",
-          "english": "You all have been able to leave.",
+          "english": "You all (vosotros) have been able to leave.",
           "subject": "vosotros",
           "source": "departure_success",
           "region": "universal",
@@ -4951,7 +4955,7 @@
       "present": [
         {
           "spanish": "Quieres comprar una casa en las afueras.",
-          "english": "You want to buy a house in the suburbs.",
+          "english": "You (vos) want to buy a house in the suburbs.",
           "subject": "vos",
           "region": "argentina",
           "source": "housing_goals",
@@ -5072,7 +5076,7 @@
         },
         {
           "spanish": "Queréis ir.",
-          "english": "You all want to go.",
+          "english": "You all (vosotros) want to go.",
           "subject": "vosotros",
           "source": "departure_desire",
           "region": "universal",
@@ -5107,7 +5111,7 @@
         {
           "spanish": "Quisieron comprar la casa pero el precio era muy alto.",
           "english": "They wanted to buy the house but the price was too high.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": "financial_limitation",
           "tags": [
@@ -5115,7 +5119,7 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:preterite",
             "tier:1",
             "verb-type:er",
@@ -5238,7 +5242,7 @@
         },
         {
           "spanish": "Quisisteis ir al concierto.",
-          "english": "You all wanted to go to the concert.",
+          "english": "You all (vosotros) wanted to go to the concert.",
           "subject": "vosotros",
           "source": "concert_desire",
           "region": "universal",
@@ -5290,7 +5294,7 @@
         },
         {
           "spanish": "Querrás volver a tu país después de tanto tiempo.",
-          "english": "You will want to return to your country after so long.",
+          "english": "You (vos) will want to return to your country after so long.",
           "subject": "vos",
           "region": "argentina",
           "source": "homesickness",
@@ -5404,7 +5408,7 @@
         },
         {
           "spanish": "Querréis más tiempo.",
-          "english": "You all will want more time.",
+          "english": "You all (vosotros) will want more time.",
           "subject": "vosotros",
           "source": "time_need",
           "region": "universal",
@@ -5571,7 +5575,7 @@
         },
         {
           "spanish": "Vais a querer más tiempo.",
-          "english": "You all are going to want more time.",
+          "english": "You all (vosotros) are going to want more time.",
           "subject": "vosotros",
           "source": "time_need_prediction",
           "region": "universal",
@@ -5721,7 +5725,7 @@
         },
         {
           "spanish": "Habéis querido celebrar.",
-          "english": "You all have wanted to celebrate.",
+          "english": "You all (vosotros) have wanted to celebrate.",
           "subject": "vosotros",
           "source": "celebration_desire",
           "region": "universal",
@@ -5866,7 +5870,7 @@
         },
         {
           "spanish": "Tenéis suerte.",
-          "english": "You all are lucky.",
+          "english": "You all (vosotros) are lucky.",
           "subject": "vosotros",
           "source": "luck_expression",
           "region": "universal",
@@ -5916,7 +5920,7 @@
       "preterite": [
         {
           "spanish": "Tuviste suerte de encontrar trabajo tan rápido.",
-          "english": "You were lucky to find work so quickly.",
+          "english": "You (vos) were lucky to find work so quickly.",
           "subject": "vos",
           "region": "argentina",
           "source": "job_context",
@@ -6030,7 +6034,7 @@
         },
         {
           "spanish": "Tuvisteis tiempo para descansar.",
-          "english": "You all had time to rest.",
+          "english": "You all (vosotros) had time to rest.",
           "subject": "vosotros",
           "source": "rest_time",
           "region": "universal",
@@ -6196,7 +6200,7 @@
         },
         {
           "spanish": "Tendréis problemas.",
-          "english": "You all will have problems.",
+          "english": "You all (vosotros) will have problems.",
           "subject": "vosotros",
           "source": "trouble_warning",
           "region": "universal",
@@ -6229,7 +6233,7 @@
       ],
       "present-progressive": [
         {
-          "spanish": "está comiendo pizza napolitana para el almuerzo.",
+          "spanish": "Está comiendo pizza napolitana para el almuerzo.",
           "english": "He is having Neapolitan pizza for lunch.",
           "subject": "él",
           "region": "universal",
@@ -6254,7 +6258,7 @@
           }
         },
         {
-          "spanish": "tiene un bebé pronto.",
+          "spanish": "Tiene un bebé pronto.",
           "english": "She is having a baby soon.",
           "subject": "ella",
           "region": "universal",
@@ -6279,7 +6283,7 @@
           }
         },
         {
-          "spanish": "tengo un buen día.",
+          "spanish": "Tengo un buen día.",
           "english": "I am having a good day.",
           "subject": "yo",
           "source": "positive_experience",
@@ -6295,7 +6299,7 @@
           ]
         },
         {
-          "spanish": "tienes problemas.",
+          "spanish": "Tienes problemas.",
           "english": "You (informal) are having problems.",
           "subject": "tú",
           "source": "difficulty_situation",
@@ -6360,7 +6364,7 @@
         },
         {
           "spanish": "¿Estás teniendo algún éxito?",
-          "english": "Are you having any success?",
+          "english": "Are you (informal) having any success?",
           "subject": "tú",
           "source": "progress_inquiry",
           "region": "universal",
@@ -6375,8 +6379,8 @@
           ]
         },
         {
-          "spanish": "tenéis una conversación.",
-          "english": "You all are having a conversation.",
+          "spanish": "Tenéis una conversación.",
+          "english": "You all (vosotros) are having a conversation.",
           "subject": "vosotros",
           "source": "group_discussion",
           "region": "universal",
@@ -6602,7 +6606,7 @@
         },
         {
           "spanish": "Vais a tener problemas.",
-          "english": "You all are going to have problems.",
+          "english": "You all (vosotros) are going to have problems.",
           "subject": "vosotros",
           "source": "trouble_warning",
           "region": "universal",
@@ -6766,7 +6770,7 @@
         },
         {
           "spanish": "Habéis tenido suerte.",
-          "english": "You all have had luck.",
+          "english": "You all (vosotros) have had luck.",
           "subject": "vosotros",
           "source": "group_fortune",
           "region": "universal",
@@ -6909,7 +6913,7 @@
         },
         {
           "spanish": "Sois hermanos.",
-          "english": "You all are brothers.",
+          "english": "You all (vosotros) are brothers.",
           "subject": "vosotros",
           "source": "family_relationship",
           "region": "universal",
@@ -7072,7 +7076,7 @@
         },
         {
           "spanish": "Fuisteis los mejores.",
-          "english": "You all were the best.",
+          "english": "You all (vosotros) were the best.",
           "subject": "vosotros",
           "source": "excellence_recognition",
           "region": "universal",
@@ -7236,7 +7240,7 @@
         },
         {
           "spanish": "Seréis los mejores.",
-          "english": "You all will be the best.",
+          "english": "You all (vosotros) will be the best.",
           "subject": "vosotros",
           "source": "excellence_prediction",
           "region": "universal",
@@ -7448,7 +7452,7 @@
         },
         {
           "spanish": "Vais a ser los mejores.",
-          "english": "You all are going to be the best.",
+          "english": "You all (vosotros) are going to be the best.",
           "subject": "vosotros",
           "source": "excellence_prediction",
           "region": "universal",
@@ -7596,7 +7600,7 @@
         },
         {
           "spanish": "Habéis sido valientes.",
-          "english": "You all have been brave.",
+          "english": "You all (vosotros) have been brave.",
           "subject": "vosotros",
           "source": "courage_recognition",
           "region": "universal",
@@ -7739,7 +7743,7 @@
         },
         {
           "spanish": "Estáis ocupados.",
-          "english": "You all are busy.",
+          "english": "You all (vosotros) are busy.",
           "subject": "vosotros",
           "source": "activity_state",
           "region": "universal",
@@ -7919,7 +7923,7 @@
         },
         {
           "spanish": "Estuvisteis contentos.",
-          "english": "You all were happy.",
+          "english": "You all (vosotros) were happy.",
           "subject": "vosotros",
           "source": "happiness_state",
           "region": "universal",
@@ -8083,7 +8087,7 @@
         },
         {
           "spanish": "Estaréis contentos.",
-          "english": "You all will be happy.",
+          "english": "You all (vosotros) will be happy.",
           "subject": "vosotros",
           "source": "happiness_assurance",
           "region": "universal",
@@ -8138,7 +8142,7 @@
         },
         {
           "spanish": "Vas a estar muy cansado después del viaje.",
-          "english": "You're going to be very tired after the trip.",
+          "english": "You (vos)'re going to be very tired after the trip.",
           "subject": "vos",
           "region": "argentina",
           "source": "travel_context",
@@ -8295,7 +8299,7 @@
         },
         {
           "spanish": "Vais a estar contentos.",
-          "english": "You all are going to be happy.",
+          "english": "You all (vosotros) are going to be happy.",
           "subject": "vosotros",
           "source": "happiness_assurance",
           "region": "universal",
@@ -8330,7 +8334,7 @@
         },
         {
           "spanish": "Has estado muy cansado después del viaje.",
-          "english": "You have been very tired after the trip.",
+          "english": "You (vos) have been very tired after the trip.",
           "subject": "vos",
           "region": "argentina",
           "source": "travel_context",
@@ -8443,7 +8447,7 @@
         },
         {
           "spanish": "Habéis estado estudiando.",
-          "english": "You all have been studying.",
+          "english": "You all (vosotros) have been studying.",
           "subject": "vosotros",
           "source": "study_period",
           "region": "universal",
@@ -8634,7 +8638,7 @@
         },
         {
           "spanish": "Hacéis ruido.",
-          "english": "You all make noise.",
+          "english": "You all (vosotros) make noise.",
           "subject": "vosotros",
           "source": "sound_making",
           "region": "universal",
@@ -8798,7 +8802,7 @@
         },
         {
           "spanish": "Hicisteis ruido.",
-          "english": "You all made noise.",
+          "english": "You all (vosotros) made noise.",
           "subject": "vosotros",
           "source": "noise_incident",
           "region": "universal",
@@ -8856,7 +8860,7 @@
         },
         {
           "spanish": "Harán un trabajo fantástico en el proyecto.",
-          "english": "You all will do fantastic work on the project.",
+          "english": "You all (vosotros) will do fantastic work on the project.",
           "subject": "vosotros",
           "region": "spain",
           "source": "work_encouragement",
@@ -8976,7 +8980,7 @@
         },
         {
           "spanish": "Haréis deportes.",
-          "english": "You all will do sports.",
+          "english": "You all (vosotros) will do sports.",
           "subject": "vosotros",
           "source": "sports_plan",
           "region": "universal",
@@ -9140,7 +9144,7 @@
         },
         {
           "spanish": "Estáis haciendo ruido.",
-          "english": "You all are making noise.",
+          "english": "You all (vosotros) are making noise.",
           "subject": "vosotros",
           "source": "noise_making",
           "region": "universal",
@@ -9367,7 +9371,7 @@
         },
         {
           "spanish": "Vais a hacer deportes.",
-          "english": "You all are going to do sports.",
+          "english": "You all (vosotros) are going to do sports.",
           "subject": "vosotros",
           "source": "sports_plan",
           "region": "universal",
@@ -9522,7 +9526,7 @@
         },
         {
           "spanish": "Habéis hecho ruido.",
-          "english": "You all have made noise.",
+          "english": "You all (vosotros) have made noise.",
           "subject": "vosotros",
           "source": "noise_creation",
           "region": "universal",

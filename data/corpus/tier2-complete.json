@@ -16,10 +16,14 @@
       "yo",
       "tú",
       "vos",
-      "él/ella/usted",
+      "él",
+      "ella",
+      "usted",
       "nosotros",
       "vosotros",
-      "ellos/ellas/ustedes"
+      "ellos",
+      "ellas",
+      "ustedes"
     ],
     "regions": [
       "universal",
@@ -44,7 +48,7 @@
       "present": [
         {
           "spanish": "Te sientas en el sillón más cómodo de la casa.",
-          "english": "You sit in the most comfortable chair in the house.",
+          "english": "You (vos) sit in the most comfortable chair in the house.",
           "subject": "vos",
           "region": "argentina",
           "source": "home_comfort",
@@ -89,7 +93,7 @@
         },
         {
           "spanish": "Te sientas en la sala para tomar tu café.",
-          "english": "You sit in the living room to drink your coffee.",
+          "english": "You (informal) sit in the living room to drink your coffee.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -134,7 +138,7 @@
         },
         {
           "spanish": "Siempre te sientas en la misma mesa para estudiar.",
-          "english": "You always sit at the same table to study.",
+          "english": "You (informal) always sit at the same table to study.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -179,7 +183,7 @@
         },
         {
           "spanish": "Te sientas un rato después de llegar a casa.",
-          "english": "You sit down for a bit after getting home.",
+          "english": "You (informal) sit down for a bit after getting home.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -220,54 +224,6 @@
             "verb:sentarse",
             "mexican_spanish:true",
             "natural_conversation:true"
-          ]
-        },
-        {
-          "spanish": "Me siento en la silla.",
-          "english": "I sit in the chair.",
-          "subject": "yo",
-          "source": "furniture_use",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te sientas cerca de la ventana.",
-          "english": "You (informal) sit near the window.",
-          "subject": "tú",
-          "source": "seating_preference",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Nos sentamos juntos.",
-          "english": "We sit together.",
-          "subject": "nosotros",
-          "source": "group_seating",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:nosotros",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
           ]
         },
         {
@@ -389,38 +345,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Me senté en el sofá.",
-          "english": "I sat on the sofa.",
-          "subject": "yo",
-          "source": "past_seating",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te sentaste al lado mío.",
-          "english": "You (informal) sat next to me.",
-          "subject": "tú",
-          "source": "close_seating",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "future": [
@@ -495,73 +419,9 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Me estoy sentando.",
-          "english": "I am sitting down.",
-          "subject": "yo",
-          "source": "sitting_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te estás sentando muy despacio.",
-          "english": "You (informal) are sitting down very slowly.",
-          "subject": "tú",
-          "source": "slow_sitting",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a sentar aquí.",
-          "english": "I am going to sit here.",
-          "subject": "yo",
-          "source": "seating_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a sentar conmigo.",
-          "english": "You (informal) are going to sit with me.",
-          "subject": "tú",
-          "source": "companion_seating",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a sentar aquí.",
           "english": "I am going to sit here.",
@@ -613,7 +473,7 @@
       "present": [
         {
           "spanish": "Te acuestas después de ver las noticias.",
-          "english": "You go to bed after watching the news.",
+          "english": "You (vos) go to bed after watching the news.",
           "subject": "vos",
           "region": "argentina",
           "source": "evening_routine",
@@ -658,7 +518,7 @@
         },
         {
           "spanish": "Te acuestas temprano los lunes porque trabajas temprano.",
-          "english": "You go to bed early on Mondays because you work early.",
+          "english": "You (informal) go to bed early on Mondays because you (informal) work early.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -703,7 +563,7 @@
         },
         {
           "spanish": "Normalmente te acuestas viendo videos en tu teléfono.",
-          "english": "You usually go to bed watching videos on your phone.",
+          "english": "You (informal) usually go to bed watching videos on your phone.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -748,7 +608,7 @@
         },
         {
           "spanish": "Te acuestas tarde cuando hace mucho calor.",
-          "english": "You go to bed late when it's really hot.",
+          "english": "You (informal) go to bed late when it's really hot.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -825,55 +685,7 @@
         },
         {
           "spanish": "Se acuesta a las diez.",
-          "english": "He/She goes to bed at ten.",
-          "subject": "él",
-          "source": "specific_bedtime",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me acuesto temprano.",
-          "english": "I go to bed early.",
-          "subject": "yo",
-          "source": "bedtime_routine",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te acuestas tarde.",
-          "english": "You (informal) go to bed late.",
-          "subject": "tú",
-          "source": "late_bedtime",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se acuesta a las diez.",
-          "english": "He/She goes to bed at ten.",
+          "english": "He goes to bed at ten.",
           "subject": "él",
           "source": "specific_bedtime",
           "region": "universal",
@@ -910,7 +722,7 @@
         },
         {
           "spanish": "Te acostaste temprano para estar fresco mañana.",
-          "english": "You went to bed early to feel rested tomorrow.",
+          "english": "You (vos) went to bed early to feel rested tomorrow.",
           "subject": "vos",
           "region": "argentina",
           "source": "preparation_strategy",
@@ -933,38 +745,6 @@
             "fix_issue": "English translation slightly unnatural ('to be fresh tomorrow')",
             "chunk": 3
           }
-        },
-        {
-          "spanish": "Me acosté a medianoche.",
-          "english": "I went to bed at midnight.",
-          "subject": "yo",
-          "source": "late_bedtime_past",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se acostó muy cansado.",
-          "english": "He went to bed very tired.",
-          "subject": "él",
-          "source": "tired_bedtime",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         },
         {
           "spanish": "Me acosté a medianoche.",
@@ -1058,39 +838,7 @@
         },
         {
           "spanish": "Se está acostando ahora.",
-          "english": "He/She is going to bed now.",
-          "subject": "él",
-          "source": "current_bedtime",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy acostando.",
-          "english": "I am going to bed.",
-          "subject": "yo",
-          "source": "bedtime_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está acostando ahora.",
-          "english": "He/She is going to bed now.",
+          "english": "He is going to bed now.",
           "subject": "él",
           "source": "current_bedtime",
           "region": "universal",
@@ -1109,7 +857,7 @@
         {
           "spanish": "Los niños se van a acostar temprano.",
           "english": "The children are going to go to bed early.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": {
             "type": "chatgpt_inspired",
@@ -1141,45 +889,13 @@
           },
           "tags": [
             "region:universal",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:going-to",
             "word-type:verb",
             "source:enhanced",
             "construction:ir_a",
             "context:bedtime",
             "roi:high"
-          ]
-        },
-        {
-          "spanish": "Me voy a acostar pronto.",
-          "english": "I am going to go to bed soon.",
-          "subject": "yo",
-          "source": "bedtime_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a acostar temprano.",
-          "english": "You (informal) are going to go to bed early.",
-          "subject": "tú",
-          "source": "early_bedtime_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
           ]
         },
         {
@@ -1301,7 +1017,7 @@
         },
         {
           "spanish": "Te despiertas a las seis todos los días.",
-          "english": "You wake up at six every day.",
+          "english": "You (informal) wake up at six every day.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -1346,7 +1062,7 @@
         },
         {
           "spanish": "Te despiertas con el sonido de tu alarma, aunque no quieras.",
-          "english": "You wake up with your alarm, even if you don't want to.",
+          "english": "You (informal) wake up with your alarm, even if you (informal) don't want to.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -1391,7 +1107,7 @@
         },
         {
           "spanish": "Te despiertas temprano incluso los fines de semana.",
-          "english": "You wake up early even on weekends.",
+          "english": "You (informal) wake up early even on weekends.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -1468,55 +1184,7 @@
         },
         {
           "spanish": "Se despierta muy temprano.",
-          "english": "He/She wakes up very early.",
-          "subject": "él",
-          "source": "early_waking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me despierto a las siete.",
-          "english": "I wake up at seven.",
-          "subject": "yo",
-          "source": "morning_routine",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te despiertas con el sol.",
-          "english": "You (informal) wake up with the sun.",
-          "subject": "tú",
-          "source": "natural_waking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se despierta muy temprano.",
-          "english": "He/She wakes up very early.",
+          "english": "He wakes up very early.",
           "subject": "él",
           "source": "early_waking",
           "region": "universal",
@@ -1588,39 +1256,7 @@
         },
         {
           "spanish": "Se despertó con ruido.",
-          "english": "He/She woke up from noise.",
-          "subject": "él",
-          "source": "noise_waking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me desperté a las seis.",
-          "english": "I woke up at six.",
-          "subject": "yo",
-          "source": "past_waking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se despertó con ruido.",
-          "english": "He/She woke up from noise.",
+          "english": "He woke up from noise.",
           "subject": "él",
           "source": "noise_waking",
           "region": "universal",
@@ -1638,7 +1274,7 @@
       "future": [
         {
           "spanish": "Te despertarás en tu nueva casa mañana.",
-          "english": "You will wake up in your new house tomorrow.",
+          "english": "You (vos) will wake up in your new house tomorrow.",
           "subject": "vos",
           "region": "argentina",
           "source": "moving_day",
@@ -1694,39 +1330,7 @@
         },
         {
           "spanish": "Se está despertando lentamente.",
-          "english": "He/She is waking up slowly.",
-          "subject": "él",
-          "source": "gradual_waking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy despertando.",
-          "english": "I am waking up.",
-          "subject": "yo",
-          "source": "waking_process",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está despertando lentamente.",
-          "english": "He/She is waking up slowly.",
+          "english": "He is waking up slowly.",
           "subject": "él",
           "source": "gradual_waking",
           "region": "universal",
@@ -1742,38 +1346,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a despertar temprano.",
-          "english": "I am going to wake up early.",
-          "subject": "yo",
-          "source": "early_wake_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a despertar tarde.",
-          "english": "You (informal) are going to wake up late.",
-          "subject": "tú",
-          "source": "late_wake_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a despertar temprano.",
           "english": "I am going to wake up early.",
@@ -1844,7 +1416,7 @@
         },
         {
           "spanish": "Te vistes siempre con colores alegres.",
-          "english": "You always dress in cheerful colors.",
+          "english": "You (vos) always dress in cheerful colors.",
           "subject": "vos",
           "region": "argentina",
           "source": "style_preference",
@@ -1902,55 +1474,7 @@
         },
         {
           "spanish": "Se viste de negro.",
-          "english": "He/She dresses in black.",
-          "subject": "él",
-          "source": "color_preference",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me visto rápido.",
-          "english": "I get dressed quickly.",
-          "subject": "yo",
-          "source": "quick_dressing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vistes muy bien.",
-          "english": "You (informal) dress very well.",
-          "subject": "tú",
-          "source": "good_dressing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se viste de negro.",
-          "english": "He/She dresses in black.",
+          "english": "He dresses in black.",
           "subject": "él",
           "source": "color_preference",
           "region": "universal",
@@ -2022,39 +1546,7 @@
         },
         {
           "spanish": "Se vistió muy elegante.",
-          "english": "He/She dressed very elegantly.",
-          "subject": "él",
-          "source": "elegant_past_dressing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me vestí con prisa.",
-          "english": "I got dressed in a hurry.",
-          "subject": "yo",
-          "source": "rushed_dressing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se vistió muy elegante.",
-          "english": "He/She dressed very elegantly.",
+          "english": "He dressed very elegantly.",
           "subject": "él",
           "source": "elegant_past_dressing",
           "region": "universal",
@@ -2128,39 +1620,7 @@
         },
         {
           "spanish": "Se está vistiendo para la fiesta.",
-          "english": "He/She is getting dressed for the party.",
-          "subject": "él",
-          "source": "party_preparation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy vistiendo.",
-          "english": "I am getting dressed.",
-          "subject": "yo",
-          "source": "dressing_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está vistiendo para la fiesta.",
-          "english": "He/She is getting dressed for the party.",
+          "english": "He is getting dressed for the party.",
           "subject": "él",
           "source": "party_preparation",
           "region": "universal",
@@ -2176,38 +1636,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a vestir elegante.",
-          "english": "I am going to dress elegantly.",
-          "subject": "yo",
-          "source": "elegant_dressing_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a vestir cómodo.",
-          "english": "You (informal) are going to dress comfortably.",
-          "subject": "tú",
-          "source": "comfortable_dressing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a vestir elegante.",
           "english": "I am going to dress elegantly.",
@@ -2275,7 +1703,7 @@
         },
         {
           "spanish": "Te levantas con mucha energía cada día.",
-          "english": "You wake up with lots of energy every day.",
+          "english": "You (vos) wake up with lots of energy every day.",
           "subject": "vos",
           "region": "argentina",
           "source": "energy_description",
@@ -2331,55 +1759,7 @@
         },
         {
           "spanish": "Se levanta con energía.",
-          "english": "He/She gets up with energy.",
-          "subject": "él",
-          "source": "energetic_rising",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me levanto temprano.",
-          "english": "I get up early.",
-          "subject": "yo",
-          "source": "early_rising",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te levantas de la cama.",
-          "english": "You (informal) get up from bed.",
-          "subject": "tú",
-          "source": "bed_rising",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se levanta con energía.",
-          "english": "He/She gets up with energy.",
+          "english": "He gets up with energy.",
           "subject": "él",
           "source": "energetic_rising",
           "region": "universal",
@@ -2447,39 +1827,7 @@
         },
         {
           "spanish": "Se levantó con dolor.",
-          "english": "He/She got up with pain.",
-          "subject": "él",
-          "source": "painful_rising",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me levanté a las cinco.",
-          "english": "I got up at five.",
-          "subject": "yo",
-          "source": "very_early_rising",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se levantó con dolor.",
-          "english": "He/She got up with pain.",
+          "english": "He got up with pain.",
           "subject": "él",
           "source": "painful_rising",
           "region": "universal",
@@ -2549,39 +1897,7 @@
         },
         {
           "spanish": "Se está levantando despacio.",
-          "english": "He/She is getting up slowly.",
-          "subject": "él",
-          "source": "slow_rising",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy levantando.",
-          "english": "I am getting up.",
-          "subject": "yo",
-          "source": "rising_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está levantando despacio.",
-          "english": "He/She is getting up slowly.",
+          "english": "He is getting up slowly.",
           "subject": "él",
           "source": "slow_rising",
           "region": "universal",
@@ -2643,7 +1959,7 @@
         },
         {
           "spanish": "¿Te vas a levantar tarde?",
-          "english": "Are you going to get up late?",
+          "english": "Are you (informal) going to get up late?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -2716,38 +2032,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Me voy a levantar pronto.",
-          "english": "I am going to get up soon.",
-          "subject": "yo",
-          "source": "rising_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a levantar tarde.",
-          "english": "You (informal) are going to get up late.",
-          "subject": "tú",
-          "source": "late_rising_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": []
@@ -2767,7 +2051,7 @@
       "present": [
         {
           "spanish": "Encuentras trabajo fácilmente con tu experiencia.",
-          "english": "You find work easily with your experience.",
+          "english": "You (vos) find work easily with your experience.",
           "subject": "vos",
           "region": "argentina",
           "source": "job_search",
@@ -2842,55 +2126,7 @@
         },
         {
           "spanish": "Encuentra tiempo libre.",
-          "english": "He/She finds free time.",
-          "subject": "él",
-          "source": "time_finding",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Encuentro mis llaves.",
-          "english": "I find my keys.",
-          "subject": "yo",
-          "source": "key_finding",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Encuentras buenas ofertas.",
-          "english": "You (informal) find good deals.",
-          "subject": "tú",
-          "source": "deal_finding",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Encuentra tiempo libre.",
-          "english": "He/She finds free time.",
+          "english": "He finds free time.",
           "subject": "él",
           "source": "time_finding",
           "region": "universal",
@@ -2960,39 +2196,7 @@
         },
         {
           "spanish": "Encontró una solución.",
-          "english": "He/She found a solution.",
-          "subject": "él",
-          "source": "solution_discovery_past",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Encontré dinero.",
-          "english": "I found money.",
-          "subject": "yo",
-          "source": "money_discovery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Encontró una solución.",
-          "english": "He/She found a solution.",
+          "english": "He found a solution.",
           "subject": "él",
           "source": "solution_discovery_past",
           "region": "universal",
@@ -3010,7 +2214,7 @@
       "future": [
         {
           "spanish": "Encontrarán nuevos amigos en la escuela.",
-          "english": "You all will find new friends at school.",
+          "english": "You all (vosotros) will find new friends at school.",
           "subject": "vosotros",
           "region": "spain",
           "source": "university_social_life",
@@ -3071,39 +2275,7 @@
         },
         {
           "spanish": "Está encontrando soluciones.",
-          "english": "He/She is finding solutions.",
-          "subject": "él",
-          "source": "solution_discovery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy encontrando problemas.",
-          "english": "I am finding problems.",
-          "subject": "yo",
-          "source": "problem_discovery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está encontrando soluciones.",
-          "english": "He/She is finding solutions.",
+          "english": "He is finding solutions.",
           "subject": "él",
           "source": "solution_discovery",
           "region": "universal",
@@ -3161,38 +2333,6 @@
             "construction:ir_a",
             "context:problem_solving",
             "roi:high"
-          ]
-        },
-        {
-          "spanish": "Voy a encontrar trabajo.",
-          "english": "I am going to find work.",
-          "subject": "yo",
-          "source": "job_search_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a encontrar amor.",
-          "english": "You (informal) are going to find love.",
-          "subject": "tú",
-          "source": "love_finding_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
           ]
         },
         {
@@ -3313,13 +2453,13 @@
         {
           "spanish": "Lavarán las herramientas después de terminar el trabajo.",
           "english": "They will wash the tools after finishing the work.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellas",
           "region": "universal",
           "source": "work_cleanup",
           "tags": [
             "region:universal",
             "regularity:regular",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellas",
             "tense:future",
             "tier:2",
             "verb-type:ar",
@@ -3425,55 +2565,7 @@
         },
         {
           "spanish": "Ve a sus amigos.",
-          "english": "He/She sees his/her friends.",
-          "subject": "él",
-          "source": "friend_meeting",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Veo la televisión.",
-          "english": "I watch television.",
-          "subject": "yo",
-          "source": "tv_watching",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ves películas.",
-          "english": "You (informal) watch movies.",
-          "subject": "tú",
-          "source": "movie_watching",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ve a sus amigos.",
-          "english": "He/She sees his/her friends.",
+          "english": "He sees his friends.",
           "subject": "él",
           "source": "friend_meeting",
           "region": "universal",
@@ -3508,13 +2600,13 @@
         {
           "spanish": "Vieron fuegos artificiales desde el balcón.",
           "english": "They saw fireworks from the balcony.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": "celebration_viewing",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:preterite",
             "tier:2",
             "verb-type:er",
@@ -3539,39 +2631,7 @@
         },
         {
           "spanish": "Vio el partido.",
-          "english": "He/She watched the game.",
-          "subject": "él",
-          "source": "game_watching",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vi un documental.",
-          "english": "I watched a documentary.",
-          "subject": "yo",
-          "source": "documentary_viewing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vio el partido.",
-          "english": "He/She watched the game.",
+          "english": "He watched the game.",
           "subject": "él",
           "source": "game_watching",
           "region": "universal",
@@ -3589,7 +2649,7 @@
       "future": [
         {
           "spanish": "Verás que tenía razón sobre el trabajo.",
-          "english": "You will see that I was right about the work.",
+          "english": "You (vos) will see that I was right about the work.",
           "subject": "vos",
           "region": "argentina",
           "source": "future_vindication",
@@ -3639,39 +2699,7 @@
         },
         {
           "spanish": "Está viendo un programa.",
-          "english": "He/She is watching a program.",
-          "subject": "él",
-          "source": "program_watching",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy viendo las noticias.",
-          "english": "I am watching the news.",
-          "subject": "yo",
-          "source": "news_watching",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está viendo un programa.",
-          "english": "He/She is watching a program.",
+          "english": "He is watching a program.",
           "subject": "él",
           "source": "program_watching",
           "region": "universal",
@@ -3733,7 +2761,7 @@
         },
         {
           "spanish": "Vas a ver que todo sale bien.",
-          "english": "You're going to see that everything turns out fine.",
+          "english": "You (informal)'re going to see that everything turns out fine.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -3806,38 +2834,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Voy a ver una película.",
-          "english": "I am going to watch a movie.",
-          "subject": "yo",
-          "source": "movie_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a ver a tu familia.",
-          "english": "You (informal) are going to see your family.",
-          "subject": "tú",
-          "source": "family_visit_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": []
@@ -3873,7 +2869,7 @@
         },
         {
           "spanish": "Das lo mejor de ti en cada trabajo.",
-          "english": "You give your best in every job.",
+          "english": "You (vos) give your best in every job.",
           "subject": "vos",
           "region": "argentina",
           "source": "work_dedication",
@@ -3929,55 +2925,7 @@
         },
         {
           "spanish": "Da las gracias.",
-          "english": "He/She gives thanks.",
-          "subject": "él",
-          "source": "gratitude_expression",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Doy regalos.",
-          "english": "I give gifts.",
-          "subject": "yo",
-          "source": "gift_giving",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Das consejos.",
-          "english": "You (informal) give advice.",
-          "subject": "tú",
-          "source": "advice_giving",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Da las gracias.",
-          "english": "He/She gives thanks.",
+          "english": "He gives thanks.",
           "subject": "él",
           "source": "gratitude_expression",
           "region": "universal",
@@ -4045,39 +2993,7 @@
         },
         {
           "spanish": "Dio una sorpresa.",
-          "english": "He/She gave a surprise.",
-          "subject": "él",
-          "source": "surprise_giving",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Di mi opinión.",
-          "english": "I gave my opinion.",
-          "subject": "yo",
-          "source": "opinion_sharing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Dio una sorpresa.",
-          "english": "He/She gave a surprise.",
+          "english": "He gave a surprise.",
           "subject": "él",
           "source": "surprise_giving",
           "region": "universal",
@@ -4147,39 +3063,7 @@
         },
         {
           "spanish": "Está dando un paseo.",
-          "english": "He/She is taking a walk.",
-          "subject": "él",
-          "source": "walking_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy dando una clase.",
-          "english": "I am giving a class.",
-          "subject": "yo",
-          "source": "teaching_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está dando un paseo.",
-          "english": "He/She is taking a walk.",
+          "english": "He is taking a walk.",
           "subject": "él",
           "source": "walking_action",
           "region": "universal",
@@ -4242,7 +3126,7 @@
         {
           "spanish": "Van a dar una fiesta.",
           "english": "They're going to throw a party.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": {
             "type": "chatgpt_inspired",
@@ -4274,45 +3158,13 @@
           },
           "tags": [
             "region:universal",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:going-to",
             "word-type:verb",
             "source:enhanced",
             "construction:ir_a",
             "context:celebration",
             "roi:high"
-          ]
-        },
-        {
-          "spanish": "Voy a dar un regalo.",
-          "english": "I am going to give a gift.",
-          "subject": "yo",
-          "source": "gift_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a dar una fiesta.",
-          "english": "You (informal) are going to throw a party.",
-          "subject": "tú",
-          "source": "party_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
           ]
         },
         {
@@ -4365,7 +3217,7 @@
       "present": [
         {
           "spanish": "Dices exactamente lo que piensas.",
-          "english": "You say exactly what you think.",
+          "english": "You (vos) say exactly what you (vos) think.",
           "subject": "vos",
           "region": "argentina",
           "source": "directness_trait",
@@ -4391,7 +3243,7 @@
         },
         {
           "spanish": "Dice que viene mañana por la tarde.",
-          "english": "He says he/she's coming tomorrow afternoon.",
+          "english": "He says He's coming tomorrow afternoon.",
           "subject": "él",
           "region": "universal",
           "source": "future_plan_communication",
@@ -4442,55 +3294,7 @@
         },
         {
           "spanish": "Dice buenos chistes.",
-          "english": "He/She tells good jokes.",
-          "subject": "él",
-          "source": "joke_telling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Digo la verdad.",
-          "english": "I tell the truth.",
-          "subject": "yo",
-          "source": "truth_telling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Dices cosas interesantes.",
-          "english": "You (informal) say interesting things.",
-          "subject": "tú",
-          "source": "interesting_speech",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Dice buenos chistes.",
-          "english": "He/She tells good jokes.",
+          "english": "He tells good jokes.",
           "subject": "él",
           "source": "joke_telling",
           "region": "universal",
@@ -4509,7 +3313,7 @@
         {
           "spanish": "Dijeron que el trabajo era imposible.",
           "english": "They said the work was impossible.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": "project_skepticism",
           "tags": [
@@ -4517,7 +3321,7 @@
             "regularity:irregular",
             "stem-change:e-i",
             "stem-changing",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:preterite",
             "tier:2",
             "verb-type:ir",
@@ -4562,39 +3366,7 @@
         },
         {
           "spanish": "Dijo adiós.",
-          "english": "He/She said goodbye.",
-          "subject": "él",
-          "source": "farewell",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Dije hola.",
-          "english": "I said hello.",
-          "subject": "yo",
-          "source": "greeting",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Dijo adiós.",
-          "english": "He/She said goodbye.",
+          "english": "He said goodbye.",
           "subject": "él",
           "source": "farewell",
           "region": "universal",
@@ -4668,39 +3440,7 @@
         },
         {
           "spanish": "Está diciendo la verdad.",
-          "english": "He/She is telling the truth.",
-          "subject": "él",
-          "source": "truth_speaking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy diciendo algo importante.",
-          "english": "I am saying something important.",
-          "subject": "yo",
-          "source": "important_speech",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está diciendo la verdad.",
-          "english": "He/She is telling the truth.",
+          "english": "He is telling the truth.",
           "subject": "él",
           "source": "truth_speaking",
           "region": "universal",
@@ -4718,7 +3458,7 @@
       "going-to": [
         {
           "spanish": "¿Qué le vas a decir?",
-          "english": "What are you going to tell him/her?",
+          "english": "What are you (informal) going to tell him/her?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -4802,38 +3542,6 @@
             "construction:ir_a",
             "context:honesty",
             "roi:high"
-          ]
-        },
-        {
-          "spanish": "Voy a decir mi nombre.",
-          "english": "I am going to say my name.",
-          "subject": "yo",
-          "source": "name_introduction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a decir que sí.",
-          "english": "You (informal) are going to say yes.",
-          "subject": "tú",
-          "source": "affirmative_response",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
           ]
         },
         {
@@ -4966,55 +3674,7 @@
         },
         {
           "spanish": "Sabe la respuesta.",
-          "english": "He/She knows the answer.",
-          "subject": "él",
-          "source": "answer_knowledge",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sé español.",
-          "english": "I know Spanish.",
-          "subject": "yo",
-          "source": "language_knowledge",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sabes cocinar.",
-          "english": "You (informal) know how to cook.",
-          "subject": "tú",
-          "source": "cooking_skill",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sabe la respuesta.",
-          "english": "He/She knows the answer.",
+          "english": "He knows the answer.",
           "subject": "él",
           "source": "answer_knowledge",
           "region": "universal",
@@ -5082,39 +3742,7 @@
         },
         {
           "spanish": "Supo la verdad.",
-          "english": "He/She found out the truth.",
-          "subject": "él",
-          "source": "truth_discovery_past",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Supe la noticia.",
-          "english": "I found out the news.",
-          "subject": "yo",
-          "source": "news_discovery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Supo la verdad.",
-          "english": "He/She found out the truth.",
+          "english": "He found out the truth.",
           "subject": "él",
           "source": "truth_discovery_past",
           "region": "universal",
@@ -5149,7 +3777,7 @@
         },
         {
           "spanish": "Sabrás tocar el piano como un profesional.",
-          "english": "You will know how to play the piano like a professional.",
+          "english": "You (informal) will know how to play the piano like a professional.",
           "subject": "tú",
           "region": "universal",
           "source": "skill_development",
@@ -5174,7 +3802,7 @@
       ],
       "present-progressive": [
         {
-          "spanish": "sé más.",
+          "spanish": "Sé más.",
           "english": "I am learning more.",
           "subject": "yo",
           "source": "learning_process",
@@ -5190,8 +3818,8 @@
           ]
         },
         {
-          "spanish": "sabe la verdad.",
-          "english": "He/She is finding out the truth.",
+          "spanish": "Sabe la verdad.",
+          "english": "He is finding out the truth.",
           "subject": "él",
           "source": "truth_discovery",
           "region": "universal",
@@ -5223,7 +3851,7 @@
         },
         {
           "spanish": "Está descubriendo la verdad.",
-          "english": "He/She is discovering the truth.",
+          "english": "He is discovering the truth.",
           "subject": "él",
           "source": "truth_discovery",
           "region": "universal",
@@ -5241,7 +3869,7 @@
       "going-to": [
         {
           "spanish": "Vas a saber la respuesta pronto.",
-          "english": "You're going to know the answer soon.",
+          "english": "You (informal)'re going to know the answer soon.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5325,38 +3953,6 @@
             "construction:ir_a",
             "context:information",
             "roi:high"
-          ]
-        },
-        {
-          "spanish": "Voy a saber manejar.",
-          "english": "I am going to know how to drive.",
-          "subject": "yo",
-          "source": "driving_skill_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a saber nadar.",
-          "english": "You (informal) are going to know how to swim.",
-          "subject": "tú",
-          "source": "swimming_skill_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:2",
-            "verb-type:ar",
-            "word-type:verb"
           ]
         },
         {
@@ -5491,7 +4087,7 @@
         },
         {
           "spanish": "Te dijiste valiente después de saltar.",
-          "english": "You called yourself brave after jumping.",
+          "english": "You (informal) called yourself brave after jumping.",
           "subject": "tú",
           "region": "universal",
           "source": "courage_context",
@@ -5541,7 +4137,7 @@
         },
         {
           "spanish": "Llamarás todos los días desde Europa.",
-          "english": "You will call every day from Europe.",
+          "english": "You (informal) will call every day from Europe.",
           "subject": "tú",
           "region": "universal",
           "source": "travel_communication",
@@ -5591,7 +4187,7 @@
         },
         {
           "spanish": "Te llamas igual que tu abuelo.",
-          "english": "You're named after your grandfather.",
+          "english": "You (informal)'re named after your grandfather.",
           "subject": "tú",
           "region": "universal",
           "source": "family_context",
@@ -5618,7 +4214,7 @@
         {
           "spanish": "El bebé se va a llamar Diego.",
           "english": "The baby is going to be named Diego.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_inspired",
@@ -5650,7 +4246,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:going-to",
             "word-type:verb",
             "source:enhanced",
@@ -5666,7 +4262,7 @@
       "present": [
         {
           "spanish": "Te duchas antes de ir al trabajo, ¿verdad?",
-          "english": "You shower before going to work, right?",
+          "english": "You (informal) shower before going to work, right?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5711,7 +4307,7 @@
         },
         {
           "spanish": "Siempre te duchas rápido cuando tienes prisa.",
-          "english": "You always shower quickly when you're in a hurry.",
+          "english": "You (informal) always shower quickly when you (informal)'re in a hurry.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5756,7 +4352,7 @@
         },
         {
           "spanish": "Te duchas en la noche para relajarte.",
-          "english": "You shower at night to relax.",
+          "english": "You (informal) shower at night to relax.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5805,7 +4401,7 @@
       "present": [
         {
           "spanish": "Te lavas las manos antes de comer.",
-          "english": "You wash your hands before eating.",
+          "english": "You (informal) wash your hands before eating.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5850,7 +4446,7 @@
         },
         {
           "spanish": "Siempre te lavas la cara al levantarte.",
-          "english": "You always wash your face when you get up.",
+          "english": "You (informal) always wash your face when you (informal) get up.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5895,7 +4491,7 @@
         },
         {
           "spanish": "Te lavas los dientes después del desayuno.",
-          "english": "You brush your teeth after breakfast.",
+          "english": "You (informal) brush your teeth after breakfast.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5945,7 +4541,7 @@
         {
           "spanish": "El vuelo sale a las tres y media.",
           "english": "The flight leaves at three-thirty.",
-          "subject": "él/ella/usted",
+          "subject": "usted",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -5977,7 +4573,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:usted",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -5993,7 +4589,7 @@
         {
           "spanish": "La reunión empieza a las ocho en punto.",
           "english": "The meeting starts at eight sharp.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -6025,7 +4621,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",

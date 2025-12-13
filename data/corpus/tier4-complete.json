@@ -16,10 +16,14 @@
       "yo",
       "tú",
       "vos",
-      "él/ella/usted",
+      "él",
+      "ella",
+      "usted",
       "nosotros",
       "vosotros",
-      "ellos/ellas/ustedes"
+      "ellos",
+      "ellas",
+      "ustedes"
     ],
     "regions": [
       "universal",
@@ -168,7 +172,7 @@
         {
           "spanish": "Mi mamá se preocupa mucho por mí.",
           "english": "My mom worries about me a lot.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -200,7 +204,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -244,55 +248,7 @@
         },
         {
           "spanish": "Se preocupa por el futuro.",
-          "english": "He/She worries about the future.",
-          "subject": "él",
-          "source": "future_anxiety",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me preocupo por ti.",
-          "english": "I worry about you.",
-          "subject": "yo",
-          "source": "personal_worry",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te preocupas demasiado.",
-          "english": "You (informal) worry too much.",
-          "subject": "tú",
-          "source": "excessive_worry",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se preocupa por el futuro.",
-          "english": "He/She worries about the future.",
+          "english": "He worries about the future.",
           "subject": "él",
           "source": "future_anxiety",
           "region": "universal",
@@ -327,7 +283,7 @@
         },
         {
           "spanish": "Ustedes se preocuparon por los resultados del trabajo.",
-          "english": "You all worried about the work results.",
+          "english": "You all (vosotros) worried about the work results.",
           "subject": "vosotros",
           "region": "spain",
           "source": "project_anxiety",
@@ -405,39 +361,7 @@
         },
         {
           "spanish": "Se está preocupando mucho.",
-          "english": "He/She is worrying a lot.",
-          "subject": "él",
-          "source": "intense_worry",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy preocupando.",
-          "english": "I am getting worried.",
-          "subject": "yo",
-          "source": "worry_onset",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está preocupando mucho.",
-          "english": "He/She is worrying a lot.",
+          "english": "He is worrying a lot.",
           "subject": "él",
           "source": "intense_worry",
           "region": "universal",
@@ -453,38 +377,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a preocupar.",
-          "english": "I am going to worry.",
-          "subject": "yo",
-          "source": "worry_prediction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a preocupar por nada.",
-          "english": "You (informal) are going to worry about nothing.",
-          "subject": "tú",
-          "source": "unnecessary_worry",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a preocupar.",
           "english": "I am going to worry.",
@@ -537,39 +429,7 @@
         },
         {
           "spanish": "Se ha preocupado sin razón.",
-          "english": "He/She has worried without reason.",
-          "subject": "él",
-          "source": "baseless_worry",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me he preocupado toda la noche.",
-          "english": "I have worried all night.",
-          "subject": "yo",
-          "source": "night_worry",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se ha preocupado sin razón.",
-          "english": "He/She has worried without reason.",
+          "english": "He has worried without reason.",
           "subject": "él",
           "source": "baseless_worry",
           "region": "universal",
@@ -620,7 +480,7 @@
         },
         {
           "spanish": "Te diviertes bailando tango en la milonga.",
-          "english": "You have fun dancing tango at the milonga.",
+          "english": "You (vos) have fun dancing tango at the milonga.",
           "subject": "vos",
           "region": "argentina",
           "source": "cultural_dance",
@@ -691,7 +551,7 @@
         },
         {
           "spanish": "¿Te diviertes en tus clases de español?",
-          "english": "Are you having fun in your Spanish classes?",
+          "english": "Are you (informal) having fun in your Spanish classes?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -737,7 +597,7 @@
         {
           "spanish": "Los niños se divierten en el parque todas las tardes.",
           "english": "The kids have fun at the park every afternoon.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellas",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -769,7 +629,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellas",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -813,55 +673,7 @@
         },
         {
           "spanish": "Se divierte jugando.",
-          "english": "He/She has fun playing.",
-          "subject": "él",
-          "source": "play_enjoyment",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me divierto en las fiestas.",
-          "english": "I have fun at parties.",
-          "subject": "yo",
-          "source": "party_enjoyment",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te diviertes con tus amigos.",
-          "english": "You (informal) have fun with your friends.",
-          "subject": "tú",
-          "source": "friend_enjoyment",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se divierte jugando.",
-          "english": "He/She has fun playing.",
+          "english": "He has fun playing.",
           "subject": "él",
           "source": "play_enjoyment",
           "region": "universal",
@@ -975,39 +787,7 @@
         },
         {
           "spanish": "Se está divirtiendo en el parque.",
-          "english": "He/She is having fun in the park.",
-          "subject": "él",
-          "source": "park_fun",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy divirtiendo mucho.",
-          "english": "I am having a lot of fun.",
-          "subject": "yo",
-          "source": "current_fun",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está divirtiendo en el parque.",
-          "english": "He/She is having fun in the park.",
+          "english": "He is having fun in the park.",
           "subject": "él",
           "source": "park_fun",
           "region": "universal",
@@ -1023,38 +803,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a divertir esta noche.",
-          "english": "I am going to have fun tonight.",
-          "subject": "yo",
-          "source": "tonight_fun",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a divertir en la playa.",
-          "english": "You (informal) are going to have fun at the beach.",
-          "subject": "tú",
-          "source": "beach_fun",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a divertir esta noche.",
           "english": "I am going to have fun tonight.",
@@ -1107,39 +855,7 @@
         },
         {
           "spanish": "Se ha divertido en el viaje.",
-          "english": "He/She has had fun on the trip.",
-          "subject": "él",
-          "source": "trip_fun",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me he divertido mucho hoy.",
-          "english": "I have had a lot of fun today.",
-          "subject": "yo",
-          "source": "today_fun",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se ha divertido en el viaje.",
-          "english": "He/She has had fun on the trip.",
+          "english": "He has had fun on the trip.",
           "subject": "él",
           "source": "trip_fun",
           "region": "universal",
@@ -1248,55 +964,7 @@
         },
         {
           "spanish": "Se encuentra en casa.",
-          "english": "He/She is at home.",
-          "subject": "él",
-          "source": "location_state",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me encuentro bien.",
-          "english": "I feel well.",
-          "subject": "yo",
-          "source": "wellness_state",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te encuentras cansado.",
-          "english": "You (informal) feel tired.",
-          "subject": "tú",
-          "source": "fatigue_state",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se encuentra en casa.",
-          "english": "He/She is at home.",
+          "english": "He is at home.",
           "subject": "él",
           "source": "location_state",
           "region": "universal",
@@ -1334,7 +1002,7 @@
         {
           "spanish": "Se encontraron con dificultades inesperadas en el trabajo.",
           "english": "They encountered unexpected difficulties in the work.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": "project_obstacles",
           "tags": [
@@ -1343,7 +1011,7 @@
             "regularity:irregular",
             "stem-change:o-ue",
             "stem-changing",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:preterite",
             "tier:4",
             "verb-type:ar",
@@ -1354,7 +1022,7 @@
       "future": [
         {
           "spanish": "Te encontrarás con viejos amigos en la clase.",
-          "english": "You will meet old friends at the reunion.",
+          "english": "You (vos) will meet old friends at the reunion.",
           "subject": "vos",
           "region": "argentina",
           "source": "reunion_anticipation",
@@ -1417,7 +1085,7 @@
         },
         {
           "spanish": "Se está encontrando mal.",
-          "english": "He/She is feeling bad.",
+          "english": "He is feeling bad.",
           "subject": "él",
           "source": "illness_feeling",
           "region": "universal",
@@ -1446,57 +1114,9 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Se está encontrando mal.",
-          "english": "He/She is feeling bad.",
-          "subject": "él",
-          "source": "illness_feeling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a encontrar con María.",
-          "english": "I am going to meet with María.",
-          "subject": "yo",
-          "source": "meeting_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a encontrar sorpresas.",
-          "english": "You (informal) are going to find surprises.",
-          "subject": "tú",
-          "source": "surprise_discovery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a encontrar con María.",
           "english": "I am going to meet with María.",
@@ -1549,39 +1169,7 @@
         },
         {
           "spanish": "Se ha encontrado muy feliz.",
-          "english": "He/She has found himself/herself very happy.",
-          "subject": "él",
-          "source": "happiness_discovery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me he encontrado con problemas.",
-          "english": "I have encountered problems.",
-          "subject": "yo",
-          "source": "problem_encounter",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se ha encontrado muy feliz.",
-          "english": "He/She has found himself/herself very happy.",
+          "english": "He has found himself/herself very happy.",
           "subject": "él",
           "source": "happiness_discovery",
           "region": "universal",
@@ -1611,7 +1199,7 @@
       "present": [
         {
           "spanish": "Crees que todo va a salir bien.",
-          "english": "You believe everything will turn out well.",
+          "english": "You (vos) believe everything will turn out well.",
           "subject": "vos",
           "region": "argentina",
           "source": "positive_outlook",
@@ -1684,55 +1272,7 @@
         },
         {
           "spanish": "Cree en Dios.",
-          "english": "He/She believes in God.",
-          "subject": "él",
-          "source": "religious_belief",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Creo en ti.",
-          "english": "I believe in you.",
-          "subject": "yo",
-          "source": "personal_belief",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Crees que es verdad.",
-          "english": "You (informal) believe it's true.",
-          "subject": "tú",
-          "source": "truth_belief",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Cree en Dios.",
-          "english": "He/She believes in God.",
+          "english": "He believes in God.",
           "subject": "él",
           "source": "religious_belief",
           "region": "universal",
@@ -1838,39 +1378,7 @@
         },
         {
           "spanish": "Está creyendo la historia.",
-          "english": "He/She is believing the story.",
-          "subject": "él",
-          "source": "story_acceptance",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy creyendo más en mí.",
-          "english": "I am believing more in myself.",
-          "subject": "yo",
-          "source": "self_confidence",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está creyendo la historia.",
-          "english": "He/She is believing the story.",
+          "english": "He is believing the story.",
           "subject": "él",
           "source": "story_acceptance",
           "region": "universal",
@@ -1904,39 +1412,7 @@
         },
         {
           "spanish": "Vas a creer cuando lo veas.",
-          "english": "You (informal) are going to believe when you see it.",
-          "subject": "tú",
-          "source": "visual_proof",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Voy a creer en el proyecto.",
-          "english": "I am going to believe in the project.",
-          "subject": "yo",
-          "source": "project_faith",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a creer cuando lo veas.",
-          "english": "You (informal) are going to believe when you see it.",
+          "english": "You (informal) are going to believe when you (informal) see it.",
           "subject": "tú",
           "source": "visual_proof",
           "region": "universal",
@@ -1970,39 +1446,7 @@
         },
         {
           "spanish": "Ha creído en sus sueños.",
-          "english": "He/She has believed in his/her dreams.",
-          "subject": "él",
-          "source": "dream_belief",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He creído siempre en la justicia.",
-          "english": "I have always believed in justice.",
-          "subject": "yo",
-          "source": "justice_belief",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha creído en sus sueños.",
-          "english": "He/She has believed in his/her dreams.",
+          "english": "He has believed in his dreams.",
           "subject": "él",
           "source": "dream_belief",
           "region": "universal",
@@ -2096,55 +1540,7 @@
         },
         {
           "spanish": "Oye el teléfono.",
-          "english": "He/She hears the phone.",
-          "subject": "él",
-          "source": "phone_hearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oigo música.",
-          "english": "I hear music.",
-          "subject": "yo",
-          "source": "music_hearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oyes voces.",
-          "english": "You (informal) hear voices.",
-          "subject": "tú",
-          "source": "voice_hearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Oye el teléfono.",
-          "english": "He/She hears the phone.",
+          "english": "He hears the phone.",
           "subject": "él",
           "source": "phone_hearing",
           "region": "universal",
@@ -2246,39 +1642,7 @@
         },
         {
           "spanish": "Está oyendo las noticias.",
-          "english": "He/She is hearing the news.",
-          "subject": "él",
-          "source": "news_hearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy oyendo ruidos.",
-          "english": "I am hearing noises.",
-          "subject": "yo",
-          "source": "noise_hearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está oyendo las noticias.",
-          "english": "He/She is hearing the news.",
+          "english": "He is hearing the news.",
           "subject": "él",
           "source": "news_hearing",
           "region": "universal",
@@ -2294,38 +1658,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Voy a oír tu opinión.",
-          "english": "I am going to hear your opinion.",
-          "subject": "yo",
-          "source": "opinion_listening",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a oír cosas interesantes.",
-          "english": "You (informal) are going to hear interesting things.",
-          "subject": "tú",
-          "source": "interesting_hearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Voy a oír tu opinión.",
           "english": "I am going to hear your opinion.",
@@ -2378,39 +1710,7 @@
         },
         {
           "spanish": "Ha oído buenos comentarios.",
-          "english": "He/She has heard good comments.",
-          "subject": "él",
-          "source": "positive_feedback",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He oído esa canción.",
-          "english": "I have heard that song.",
-          "subject": "yo",
-          "source": "song_recognition",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:highly-irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha oído buenos comentarios.",
-          "english": "He/She has heard good comments.",
+          "english": "He has heard good comments.",
           "subject": "él",
           "source": "positive_feedback",
           "region": "universal",
@@ -2506,55 +1806,7 @@
         },
         {
           "spanish": "Trae problemas.",
-          "english": "He/She brings problems.",
-          "subject": "él",
-          "source": "problem_causing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Traigo el libro.",
-          "english": "I bring the book.",
-          "subject": "yo",
-          "source": "book_bringing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Traes buenas noticias.",
-          "english": "You (informal) bring good news.",
-          "subject": "tú",
-          "source": "news_delivery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Trae problemas.",
-          "english": "He/She brings problems.",
+          "english": "He brings problems.",
           "subject": "él",
           "source": "problem_causing",
           "region": "universal",
@@ -2590,13 +1842,13 @@
         {
           "spanish": "Trajeron nuevas ideas para mejorar el trabajo.",
           "english": "They brought new ideas to improve the work.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": "project_innovation",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:preterite",
             "tier:4",
             "verb-type:er",
@@ -2608,7 +1860,7 @@
       "future": [
         {
           "spanish": "Traerás alegría a la familia con tu visita.",
-          "english": "You will bring joy to the family with your visit.",
+          "english": "You (vos) will bring joy to the family with your visit.",
           "subject": "vos",
           "region": "argentina",
           "source": "family_happiness",
@@ -2660,39 +1912,7 @@
         },
         {
           "spanish": "Está trayendo a su familia.",
-          "english": "He/She is bringing his/her family.",
-          "subject": "él",
-          "source": "family_bringing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy trayendo la comida.",
-          "english": "I am bringing the food.",
-          "subject": "yo",
-          "source": "food_delivery",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está trayendo a su familia.",
-          "english": "He/She is bringing his/her family.",
+          "english": "He is bringing his family.",
           "subject": "él",
           "source": "family_bringing",
           "region": "universal",
@@ -2783,38 +2003,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Voy a traer más dinero.",
-          "english": "I am going to bring more money.",
-          "subject": "yo",
-          "source": "money_bringing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a traer alegría.",
-          "english": "You (informal) are going to bring joy.",
-          "subject": "tú",
-          "source": "joy_bringing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": [
@@ -2836,39 +2024,7 @@
         },
         {
           "spanish": "Ha traído buena suerte.",
-          "english": "He/She has brought good luck.",
-          "subject": "él",
-          "source": "luck_bringing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He traído regalos.",
-          "english": "I have brought gifts.",
-          "subject": "yo",
-          "source": "gift_bringing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha traído buena suerte.",
-          "english": "He/She has brought good luck.",
+          "english": "He has brought good luck.",
           "subject": "él",
           "source": "luck_bringing",
           "region": "universal",
@@ -2947,7 +2103,7 @@
         },
         {
           "spanish": "Conoces todos los secretos del barrio.",
-          "english": "You know all the neighborhood secrets.",
+          "english": "You (vos) know all the neighborhood secrets.",
           "subject": "vos",
           "region": "argentina",
           "source": "neighborhood_knowledge",
@@ -3003,55 +2159,7 @@
         },
         {
           "spanish": "Conoce muchos idiomas.",
-          "english": "He/She knows many languages.",
-          "subject": "él",
-          "source": "language_knowledge",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Conozco a tu hermana.",
-          "english": "I know your sister.",
-          "subject": "yo",
-          "source": "person_acquaintance",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Conoces la ciudad.",
-          "english": "You (informal) know the city.",
-          "subject": "tú",
-          "source": "city_familiarity",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Conoce muchos idiomas.",
-          "english": "He/She knows many languages.",
+          "english": "He knows many languages.",
           "subject": "él",
           "source": "language_knowledge",
           "region": "universal",
@@ -3140,7 +2248,7 @@
       ],
       "present-progressive": [
         {
-          "spanish": "conozco gente nueva.",
+          "spanish": "Conozco gente nueva.",
           "english": "I am meeting new people.",
           "subject": "yo",
           "source": "social_networking",
@@ -3156,40 +2264,8 @@
           ]
         },
         {
-          "spanish": "conoce la cultura.",
-          "english": "He/She is getting to know the culture.",
-          "subject": "él",
-          "source": "cultural_learning",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "conozco gente nueva.",
-          "english": "I am meeting new people.",
-          "subject": "yo",
-          "source": "social_networking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "conoce la cultura.",
-          "english": "He/She is getting to know the culture.",
+          "spanish": "Conoce la cultura.",
+          "english": "He is getting to know the culture.",
           "subject": "él",
           "source": "cultural_learning",
           "region": "universal",
@@ -3205,38 +2281,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Voy a conocer París.",
-          "english": "I am going to get to know Paris.",
-          "subject": "yo",
-          "source": "paris_exploration",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a conocer a mis padres.",
-          "english": "You (informal) are going to meet my parents.",
-          "subject": "tú",
-          "source": "parent_introduction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Voy a conocer París.",
           "english": "I am going to get to know Paris.",
@@ -3289,39 +2333,7 @@
         },
         {
           "spanish": "Ha conocido el amor verdadero.",
-          "english": "He/She has known true love.",
-          "subject": "él",
-          "source": "love_experience",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He conocido lugares increíbles.",
-          "english": "I have known incredible places.",
-          "subject": "yo",
-          "source": "travel_experience",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha conocido el amor verdadero.",
-          "english": "He/She has known true love.",
+          "english": "He has known true love.",
           "subject": "él",
           "source": "love_experience",
           "region": "universal",
@@ -3439,55 +2451,7 @@
         },
         {
           "spanish": "Lleva gafas.",
-          "english": "He/She wears glasses.",
-          "subject": "él",
-          "source": "glasses_wearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevo una chaqueta.",
-          "english": "I wear a jacket.",
-          "subject": "yo",
-          "source": "clothing_wearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Llevas el pelo largo.",
-          "english": "You (informal) wear your hair long.",
-          "subject": "tú",
-          "source": "hairstyle_choice",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Lleva gafas.",
-          "english": "He/She wears glasses.",
+          "english": "He wears glasses.",
           "subject": "él",
           "source": "glasses_wearing",
           "region": "universal",
@@ -3505,7 +2469,7 @@
       "preterite": [
         {
           "spanish": "Llevaste el trabajo al éxito con tu dedicación.",
-          "english": "You led the work to success with your dedication.",
+          "english": "You (vos) led the work to success with your dedication.",
           "subject": "vos",
           "region": "argentina",
           "source": "project_leadership",
@@ -3579,39 +2543,7 @@
         },
         {
           "spanish": "Está llevando el proyecto.",
-          "english": "He/She is leading the project.",
-          "subject": "él",
-          "source": "project_leadership",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy llevando una vida feliz.",
-          "english": "I am leading a happy life.",
-          "subject": "yo",
-          "source": "happy_lifestyle",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está llevando el proyecto.",
-          "english": "He/She is leading the project.",
+          "english": "He is leading the project.",
           "subject": "él",
           "source": "project_leadership",
           "region": "universal",
@@ -3661,7 +2593,7 @@
         },
         {
           "spanish": "¿Qué vas a llevar a la fiesta?",
-          "english": "What are you going to bring to the party?",
+          "english": "What are you (informal) going to bring to the party?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -3736,22 +2668,6 @@
           ]
         },
         {
-          "spanish": "Voy a llevar flores.",
-          "english": "I am going to bring flowers.",
-          "subject": "yo",
-          "source": "flower_bringing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Esto va a llevar tiempo.",
           "english": "This is going to take time.",
           "subject": "impersonal",
@@ -3803,39 +2719,7 @@
         },
         {
           "spanish": "Ha llevado muchas responsabilidades.",
-          "english": "He/She has carried many responsibilities.",
-          "subject": "él",
-          "source": "responsibility_burden",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He llevado una buena vida.",
-          "english": "I have led a good life.",
-          "subject": "yo",
-          "source": "life_assessment",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha llevado muchas responsabilidades.",
-          "english": "He/She has carried many responsibilities.",
+          "english": "He has carried many responsibilities.",
           "subject": "él",
           "source": "responsibility_burden",
           "region": "universal",
@@ -3920,55 +2804,7 @@
         },
         {
           "spanish": "Necesita más tiempo.",
-          "english": "He/She needs more time.",
-          "subject": "él",
-          "source": "time_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesito ayuda.",
-          "english": "I need help.",
-          "subject": "yo",
-          "source": "help_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesitas descansar.",
-          "english": "You (informal) need to rest.",
-          "subject": "tú",
-          "source": "rest_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:present",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Necesita más tiempo.",
-          "english": "He/She needs more time.",
+          "english": "He needs more time.",
           "subject": "él",
           "source": "time_need",
           "region": "universal",
@@ -4027,7 +2863,7 @@
       "future": [],
       "present-progressive": [
         {
-          "spanish": "necesito apoyo.",
+          "spanish": "Necesito apoyo.",
           "english": "I am needing support.",
           "subject": "yo",
           "source": "support_need",
@@ -4043,40 +2879,8 @@
           ]
         },
         {
-          "spanish": "necesita atención.",
-          "english": "He/She is needing attention.",
-          "subject": "él",
-          "source": "attention_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "necesito apoyo.",
-          "english": "I am needing support.",
-          "subject": "yo",
-          "source": "support_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "necesita atención.",
-          "english": "He/She is needing attention.",
+          "spanish": "Necesita atención.",
+          "english": "He is needing attention.",
           "subject": "él",
           "source": "attention_need",
           "region": "universal",
@@ -4114,38 +2918,6 @@
           "subject": "tú",
           "region": "universal",
           "source": "health_advice",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Voy a necesitar dinero.",
-          "english": "I am going to need money.",
-          "subject": "yo",
-          "source": "money_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a necesitar paciencia.",
-          "english": "You (informal) are going to need patience.",
-          "subject": "tú",
-          "source": "patience_need",
-          "region": "universal",
           "tags": [
             "region:universal",
             "regularity:regular",
@@ -4240,39 +3012,7 @@
         },
         {
           "spanish": "Ha necesitado mucho amor.",
-          "english": "He/She has needed a lot of love.",
-          "subject": "él",
-          "source": "love_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He necesitado tu consejo.",
-          "english": "I have needed your advice.",
-          "subject": "yo",
-          "source": "advice_need",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:regular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:4",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha necesitado mucho amor.",
-          "english": "He/She has needed a lot of love.",
+          "english": "He has needed a lot of love.",
           "subject": "él",
           "source": "love_need",
           "region": "universal",
@@ -4337,7 +3077,7 @@
         },
         {
           "spanish": "¿Cómo te sientes después del ejercicio?",
-          "english": "How do you feel after exercising?",
+          "english": "How do you (informal) feel after exercising?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -4383,7 +3123,7 @@
         {
           "spanish": "Ella se siente mejor con esa noticia.",
           "english": "She feels better with that news.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -4415,7 +3155,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",

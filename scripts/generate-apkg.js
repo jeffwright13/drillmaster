@@ -230,7 +230,13 @@ async function main() {
   console.log(`\n📚 Loaded ${verbs.length} verbs\n`);
   
   const outputDir = path.resolve(baseDir, options.output);
-  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+  const reportsDir = path.join(outputDir, 'reports');
+  if (!fs.existsSync(options.output)) {
+    fs.mkdirSync(options.output, { recursive: true });
+  }
+  if (!fs.existsSync(reportsDir)) {
+    fs.mkdirSync(reportsDir, { recursive: true });
+  }
   
   // Generate individual tier decks
   if (options.tiers.length > 0) {
@@ -252,6 +258,24 @@ async function main() {
       const filename = `DrillMaster-Tier${tierNum}-${TIER_CONFIGS[tierNum].name.replace(/\s+/g, '')}${audioSuffix}-${regionConfig.filePrefix}.apkg`;
       fs.writeFileSync(path.join(outputDir, filename), apkgBuffer);
       console.log(`   ✅ Saved: ${filename}`);
+
+      const changeReport = generator.getChangeReport ? generator.getChangeReport() : [];
+      const possibleAudioRegenCount = changeReport.filter(c => c.possibleAudioRegen).length;
+      const reportFilename = `DrillMaster-Tier${tierNum}-${TIER_CONFIGS[tierNum].name.replace(/\s+/g, '')}${audioSuffix}-${regionConfig.filePrefix}.changes.json`;
+      fs.writeFileSync(
+        path.join(reportsDir, reportFilename),
+        JSON.stringify({
+          generatedAt: new Date().toISOString(),
+          deck: `Tier ${tierNum}: ${TIER_CONFIGS[tierNum].name}`,
+          region: regionConfig.filePrefix,
+          withAudio: options.withAudio,
+          generatedCards: cards.length,
+          changes: changeReport.length,
+          possibleAudioRegen: possibleAudioRegenCount,
+          report: changeReport
+        }, null, 2)
+      );
+      console.log(`   📝 Change report: ${reportFilename} (${changeReport.length} changes, ${possibleAudioRegenCount} possible audio regen)`);
     }
   }
   
@@ -290,6 +314,23 @@ async function main() {
       const filename = `DrillMaster-Complete${audioSuffix}-${regionConfig.filePrefix}.apkg`;
       fs.writeFileSync(path.join(outputDir, filename), apkgBuffer);
       console.log(`   ✅ Saved: ${filename}`);
+
+      const changeReport = generator.getChangeReport ? generator.getChangeReport() : [];
+      const possibleAudioRegenCount = changeReport.filter(c => c.possibleAudioRegen).length;
+      const reportFilename = `DrillMaster-Complete${audioSuffix}-${regionConfig.filePrefix}.changes.json`;
+      fs.writeFileSync(
+        path.join(reportsDir, reportFilename),
+        JSON.stringify({
+          generatedAt: new Date().toISOString(),
+          deck: 'Complete Collection',
+          region: regionConfig.filePrefix,
+          generatedCards: totalCards,
+          changes: changeReport.length,
+          possibleAudioRegen: possibleAudioRegenCount,
+          report: changeReport
+        }, null, 2)
+      );
+      console.log(`   📝 Change report: ${reportFilename} (${changeReport.length} changes, ${possibleAudioRegenCount} possible audio regen)`);
     } else {
       console.log('   ⚠ No cards generated');
     }

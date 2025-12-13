@@ -16,10 +16,14 @@
       "yo",
       "tú",
       "vos",
-      "él/ella/usted",
+      "él",
+      "ella",
+      "usted",
       "nosotros",
       "vosotros",
-      "ellos/ellas/ustedes"
+      "ellos",
+      "ellas",
+      "ustedes"
     ],
     "regions": [
       "universal",
@@ -59,7 +63,7 @@
         },
         {
           "spanish": "Te gustan los deportes acuáticos en verano.",
-          "english": "You like water sports in summer.",
+          "english": "You (vos) like water sports in summer.",
           "subject": "vos",
           "region": "argentina",
           "source": "summer_activities",
@@ -109,7 +113,7 @@
         },
         {
           "spanish": "Te gustan los deportes.",
-          "english": "You (informal) like sports.",
+          "english": "You like sports.",
           "subject": "te",
           "source": "sports_preference",
           "region": "universal",
@@ -125,7 +129,7 @@
         },
         {
           "spanish": "Le gusta viajar.",
-          "english": "He/She likes to travel.",
+          "english": "You likes to travel.",
           "subject": "le",
           "source": "travel_preference",
           "region": "universal",
@@ -251,7 +255,7 @@
         {
           "spanish": "Te va a gustar mucho.",
           "english": "You're going to like it a lot.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": {
             "type": "chatgpt_inspired",
@@ -283,7 +287,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:él",
             "tense:going-to",
             "word-type:verb",
             "source:enhanced",
@@ -310,7 +314,7 @@
         },
         {
           "spanish": "Te van a gustar mis amigos.",
-          "english": "You (informal) are going to like my friends.",
+          "english": "You are going to like my friends.",
           "subject": "te",
           "source": "friend_prediction",
           "region": "universal",
@@ -344,7 +348,7 @@
         },
         {
           "spanish": "Le han gustado las clases.",
-          "english": "He/She has liked the classes.",
+          "english": "You have liked the classes.",
           "subject": "le",
           "source": "class_enjoyment",
           "region": "universal",
@@ -461,7 +465,7 @@
         },
         {
           "spanish": "Le duele el estómago.",
-          "english": "His/Her stomach hurts.",
+          "english": "Your stomach hurts.",
           "subject": "le",
           "source": "stomach_pain",
           "region": "universal",
@@ -570,7 +574,7 @@
         },
         {
           "spanish": "Le han dolido los ojos.",
-          "english": "His/Her eyes have hurt.",
+          "english": "Your eyes have hurt.",
           "subject": "le",
           "source": "eye_pain",
           "region": "universal",
@@ -650,7 +654,7 @@
         },
         {
           "spanish": "Te encantan las flores.",
-          "english": "You (informal) love flowers.",
+          "english": "You love flowers.",
           "subject": "te",
           "source": "flower_love",
           "region": "universal",
@@ -666,7 +670,7 @@
         },
         {
           "spanish": "Le encanta cocinar.",
-          "english": "He/She loves to cook.",
+          "english": "He loves to cook.",
           "subject": "le",
           "source": "cooking_love",
           "region": "universal",
@@ -723,8 +727,8 @@
       "going-to": [
         {
           "spanish": "Le va a encantar el regalo.",
-          "english": "He/She is going to love the gift.",
-          "subject": "él/ella/usted",
+          "english": "He is going to love the gift.",
+          "subject": "él",
           "region": "universal",
           "source": {
             "type": "chatgpt_inspired",
@@ -756,7 +760,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:él",
             "tense:going-to",
             "word-type:verb",
             "source:enhanced",
@@ -783,7 +787,7 @@
         },
         {
           "spanish": "Te van a encantar mis padres.",
-          "english": "You (informal) are going to love my parents.",
+          "english": "You are going to love my parents.",
           "subject": "te",
           "source": "parent_love_prediction",
           "region": "universal",
@@ -817,7 +821,7 @@
         },
         {
           "spanish": "Le han encantado los regalos.",
-          "english": "He/She has loved the gifts.",
+          "english": "He has loved the gifts.",
           "subject": "le",
           "source": "gift_love",
           "region": "universal",
@@ -882,7 +886,7 @@
         {
           "spanish": "Me molesta cuando hacen ruido tan temprano.",
           "english": "It bothers me when they make noise so early.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -914,7 +918,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -926,8 +930,8 @@
         },
         {
           "spanish": "¿Te molesta si prendo la tele?",
-          "english": "Does it bother you if I turn on the TV?",
-          "subject": "él/ella/usted",
+          "english": "Do it bother you (formal) if I turn on the TV?",
+          "subject": "usted",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -959,7 +963,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:usted",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -972,7 +976,7 @@
         {
           "spanish": "A ella le molesta que no la escuches.",
           "english": "It annoys her that you don't listen to her.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1004,7 +1008,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:él",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1032,7 +1036,7 @@
         },
         {
           "spanish": "Te molestan las interrupciones.",
-          "english": "Interruptions bother you (informal).",
+          "english": "Interruptions bother you.",
           "subject": "te",
           "source": "interruption_annoyance",
           "region": "universal",
@@ -1121,7 +1125,7 @@
         },
         {
           "spanish": "Te van a molestar los mosquitos.",
-          "english": "The mosquitoes are going to bother you (informal).",
+          "english": "The mosquitoes are going to bother you.",
           "subject": "te",
           "source": "mosquito_annoyance",
           "region": "universal",
@@ -1139,7 +1143,7 @@
       "present-perfect": [
         {
           "spanish": "Me ha molestado su actitud.",
-          "english": "His/Her attitude has bothered me.",
+          "english": "Her attitude has bothered me.",
           "subject": "me",
           "source": "attitude_annoyance",
           "region": "universal",
@@ -1220,7 +1224,7 @@
         {
           "spanish": "No me importa lo que digan los demás.",
           "english": "I don't care what other people say.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1252,7 +1256,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1265,7 +1269,7 @@
         {
           "spanish": "¿Te importa si me siento aquí?",
           "english": "Do you mind if I sit here?",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1297,7 +1301,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:él",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1310,7 +1314,7 @@
         {
           "spanish": "A nosotros nos importa mucho la familia.",
           "english": "Family matters a lot to us.",
-          "subject": "él/ella/usted",
+          "subject": "usted",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1342,7 +1346,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:usted",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1370,7 +1374,7 @@
         },
         {
           "spanish": "Te importan los resultados.",
-          "english": "The results matter to you (informal).",
+          "english": "The results matter to you.",
           "subject": "te",
           "source": "result_importance",
           "region": "universal",
@@ -1459,7 +1463,7 @@
         },
         {
           "spanish": "Te van a importar las consecuencias.",
-          "english": "The consequences are going to matter to you (informal).",
+          "english": "The consequences are going to matter to you.",
           "subject": "te",
           "source": "consequence_importance",
           "region": "universal",
@@ -1558,7 +1562,7 @@
         {
           "spanish": "Me falta dinero para pagar la cuenta.",
           "english": "I'm missing money to pay the bill.",
-          "subject": "él/ella/usted",
+          "subject": "usted",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1590,7 +1594,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:usted",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1602,8 +1606,8 @@
         },
         {
           "spanish": "¿Cuánto te falta para terminar?",
-          "english": "How much do you have left to finish?",
-          "subject": "él/ella/usted",
+          "english": "How much do you (formal) have left to finish?",
+          "subject": "usted",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1635,7 +1639,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:usted",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1648,7 +1652,7 @@
         {
           "spanish": "A él le falta una semana para las vacaciones.",
           "english": "He has one week left until vacation.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1680,7 +1684,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:él",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1708,7 +1712,7 @@
         },
         {
           "spanish": "Te faltan cinco minutos.",
-          "english": "You (informal) need five more minutes.",
+          "english": "You need five more minutes.",
           "subject": "te",
           "source": "time_shortage",
           "region": "universal",
@@ -1724,7 +1728,7 @@
         },
         {
           "spanish": "Le falta experiencia.",
-          "english": "He/She lacks experience.",
+          "english": "He lacks experience.",
           "subject": "le",
           "source": "experience_lack",
           "region": "universal",
@@ -1797,7 +1801,7 @@
         },
         {
           "spanish": "Te van a faltar ingredientes.",
-          "english": "You (informal) are going to lack ingredients.",
+          "english": "You are going to lack ingredients.",
           "subject": "te",
           "source": "ingredient_shortage",
           "region": "universal",
@@ -1831,7 +1835,7 @@
         },
         {
           "spanish": "Le han faltado oportunidades.",
-          "english": "He/She has lacked opportunities.",
+          "english": "She has lacked opportunities.",
           "subject": "le",
           "source": "opportunity_lack",
           "region": "universal",
@@ -1899,7 +1903,7 @@
         {
           "spanish": "Me parece que va a llover hoy.",
           "english": "It seems to me that it's going to rain today.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1931,7 +1935,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1944,7 +1948,7 @@
         {
           "spanish": "¿Qué te parece este restaurante?",
           "english": "What do you think of this restaurant?",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -1976,7 +1980,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -1989,7 +1993,7 @@
         {
           "spanish": "A ellos les parece buena idea salir temprano.",
           "english": "It seems like a good idea to them to leave early.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -2021,7 +2025,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -2049,7 +2053,7 @@
         },
         {
           "spanish": "Te parece difícil.",
-          "english": "It seems difficult to you (informal).",
+          "english": "It seems difficult to you.",
           "subject": "te",
           "source": "difficulty_opinion",
           "region": "universal",
@@ -2140,7 +2144,7 @@
         },
         {
           "spanish": "Te van a parecer caros.",
-          "english": "They are going to seem expensive to you (informal).",
+          "english": "They are going to seem expensive to you.",
           "subject": "te",
           "source": "expense_prediction",
           "region": "universal",
@@ -2158,7 +2162,7 @@
       "present-perfect": [
         {
           "spanish": "Me ha parecido muy amable.",
-          "english": "He/She has seemed very kind to me.",
+          "english": "He has seemed very kind to me.",
           "subject": "me",
           "source": "kindness_impression",
           "region": "universal",

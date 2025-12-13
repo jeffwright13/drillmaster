@@ -99,7 +99,7 @@
       "tier": "1",
       "verb": "TENER",
       "tense": "present-progressive",
-      "english": "He is having luck.",
+      "english": "He are having luck.",
       "before": "Él está teniendo suerte.",
       "after": "Él tiene suerte.",
       "fixes_applied": [
@@ -176,7 +176,7 @@
       "tier": "2",
       "verb": "SABER",
       "tense": "present-progressive",
-      "english": "He/She is finding out the truth.",
+      "english": "You are finding out the truth.",
       "before": "Está sabiendo la verdad.",
       "after": "sabe la verdad.",
       "fixes_applied": [
@@ -198,7 +198,7 @@
       "tier": "4",
       "verb": "CONOCER",
       "tense": "present-progressive",
-      "english": "He/She is getting to know the culture.",
+      "english": "He is getting to know the culture.",
       "before": "Está conociendo la cultura.",
       "after": "conoce la cultura.",
       "fixes_applied": [
@@ -220,7 +220,7 @@
       "tier": "4",
       "verb": "CONOCER",
       "tense": "present-progressive",
-      "english": "He/She is getting to know the culture.",
+      "english": "He is getting to know the culture.",
       "before": "Está conociendo la cultura.",
       "after": "conoce la cultura.",
       "fixes_applied": [
@@ -242,7 +242,7 @@
       "tier": "4",
       "verb": "NECESITAR",
       "tense": "present-progressive",
-      "english": "He/She is needing attention.",
+      "english": "He is needing attention.",
       "before": "Está necesitando atención.",
       "after": "necesita atención.",
       "fixes_applied": [
@@ -264,7 +264,7 @@
       "tier": "4",
       "verb": "NECESITAR",
       "tense": "present-progressive",
-      "english": "He/She is needing attention.",
+      "english": "He is needing attention.",
       "before": "Está necesitando atención.",
       "after": "necesita atención.",
       "fixes_applied": [

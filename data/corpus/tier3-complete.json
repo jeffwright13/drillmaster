@@ -16,10 +16,14 @@
       "yo",
       "tú",
       "vos",
-      "él/ella/usted",
+      "él",
+      "ella",
+      "usted",
       "nosotros",
       "vosotros",
-      "ellos/ellas/ustedes"
+      "ellos",
+      "ellas",
+      "ustedes"
     ],
     "regions": [
       "universal",
@@ -61,14 +65,14 @@
         {
           "spanish": "Se lavan las manos frecuentemente en la casa.",
           "english": "They wash their hands frequently at the house.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellas",
           "region": "universal",
           "source": "medical_hygiene",
           "tags": [
             "reflexive:true",
             "region:universal",
             "regularity:regular",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellas",
             "tense:present",
             "tier:3",
             "verb-type:ar",
@@ -188,7 +192,7 @@
       "present": [
         {
           "spanish": "Te quedas a dormir en casa de tu abuela.",
-          "english": "You stay to sleep at your grandmother's house.",
+          "english": "You (vos) stay to sleep at your grandmother's house.",
           "subject": "vos",
           "region": "argentina",
           "source": "family_visit",
@@ -212,7 +216,7 @@
         },
         {
           "spanish": "Ustedes se quedan en casa cuando llueve mucho.",
-          "english": "You all stay home when it rains a lot.",
+          "english": "You all (vosotros) stay home when it rains a lot.",
           "subject": "vosotros",
           "region": "spain",
           "source": "weather_response",
@@ -365,55 +369,7 @@
         },
         {
           "spanish": "Se va en tren.",
-          "english": "He/She leaves by train.",
-          "subject": "él",
-          "source": "train_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me voy temprano.",
-          "english": "I leave early.",
-          "subject": "yo",
-          "source": "early_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas de la ciudad.",
-          "english": "You (informal) are leaving the city.",
-          "subject": "tú",
-          "source": "city_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se va en tren.",
-          "english": "He/She leaves by train.",
+          "english": "He leaves by train.",
           "subject": "él",
           "source": "train_departure",
           "region": "universal",
@@ -464,39 +420,7 @@
         },
         {
           "spanish": "Se fue sin decir adiós.",
-          "english": "He/She left without saying goodbye.",
-          "subject": "él",
-          "source": "sudden_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me fui ayer.",
-          "english": "I left yesterday.",
-          "subject": "yo",
-          "source": "past_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se fue sin decir adiós.",
-          "english": "He/She left without saying goodbye.",
+          "english": "He left without saying goodbye.",
           "subject": "él",
           "source": "sudden_departure",
           "region": "universal",
@@ -579,39 +503,7 @@
         },
         {
           "spanish": "Se está yendo rápido.",
-          "english": "He/She is leaving quickly.",
-          "subject": "él",
-          "source": "quick_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy yendo.",
-          "english": "I am leaving.",
-          "subject": "yo",
-          "source": "departure_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está yendo rápido.",
-          "english": "He/She is leaving quickly.",
+          "english": "He is leaving quickly.",
           "subject": "él",
           "source": "quick_departure",
           "region": "universal",
@@ -674,38 +566,6 @@
             "fix_issue": "Same structural problem",
             "chunk": 5
           }
-        },
-        {
-          "spanish": "Me voy a ir mañana.",
-          "english": "I am going to leave tomorrow.",
-          "subject": "yo",
-          "source": "departure_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a ir solo.",
-          "english": "You (informal) are going to leave alone.",
-          "subject": "tú",
-          "source": "solo_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         },
         {
           "spanish": "Me voy a ir mañana.",
@@ -807,39 +667,7 @@
         },
         {
           "spanish": "Se ha ido de vacaciones.",
-          "english": "He/She has gone on vacation.",
-          "subject": "él",
-          "source": "vacation_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me he ido de casa.",
-          "english": "I have left home.",
-          "subject": "yo",
-          "source": "home_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se ha ido de vacaciones.",
-          "english": "He/She has gone on vacation.",
+          "english": "He has gone on vacation.",
           "subject": "él",
           "source": "vacation_departure",
           "region": "universal",
@@ -888,7 +716,7 @@
         },
         {
           "spanish": "Te pones contento cuando llueve.",
-          "english": "You get cheerful when it rains.",
+          "english": "You (vos) get cheerful when it rains.",
           "subject": "vos",
           "region": "argentina",
           "source": "weather_mood",
@@ -945,55 +773,7 @@
         },
         {
           "spanish": "Se pone contento.",
-          "english": "He/She gets happy.",
-          "subject": "él",
-          "source": "happiness_change",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me pongo la chaqueta.",
-          "english": "I put on the jacket.",
-          "subject": "yo",
-          "source": "clothing_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te pones nervioso.",
-          "english": "You (informal) get nervous.",
-          "subject": "tú",
-          "source": "emotional_state",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se pone contento.",
-          "english": "He/She gets happy.",
+          "english": "He gets happy.",
           "subject": "él",
           "source": "happiness_change",
           "region": "universal",
@@ -1063,39 +843,7 @@
         },
         {
           "spanish": "Se puso enfermo.",
-          "english": "He/She got sick.",
-          "subject": "él",
-          "source": "illness_onset",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me puse el sombrero.",
-          "english": "I put on the hat.",
-          "subject": "yo",
-          "source": "hat_wearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se puso enfermo.",
-          "english": "He/She got sick.",
+          "english": "He got sick.",
           "subject": "él",
           "source": "illness_onset",
           "region": "universal",
@@ -1167,39 +915,7 @@
         },
         {
           "spanish": "Se está poniendo triste.",
-          "english": "He/She is getting sad.",
-          "subject": "él",
-          "source": "sadness_onset",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy poniendo los zapatos.",
-          "english": "I am putting on my shoes.",
-          "subject": "yo",
-          "source": "shoe_wearing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está poniendo triste.",
-          "english": "He/She is getting sad.",
+          "english": "He is getting sad.",
           "subject": "él",
           "source": "sadness_onset",
           "region": "universal",
@@ -1215,38 +931,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a poner el abrigo.",
-          "english": "I am going to put on the coat.",
-          "subject": "yo",
-          "source": "coat_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a poner feliz.",
-          "english": "You (informal) are going to get happy.",
-          "subject": "tú",
-          "source": "happiness_prediction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a poner el abrigo.",
           "english": "I am going to put on the coat.",
@@ -1299,39 +983,7 @@
         },
         {
           "spanish": "Se ha puesto mejor.",
-          "english": "He/She has gotten better.",
-          "subject": "él",
-          "source": "improvement",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me he puesto cómodo.",
-          "english": "I have gotten comfortable.",
-          "subject": "yo",
-          "source": "comfort_achievement",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se ha puesto mejor.",
-          "english": "He/She has gotten better.",
+          "english": "He has gotten better.",
           "subject": "él",
           "source": "improvement",
           "region": "universal",
@@ -1433,55 +1085,7 @@
         },
         {
           "spanish": "Se siente feliz.",
-          "english": "He/She feels happy.",
-          "subject": "él",
-          "source": "happiness_feeling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me siento bien.",
-          "english": "I feel well.",
-          "subject": "yo",
-          "source": "wellness_feeling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te sientes cansado.",
-          "english": "You (informal) feel tired.",
-          "subject": "tú",
-          "source": "fatigue_feeling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se siente feliz.",
-          "english": "He/She feels happy.",
+          "english": "He feels happy.",
           "subject": "él",
           "source": "happiness_feeling",
           "region": "universal",
@@ -1499,7 +1103,7 @@
       "preterite": [
         {
           "spanish": "Te sentiste como en casa desde el primer día.",
-          "english": "You felt at home from the first day.",
+          "english": "You (vos) felt at home from the first day.",
           "subject": "vos",
           "region": "argentina",
           "source": "immediate_comfort",
@@ -1553,39 +1157,7 @@
         },
         {
           "spanish": "Se sintió confundido.",
-          "english": "He/She felt confused.",
-          "subject": "él",
-          "source": "past_confusion",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me sentí triste.",
-          "english": "I felt sad.",
-          "subject": "yo",
-          "source": "past_sadness",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se sintió confundido.",
-          "english": "He/She felt confused.",
+          "english": "He felt confused.",
           "subject": "él",
           "source": "past_confusion",
           "region": "universal",
@@ -1603,7 +1175,7 @@
       "future": [
         {
           "spanish": "Te sentirás como en casa en tu nuevo trabajo.",
-          "english": "You will feel at home in your new job.",
+          "english": "You (vos) will feel at home in your new job.",
           "subject": "vos",
           "region": "argentina",
           "source": "job_comfort",
@@ -1659,39 +1231,7 @@
         },
         {
           "spanish": "Se está sintiendo mal.",
-          "english": "He/She is feeling bad.",
-          "subject": "él",
-          "source": "illness_feeling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me estoy sintiendo mejor.",
-          "english": "I am feeling better.",
-          "subject": "yo",
-          "source": "improvement_feeling",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se está sintiendo mal.",
-          "english": "He/She is feeling bad.",
+          "english": "He is feeling bad.",
           "subject": "él",
           "source": "illness_feeling",
           "region": "universal",
@@ -1707,38 +1247,6 @@
         }
       ],
       "going-to": [
-        {
-          "spanish": "Me voy a sentir orgulloso.",
-          "english": "I am going to feel proud.",
-          "subject": "yo",
-          "source": "pride_prediction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Te vas a sentir aliviado.",
-          "english": "You (informal) are going to feel relieved.",
-          "subject": "tú",
-          "source": "relief_prediction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
         {
           "spanish": "Me voy a sentir orgulloso.",
           "english": "I am going to feel proud.",
@@ -1791,39 +1299,7 @@
         },
         {
           "spanish": "Se ha sentido apoyado.",
-          "english": "He/She has felt supported.",
-          "subject": "él",
-          "source": "support_experience",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Me he sentido solo.",
-          "english": "I have felt lonely.",
-          "subject": "yo",
-          "source": "loneliness_experience",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Se ha sentido apoyado.",
-          "english": "He/She has felt supported.",
+          "english": "He has felt supported.",
           "subject": "él",
           "source": "support_experience",
           "region": "universal",
@@ -1904,55 +1380,7 @@
         },
         {
           "spanish": "Piensa en el futuro.",
-          "english": "He/She thinks about the future.",
-          "subject": "él",
-          "source": "future_planning",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Pienso en ti.",
-          "english": "I think about you.",
-          "subject": "yo",
-          "source": "romantic_thought",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Piensas mucho.",
-          "english": "You (informal) think a lot.",
-          "subject": "tú",
-          "source": "deep_thinking",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Piensa en el futuro.",
-          "english": "He/She thinks about the future.",
+          "english": "He thinks about the future.",
           "subject": "él",
           "source": "future_planning",
           "region": "universal",
@@ -2022,39 +1450,7 @@
         },
         {
           "spanish": "Pensó en su familia.",
-          "english": "He/She thought about his/her family.",
-          "subject": "él",
-          "source": "family_thought",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Pensé en llamarte.",
-          "english": "I thought about calling you.",
-          "subject": "yo",
-          "source": "call_consideration",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Pensó en su familia.",
-          "english": "He/She thought about his/her family.",
+          "english": "He thought about his family.",
           "subject": "él",
           "source": "family_thought",
           "region": "universal",
@@ -2091,7 +1487,7 @@
         {
           "spanish": "Pensarán que estamos locos por este trabajo.",
           "english": "They will think we're crazy for this work.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": "project_skepticism",
           "tags": [
@@ -2099,7 +1495,7 @@
             "regularity:irregular",
             "stem-change:e-ie",
             "stem-changing",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:future",
             "tier:3",
             "verb-type:ar",
@@ -2126,39 +1522,7 @@
         },
         {
           "spanish": "Está pensando en viajar.",
-          "english": "He/She is thinking about traveling.",
-          "subject": "él",
-          "source": "travel_consideration",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy pensando en el problema.",
-          "english": "I am thinking about the problem.",
-          "subject": "yo",
-          "source": "problem_consideration",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está pensando en viajar.",
-          "english": "He/She is thinking about traveling.",
+          "english": "He is thinking about traveling.",
           "subject": "él",
           "source": "travel_consideration",
           "region": "universal",
@@ -2176,7 +1540,7 @@
       "going-to": [
         {
           "spanish": "¿Qué vas a pensar de mí?",
-          "english": "What are you going to think of me?",
+          "english": "What are you (informal) going to think of me?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -2249,38 +1613,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Voy a pensar en tu propuesta.",
-          "english": "I am going to think about your proposal.",
-          "subject": "yo",
-          "source": "proposal_consideration",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a pensar diferente.",
-          "english": "You (informal) are going to think differently.",
-          "subject": "tú",
-          "source": "perspective_change",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": [
@@ -2302,39 +1634,7 @@
         },
         {
           "spanish": "Ha pensado en mudarse.",
-          "english": "He/She has thought about moving.",
-          "subject": "él",
-          "source": "relocation_consideration",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He pensado en cambiar de trabajo.",
-          "english": "I have thought about changing jobs.",
-          "subject": "yo",
-          "source": "career_consideration",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha pensado en mudarse.",
-          "english": "He/She has thought about moving.",
+          "english": "He has thought about moving.",
           "subject": "él",
           "source": "relocation_consideration",
           "region": "universal",
@@ -2390,7 +1690,7 @@
         },
         {
           "spanish": "Entiendes perfectamente lo que te digo.",
-          "english": "You understand perfectly what I'm telling you.",
+          "english": "You (vos) understand perfectly what I'm telling you (vos).",
           "subject": "vos",
           "region": "argentina",
           "source": "communication_clarity",
@@ -2447,55 +1747,7 @@
         },
         {
           "spanish": "Entiende el problema.",
-          "english": "He/She understands the problem.",
-          "subject": "él",
-          "source": "problem_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Entiendo español.",
-          "english": "I understand Spanish.",
-          "subject": "yo",
-          "source": "language_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Entiendes la lección.",
-          "english": "You (informal) understand the lesson.",
-          "subject": "tú",
-          "source": "lesson_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Entiende el problema.",
-          "english": "He/She understands the problem.",
+          "english": "He understands the problem.",
           "subject": "él",
           "source": "problem_comprehension",
           "region": "universal",
@@ -2513,7 +1765,7 @@
       "preterite": [
         {
           "spanish": "Entendieron la importancia del trabajo.",
-          "english": "You all understood the importance of the work.",
+          "english": "You all (vosotros) understood the importance of the work.",
           "subject": "vosotros",
           "region": "spain",
           "source": "project_significance",
@@ -2572,39 +1824,7 @@
         },
         {
           "spanish": "Entendió el mensaje.",
-          "english": "He/She understood the message.",
-          "subject": "él",
-          "source": "message_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Entendí la explicación.",
-          "english": "I understood the explanation.",
-          "subject": "yo",
-          "source": "explanation_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Entendió el mensaje.",
-          "english": "He/She understood the message.",
+          "english": "He understood the message.",
           "subject": "él",
           "source": "message_comprehension",
           "region": "universal",
@@ -2676,39 +1896,7 @@
         },
         {
           "spanish": "Está entendiendo la situación.",
-          "english": "He/She is understanding the situation.",
-          "subject": "él",
-          "source": "situation_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy entendiendo mejor.",
-          "english": "I am understanding better.",
-          "subject": "yo",
-          "source": "improving_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está entendiendo la situación.",
-          "english": "He/She is understanding the situation.",
+          "english": "He is understanding the situation.",
           "subject": "él",
           "source": "situation_comprehension",
           "region": "universal",
@@ -2726,7 +1914,7 @@
       "going-to": [
         {
           "spanish": "Vas a entender cuando seas mayor.",
-          "english": "You're going to understand when you're older.",
+          "english": "You (informal)'re going to understand when you (informal)'re older.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -2799,38 +1987,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Voy a entender todo.",
-          "english": "I am going to understand everything.",
-          "subject": "yo",
-          "source": "complete_understanding",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a entender pronto.",
-          "english": "You (informal) are going to understand soon.",
-          "subject": "tú",
-          "source": "quick_understanding",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": [
@@ -2852,39 +2008,7 @@
         },
         {
           "spanish": "Ha entendido la importancia.",
-          "english": "He/She has understood the importance.",
-          "subject": "él",
-          "source": "importance_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He entendido tu punto.",
-          "english": "I have understood your point.",
-          "subject": "yo",
-          "source": "point_comprehension",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha entendido la importancia.",
-          "english": "He/She has understood the importance.",
+          "english": "He has understood the importance.",
           "subject": "él",
           "source": "importance_comprehension",
           "region": "universal",
@@ -2983,55 +2107,7 @@
         },
         {
           "spanish": "Siente la música.",
-          "english": "He/She feels the music.",
-          "subject": "él",
-          "source": "music_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Siento el frío.",
-          "english": "I feel the cold.",
-          "subject": "yo",
-          "source": "cold_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sientes dolor.",
-          "english": "You (informal) feel pain.",
-          "subject": "tú",
-          "source": "pain_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Siente la música.",
-          "english": "He/She feels the music.",
+          "english": "He feels the music.",
           "subject": "él",
           "source": "music_sensation",
           "region": "universal",
@@ -3101,39 +2177,7 @@
         },
         {
           "spanish": "Sintió miedo.",
-          "english": "He/She felt fear.",
-          "subject": "él",
-          "source": "fear_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sentí una vibración.",
-          "english": "I felt a vibration.",
-          "subject": "yo",
-          "source": "vibration_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sintió miedo.",
-          "english": "He/She felt fear.",
+          "english": "He felt fear.",
           "subject": "él",
           "source": "fear_sensation",
           "region": "universal",
@@ -3169,7 +2213,7 @@
         },
         {
           "spanish": "Sentirás la diferencia después de la ayuda.",
-          "english": "You will feel the difference after the help.",
+          "english": "You (informal) will feel the difference after the help.",
           "subject": "tú",
           "region": "universal",
           "source": "medical_improvement",
@@ -3212,39 +2256,7 @@
         },
         {
           "spanish": "Está sintiendo emociones fuertes.",
-          "english": "He/She is feeling strong emotions.",
-          "subject": "él",
-          "source": "emotional_intensity",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy sintiendo calor.",
-          "english": "I am feeling heat.",
-          "subject": "yo",
-          "source": "heat_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está sintiendo emociones fuertes.",
-          "english": "He/She is feeling strong emotions.",
+          "english": "He is feeling strong emotions.",
           "subject": "él",
           "source": "emotional_intensity",
           "region": "universal",
@@ -3262,7 +2274,7 @@
       "going-to": [
         {
           "spanish": "Te vas a sentir mucho mejor.",
-          "english": "You're going to feel much better.",
+          "english": "You (informal)'re going to feel much better.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -3340,38 +2352,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Voy a sentir nostalgia.",
-          "english": "I am going to feel nostalgia.",
-          "subject": "yo",
-          "source": "nostalgia_prediction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a sentir alivio.",
-          "english": "You (informal) are going to feel relief.",
-          "subject": "tú",
-          "source": "relief_prediction",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": [
@@ -3393,39 +2373,7 @@
         },
         {
           "spanish": "Ha sentido amor verdadero.",
-          "english": "He/She has felt true love.",
-          "subject": "él",
-          "source": "love_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He sentido su presencia.",
-          "english": "I have felt his/her presence.",
-          "subject": "yo",
-          "source": "presence_sensation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha sentido amor verdadero.",
-          "english": "He/She has felt true love.",
+          "english": "He has felt true love.",
           "subject": "él",
           "source": "love_sensation",
           "region": "universal",
@@ -3474,7 +2422,7 @@
         },
         {
           "spanish": "Vienes a casa para el almuerzo.",
-          "english": "You come home for lunch.",
+          "english": "You (vos) come home for lunch.",
           "subject": "vos",
           "region": "argentina",
           "source": "meal_invitation",
@@ -3531,55 +2479,7 @@
         },
         {
           "spanish": "Viene en autobús.",
-          "english": "He/She comes by bus.",
-          "subject": "él",
-          "source": "transportation_method",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vengo de España.",
-          "english": "I come from Spain.",
-          "subject": "yo",
-          "source": "origin_statement",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vienes conmigo.",
-          "english": "You (informal) come with me.",
-          "subject": "tú",
-          "source": "accompaniment",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Viene en autobús.",
-          "english": "He/She comes by bus.",
+          "english": "He comes by bus.",
           "subject": "él",
           "source": "transportation_method",
           "region": "universal",
@@ -3597,7 +2497,7 @@
       "preterite": [
         {
           "spanish": "Viniste desde muy lejos para estar aquí.",
-          "english": "You came from very far away to be here.",
+          "english": "You (vos) came from very far away to be here.",
           "subject": "vos",
           "region": "argentina",
           "source": "long_distance_visit",
@@ -3649,39 +2549,7 @@
         },
         {
           "spanish": "Vino sin avisar.",
-          "english": "He/She came without warning.",
-          "subject": "él",
-          "source": "surprise_arrival",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vine en taxi.",
-          "english": "I came by taxi.",
-          "subject": "yo",
-          "source": "taxi_arrival",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vino sin avisar.",
-          "english": "He/She came without warning.",
+          "english": "He came without warning.",
           "subject": "él",
           "source": "surprise_arrival",
           "region": "universal",
@@ -3753,39 +2621,7 @@
         },
         {
           "spanish": "Está viniendo rápido.",
-          "english": "He/She is coming quickly.",
-          "subject": "él",
-          "source": "quick_approach",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy viniendo hacia ti.",
-          "english": "I am coming toward you.",
-          "subject": "yo",
-          "source": "approach_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está viniendo rápido.",
-          "english": "He/She is coming quickly.",
+          "english": "He is coming quickly.",
           "subject": "él",
           "source": "quick_approach",
           "region": "universal",
@@ -3804,7 +2640,7 @@
         {
           "spanish": "Va a venir a visitarnos.",
           "english": "He's going to come visit us.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_inspired",
@@ -3836,7 +2672,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:going-to",
             "word-type:verb",
             "source:enhanced",
@@ -3848,7 +2684,7 @@
         {
           "spanish": "¿Cuándo van a venir?",
           "english": "When are they going to come?",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellas",
           "region": "universal",
           "source": {
             "type": "chatgpt_inspired",
@@ -3880,45 +2716,13 @@
           },
           "tags": [
             "region:universal",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellas",
             "tense:going-to",
             "word-type:verb",
             "source:enhanced",
             "construction:ir_a",
             "context:arrival",
             "roi:high"
-          ]
-        },
-        {
-          "spanish": "Voy a venir mañana.",
-          "english": "I am going to come tomorrow.",
-          "subject": "yo",
-          "source": "future_visit",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a venir a la fiesta.",
-          "english": "You (informal) are going to come to the party.",
-          "subject": "tú",
-          "source": "party_attendance",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
           ]
         },
         {
@@ -3973,39 +2777,7 @@
         },
         {
           "spanish": "Ha venido desde lejos.",
-          "english": "He/She has come from far away.",
-          "subject": "él",
-          "source": "distant_arrival",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He venido a ayudar.",
-          "english": "I have come to help.",
-          "subject": "yo",
-          "source": "help_arrival",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha venido desde lejos.",
-          "english": "He/She has come from far away.",
+          "english": "He has come from far away.",
           "subject": "él",
           "source": "distant_arrival",
           "region": "universal",
@@ -4035,7 +2807,7 @@
       "present": [
         {
           "spanish": "Ponen mucho esfuerzo en su trabajo.",
-          "english": "You all put a lot of effort into your work.",
+          "english": "You all (vosotros) put a lot of effort into your work.",
           "subject": "vosotros",
           "region": "spain",
           "source": "work_dedication",
@@ -4060,13 +2832,13 @@
         {
           "spanish": "Ponen atención especial a los clientes.",
           "english": "They pay special attention to customers.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellas",
           "region": "universal",
           "source": "customer_service",
           "tags": [
             "region:universal",
             "regularity:irregular",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellas",
             "tense:present",
             "tier:3",
             "verb-type:er",
@@ -4115,55 +2887,7 @@
         },
         {
           "spanish": "Pone atención.",
-          "english": "He/She pays attention.",
-          "subject": "él",
-          "source": "attention_giving",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Pongo la mesa.",
-          "english": "I set the table.",
-          "subject": "yo",
-          "source": "table_setting",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Pones música.",
-          "english": "You (informal) put on music.",
-          "subject": "tú",
-          "source": "music_playing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Pone atención.",
-          "english": "He/She pays attention.",
+          "english": "He pays attention.",
           "subject": "él",
           "source": "attention_giving",
           "region": "universal",
@@ -4231,39 +2955,7 @@
         },
         {
           "spanish": "Puso una sonrisa.",
-          "english": "He/She put on a smile.",
-          "subject": "él",
-          "source": "smile_display",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Puse el libro aquí.",
-          "english": "I put the book here.",
-          "subject": "yo",
-          "source": "book_placement",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Puso una sonrisa.",
-          "english": "He/She put on a smile.",
+          "english": "He put on a smile.",
           "subject": "él",
           "source": "smile_display",
           "region": "universal",
@@ -4340,39 +3032,7 @@
         },
         {
           "spanish": "Está poniendo la televisión.",
-          "english": "He/She is turning on the television.",
-          "subject": "él",
-          "source": "tv_activation",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy poniendo orden.",
-          "english": "I am putting things in order.",
-          "subject": "yo",
-          "source": "organizing_action",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Está poniendo la televisión.",
-          "english": "He/She is turning on the television.",
+          "english": "He is turning on the television.",
           "subject": "él",
           "source": "tv_activation",
           "region": "universal",
@@ -4434,7 +3094,7 @@
         },
         {
           "spanish": "¿Dónde vas a poner eso?",
-          "english": "Where are you going to put that?",
+          "english": "Where are you (informal) going to put that?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -4507,38 +3167,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Voy a poner una foto.",
-          "english": "I am going to put up a photo.",
-          "subject": "yo",
-          "source": "photo_placement",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a poner las reglas.",
-          "english": "You (informal) are going to set the rules.",
-          "subject": "tú",
-          "source": "rule_setting",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": [
@@ -4560,39 +3188,7 @@
         },
         {
           "spanish": "Ha puesto mucho esfuerzo.",
-          "english": "He/She has put in a lot of effort.",
-          "subject": "él",
-          "source": "effort_investment",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He puesto mi confianza en ti.",
-          "english": "I have put my trust in you.",
-          "subject": "yo",
-          "source": "trust_placement",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha puesto mucho esfuerzo.",
-          "english": "He/She has put in a lot of effort.",
+          "english": "He has put in a lot of effort.",
           "subject": "él",
           "source": "effort_investment",
           "region": "universal",
@@ -4671,55 +3267,7 @@
         },
         {
           "spanish": "Sale del trabajo.",
-          "english": "He/She leaves work.",
-          "subject": "él",
-          "source": "work_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Salgo de casa.",
-          "english": "I leave home.",
-          "subject": "yo",
-          "source": "home_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sales con amigos.",
-          "english": "You (informal) go out with friends.",
-          "subject": "tú",
-          "source": "social_outing",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:present",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Sale del trabajo.",
-          "english": "He/She leaves work.",
+          "english": "He leaves work.",
           "subject": "él",
           "source": "work_departure",
           "region": "universal",
@@ -4802,22 +3350,6 @@
           ]
         },
         {
-          "spanish": "Salí corriendo.",
-          "english": "I left running.",
-          "subject": "yo",
-          "source": "running_departure",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:preterite",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
           "spanish": "Salió muy bien.",
           "english": "It turned out very well.",
           "subject": "impersonal",
@@ -4837,7 +3369,7 @@
       "future": [
         {
           "spanish": "Saldrás de la escuela con honores.",
-          "english": "You will graduate from school with honors.",
+          "english": "You (vos) will graduate from school with honors.",
           "subject": "vos",
           "region": "argentina",
           "source": "academic_achievement",
@@ -4897,22 +3429,6 @@
             "region:universal",
             "regularity:irregular",
             "subject:ello",
-            "tense:present-progressive",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Estoy saliendo del edificio.",
-          "english": "I am leaving the building.",
-          "subject": "yo",
-          "source": "building_exit",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
             "tense:present-progressive",
             "tier:3",
             "verb-type:ar",
@@ -4983,7 +3499,7 @@
         },
         {
           "spanish": "¿A qué hora vas a salir?",
-          "english": "What time are you going to leave?",
+          "english": "What time are you (informal) going to leave?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5056,38 +3572,6 @@
             "verb-type:ar",
             "word-type:verb"
           ]
-        },
-        {
-          "spanish": "Voy a salir temprano.",
-          "english": "I am going to leave early.",
-          "subject": "yo",
-          "source": "early_departure_plan",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Vas a salir en la foto.",
-          "english": "You (informal) are going to appear in the photo.",
-          "subject": "tú",
-          "source": "photo_appearance",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:tú",
-            "tense:going-to",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
         }
       ],
       "present-perfect": [
@@ -5109,39 +3593,7 @@
         },
         {
           "spanish": "Ha salido adelante.",
-          "english": "He/She has gotten ahead.",
-          "subject": "él",
-          "source": "progress_achievement",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:él",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "He salido de dudas.",
-          "english": "I have cleared up my doubts.",
-          "subject": "yo",
-          "source": "doubt_resolution",
-          "region": "universal",
-          "tags": [
-            "region:universal",
-            "regularity:irregular",
-            "subject:yo",
-            "tense:present-perfect",
-            "tier:3",
-            "verb-type:ar",
-            "word-type:verb"
-          ]
-        },
-        {
-          "spanish": "Ha salido adelante.",
-          "english": "He/She has gotten ahead.",
+          "english": "He has gotten ahead.",
           "subject": "él",
           "source": "progress_achievement",
           "region": "universal",
@@ -5455,7 +3907,7 @@
         {
           "spanish": "Ella no oyó el teléfono porque estaba en la ducha.",
           "english": "She didn't hear the phone because she was in the shower.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -5487,7 +3939,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:preterite",
             "word-type:verb",
             "source:chatgpt",
@@ -5503,7 +3955,7 @@
       "present": [
         {
           "spanish": "Siempre traes tu botella de agua a todas partes.",
-          "english": "You always bring your water bottle everywhere.",
+          "english": "You (informal) always bring your water bottle everywhere.",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5641,7 +4093,7 @@
         {
           "spanish": "Ellos trajeron tacos para todos.",
           "english": "They brought tacos for everyone.",
-          "subject": "ellos/ellas/ustedes",
+          "subject": "ellos",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -5673,7 +4125,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:ellos/ellas/ustedes",
+            "subject:ellos",
             "tense:preterite",
             "word-type:verb",
             "source:chatgpt",
@@ -5734,7 +4186,7 @@
         },
         {
           "spanish": "¿Tú crees que esa serie está buena?",
-          "english": "Do you think that show is good?",
+          "english": "Do you (informal) think that show is good?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -5827,7 +4279,7 @@
         {
           "spanish": "Ella creyó que ya habías llegado.",
           "english": "She thought you had already arrived.",
-          "subject": "él/ella/usted",
+          "subject": "ella",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -5859,7 +4311,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:ella",
             "tense:preterite",
             "word-type:verb",
             "source:chatgpt",
@@ -5920,7 +4372,7 @@
         },
         {
           "spanish": "¿Qué libro lees ahorita?",
-          "english": "What book are you reading right now?",
+          "english": "What book are you (informal) reading right now?",
           "subject": "tú",
           "region": "universal",
           "source": {
@@ -6013,7 +4465,7 @@
         {
           "spanish": "Mi mamá leyó tu mensaje y se rió.",
           "english": "My mom read your message and laughed.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -6045,7 +4497,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:él",
             "tense:preterite",
             "word-type:verb",
             "source:chatgpt",
@@ -6062,7 +4514,7 @@
         {
           "spanish": "El metro no funciona el domingo.",
           "english": "The subway isn't operating on Sunday.",
-          "subject": "él/ella/usted",
+          "subject": "él",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -6094,7 +4546,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:él",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",
@@ -6110,7 +4562,7 @@
         {
           "spanish": "La película empieza a las seis.",
           "english": "The movie starts at six.",
-          "subject": "él/ella/usted",
+          "subject": "usted",
           "region": "universal",
           "source": {
             "type": "chatgpt_generated",
@@ -6142,7 +4594,7 @@
           },
           "tags": [
             "region:universal",
-            "subject:él/ella/usted",
+            "subject:usted",
             "tense:present",
             "word-type:verb",
             "source:chatgpt",

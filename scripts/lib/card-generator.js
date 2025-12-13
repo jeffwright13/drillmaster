@@ -12,6 +12,107 @@ class CardGenerator {
     this.withAudio = options.withAudio || false;
     this.audioDir = options.audioDir || null;
     this.mediaFiles = new Map(); // Track media files to bundle: filename -> filepath
+    this.trackChanges = options.trackChanges !== false;
+    this.changes = [];
+  }
+
+  getChangeReport() {
+    return this.changes;
+  }
+
+  // Stable string hash -> uint32
+  hashString(str) {
+    let hash = 2166136261;
+    for (let i = 0; i < str.length; i++) {
+      hash ^= str.charCodeAt(i);
+      hash = Math.imul(hash, 16777619);
+    }
+    return hash >>> 0;
+  }
+
+  pickDeterministic(options, key) {
+    if (!options || options.length === 0) return null;
+    const h = this.hashString(String(key || ''));
+    return options[h % options.length];
+  }
+
+  recordChange(change) {
+    if (!this.trackChanges) return;
+    if (!change) return;
+    if (!change.englishChanged && !change.spanishChanged) return;
+    this.changes.push(change);
+  }
+
+  isSubjectAllowed(subject) {
+    if (!this.regionConfig?.subjects) return true;
+    if (this.regionConfig.subjects.includes(subject)) return true;
+    if (subject === 'él/ella/usted') {
+      return this.regionConfig.subjects.includes('él') || this.regionConfig.subjects.includes('ella') || this.regionConfig.subjects.includes('usted');
+    }
+    if (subject === 'ellos/ellas/ustedes') {
+      return this.regionConfig.subjects.includes('ellos') || this.regionConfig.subjects.includes('ellas') || this.regionConfig.subjects.includes('ustedes');
+    }
+    return false;
+  }
+
+  normalizeSubjectForChoice(subject) {
+    if (subject === 'él/ella/usted') return 'él/ella/usted';
+    if (subject === 'ellos/ellas/ustedes') return 'ellos/ellas/ustedes';
+    return (subject || '').toLowerCase();
+  }
+
+  resolveGenderedEnglish(subject, english, spanish) {
+    if (!english || (!english.includes('He/She') && !english.includes('his/her') && !english.includes('His/Her'))) {
+      return { english, chosenSubject: subject, reason: null };
+    }
+
+    const normalizedSubject = (subject || '').toLowerCase();
+    const spanishTrimmed = (spanish || '').trim();
+
+    let choice;
+    let chosenSubject = subject;
+    let reason = null;
+    if (normalizedSubject === 'él') {
+      choice = 'He';
+      reason = 'explicit_subject';
+    } else if (normalizedSubject === 'ella') {
+      choice = 'She';
+      reason = 'explicit_subject';
+    } else if (normalizedSubject === 'usted') {
+      choice = 'You';
+      reason = 'explicit_subject';
+    } else if (/^Él\b/.test(spanishTrimmed)) {
+      choice = 'He';
+      chosenSubject = 'él';
+      reason = 'explicit_spanish_pronoun';
+    } else if (/^Ella\b/.test(spanishTrimmed)) {
+      choice = 'She';
+      chosenSubject = 'ella';
+      reason = 'explicit_spanish_pronoun';
+    } else if (/^Usted\b/.test(spanishTrimmed)) {
+      choice = 'You';
+      chosenSubject = 'usted';
+      reason = 'explicit_spanish_pronoun';
+    } else if (normalizedSubject === 'él/ella/usted') {
+      const picked = this.pickDeterministic(['He', 'She', 'You'], `${english}||${spanish}||${subject}`);
+      choice = picked || 'He';
+      chosenSubject = choice === 'He' ? 'él' : choice === 'She' ? 'ella' : 'usted';
+      reason = 'deterministic_randomization';
+    }
+
+    if (!choice) {
+      return { english, chosenSubject: subject, reason: null };
+    }
+
+    let resolved = english.replace(/He\/She/g, choice);
+    if (choice === 'He') {
+      resolved = resolved.replace(/his\/her/g, 'his').replace(/His\/Her/g, 'His');
+    } else if (choice === 'She') {
+      resolved = resolved.replace(/his\/her/g, 'her').replace(/His\/Her/g, 'Her');
+    } else if (choice === 'You') {
+      resolved = resolved.replace(/his\/her/g, 'your').replace(/His\/Her/g, 'Your');
+    }
+    return { english: resolved, chosenSubject, reason };
   }
 
   // Get conjugation for a verb
@@ -52,7 +153,7 @@ class CardGenerator {
       case 'vos':
         return english.replace(/\bYou\b/g, 'You (vos)').replace(/\byou\b/g, 'you (vos)');
       case 'vosotros':
-        return english.replace(/\bYou\b/g, 'You all (Spain)').replace(/\byou\b/g, 'you all (Spain)');
+        return english.replace(/\bYou\b/g, 'You all (vosotros)').replace(/\byou\b/g, 'you all (vosotros)');
       default:
         return english;
     }
@@ -65,13 +166,14 @@ class CardGenerator {
       .replace(/\s*\(formal\)/gi, '')
       .replace(/\s*\(vos\)/gi, '')
       .replace(/\s*\(Spain\)/gi, '')
+      .replace(/\s*\(vosotros\)/gi, '')
       .replace(/\s*\(feminine\)/gi, '')
       .replace(/\s*\(masculine\)/gi, '')
       .replace(/\s*\(mixed\)/gi, '')
       .replace(/\s*\(men\)/gi, '')
       .replace(/\s*\(women\)/gi, '')
-      .replace(/You all/g, 'You')
-      .replace(/you all/g, 'you')
+      .replace(/\bYou all\b/g, 'You')
+      .replace(/\byou all\b/g, 'you')
       .trim();
   }
 
@@ -124,6 +226,16 @@ class CardGenerator {
 
     const pronoun = spanishPronouns[subject] || subject;
 
+    // If Spanish already contains the pronoun very early (e.g. "¿Habla usted inglés?"), don't prepend.
+    // Check within the first 3 whitespace-delimited tokens after stripping leading punctuation.
+    const normalizedForCheck = (spanishText || '')
+      .replace(/^[¿¡]/, '')
+      .trim();
+    const firstWords = normalizedForCheck.split(/\s+/).slice(0, 3).join(' ').toLowerCase();
+    if (firstWords.includes(pronoun.toLowerCase())) {
+      return spanishText;
+    }
+
     if (spanishText.startsWith('¿')) {
       const afterQuestion = spanishText.substring(1).trim();
       if (afterQuestion.toLowerCase().startsWith(pronoun.toLowerCase() + ' ')) {
@@ -147,8 +259,10 @@ class CardGenerator {
   // Generate ES→EN translation card
   generateTranslationEStoEN(cards, verb, sentence, tense, corpusVerb) {
     const verbName = verb.verb;
-    const { spanish, english } = sentence;
-    const currentSubject = sentence.subject;
+    const { spanish } = sentence;
+    const resolved = this.resolveGenderedEnglish(sentence.subject, sentence.english, spanish);
+    const english = resolved.english;
+    const currentSubject = resolved.chosenSubject;
     
     const conjugation = this.getConjugation(verbName);
     
@@ -177,12 +291,65 @@ class CardGenerator {
     //   }
     // }
     
-    // Add Spanish pronoun to eliminate ambiguity naturally
-    const spanishWithPronoun = this.prependPronoun(highlightedSpanish, currentSubject, verbName);
+    // Native-like Spanish: do not auto-prepend subject pronouns.
+    // Keep corpus Spanish exactly as-authored (including idiomatic pronoun-first patterns like "Me llamo...").
+    let spanishWithPronoun = highlightedSpanish;
+    // For ES→EN recognition cards, avoid "pronoun-drop" ambiguity when our metadata has an explicit subject.
+    // This only affects on-card display text (audio remains the original sentence audio file).
+    const shouldPrependForEStoEN = (subject) => {
+      const s = (subject || '').toLowerCase();
+      return s === 'él' || s === 'ella' || s === 'usted' || s === 'ellos' || s === 'ellas' || s === 'ustedes';
+    };
+
+    const isReflexiveVerb = (v) => {
+      // verbs.tsv tags are parsed into verb.tags in generate-apkg.js
+      return v?.tags?.reflexive === 'true' || v?.tags?.reflexive === true;
+    };
+
+    // Avoid pronoun-prepending for known tricky starts (often impersonal/clitic clusters).
+    const startsWithSeCliticCluster = (txt) => {
+      const t = (txt || '').trim();
+      return /^(¿\s*)?Se\s+(me|te|se|lo|la|le|nos|os|les)\b/i.test(t);
+    };
+
+    const startsWithSe = (txt) => {
+      const t = (txt || '').trim();
+      return /^(¿\s*)?Se\b/i.test(t);
+    };
+
+    // High-confidence skip: leading "Se" with a non-reflexive verb is often impersonal/passive.
+    // Example: "Se habla español" should NOT become "Él se habla español".
+    const shouldSkipForImpersonalSe = startsWithSe(spanishWithPronoun) && !isReflexiveVerb(verb);
+
+    if (shouldPrependForEStoEN(currentSubject) && !sentence.skipPronounPrepend && !startsWithSeCliticCluster(spanishWithPronoun) && !shouldSkipForImpersonalSe) {
+      spanishWithPronoun = this.prependPronoun(spanishWithPronoun, currentSubject, verbName);
+    }
+
+    // Audio is always generated from the corpus Spanish (no display-only mutation should ever imply regen).
+    const spanishForAudio = spanish;
     
-    // For ES→EN cards, keep disambiguation hints so students know how to translate
-    const englishWithHints = english;
+    // For ES→EN cards, Spanish already encodes formality/plurality; remove parenthetical hints from English.
+    const englishWithHints = this.cleanEnglishForEStoEN(english);
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
+
+    this.recordChange({
+      type: 'trans-es-en',
+      tier: verb.tier || null,
+      verb: verbName,
+      tense,
+      source: sentence.source || null,
+      subjectOriginal: sentence.subject,
+      subjectFinal: currentSubject,
+      audio: sentence.audio || null,
+      reason: resolved.reason,
+      spanishOriginal: spanish,
+      spanishFinal: spanishWithPronoun,
+      englishOriginal: sentence.english,
+      englishFinal: englishWithHints,
+      spanishChanged: spanishWithPronoun !== spanish,
+      englishChanged: englishWithHints !== sentence.english,
+      possibleAudioRegen: false
+    });
     
     // Build front content - add audio if available and withAudio is enabled
     let frontContent = spanishWithPronoun;
@@ -216,8 +383,10 @@ class CardGenerator {
   // Generate EN→ES translation card
   generateTranslationENtoES(cards, verb, sentence, tense, corpusVerb) {
     const verbName = verb.verb;
-    const { spanish, english } = sentence;
-    const currentSubject = sentence.subject;
+    const { spanish } = sentence;
+    const resolved = this.resolveGenderedEnglish(sentence.subject, sentence.english, spanish);
+    const english = resolved.english;
+    const currentSubject = resolved.chosenSubject;
     
     const conjugation = this.getConjugation(verbName);
     
@@ -251,7 +420,8 @@ class CardGenerator {
     
     const tags = this.generateCardTags(verb, sentence, tense, corpusVerb);
 
-    const spanishWithPronoun = this.prependPronoun(highlightedSpanish, currentSubject, verbName);
+    // Native-like Spanish: do not auto-prepend subject pronouns.
+    const spanishWithPronoun = highlightedSpanish;
     
     // Build back content - add audio if available and withAudio is enabled
     let backContent = `<div style="font-size: 1.1em;">${spanishWithPronoun}</div>`;
@@ -277,6 +447,25 @@ class CardGenerator {
       back: backContent,
       tags: tags.join(';'),
       audio: sentence.audio || null
+    });
+
+    this.recordChange({
+      type: 'trans-en-es',
+      tier: verb.tier || null,
+      verb: verbName,
+      tense,
+      source: sentence.source || null,
+      subjectOriginal: sentence.subject,
+      subjectFinal: currentSubject,
+      audio: sentence.audio || null,
+      reason: resolved.reason,
+      spanishOriginal: spanish,
+      spanishFinal: spanishWithPronoun,
+      englishOriginal: sentence.english,
+      englishFinal: english,
+      spanishChanged: spanishWithPronoun !== spanish,
+      englishChanged: english !== sentence.english,
+      possibleAudioRegen: !!(sentence.audio && spanishWithPronoun !== spanish)
     });
   }
 
@@ -306,7 +495,7 @@ class CardGenerator {
         
         sentences.forEach(sentence => {
           // Filter by region config
-          if (!this.regionConfig.subjects.includes(sentence.subject)) return;
+          if (!this.isSubjectAllowed(sentence.subject)) return;
           if (!this.regionConfig.regions.includes(sentence.region) && sentence.region !== 'universal') return;
           
           cardTypes.forEach(cardType => {

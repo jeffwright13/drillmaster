@@ -979,7 +979,19 @@ export class AppController {
         { english: 'She', spanish: 'Ella' },
         { english: 'You', spanish: 'Usted' }
       ];
-      const choice = options[Math.floor(Math.random() * options.length)];
+      // If Spanish already has an explicit pronoun, force the matching English choice.
+      // This prevents cases like: "He/She ..." <=> "Él ..."
+      const spanishTrimmed = (spanish || '').trim();
+      let choice;
+      if (/^Él\b/.test(spanishTrimmed)) {
+        choice = options[0];
+      } else if (/^Ella\b/.test(spanishTrimmed)) {
+        choice = options[1];
+      } else if (/^Usted\b/.test(spanishTrimmed)) {
+        choice = options[2];
+      } else {
+        choice = options[Math.floor(Math.random() * options.length)];
+      }
       
       // Replace "He/She" with chosen pronoun in English
       let newEnglish = english.replace(/He\/She/g, choice.english);
